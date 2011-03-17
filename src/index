@@ -1,6 +1,6 @@
 <h1>Project Description</h1>
 
-<div class="center"  id="proj_desc">
+<div class="center" id="proj_desc">
 <p>
 <b>FFmpeg</b> is a complete, cross-platform solution to record, convert and
 stream audio and video. It includes <b>libavcodec</b> - the leading audio/video
