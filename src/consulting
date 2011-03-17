@@ -1,0 +1,101 @@
+<h1>Hiring FFmpeg developers</h1>
+
+<p>
+If you're running a business that uses FFmpeg or would like to use FFmpeg,
+you will sometimes want to have an expert, i.e. one of the original
+developers, work with you to figure out an issue, fix a bug or add
+some new feature.
+</p>
+
+<p>
+This page is a list of those FFmpeg developers that are available for
+employment or consulting. The FFmpeg project highly recommends these people
+to be hired by your business. All developers on this list have commit rights,
+which serves as a testimony for their competence. By hiring one of these
+developers, your business can also (indirectly) support the development
+of FFmpeg.
+</p>
+
+<p>
+If you do not know whom to hire in particular or if none of the listed
+areas of expertise fits your requirements, you can send an email to
+the <a href="contact.html">ffmpeg-devel mailing list</a>, where it will
+reach a wider audience.
+</p>
+
+<!--
+1) please keep this list alphabetically (by firstname)
+2) please limit yourself to approx. one paragraph each
+3) make sure to add some way for potential clients to contact you
+
+E.g.:
+"<h2>Firstname M.I. Lastname</h2>
+ <p>
+ Firstname is located in Location, Country and available for
+ contracting work. He has worked on FFmpeg since Year1 and has had commit rights
+ since Year2. He has special expertise in Feature and Field, but will also
+ take on work related to This Special Thing or That Particular Thing. You
+ can contact him at @Email@ or #Phone#.
+ </p>"
+-->
+
+<h2>Baptiste Coudurier</h2>
+<p>
+Baptiste Coudurier is located in Los Angeles, California and is available for
+contracting work. He has worked on FFmpeg since 2005 and has had commit rights
+since 2006. He has special expertise in broadcast codecs
+(ProRes, DNxHD, IMX/D-10, AVC-Intra), formats (MXF, GXF, MOV) and usages
+(Avid, FCP, Interlacing, Time Code, Metadata). You can contact him by email at
+<a href="mailto:baptiste.coudurier@gmail.com">baptiste.coudurier@gmail.com</a>.
+</p>
+
+<h2>Benjamin Larsson</h2>
+<p>
+Benjamin Larsson is located in Stockholm, Sweden and is available for contracting
+work. He has worked on FFmpeg since 2004. Main area of expertise is audio codecs.
+You can contact him by email at
+<a href="mailto:benjamin%20at%20southpole%20dot%20se">benjamin at southpole dot se</a>.
+</p>
+
+<h2>Diego Biurrun</h2>
+<p>
+Diego is located in Aachen, Germany and available for contracting work.
+He has worked on FFmpeg since 2003 and is a committer since 2004.
+He has special expertise in license compliance engineering and build
+systems.  You can contact him by email at
+<a href="mailto:diego%20at%20biurrun%20dot%20de">diego at biurrun dot de</a>.
+</p>
+
+<h2>Jason Garrett-Glaser</h2>
+<p>
+Jason is located in Los Angeles, US and is available for contracting
+work.  He has worked on FFmpeg since 2008 and has had commit rights since
+2008.  He is also the lead x264 developer and has special expertise in
+H.264 and other modern lossy video formats, as well as x86 SIMD
+assembly optimization.  You can contact him by email at
+<a href="mailto:jason@x264.com">jason@x264.com</a>.
+</p>
+
+<h2>Luca Barbato</h2>
+<p>
+Luca is located in Torino, Italy and available for contracting work.
+He has worked on FFmpeg since 2005 and has had commit rights since 2006.
+He has special expertise in streaming protocols.  You
+can contact him by email at <a href="mailto:luca.barbato@axant.it">luca.barbato@axant.it</a>.
+</p>
+
+<h2>Michael Niedermayer</h2>
+<p>
+Michael is located in Vienna, Austria and available for contracting work.
+He is an expert in all areas of video coding as well as x86 assembly.
+You can contact him by email at <a href="mailto:michaelni%20at%20gmx%20dot%20at">michaelni at gmx dot at</a>.
+</p>
+
+<h2>Stefano Sabatini</h2>
+<p>
+Stefano is located in Cagliari, Italy and is available for contracting
+work. He has worked on FFmpeg since 2007 and has had commit rights since
+2008. He has special expertise in libavfilter, ff* tools usage and
+usability issues. You can contact him by email at
+<a href="mailto:stefasab@gmail.com">stefasab@gmail.com</a>.
+</p>

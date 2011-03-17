@@ -1,0 +1,52 @@
+<h1>FFmpeg Documentation</h1>
+
+<h2>Reporting Bugs</h2>
+<p>
+Want to report a bug? Help us help you: The FFmpeg
+developers will be able to better diagnose the problem if you follow
+<a href="bugreports.html">these bug reporting guidelines</a>.
+</p>
+
+<h2>General Documentation</h2>
+<ul>
+<li><a href="faq.html">Frequently Asked Questions</a></li>
+<li><a href="general.html">General Documentation</a></li>
+<li><a href="libavfilter.html">Libavfilter Documentation</a></li>
+<li><a href="developer.html">Developer Documentation</a></li>
+<li><a href="http://ffmpeg.arrozcru.org/">FFmpeg Windows Help</a>
+discusses all issues regarding FFmpeg under Windows including a wiki
+and help forums.</li>
+<li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
+explains installing and using FFmpeg on Mac OS X.</li>
+</ul>
+
+<h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
+<ul>
+<li><a href="ffmpeg.html">FFmpeg Documentation</a></li>
+<li><a href="ffplay.html">FFplay Documentation</a></li>
+<li><a href="ffprobe.html">FFprobe Documentation</a></li>
+<li><a href="ffserver.html">FFserver Documentation</a></li>
+<li><a href="sample.html">Sample ffserver configuration file</a></li>
+</ul>
+
+<h2>API Documentation</h2>
+<ul>
+<li><a href="doxygen/trunk/index.html">Doxygen documentation</a> for current
+trunk (regenerated nightly); documentation for the
+<a href="doxygen/0.6/index.html">0.6</a> and
+<a href="doxygen/0.5/index.html">0.5</a> branches is also available.</li>
+<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_codec_HOWTO">FFmpeg codec HOWTO</a>,
+describes how to add a codec to libavcodec.</li>
+<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_demuxer_HOWTO">FFmpeg demuxer HOWTO</a>,
+describes how to add a (de)muxer to libavformat.</li>
+<li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_filter_HOWTO">FFmpeg filter HOWTO</a>,
+describes how to add a filter to libavfilter.</li>
+</ul>
+
+<h2>Tutorials</h2>
+<ul>
+<li><a href="http://www.inb.uni-luebeck.de/~boehme/using_libavcodec.html">Using libavformat and libavcodec</a> by
+Martin Böhme, a good overview of the FFmpeg APIs.</li>
+<li><a href="http://dranger.com/ffmpeg/">An FFmpeg and SDL Tutorial</a>
+by Stephen Dranger, explains how to write a video player based on FFmpeg.</li>
+</ul>

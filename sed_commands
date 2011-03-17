@@ -1,0 +1,13 @@
+/FFMPEG_ABOUT_NAVBAR/a\
+<div id="navbar_secondary">\
+<a href="about.html">About</a>\
+<a href="projects.html">Projects Using FFmpeg</a>\
+</div>
+/FFMPEG_ABOUT_NAVBAR/d
+
+/FFMPEG_LEGAL_NAVBAR/a\
+<div id="navbar_secondary">\
+<a href="legal.html">License and Legal Issues</a>\
+<a href="shame.html">Hall of Shame</a>\
+</div>
+/FFMPEG_LEGAL_NAVBAR/d

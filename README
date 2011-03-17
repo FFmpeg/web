@@ -1,0 +1,4 @@
+This generates the ffmpeg.org website by fitting the navigation links onto
+source files and dropping the result in the htdocs/ directory.
+
+'make' generates the website, 'make clean' removes all generated files.

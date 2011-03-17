@@ -1,0 +1,100 @@
+<h1>Contact Us</h1>
+
+<h2>Mailing lists</h2>
+
+<p>
+Please follow the netiquette when posting on FFmpeg mailing lists, especially
+avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
+thread hijacking (that is, replying to a thread and changing the subject line to
+something completely unrelated that was not being discussed within the original
+thread).
+Configuring your mail client to break lines after 70 or so characters is a plus.
+If you attach files, avoid compressing small files, uncompressed is preferred.
+Also please try to avoid posting mails with overly long signatures or nonsense
+corporate disclaimers that claim the content of your mails is confidential.
+</p>
+<p>
+Attached patches should not have application/octet-stream as mime-type, but
+text/plain or even better text/x-diff or text/x-patch.
+If you send us a patch, please make it some form of unified diff. We prefer
+patches made using <code>git diff &gt; submission.diff</code> from the root of
+your FFmpeg checkout. For more detailed guidelines, have a look at the
+<a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
+most of what is written there applies to FFmpeg as well.
+Trespass these rules at the risk of being flamed.
+</p>
+
+<p>
+<a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-user/">ffmpeg-user</a>:
+This list is for regular user questions like compilation troubles,
+command-line issues and similar.
+<br />
+<a href="https://lists.ffmpeg.org/mailman/listinfo/ffserver-user/">ffserver-user</a>:
+This list is for ffserver user questions like configuration and streaming
+issues.
+<br />
+<a href="https://lists.ffmpeg.org/mailman/listinfo/libav-user/">libav-user</a>:
+This list is for application developer questions about development using the
+FFmpeg libraries.
+<br />
+<a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/">ffmpeg-devel</a>:
+This list is for development of FFmpeg itself. It is <strong>not</strong> for
+development of software that use the FFmpeg libraries and <strong>not</strong>
+for bug reports.
+<br />
+<a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-cvslog/">ffmpeg-cvslog</a>:
+This list gets all changes to the FFmpeg sources / main git repository.
+<br />
+<a href="https://lists.mplayerhq.hu/mailman/listinfo/ffmpeg-soc/">ffmpeg-soc</a>:
+This list is about development of the FFmpeg Google Summer of Code projects.
+</p>
+
+<p>
+Alternatively, you can follow our mailing lists through
+<a href="http://dir.gmane.org/index.php?prefix=gmane.comp.video.ffmpeg">Gmane</a>.
+</p>
+
+
+<h2>Mailing list archives</h2>
+
+<p>
+To read up on past discussions, read the mailing list archives. It is highly
+likely that you will find an answer to your questions there, so make sure to
+browse the archives before posting questions.
+</p>
+
+<p>
+<a href="https://lists.ffmpeg.org/pipermail/ffmpeg-user/">ffmpeg-user archives</a>
+<br />
+<a href="https://lists.ffmpeg.org/pipermail/ffserver-user/">ffserver-user archives</a>
+<br />
+<a href="https://lists.ffmpeg.org/pipermail/libav-user/">libav-user archives</a>
+<br />
+<a href="https://lists.ffmpeg.org/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
+<br />
+<a href="https://lists.ffmpeg.org/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
+<br />
+<a href="https://lists.mplayerhq.hu/pipermail/ffmpeg-soc/">ffmpeg-soc archives</a>
+</p>
+
+
+<h2>IRC channels</h2>
+
+<p>
+FFmpeg has two official channels on the <a href="http://freenode.net/">freenode</a>
+IRC network. Both channels are open and unmoderated. Developers with commit
+rights have operator status, contributors with patches in FFmpeg
+have voice in the channels.
+</p>
+
+<p>
+<a href="irc://irc.freenode.net/ffmpeg"><b>#ffmpeg</b></a> is for user support
+and general questions similar to the ffmpeg-user mailing list.
+</p>
+
+<p>
+<a href="irc://irc.freenode.net/ffmpeg-devel"><b>#ffmpeg-devel</b></a> is
+strictly dedicated to FFmpeg development. This means development of FFmpeg
+itself. Development of other software that uses the FFmpeg libraries is offtopic
+there.
+</p>

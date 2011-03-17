@@ -1,0 +1,130 @@
+a {
+    color: #2D6198;
+}
+
+a:visited {
+    color: #884488;
+}
+
+#banner {
+    background-color: #BBC9D8;
+    border-bottom: 1px solid #7A96B3;
+    border-top: 1px solid #7A96B3;
+    position: relative;
+    text-align: center;
+}
+
+#banner img {
+    padding-bottom: 1px;
+    padding-top: 5px;
+}
+
+#body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+body {
+    background-color: #313131;
+    margin: 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#container {
+    background-color: white;
+    color: #202020;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#footer {
+    text-align: center;
+}
+
+h1 {
+    background-color: #7BB37B;
+    border: 1px solid #6A996A;
+    color: #151515;
+    font-size: 1.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.4em;
+    padding-top: 0.2em;
+}
+
+h2 {
+    color: #313131;
+    font-size: 1.2em;
+}
+
+h3 {
+    color: #313131;
+    font-size: 0.8em;
+    margin-bottom: -8px;
+}
+
+img {
+    border: 0;
+}
+
+#navbar {
+    background-color: #738073;
+    border-bottom: 1px solid #5C665C;
+    border-top: 1px solid #5C665C;
+    margin-top: 12px;
+    padding: 0.3em;
+    position: relative;
+    text-align: center;
+}
+
+#navbar a, #navbar_secondary a {
+    color: white;
+    padding: 0.3em;
+    text-decoration: none;
+}
+
+#navbar a:hover, #navbar_secondary a:hover {
+    background-color: #313131;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar_secondary {
+    background-color: #738073;
+    border-bottom: 1px solid #5C665C;
+    border-left: 1px solid #5C665C;
+    border-right: 1px solid #5C665C;
+    padding: 0.3em;
+    position: relative;
+    text-align: center;
+}
+
+p {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#proj_desc {
+    font-size: 1.2em;
+}
+
+#repos {
+    margin-left: 1em;
+    margin-right: 1em;
+    border-collapse: collapse;
+    border: solid 1px #6A996A;
+}
+
+#repos th {
+    background-color: #7BB37B;
+    border: solid 1px #6A996A;
+}
+
+#repos td {
+    padding: 0.2em;
+    border: solid 1px #6A996A;
+}

@@ -1,0 +1,28 @@
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="banner">
+<a href="index.html">
+<img src="ffmpeg-logo.png" width="396" height="100" alt="FFmpeg" />
+</a>
+</div>
+
+<div id="navbar">
+<a href="index.html">Home/News</a>
+<a href="about.html">About</a>
+<a href="download.html">Download</a>
+<a href="documentation.html">Documentation</a>
+<a href="bugreports.html">Bug Reports</a>
+<a href="contact.html">Contact</a>
+<a href="consulting.html">Consulting</a>
+<a href="legal.html">Legal</a>
+</div>
+
+<div id="body">
+
+

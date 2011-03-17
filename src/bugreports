@@ -1,0 +1,126 @@
+<h1>Reporting a Bug To The FFmpeg Project</h1>
+
+<p>
+First of all, please remember that all the developers working on FFmpeg are
+volunteers, we are not paid for analyzing, debugging, fixing and answering
+bug reports. While we try our best to create high quality software and be
+responsive, if you should not get an answer, please consider the above and
+be aware of the fact that we receive many bug reports and the amount of
+time it takes to deal with them can be substantial. Nevertheless most issues
+get resolved, just please understand that there are no guarantees nor
+promises.
+</p>
+
+<p>
+<b>Before reporting a bug, please consider the following items</b>:
+</p>
+
+<p>
+FFmpeg is in a state of perpetual development and we do not currently have the
+person power to backport fixes to official releases. As such, if you wish to
+query or report a bug, you must try with the <b>latest development branch</b> revision of
+FFmpeg to confirm the issue still exists.
+</p>
+
+<p>
+When writing your bug report, please include (uncompressed):
+</p>
+<ul>
+  <li>What you were trying to accomplish (e.g., "I am trying to transcode
+    from this format to that format...")</li>
+  <li>The problem you encountered (e.g., "<code>ffmpeg</code> crashed" or "The
+    output video was all green")</li>
+  <li>The exact command line you were using (e.g., "<code>ffmpeg -i input.mov
+    -an -vcodec foo output.avi</code>")</li>
+  <li>The full, uncut console output provided by
+    <code>ffmpeg -v 9 -loglevel 99 -i </code> followed by the name of your input file
+    (copy/pasted from the console, including the banner that indicates
+    version and configuration options), paste <code>ffplay</code> output
+    only if your problem is not reproducible with ffmpeg.</li>
+</ul>
+
+<p>
+If you encounter a crash bug, please provide the <code>gdb</code> output,
+backtrace and disassembly using the the <code>ffmpeg_g</code> debug binary as
+follows:
+</p>
+
+<blockquote>
+<pre>gdb ffmpeg_g</pre>
+</blockquote>
+
+<p>
+In <code>gdb</code>, type 'r' for run, along with the rest of the
+<code>ffmpeg</code> command line:
+</p>
+
+<blockquote>
+<pre>r &lt;rest of command line&gt;</pre>
+</blockquote>
+
+<p>
+When <code>gdb</code> encounters its problem, run the following commands and
+copy/paste the output into your bug report:
+</p>
+
+<blockquote>
+<pre>
+bt
+disass $pc-32 $pc+32
+info all-registers
+</pre>
+</blockquote>
+
+<p>
+Once you have gathered this information, you can submit a report to the
+<a href="https://avcodec.org/trac/ffmpeg">FFmpeg bug tracker</a>.
+Also note our <a href="https://roundup.ffmpeg.org/roundup/ffmpeg/">old deprecated bug tracker</a>. You
+should provide all information so that anyone can reproduce the bug.
+Please do not report your problem on the developer mailing list:
+Only send bug reports there if you also intend to provide a fix.
+</p>
+
+
+<h2>Submitting Sample Media</h2>
+
+<p>
+The developers may ask you to provide a sample media file illustrating
+your problem. In this case, please follow these steps:
+</p>
+<ul>
+  <li>If the sample file is too large ( &gt; 10 megabytes), cut it down to
+    size with the Unix 'dd' command:
+      <blockquote>
+      <pre>dd if=sample-file of=small-sample-file bs=1024 count=10000</pre>
+      </blockquote>
+    and then upload small-sample-file rather than sample-file</li>
+  <li>Please choose descriptive names like "h264_green_tint.mov" or
+      "block_artifacts_after_seeking.mkv". We already have plenty of "bug.rm"
+      and "sample.avi" to choose from.</li>
+  <li>Upload the sample to the MPlayer FTP server. Note that our FTP server
+    is write-only, as it would immediately get misused for warez trading
+    otherwise. Do not let this confuse you. Even though you cannot see the
+    stuff you upload, it will be there and the FFmpeg developers will have
+    access.
+  <ul>
+    <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
+    <li>cd -> incoming</li>
+    <li>Create a new directory.</li>
+    <li>cd -> your new directory</li>
+    <li>Upload a brief text file describing the sample and what is wrong.
+        <b>This is important!</b> If you leave out the text file, your
+        sample will most likely be deleted without further examination.</li>
+    <li>Upload the sample.</li>
+  </ul>
+  </li>
+  <li>Email the list and indicate the location of the sample.</li>
+</ul>
+
+<p>
+<b>Important: Movie files which have been compressed (rar,7z,gzip,...) will be
+deleted without being examined unless they are raw RGB/YUV/PCM.</b>
+<b>Furthermore movie files uploaded to services like megaupload, rapidshare or
+any other similar service will be ignored. We are not willing to spend our
+time fighting with this ridiculous, bloated and spam-filled crap.</b>
+</p>
+

@@ -1,0 +1,196 @@
+<h1>FFmpeg Download and Source Code Repository Access</h1>
+
+<h2>Getting FFmpeg</h2>
+<p>
+FFmpeg has always been a very experimental and developer-driven project. It
+is a key component in many multimedia projects and has new features added
+constantly. Development branch snapshots work really well 99% of the
+time so people are not afraid to use them.
+</p>
+
+<h2>FFmpeg Git</h2>
+<p>
+FFmpeg is developed with <a href="http://git-scm.com/">Git</a>.
+Given the decentralized nature of Git, multiple repositories from
+developers and groups of developers are available.
+</p>
+
+<table id="repos">
+<thead>
+<tr>
+    <th>Clone URL</th>
+    <th>Browse URL</th>
+    <th>Snapshot URL</th>
+    <th>Admin</th>
+    <th>Commiters</th>
+    <th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>git://git.videolan.org/ffmpeg.git</td>
+    <td><a href="http://git.videolan.org/?p=ffmpeg.git">http://git.videolan.org/?p=ffmpeg.git</a></td>
+    <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz</a></td>
+    <td>Michael Niedermayer</td>
+    <td>All FFmpeg developers</td>
+    <td>Main FFmpeg git repository, all work is merged in here, and it is the recommanded repository for users and developers
+        to use.</td>
+</tr>
+<tr>
+    <td>git://git.libav.org/libav.git</td>
+    <td><a href="http://git.libav.org/?p=libav.git">http://git.libav.org/?p=libav.git</a></td>
+    <td><a href="http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz">http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz</a></td>
+    <td>?</td>
+    <td>8 developers</td>
+    <td></td>
+</tr>
+<tr>
+    <td>git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git</td>
+    <td><a href="http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt">http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt</a></td>
+    <td><a href="http://gitorious.org/ffmpeg/ffmpeg-mt/archive-tarball/master">http://gitorious.org/ffmpeg/ffmpeg-mt/archive-tarball/master</a></td>
+    <td>Alexander Strange</td>
+    <td>Alexander Strange</td>
+    <td>Multithreaded decoding</td>
+</tr>
+<tr>
+    <td>git://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg.git</td>
+    <td><a href="http://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg">http://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg</a></td>
+    <td><a href="http://gitorious.org/ffmpeg/flameeyes-ffmpeg/archive-tarball/master">http://gitorious.org/ffmpeg/flameeyes-ffmpeg/archive-tarball/master</a></td>
+    <td>Diego E. Pettenò</td>
+    <td>Diego E. Pettenò</td>
+    <td>Personal repository with works in progress</td>
+</tr>
+<tr>
+    <td>git://github.com/lu-zero/ffmpeg.git</td>
+    <td><a href="https://github.com/lu-zero/ffmpeg">https://github.com/lu-zero/ffmpeg</a></td>
+    <td><a href="https://github.com/lu-zero/ffmpeg/tarball/master">https://github.com/lu-zero/ffmpeg/tarball/master</a></td>
+    <td>Luca Barbato</td>
+    <td>Luca Barbato</td>
+    <td>Personal repository with works in progress and experiments</td>
+</tr>
+<tr>
+    <td>git://git.mansr.com/ffmpeg.git</td>
+    <td><a href="http://git.mansr.com/?p=ffmpeg">http://git.mansr.com/?p=ffmpeg</a></td>
+    <td>-</td>
+    <td>Mans Rullgard</td>
+    <td>Mans Rullgard</td>
+    <td>Personal repository with works in progress</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+You can retrieve the source code through the standard Git client by
+using the command:
+</p>
+
+<blockquote>
+<pre>git clone <i>CLONE_URL</i> ffmpeg</pre>
+</blockquote>
+
+<p>
+where <i>CLONE_URL</i> is one of the Git clone URLs listed in the
+table above.
+</p>
+
+
+<h2>FFmpeg Repository Snapshots</h2>
+
+<p>
+For the main ffmpeg repository you can also directly download the
+<a href="releases/ffmpeg-snapshot.tar.bz2">source snapshot</a>
+that we generate each night instead of grabbing a source snapshot
+from the gitweb URL. This is slightly preferred since it reduces
+the load on our server.
+</p>
+
+<p>
+Alternatively, if you cannot access Git directly or wish to speed up
+the cloning and reduce the bandwidth usage, we also offer a complete
+<a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a>
+tarball that comes with git metadata and version history to
+bootstrap your local repository.
+</p>
+
+
+<h2>FFmpeg SVN</h2>
+<p><b>
+FFmpeg development has moved to a Git repository, and the SVN
+repository is no longer updated. The last revision committed to SVN
+was r26402 on 2011-01-19.
+
+The SVN repository may be removed in a near future, so you're
+recommended to use the Git repository instead.
+</b></p>
+
+<p>
+In order to use the standard SVN client to check out the source code:
+</p>
+
+<blockquote>
+<pre>svn checkout svn://svn.ffmpeg.org/ffmpeg/trunk ffmpeg</pre>
+</blockquote>
+
+<p>
+If you cannot access the repository, you are being firewalled somewhere.
+Our Subversion setup does <strong>not</strong> work over HTTP/HTTPS, nor
+will it in the future. There is no point in asking for it, the decision
+is final.
+</p>
+
+<a name="releases"></a><h1>FFmpeg Releases</h1>
+
+<p>
+At irregular intervals FFmpeg makes releases that represent snapshots of FFmpeg
+at the moment the release branch was cut. Between major releases point releases
+will appear that add important bug fixes but no new features.
+Note that these releases are intended for distributors and system integrators.
+Users that wish to compile from source themselves are strongly encouraged to
+consider using the development branch (see above), this is the only version on
+which FFmpeg developers actively work.  The release branches only cherry pick
+selected changes from the development branch, which therefore receives much more
+and much faster bug fixes such as additional features and security patches.
+</p>
+
+<a name="release_0.6"></a><h2>
+FFmpeg 0.6.1 "Works with HTML5"</h2>
+
+<p>
+0.6.1 appeared on 2010-10-18. It is the latest point release from the
+0.6 release branch, which was cut on 2010-05-04.
+</p>
+
+<p>
+<a href="releases/ffmpeg-0.6.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.6.1.tar.bz2.md5">MD5</a>
+<a href="releases/ffmpeg-0.6.1.tar.bz2.sha1">SHA1</a>
+<a href="releases/ffmpeg-0.6.1.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.6.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.6.1.tar.gz.md5">MD5</a>
+<a href="releases/ffmpeg-0.6.1.tar.gz.sha1">SHA1</a>
+<a href="releases/ffmpeg-0.6.1.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.6.1.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.6.1.release">Release Notes</a>
+</p>
+
+<a name="release_0.5"></a><h2>
+FFmpeg 0.5.3 "half-way to world domination A.K.A. the belligerent blue bike
+shed"</h2>
+
+<p>
+0.5.3 appeared on 2010-10-18. It is the latest point release from the 0.5
+release branch cut on 2009-03-02.
+</p>
+
+<p>
+<a href="releases/ffmpeg-0.5.3.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.3.tar.bz2.md5">MD5</a>
+<a href="releases/ffmpeg-0.5.3.tar.bz2.sha1">SHA1</a>
+<a href="releases/ffmpeg-0.5.3.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.5.3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.3.tar.gz.md5">MD5</a>
+<a href="releases/ffmpeg-0.5.3.tar.gz.sha1">SHA1</a>
+<a href="releases/ffmpeg-0.5.3.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.5.3.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.5.3.release">Release Notes</a>
+</p>

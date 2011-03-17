@@ -1,0 +1,182 @@
+FFMPEG_ABOUT_NAVBAR
+
+<h1>Hall of Shame</h1>
+
+<p>
+This is a list of projects or companies violating FFmpeg's license. The list
+is part of an effort to get them to comply with the licensing terms by shaming
+them in public.
+</p>
+
+<p>
+A good way to help us is to link to this page, thereby boosting its
+pagerank, possibly near or past the homepage of the offender. We discourage
+you from using or buying the software listed here, unless you do so to pester
+its producers and demand that they comply with the license of FFmpeg.
+</p>
+
+<p>
+Our issue tracker also contains a list of
+<a href="https://roundup.ffmpeg.org/roundup/ffmpeg/issue?%40search_text=&amp;title=&amp;%40columns=title&amp;topic=14&amp;id=&amp;%40columns=id&amp;creation=&amp;activity=&amp;%40columns=activity&amp;%40sort=activity&amp;priority=&amp;%40group=priority&amp;type=&amp;status=-1%2C1%2C2&amp;%40columns=status&amp;substatus=&amp;%40pagesize=50&amp;%40startwith=0&amp;%40action=search">license violations</a>.
+If you become aware of license infringements, please notify us on the
+<a href="contact.html">ffmpeg-devel mailing list</a> and/or add
+it to our
+<a href="https://roundup.ffmpeg.org/roundup/ffmpeg/">issue tracker</a>.
+</p>
+
+<p>
+(in alphabetical order)
+</p>
+
+<ul>
+<li><a href="http://www.alivemedia.net" rel="nofollow">alive</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1160">issue tracker entry</a></li>
+<li><a href="http://www.alloksoft.com" rel="nofollow">Alloksoft</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue438">issue tracker entry</a></li>
+<li><a href="http://www.amrplayer.com" rel="nofollow">AMR Player</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1070">issue tracker entry</a></li>
+<li><a href="http://anvsoft.com" rel="nofollow">AnvSoft</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1246">issue tracker entry</a>,
+reproduced 2009-11-03</li>
+<li><a href="http://www.any-video-converter.com" rel="nofollow">Any DVD/Video Converter</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue922">issue tracker entry</a>,
+reproduced 2009-11-03</li>
+<li><a href="http://www.aone-media.com" rel="nofollow">Aone</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1308">issue tracker entry</a>,
+reproduced 2009-11-14</li>
+<li><a href="http://www.tomp4.com/html/videoconverter.html" rel="nofollow">Aplus Video Converter</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1213">issue tracker entry</a></li>
+<li><a href="http://applian.com/replay-converter/index.php" rel="nofollow">Applian Replay Converter</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue110">issue tracker entry</a></li>
+<li><a href="http://www.avcware.com" rel="nofollow">AVCWare</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue932">issue tracker entry</a></li>
+<li><a href="http://www.avs4you.com/AVS-Video-Converter.aspx" rel="nofollow">AVS Video Converter</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue733">issue tracker entry</a></li>
+<li><a href="http://www.alltoaudio.com" rel="nofollow">Aya Media Techologies</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue930">issue tracker entry</a></li>
+<li><a href="http://www.baofeng.com" rel="nofollow">Baofeng Storm</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue866">issue tracker entry</a>,
+reproduced 2009-11-03</li>
+<li><a href="http://www.cinemaforge.com">CinemaForge</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue933">issue tracker entry</a></li>
+<li><a href="http://potplayer.daum.net" rel="nofollow">Daum tv PotPlayer</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue2112">issue tracker entry</a>,
+reproduced 2010-11-03</li>
+<li><a href="http://www.doremilabs.com/v1control.html" rel="nofollow">Doremi Asset Manager</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue727">issue tracker entry</a></li>
+<li><a href="http://www.downloadhelper.net/install-converter.php" rel="nofollow">DownloadHelper ConvertHelper</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1096">issue tracker entry</a>,
+reproduced 2009-11-04</li>
+<li><a href="http://www.dvdfab.com" rel="nofollow">DVDFab</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue382">issue tracker entry</a></li>
+<li><a href="http://www.dvdxdv.com" rel="nofollow">DVDxDV</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1105">issue tracker entry</a></li>
+<li><a href="http://www.eatcam.com" rel="nofollow">EatCam</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1513">issue tracker entry</a>,
+reproduced 2009-11-03</li>
+<li><a href="http://www.effectmatrix.com" rel="nofollow">EffectMatrix Software</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue456">issue tracker entry</a></li>
+<li><a href="http://www.eztoosoft.com" rel="nofollow">Eztoo</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue828">issue tracker entry</a></li>
+<li><a href="http://www.formatoz.com" rel="nofollow">Format Factory</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1214">issue tracker entry</a></li>
+<li><a href="http://www.winxdvd.com/" rel="nofollow">FreeTime Soft</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue722">issue tracker entry</a></li>
+<li><a href="http://www.sourcemac.com/?page=fstream&amp;lang=en" rel="nofollow">FStream</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1471">issue tracker entry</a>,
+reproduced 2009-11-03</li>
+<li><a href="http://www.geovid.com" rel="nofollow">GeoVid</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue918">issue tracker entry</a></li>
+<li><a href="http://www.getflv.net/index.html" rel="nofollow">GetFLV</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1085">issue tracker entry</a></li>
+<li><a href="http://www.gomlab.com/" rel="nofollow">GOM Player</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue112">issue tracker entry</a></li>
+<li><a href="http://www.h264encoder.com/" rel="nofollow">H264Encoder.com</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue787">issue tracker entry</a></li>
+<li><a href="http://www.imtoo.com" rel="nofollow">ImTOO</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1311">issue tracker entry</a>,
+reproduced 2009-11-14</li>
+<li><a href="http://www.iskysoft.net" rel="nofollow">iSkysoft</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue927">issue tracker entry</a></li>
+<li><a href="http://www.kmplayer.com/forums/" rel="nofollow">The KMPlayer</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue820">issue tracker entry</a></li>
+<li><a href="http://www.koyotesoft.com" rel="nofollow">Koyote Software</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue931">issue tracker entry</a></li>
+<li><a href="www.livestation.com" rel="nofollow">Livestation</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue920">issue tracker entry</a></li>
+<li><a href="http://www.alldj.com" rel="nofollow">MasterSoft Inc.</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue723">issue tracker entry</a></li>
+<li><a href="http://mediacoderhq.com" rel="nofollow">MediaCoder</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1162">issue tracker entry</a></li>
+<li><a href="http://www.moyea.com" rel="nofollow">Moyea</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue926">issue tracker entry</a></li>
+<li><a href="http://www.mp4converter.net/dvd-to-appletv-converter-mac.html" rel="nofollow">MP4Converter</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue111">issue tracker entry</a></li>
+<li><a href="http://www.netgem.com/" rel="nofollow">Netgem</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue678">issue tracker entry</a></li>
+<li><a href="http://www.opellsoft.com/" rel="nofollow">Opell Video Converter Pro</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue493">issue tracker entry</a></li>
+<li><a href="http://liveradio.orange.fr/" rel="nofollow">Orange Liveradio</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1502">issue tracker entry</a></li>
+<li><a href="http://www.themediamall.com/playon/" rel="nofollow">PlayOn</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1403">issue tracker entry</a></li>
+<li><a href="http://www.powerpoint-dvd-converter.com" rel="nofollow">PowerPoint DVD Converter</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue924">issue tracker entry</a></li>
+<li><a href="http://www.presentersoft.com" rel="nofollow">PresenterSoft</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue925">issue tracker entry</a></li>
+<li><a href="http://player.qzone.qq.com" rel="nofollow">QQPlayer</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1519">issue tracker entry</a>,
+reproduced 2009-11-04</li>
+<li><a href="http://www.redkawa.com" rel="nofollow">Red Kawa</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue923">issue tracker entry</a></li>
+<li><a href="http://www.riptiger.com" rel="nofollow">RipTiger</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1450">issue tracker entry</a>,
+reproduced 2009-11-03</li>
+<li><a href="http://www.rhozet.com/carbon_coder.html" rel="nofollow">Rhozet Carbon Coder</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue484">issue tracker entry</a>,
+reproduced 2009-09-18</li>
+<li><a href="http://sagetv.com" rel="nofollow">SageTV</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue2375">issue tracker entry</a>,
+reproduced 2011-01-03</li>
+<li><a href="http://www.cctvhw.com/english/" rel="nofollow">ShenZhen Hawell</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue513">issue tracker entry</a></li>
+<li><a href="http://www.skypecap.com" rel="nofollow">SkypeCap</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue321">issue tracker entry</a></li>
+<li><a href="http://www.softservice.org/products_flashcam.html" rel="nofollow">Soft Service, Ltd. FlashCam</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue559">issue tracker entry</a></li>
+<li><a href="http://www.sothinkmedia.com" rel="nofollow">SourceTec Software</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1158">issue tracker entry</a>,
+reproduced 2009-11-04</li>
+<li><a href="http://www.video-convert-master.com/index.htm" rel="nofollow">Video Convert Master</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue413">issue tracker entry</a></li>
+<li><a href="http://vio.thepiratebay.org/" rel="nofollow">ViO mobile video converter</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue763">issue tracker entry</a></li>
+<li><a href="http://www.virtualdj.com" rel="nofollow">VirtualDJ</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1412">issue tracker entry</a>,
+reproduced 2009-11-04</li>
+<li><a href="http://www.mzys.cn" rel="nofollow">WisMencoder</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1133">issue tracker entry</a></li>
+<li><a href="http://www.wondershare.com" rel="nofollow">Wondershare</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue928">issue tracker entry</a>,
+reproduced 2009-11-14</li>
+<li><a href="http://www.xilisoft.com" rel="nofollow">Xilisoft Video Converter</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue929">issue tracker entry</a>,
+reproduced 2010-03-08</li>
+<li><a href="http://www.xlinksoft.com" rel="nofollow">XlinkSoft</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1509">issue tracker entry</a>,
+reproduced 2009-11-03</li>
+<li><a href="http://www.xmedia-recode.de" rel="nofollow">XMedia Recode</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1144">issue tracker entry</a></li>
+<li><a href="http://www.zoiper.com/" rel="nofollow">ZoIPer</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue1045">issue tracker entry</a></li>
+</ul>
+
+<p>
+The companies below are not yet in full compliance, but we are in negotiations
+with them and making good progress towards compliance.
+</p>
+
+<ul>
+<li><a href="http://chromaplayer.com/" rel="nofollow">Chroma</a>,
+<a href="http://roundup.ffmpeg.org/roundup/ffmpeg/issue726">issue tracker entry</a></li>
+</ul>

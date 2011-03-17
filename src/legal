@@ -1,0 +1,165 @@
+FFMPEG_LEGAL_NAVBAR
+
+<h1>FFmpeg License and Legal Considerations</h1>
+
+<p>
+Legal issues are a constant source of questions and confusion.
+This is an attempt to clarify the most important issues.
+The usual disclaimers apply, this is not legal advice.
+</p>
+
+<h2>FFmpeg License</h2>
+
+<p>
+FFmpeg is licensed under the
+<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">GNU Lesser
+General Public License (LGPL) version 2.1</a> or later. However, FFmpeg
+incorporates several optional parts and optimizations that are covered by the
+<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU General
+Public License (GPL) version 2</a> or later.
+If those parts get used the GPL applies to all of FFmpeg.
+</p>
+
+<p>
+Read the license texts to learn how this affects programs built on top
+of FFmpeg or reusing FFmpeg.  You may also wish to have a look at the
+<a href="http://www.gnu.org/licenses/gpl-faq.html">GPL FAQ</a>.
+</p>
+
+<p>
+Note that FFmpeg is not available under any other licensing terms,
+especially not proprietary/commercial ones, not even in exchange for payment.
+</p>
+
+
+<h2>License Compliance Checklist</h2>
+
+<p>
+The following is a checklist for LGPL compliance when linking against the
+FFmpeg libraries. It is not the only way to comply with the license, but we
+think it is the easiest. There are also a few items that are not really related
+to LGPL compliance but are good ideas anyway.
+</p>
+
+<p>
+You are not obliged by the LGPL to follow this list, but consult a copyright
+lawyer if you choose not to. If you end up violating the LGPL, you will likely
+end up on our shame list and/or get sued by us.
+</p>
+
+<ol>
+<li> Compile FFmpeg <b>without</b> "--enable-gpl" and
+<b>without</b> "--enable-nonfree".</li>
+<li> Use dynamic linking (on windows, this means linking to dlls) for linking
+with FFmpeg libraries. </li>
+<li> Distribute the source code of FFmpeg, no matter if you modified it or not.
+</li>
+<li> Make sure the source code corresponds exactly to the library binaries
+you are distributing. </li>
+<li> Run the command "svn diff . libswscale > changes.diff" in the root
+directory of the FFmpeg source code to create a file with only the changes.</li>
+<li> Explain how you compiled FFmpeg, for example the configure line, in a text
+file added to the root directory of the source code. </li>
+<li> Use tarball or a zip file for distributing the source code. </li>
+<li> Host the FFmpeg source code on the same webserver as the binary you are
+distributing. </li>
+<li> Add "This software uses code of &#60;a href=http://ffmpeg.org&#62;FFmpeg&#60;/a&#62; licensed under the &#60;a href=http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html&#62;LGPLv2.1&#60;/a&#62; and its source can be downloaded &#60;a href=link_to_your_sources&#62;here&#60;/a&#62;" to every page in your website where there is a download link to your application. </li>
+<li> Mention "This software uses libraries from the FFmpeg project under the
+LGPLv2.1" in your program "about box". </li>
+<li> Mention in your EULA that your program uses FFmpeg under the LGPLv2.1.</li>
+<li> If your EULA claims ownership over the code, you have to <b>explicitly</b>
+mention that you do not own FFmpeg, and where the relevant owners can be
+found.</li>
+<li> Remove any prohibition of reverse engineering from your EULA.</li>
+<li> Apply the same changes to all translations of your EULA.</li>
+<li> Do not misspell FFmpeg (two capitals F and lowercase "mpeg").</li>
+<li> Do not rename FFmpeg dlls to some obfuscated name, but adding a suffix or
+prefix is fine (renaming "avcodec.dll" to "MyProgDec.dll" is not fine, but to
+"avcodec-MyProg.dll" is).</li>
+<li> Go through all the items again for any LGPL external library you compiled
+into FFmpeg (for example LAME).</li>
+<li> Make sure your program is not using any GPL libraries
+(notably libx264).</li>
+</ol>
+
+
+<h2>Trademark</h2>
+<p>
+FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project.
+</p>
+
+<h2>Patent Mini-FAQ</h2>
+<p>
+A lot of legal questions surrounding patents arise when discussing multimedia
+technology. This
+mini-FAQ attempts to address these issues. Note that much of this discussion
+is based on <i>precedent</i>, or what has happened in the past under similar
+circumstances. Very little consideration is given to <i>what could happen</i>.
+If you use your imagination, you can visualize any dire scenario and cease
+doing any productive work.
+</p>
+
+<p>
+<b>Q: Does FFmpeg use patented algorithms?</b>
+<br />
+A: We do not know, we are not lawyers so we are not qualified to answer
+this. Also we have never read patents to implement any part of FFmpeg,
+so even if we were qualified we could not answer it as we do not know
+what is patented. Furthermore the sheer number of software patents makes it
+impossible to read them all so no one (lawyer or not) could answer
+such a question with a definite no, those who do lie.
+What we do know is that various standards FFmpeg supports contain vague
+hints that any conforming implementation might be subject to some patent
+rights in some jurisdictions, examples for such statements are:
+<br />
+For H.264:
+</p>
+<blockquote>
+<p>
+ITU draws attention to the possibility that the practice or implementation of this Recommendation may
+involve the use of a claimed Intellectual Property Right. ITU takes no position concerning the evidence,
+validity or applicability of claimed Intellectual Property Rights, whether asserted by ITU members or others
+outside of the Recommendation development process.
+</p>
+</blockquote>
+<p>
+And for MPEG-4:
+</p>
+<blockquote>
+<p>
+The user's attention is called to the possibility that, for some of the processes specified in this part of ISO/IEC
+14496, conformance with this specification may require use of an invention covered by patent rights.
+By publication of this part of ISO/IEC 14496, no position is taken with respect to the validity of this claim or of any
+patent rights in connection therewith.
+</p>
+</blockquote>
+
+<p>
+<b>Q: Is it safe to use such patented algorithms?</b>
+<br />
+A: Patent laws vary wildly between jurisdictions, and in many countries
+patents on algorithms are not recognized. Plus the use of patents to
+prevent the usage of a format or codec on a specific operating system
+or together with specific other software might violate antitrust laws.
+So whether you are safe or not depends on where you live and how judges
+interpret the law in your jurisdiction.
+</p>
+
+<p>
+<b>Q: Bottom line: Should I be worried about patent issues if I use FFmpeg?</b>
+<br />
+A: Are you a private user working with FFmpeg for your own personal purposes?
+If so, there is remarkably little reason to be concerned. Are you using FFmpeg
+in a commercial software product? Read on to the next question...
+</p>
+
+<p>
+<b>Q: Is it perfectly alright to
+incorporate the whole FFmpeg core into my own commercial product?</b>
+<br />
+A: You might have a problem here. There have been cases where companies
+have used FFmpeg in their products. These companies found out that once
+you start trying to make money from patented technologies, the owners of
+the patents will come after their licensing fees. Notably, MPEG LA is
+vigilant and diligent about collecting for MPEG-related technologies.
+</p>
