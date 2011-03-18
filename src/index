@@ -35,6 +35,25 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="FF054"></a><h3>March 17, 2011</h3>
+
+<p>
+Reinhard tartler backported several security fixes to the 0.5 release branch and
+made another point release, that is <a href="download.html#release_0.5">0.5.4</a>. Note, 0.5
+is quite old and this release is mostly for thouse stuck with the 0.5 branch,
+and not so interresting for end users.
+<pre>
+- Fix memory corruption in WMV parsing (addresses CVE-2010-3908)
+- Fix heap corruption crashes (addresses CVE-2011-0722)
+- Fix crashes in Vorbis decoding found by zzuf (addresses CVE-2010-4704)
+- Fix another crash in Vorbis decoding (addresses CVE-2011-0480, Chrome issue 68115)
+- Fix invalid reads in VC-1 decoding (related to CVE-2011-0723)
+- Do not attempt to decode APE file with no frames
+  (adresses http://packetstorm.linuxsecurity.com/1103-exploits/vlc105-dos.txt)
+</pre>
+</p>
+
+
 <a name="return_to_freedom"></a><h3>March 15, 2011</h3>
 
 <p>
