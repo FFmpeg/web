@@ -38,11 +38,13 @@ with the latest developments by subscribing to both the
 <a name="FF054"></a><h3>March 17, 2011</h3>
 
 <p>
-Reinhard tartler backported several security fixes to the 0.5 release branch and
+Reinhard Tartler backported several security fixes to the 0.5 release branch and
 made another point release, that is <a href="download.html#release_0.5">0.5.4</a>. Note, 0.5
 is quite old and this release is mostly for thouse stuck with the 0.5 branch,
 and not so interresting for end users.
 <pre>
+    Changelog between 0.5.3 and 0.5.4
+
 - Fix memory corruption in WMV parsing (addresses CVE-2010-3908)
 - Fix heap corruption crashes (addresses CVE-2011-0722)
 - Fix crashes in Vorbis decoding found by zzuf (addresses CVE-2010-4704)
