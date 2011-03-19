@@ -19,8 +19,8 @@ developers and groups of developers are available.
 <thead>
 <tr>
     <th>Clone URL</th>
-    <th>Browse URL</th>
-    <th>Snapshot URL</th>
+    <th>Browse</th>
+    <th>Snapshot</th>
     <th>Admin</th>
     <th>Commiters</th>
     <th>Description</th>
