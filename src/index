@@ -42,6 +42,7 @@ Reinhard Tartler backported several security fixes to the 0.5 release branch and
 made another point release, that is <a href="download.html#release_0.5">0.5.4</a>. Note, 0.5
 is quite old and this release is mostly for thouse stuck with the 0.5 branch,
 and not so interresting for end users.
+</p>
 <pre>
     Changelog between 0.5.3 and 0.5.4
 
@@ -53,7 +54,6 @@ and not so interresting for end users.
 - Do not attempt to decode APE file with no frames
   (adresses http://packetstorm.linuxsecurity.com/1103-exploits/vlc105-dos.txt)
 </pre>
-</p>
 
 
 <a name="return_to_freedom"></a><h3>March 15, 2011</h3>
