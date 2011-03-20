@@ -13,16 +13,16 @@
 </div>
 
 <div id="navbar">
-<a href="index.html">Home/News</a>
-<a href="about.html">About</a>
-<a href="download.html">Download</a>
-<a href="documentation.html">Documentation</a>
-<a href="bugreports.html">Bug Reports</a>
-<a href="contact.html">Contact</a>
-<a href="consulting.html">Consulting</a>
-<a href="legal.html">Legal</a>
+<a href="index.html">Home/News</a> |
+<a href="about.html">About</a> |
+<a href="download.html">Download</a> |
+<a href="documentation.html">Documentation</a> |
+<a href="bugreports.html">Bug Reports</a> |
+<a href="contact.html">Contact</a> |
+<a href="consulting.html">Consulting</a> |
+<a href="projects.html">Projects</a> |
+<a href="legal.html">Legal</a> |
 <a href="shame.html">Hall of Shame</a>
-<a href="projects.html">Projects</a>
 </div>
 
 <div id="body">
