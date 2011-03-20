@@ -40,8 +40,8 @@ with the latest developments by subscribing to both the
 <p>
 Reinhard Tartler backported several security fixes to the 0.5 release branch and
 made another point release, that is <a href="download.html#release_0.5">0.5.4</a>. Note, 0.5
-is quite old and this release is mostly for thouse stuck with the 0.5 branch,
-and not so interresting for end users.
+is quite old and this release is mostly for those stuck with the 0.5 branch,
+and not so interesting for end users.
 </p>
 <pre>
     Changelog between 0.5.3 and 0.5.4
@@ -52,7 +52,7 @@ and not so interresting for end users.
 - Fix another crash in Vorbis decoding (addresses CVE-2011-0480, Chrome issue 68115)
 - Fix invalid reads in VC-1 decoding (related to CVE-2011-0723)
 - Do not attempt to decode APE file with no frames
-  (adresses http://packetstorm.linuxsecurity.com/1103-exploits/vlc105-dos.txt)
+  (addresses http://packetstorm.linuxsecurity.com/1103-exploits/vlc105-dos.txt)
 </pre>
 
 

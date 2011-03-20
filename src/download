@@ -33,7 +33,7 @@ developers and groups of developers are available.
     <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
     <td>Michael Niedermayer</td>
     <td>All FFmpeg developers</td>
-    <td>Main FFmpeg git repository, all work is merged in here, and it is the recommanded repository for users and developers
+    <td>Main FFmpeg git repository, all work is merged in here, and it is the recommended repository for users and developers
         to use.</td>
 </tr>
 <tr>
