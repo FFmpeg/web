@@ -35,6 +35,21 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="mt_merge"></a><h3>March 21, 2011</h3>
+
+<p>
+Today <a href="http://gitorious.org/ffmpeg/ffmpeg-mt">FFmpeg-mt</a>, the
+multithreaded decoding branch, has been merged into FFmpeg. This has been
+a long awaited merge, and we would like to thank Alexander Strange for his
+patience and hard work.
+</p>
+
+<p>
+Testing is appreciated and if you find any bugs please report them to our
+<a href="/bugreports.html">bug tracker</a>.
+</p>
+
+
 <a name="FF054"></a><h3>March 17, 2011</h3>
 
 <p>
