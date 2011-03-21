@@ -37,6 +37,9 @@ developers and groups of developers are available.
         to use.</td>
 </tr>
 <tr>
+    <th colspan="6">Other Repositories</th>
+</tr>
+<tr>
     <td>git://git.libav.org/libav.git</td>
     <td><a href="http://git.libav.org/?p=libav.git">Browse</a></td>
     <td><a href="http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
