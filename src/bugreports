@@ -73,7 +73,7 @@ info all-registers
 
 <p>
 Once you have gathered this information, you can submit a report to the
-<a href="https://avcodec.org/trac/ffmpeg">FFmpeg bug tracker</a>.
+<a href="https://ffmpeg.org/trac/ffmpeg">FFmpeg bug tracker</a>.
 Also note our <a href="https://roundup.libav.org">old deprecated bug tracker</a>. You
 should provide all information so that anyone can reproduce the bug.
 Please do not report your problem on the developer mailing list:
