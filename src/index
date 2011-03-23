@@ -50,6 +50,48 @@ Testing is appreciated and if you find any bugs please report them to our
 </p>
 
 
+<a name="mailing_list_migration"></a><h3>March 21, 2011</h3>
+
+<p>
+The mailing lists have been fully migrated to ffmpeg.org!
+</p>
+<p>
+The FFmpeg mailing lists were moved from sourceforge.net to
+mplayerhq.hu in April 2005, and moved from mplayerhq.hu
+to ffmpeg.org in 2011.
+</p>
+<p>
+Unfortunately the lists were down for a few hours
+because of the abrupt shut down on the previous server[1].
+We apologize for this interruption. Also we could not move
+the subscribers of the
+<a href="https://lists.ffmpeg.org/mailman/listinfo/libav-user/">libav-user</a>
+mailing list (libav-user is for application developers
+using libav* libraries from the FFmpeg project).
+Even though
+<a href="https://lists.ffmpeg.org/mailman/listinfo/libav-user/">libav-user</a>
+was not listed in the shut down announcement[1], it was also
+shut down.
+</p>
+<p>
+If you are not yet subscribed we encourage you to do so now if
+you are interested in FFmpeg or multimedia or both. Visit our
+<a href="contact.html">contacts page</a> to find out more about
+the various mailing lists surrounding the FFmpeg project.
+You can also find the archives there if you like to browse the old posts.
+</p>
+<p>
+As stated in the previous news entry we are in the process
+of recovering our project infrastructure. We will keep you
+posted.
+</p>
+
+<ul>
+<li>
+[1] mplayerhq.hu mailing list shut down announcement: <a href="http://thread.gmane.org/gmane.comp.video.ffmpeg.devel/129614">http://thread.gmane.org/gmane.comp.video.ffmpeg.devel/129614</a>
+</li>
+</ul>
+
 <a name="FF054"></a><h3>March 17, 2011</h3>
 
 <p>
