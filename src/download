@@ -159,21 +159,16 @@ and much faster bug fixes such as additional features and security patches.
 FFmpeg 0.6.1 "Works with HTML5"</h2>
 
 <p>
-0.6.1 appeared on 2010-10-18. It is the latest point release from the
+0.6.2 appeared on 2011-03-23. It is the latest point release from the
 0.6 release branch, which was cut on 2010-05-04.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.6.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.1.tar.bz2.md5">MD5</a>
-<a href="releases/ffmpeg-0.6.1.tar.bz2.sha1">SHA1</a>
-<a href="releases/ffmpeg-0.6.1.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.1.tar.gz.md5">MD5</a>
-<a href="releases/ffmpeg-0.6.1.tar.gz.sha1">SHA1</a>
-<a href="releases/ffmpeg-0.6.1.tar.gz.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.1.changelog">Changelog</a><br />
-<a href="releases/ffmpeg-0.6.1.release">Release Notes</a>
+<a href="releases/ffmpeg-0.6.2.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.6.2.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.6.2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.6.2.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.6.2.changelog">Changelog</a><br />
 </p>
 
 <a name="release_0.5"></a><h2>
