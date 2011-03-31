@@ -41,12 +41,12 @@ When writing your bug report, please include (uncompressed):
 
 <p>
 If you encounter a crash bug, please provide the <code>gdb</code> output,
-backtrace and disassembly using the the <code>ffmpeg</code> debug binary as
+backtrace and disassembly using the the <code>ffmpeg_g</code> debug binary as
 follows:
 </p>
 
 <blockquote>
-<pre>gdb ffmpeg</pre>
+<pre>gdb ffmpeg_g</pre>
 </blockquote>
 
 <p>
