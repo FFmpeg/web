@@ -35,6 +35,17 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="win32_builds"></a><h3>March 30, 2011</h3>
+<p>
+Win32 and Win64 builds of FFmpeg are now available at 
+<a href="http://hawkeye.arrozcru.org/">http://hawkeye.arrozcru.org/</a>
+</p>
+
+<p>
+Please report any bugs to our
+<a href="https://ffmpeg.org/trac/ffmpeg">bug tracker</a>.
+</p>
+
 <a name="mt_merge"></a><h3>March 21, 2011</h3>
 
 <p>
