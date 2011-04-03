@@ -163,19 +163,22 @@ and much faster bug fixes such as additional features and security patches.
 </p>
 
 <a name="release_0.6"></a><h2>
-FFmpeg 0.6.2 "Works with HTML5"</h2>
+FFmpeg 0.6.90-rc0 "Love and Peace"</h2>
 
 <p>
-0.6.2 appeared on 2011-03-23. It is the latest point release from the
-0.6 release branch, which was cut on 2010-05-04.
+0.6.90-rc0 appeared on 2011-04-03. It is the latest FFmpeg release and
+cut off trunk at the time of release, it is thus no longer outdated
+crap, like the previous point relases. The libav and ffmpeg-mt trees
+have also fully been merged into it, it thus contains all their
+improvments.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.6.2.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.2.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.2.tar.gz.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.2.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.6.90-rc0.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.6.90-rc0.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.6.90-rc0.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.6.90-rc0.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.6.90-rc0.changelog">Changelog</a><br />
 </p>
 
 <a name="release_0.5"></a><h2>
