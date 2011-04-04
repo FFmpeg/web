@@ -35,6 +35,16 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="rc_0.6.90"></a><h3>April 4, 2011</h3>
+<p>
+In order to supply our release users with the newest features and bug
+fixes we are in the process of making a new release. The release will
+be based on the latest development tree while staying API/ABI compatible
+to the previous release.
+</p><p>
+Please <a href="download.html#release_0.6">download</a> the release candidate and report problems to our <a href="bugreports.html">bug tracker</a>.
+</p>
+
 <a name="win32_builds"></a><h3>March 30, 2011</h3>
 <p>
 Win32 and Win64 builds of FFmpeg are now available at 
