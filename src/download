@@ -167,10 +167,9 @@ FFmpeg 0.6.90-rc0 "Love and Peace"</h2>
 
 <p>
 0.6.90-rc0 was released on 2011-04-03. It is the latest FFmpeg release and
-is a copy of trunk at the time of release, it is thus no longer outdated
-crap, like the previous 0.5.x releases. The libav and ffmpeg-mt trees
-have also been merged into it, so it contains all of their
-improvements.
+is a copy of trunk at the time of release. It is therefor much more up to date 
+than the previous 0.6.x releases. Amongst lots of other changes,
+ffmpeg-mt and libav trees have also been merged.
 </p>
 
 <p>
