@@ -33,6 +33,12 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a name="10bith264"></a><h3>April 14, 2011</h3>
+<p>
+FFmpeg can now decode 9-bit and 10-bit H.264 streams,
+used in particular by AVCIntra 50.
+</p>
+
 <a name="rc_0.6.90"></a><h3>April 4, 2011</h3>
 <p>
 In order to supply our release users with the newest features and bug
