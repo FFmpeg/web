@@ -15,11 +15,11 @@ its producers and demand that they comply with the license of FFmpeg.
 
 <p>
 Our issue tracker also contains a list of
-<a href="https://roundup.ffmpeg.org/roundup/ffmpeg/issue?%40search_text=&amp;title=&amp;%40columns=title&amp;topic=14&amp;id=&amp;%40columns=id&amp;creation=&amp;activity=&amp;%40columns=activity&amp;%40sort=activity&amp;priority=&amp;%40group=priority&amp;type=&amp;status=-1%2C1%2C2&amp;%40columns=status&amp;substatus=&amp;%40pagesize=50&amp;%40startwith=0&amp;%40action=search">license violations</a>.
+<a href="https://ffmpeg.org/trac/ffmpeg/report/1">license violations</a>.
 If you become aware of license infringements, please notify us on the
 <a href="contact.html">ffmpeg-devel mailing list</a> and/or add
 it to our
-<a href="https://roundup.ffmpeg.org/roundup/ffmpeg/">issue tracker</a>.
+<a href="https://ffmpeg.org/trac/ffmpeg">issue tracker</a>.
 </p>
 
 <p>
