@@ -15,7 +15,7 @@ its producers and demand that they comply with the license of FFmpeg.
 
 <p>
 Our issue tracker also contains a list of
-<a  href="https://ffmpeg.org/trac/ffmpeg/report/1">license violations</a>.
+<a   href="https://ffmpeg.org/trac/ffmpeg/report/1">license violations</a>.
 If you become aware of license infringements, please notify us on the
 <a href="contact.html">ffmpeg-devel mailing list</a> and/or add
 it to our
