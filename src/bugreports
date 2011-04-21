@@ -71,6 +71,8 @@ info all-registers
 </pre>
 </blockquote>
 
+<h2>Bug Tracker</h2>
+
 <p>
 Once you have gathered this information, you can submit a report to the
 <a href="https://ffmpeg.org/trac/ffmpeg">FFmpeg bug tracker</a>.
