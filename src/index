@@ -49,7 +49,7 @@ to the previous release.
 Please <a href="download.html#release_0.6">download</a> the release candidate and report problems to our <a href="bugreports.html">bug tracker</a>.
 </p>
 
-<a name="win32_builds"></a><h3>March 30, 2011</h3>
+<a  name="win32_builds"></a><h3>March 30, 2011</h3>
 <p>
 Win32 and Win64 builds of FFmpeg are now available at 
 <a href="http://hawkeye.arrozcru.org/">http://hawkeye.arrozcru.org/</a>
