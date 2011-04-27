@@ -162,42 +162,36 @@ selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>
 
-<a name="release_0.6"></a><h2>
-FFmpeg 0.6.90-rc0 "Love and Peace"</h2>
+<a name="release_0.7"></a><h2>
+FFmpeg 0.7-rc1 "Love and Peace"</h2>
 
 <p>
-0.6.90-rc0 was released on 2011-04-03. It is the latest FFmpeg release and
-is a copy of trunk at the time of release. It is therefor much more up to date 
+0.7-rc1 was released on 2011-04-27. It is the latest FFmpeg release and
+is a copy of the oldabi branch at the time of release. It is therefor much more up to date
 than the previous 0.6.x releases. Amongst lots of other changes,
 ffmpeg-mt and libav trees have also been merged.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.6.90-rc0.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.90-rc0.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.90-rc0.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.90-rc0.tar.gz.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.90-rc0.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.7-rc1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.7-rc1.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.7-rc1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.7-rc1.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.7-rc1.changelog">Changelog</a><br />
 </p>
 
-<a name="release_0.5"></a><h2>
-FFmpeg 0.5.4 "half-way to world domination A.K.A. the belligerent blue bike
-shed"</h2>
+<a name="release_0.6"></a><h2>
+FFmpeg 0.6.3 "Works with HTML5"</h2>
 
 <p>
-0.5.4 appeared on 2011-03-17. It is the latest point release from the 0.5
-release branch cut on 2009-03-02.
+0.6.3 appeared on 2011-04-26. It is the latest point release from the
+0.6 release branch, which was cut on 2010-05-04.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.5.4.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.5.4.tar.bz2.md5">MD5</a>
-<a href="releases/ffmpeg-0.5.4.tar.bz2.sha1">SHA1</a>
-<a href="releases/ffmpeg-0.5.4.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.5.4.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.5.4.tar.gz.md5">MD5</a>
-<a href="releases/ffmpeg-0.5.4.tar.gz.sha1">SHA1</a>
-<a href="releases/ffmpeg-0.5.4.tar.gz.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.5.4.changelog">Changelog</a><br />
-<a href="releases/ffmpeg-0.5.4.release">Release Notes</a>
+<a href="releases/ffmpeg-0.6.3.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.6.3.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.6.3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.6.3.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.6.3.changelog">Changelog</a><br />
 </p>
