@@ -33,7 +33,25 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
-<a  name="10bith264"></a><h3>April 14, 2011</h3>
+<a  name="oldabi"></a><h3>April 27, 2011</h3>
+<p>
+FFmpeg now has an oldabi branch. It is updated to master but with the old ABI.
+Only fixes that break the old ABI are missing from this branch.
+</p>
+<p>
+To access the oldabi branch, clone FFmpeg, then do
+</p>
+<pre>
+git checkout oldabi
+</pre>
+<p>
+To get back to latest FFmpeg, just run:
+</p>
+<pre>
+git checkout master
+</pre>
+
+<a  name="tenbith264"></a><h3>April 14, 2011</h3>
 <p>
 FFmpeg can now decode 9-bit and 10-bit H.264 streams,
 used in particular by AVCIntra 50.
