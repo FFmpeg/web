@@ -33,6 +33,21 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a id="x264_presets"></a><h3>May 3, 2011</h3>
+<p>
+FFmpeg now accesses x264 presets via libx264. This extends functionality by
+introducing several new libx264 options including <i>-preset</i>, <i>-tune</i>,
+and <i>-profile</i>. You can read more detailed information about these options
+with "x264 --fullhelp".
+</p>
+
+<p>
+The syntax has changed so be sure to update your commands. Example:
+<br />
+ffmpeg -i input -vcodec libx264 -preset fast -tune film -profile main -crf 22
+-threads 0 output
+</p>
+
 <a  name="oldabi"></a><h3>April 27, 2011</h3>
 <p>
 FFmpeg now has an oldabi branch. It is updated to master but with the old ABI.
