@@ -40,6 +40,14 @@ developers and groups of developers are available.
     <th colspan="6">Other Repositories</th>
 </tr>
 <tr>
+    <td>git://github.com/FFmpeg/FFmpeg.git</td>
+    <td><a href="https://github.com/FFmpeg/FFmpeg">Browse</a></td>
+    <td><a href="https://github.com/FFmpeg/FFmpeg/archives/master">Snapshot</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Mirror of the main repository</td>
+</tr>
+<tr>
     <td>git://git.libav.org/libav.git</td>
     <td><a href="http://git.libav.org/?p=libav.git">Browse</a></td>
     <td><a href="http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
@@ -54,6 +62,14 @@ developers and groups of developers are available.
     <td>Alexander Strange</td>
     <td>Alexander Strange</td>
     <td>Multithreaded decoding</td>
+</tr>
+<tr>
+    <td>git://git.khirnov.net/git/libav</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Anton Khirnov</td>
+    <td>Anton Khirnov</td>
+    <td></td>
 </tr>
 <tr>
     <td>git://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg.git</td>
