@@ -40,7 +40,7 @@ developers and groups of developers are available.
     <th colspan="6">Other Repositories</th>
 </tr>
 <tr>
-    <td>git://github.com/FFmpeg/FFmpeg.git</td>
+    <td>https://github.com/FFmpeg/FFmpeg <br/> git://github.com/FFmpeg/FFmpeg.git</td>
     <td><a href="https://github.com/FFmpeg/FFmpeg">Browse</a></td>
     <td><a href="https://github.com/FFmpeg/FFmpeg/archives/master">Snapshot</a></td>
     <td>-</td>
