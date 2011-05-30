@@ -33,6 +33,14 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a id="legal_threat"></a><h3>May 30, 2011</h3>
+<p>
+Today FFmpeg has received the <a href="threat1.png">first legal threat</a> in its existence. Its
+from a previous root admin of FFmpeg, who now is root admin of the
+Libav fork of FFmpeg. He claims copyright on the zigzag part of our
+logo. It has to be noted that he said 4 years ago <a href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/44742"><quote>Credit to whoever came up with the zigzag idea</quote></a></p>
+
+
 <a id="x264_presets"></a><h3>May 3, 2011</h3>
 <p>
 FFmpeg now accesses x264 presets via libx264. This extends functionality by
