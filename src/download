@@ -178,6 +178,23 @@ selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>
 
+<a name="release_0.8"></a><h2>
+FFmpeg 0.8 Love"</h2>
+
+<p>
+0.8 was released on 2011-06-22. It is the latest stable FFmpeg release.
+Amongst lots of other changes, it includes all changes from
+ffmpeg-mt and libav.
+</p>
+
+<p>
+<a href="releases/ffmpeg-0.8.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.8.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.8.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.8.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.8.changelog">Changelog</a><br />
+</p>
+
 <a name="release_0.7"></a><h2>
 FFmpeg 0.7-rc1 "Love and Peace"</h2>
 
