@@ -211,19 +211,3 @@ compatible with the 0.6 ABI and API.
 <a href="releases/ffmpeg-0.7.1.tar.gz.asc">PGP signature</a><br />
 <a href="releases/ffmpeg-0.7.1.changelog">Changelog</a><br />
 </p>
-
-<a name="release_0.6"></a><h2>
-FFmpeg 0.6.3 "Works with HTML5"</h2>
-
-<p>
-0.6.3 appeared on 2011-04-26. It is the latest point release from the
-0.6 release branch, which was cut on 2010-05-04.
-</p>
-
-<p>
-<a href="releases/ffmpeg-0.6.3.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.3.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.3.tar.gz.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.3.changelog">Changelog</a><br />
-</p>
