@@ -45,6 +45,21 @@ Hervé Flores.</p>
 
 <h1>News</h1>
 
+<a name="7dot1and8"></a><h3>June 24, 2011</h3>
+<p>
+Instead of having fun outside in the warm summer months, we have made a
+<b>new release: <a href="download.html#release_0.8">FFmpeg 0.8</a></b>!
+More bugfixes and merges from ffmpeg-mt and libav are included in this release.
+Although we still recommend you use the latest git version of our code.
+</p>
+<p>
+We have also made an
+<b>OLDABI release: <a href="download.html#release_0.7">FFmpeg 0.7.1</a></b>.
+It contains almost all of the features, bugfixes and merges of ffmpeg-mt and libav of 0.8,
+while being compatible with the 0.6 ABI and API. It has a few missing features and some
+regressions from 0.6, read the Changelog for more information.
+</p>
+
 <a id="x264_presets"></a><h3>May 3, 2011</h3>
 <p>
 FFmpeg now accesses x264 presets via libx264. This extends functionality by
