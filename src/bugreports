@@ -66,10 +66,13 @@ copy/paste the output into your bug report:
 <blockquote>
 <pre>
 bt
-disass $pc-32 $pc+32
+disass $pc-32,$pc+32
 info all-registers
 </pre>
 </blockquote>
+<p>
+With older <code>gdb</code> versions, use <code>disass $pc-32 $pc+32</code>.
+</p>
 
 <h2>Bug Tracker</h2>
 
