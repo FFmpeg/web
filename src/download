@@ -187,37 +187,37 @@ and much faster bug fixes such as additional features and security patches.
 </p>
 
 <a name="release_0.8"></a><h2>
-FFmpeg 0.8 "Love"</h2>
+FFmpeg 0.8.1 "Love"</h2>
 
 <p>
-0.8 was released on 2011-06-22. It is the latest stable FFmpeg release.
+0.8.1 was released on 2011-07-28. It is the latest stable FFmpeg release.
 Amongst lots of other changes, it includes all changes from
 ffmpeg-mt and libav.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.8.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.8.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.8.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.8.tar.gz.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.8.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.8.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.8.1.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.8.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.8.1.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.8.1.changelog">Changelog</a><br />
 </p>
 
 <a name="release_0.7"></a><h2>
-FFmpeg 0.7.1 "Peace"</h2>
+FFmpeg 0.7.2 "Peace"</h2>
 
 <p>
-0.7.1 was released on 2011-06-23.
-It contains almost all features and bugfixes of 0.8 while being
+0.7.2 was released on 2011-07-28.
+It contains almost all features and bugfixes of 0.8.1 while being
 compatible with the 0.6 ABI and API.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.7.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.7.1.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.7.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.7.1.tar.gz.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.7.1.changelog">Changelog</a><br />
+<a href="releases/ffmpeg-0.7.2.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.7.2.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.7.2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.7.2.tar.gz.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.7.2.changelog">Changelog</a><br />
 </p>
 
 <a name="release_0.6"></a><h2>
