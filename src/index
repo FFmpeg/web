@@ -45,6 +45,16 @@ Hervé Flores.</p>
 
 <h1>News</h1>
 
+<a name="7dot2and8dot1"></a><h3>July 28, 2011</h3>
+<p>
+We have made 2 new point releases that fix several security issues,
+amongth them MSVR-11-0080.
+They also include many bugfixes and a few backported features.
+All changes from libav 0.7.1 are included as well.
+Grab them from our <b><a href="download.html#release_0.8">download page</a></b>.
+or even better use latest git master.
+</p>
+
 <a name="7dot1and8"></a><h3>June 24, 2011</h3>
 <p>
 Instead of having fun outside in the warm summer months, we have made a
