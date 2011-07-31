@@ -54,7 +54,7 @@ with FFmpeg libraries. </li>
 </li>
 <li> Make sure the source code corresponds exactly to the library binaries
 you are distributing. </li>
-<li> Run the command "svn diff . libswscale > changes.diff" in the root
+<li> Run the command "git diff > changes.diff" in the root
 directory of the FFmpeg source code to create a file with only the changes.</li>
 <li> Explain how you compiled FFmpeg, for example the configure line, in a text
 file added to the root directory of the source code. </li>
