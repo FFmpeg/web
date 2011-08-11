@@ -198,9 +198,10 @@ and much faster bug fixes such as additional features and security patches.
 FFmpeg 0.8.2 "Love"</h2>
 
 <p>
-0.8.2 was released on 2011-08-10. It is the latest stable FFmpeg release.
+0.8.2 was released on 2011-08-10. It is the latest stable FFmpeg release
+from the 0.8 release branch, which was cut from master on 2011-06-21.
 Amongst lots of other changes, it includes all changes from
-ffmpeg-mt and libav.
+ffmpeg-mt, libav master of 2011-06-21, libav 0.7.1 as of 2011-08-10.
 </p>
 
 <p>
