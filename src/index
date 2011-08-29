@@ -49,8 +49,8 @@ Hervé Flores.</p>
 <p>
 We have added support for H.264 4:2:2 intra, there are some new
 8-&gt;10bit fixes in swscale, ffplay has more accurate AV-sync, ogg
-duration is more accurate now and many many other new things and
-bugfixes. All in ffmpeg git master.
+duration is more accurate now, we can decode WMVP and WVP2 streams
+and many many other new things and bugfixes. All in ffmpeg git master.
 </p>
 
 <a name="7dot2and8dot1"></a><h3>July 28, 2011</h3>
