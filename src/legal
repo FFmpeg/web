@@ -39,11 +39,6 @@ think it is the easiest. There are also a few items that are not really related
 to LGPL compliance but are good ideas anyway.
 </p>
 
-<p>
-You are not obliged by the LGPL to follow this list, but consult a copyright
-lawyer if you choose not to. If you end up violating the LGPL, you will likely
-end up on our shame list and/or get sued by us.
-</p>
 
 <ol>
 <li> Compile FFmpeg <b>without</b> "--enable-gpl" and
