@@ -216,7 +216,7 @@ ffmpeg-mt, libav master of 2011-06-21, libav 0.7.1 as of 2011-09-07.
 FFmpeg 0.7.4 "Peace"</h2>
 
 <p>
-0.7.3 was released on 2011-09-07.
+0.7.4 was released on 2011-09-07.
 It contains almost all features and bugfixes of 0.8.3 while being
 compatible with the 0.6 ABI and API.
 </p>
