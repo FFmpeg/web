@@ -45,6 +45,39 @@ HervÃ© Flores.</p>
 
 <h1>News</h1>
 
+<a name="prores"></a><h3>September 15, 2011</h3>
+<p>
+FFmpeg now has a ProRes decoder in master git.
+</p>
+<p>
+We want to support more raw or 10bit or broadcast codecs.
+We need samples of the following codecs. If you have some, 
+please upload them to our
+<a href="http://ffmpeg.org/trac/ffmpeg/">trac</a>.
+</p>
+<p>
+Codec name / isom or fourcc
+</p>
+<pre>
+Avid DS Uncompressed     SUDS
+Avid 1:1 10-bit RGB Packer 	AVrp
+Avid AVC-Intra 	AVin
+Pinnacle TARGA2000	dvr1
+Pinnacle TARGA Ciné YUV	Y216
+BlackMagic Design 	Vr21
+Digital Voodoo DV10 HD10
+Media-100 844/X Uncompressed v.2.02	MYUV
+Media-100 iFinish Transcoder 	dtmt dtNT 
+Accom SphereOUS v.3.0.1 	ImJG
+Abekas ClipStore MXc J2K Compressed v.3.0.2	HDJ1 HDJK
+BitJazz SheerVideo Pro v.2.6.7.6	Shr0 Shr1 Shr2 Shr3 Shr4 Shr5 Shr6 Shr7
+BOXX v.1.0	bxrg bxbg bxyv bxy2
+LiveType Codec Decompressor	pRiz
+Cineon DPX 10-bit Y'CbCr 4:2:2	D210 C310 DPX cini
+Radius DV YUV PAL/NTSC	R420 R411
+</pre>
+
+
 <a name="7dot4and8dot3"></a><h3>September 7, 2011</h3>
 <p>
 We have made 2 new point releases that fix several security issues,
