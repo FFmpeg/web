@@ -45,6 +45,16 @@ Hervé Flores.</p>
 
 <h1>News</h1>
 
+<a name="7dot5and8dot4"></a><h3>September 22, 2011</h3>
+<p>
+We have made 2 new point releases that fix more security issues.
+They also include many bugfixes and a few backported features, for
+example speex encoding support through libspeex has been backported.
+All changes from the latest libav release (0.7.1) are included as well.
+Grab them from our <b><a href="download.html#release_0.8">download page</a></b>.
+or even better use latest git master.
+</p>
+
 <a name="prores"></a><h3>September 15, 2011</h3>
 <p>
 FFmpeg now has a ProRes decoder in master git.
