@@ -246,6 +246,12 @@ FFmpeg 0.6.3 "Works with HTML5"</h2>
 </p>
 
 <p>
+<strong>This release is not actively maintained and thus we discourage
+its use.</strong>
+If you want to maintain this old version, contact us.
+</p>
+
+<p>
 <a href="releases/ffmpeg-0.6.3.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
 <a href="releases/ffmpeg-0.6.3.tar.bz2.asc">PGP signature</a><br />
 <a href="releases/ffmpeg-0.6.3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
