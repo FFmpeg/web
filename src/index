@@ -45,7 +45,7 @@ Hervé Flores.</p>
 
 <h1>News</h1>
 
-<a name="libaacplus"></a><h3>September 28, 2011</h3>
+<a id="libaacplus"></a><h3>September 28, 2011</h3>
 <p>
     New stuff in git master:
 </p>
@@ -68,7 +68,7 @@ Hervé Flores.</p>
     ...
 </pre>
 
-<a name="7dot5and8dot4"></a><h3>September 22, 2011</h3>
+<a id="pr7dot5and8dot4"></a><h3>September 22, 2011</h3>
 <p>
 We have made 2 new point releases that fix more security issues.
 They also include many bugfixes and a few backported features, for
@@ -78,7 +78,7 @@ Grab them from our <b><a href="download.html#release_0.8">download page</a></b>.
 or even better use latest git master.
 </p>
 
-<a name="prores"></a><h3>September 15, 2011</h3>
+<a id="prores"></a><h3>September 15, 2011</h3>
 <p>
 FFmpeg now has a ProRes decoder in master git.
 </p>
@@ -111,7 +111,7 @@ Radius DV YUV PAL/NTSC	R420 R411
 </pre>
 
 
-<a name="7dot4and8dot3"></a><h3>September 7, 2011</h3>
+<a id="pr7dot4and8dot3"></a><h3>September 7, 2011</h3>
 <p>
 We have made 2 new point releases that fix several security issues,
 amongth them MSVR-11-0088.
@@ -121,7 +121,7 @@ Grab them from our <b><a href="download.html#release_0.8">download page</a></b>.
 or even better use latest git master.
 </p>
 
-<a name="h264422intra"></a><h3>August 29, 2011</h3>
+<a id="h264422intra"></a><h3>August 29, 2011</h3>
 <p>
 We have added support for H.264 4:2:2 intra, there are some new
 8-&gt;10bit fixes in swscale, ffplay has more accurate AV-sync, ogg
@@ -129,7 +129,7 @@ duration is more accurate now, we can decode WMVP and WVP2 streams
 and many many other new things and bugfixes. All in ffmpeg git master.
 </p>
 
-<a name="7dot2and8dot1"></a><h3>July 28, 2011</h3>
+<a id="pr7dot2and8dot1"></a><h3>July 28, 2011</h3>
 <p>
 We have made 2 new point releases that fix several security issues,
 amongth them MSVR-11-0080.
@@ -139,7 +139,7 @@ Grab them from our <b><a href="download.html#release_0.8">download page</a></b>.
 or even better use latest git master.
 </p>
 
-<a name="7dot1and8"></a><h3>June 24, 2011</h3>
+<a id="pr7dot1and8"></a><h3>June 24, 2011</h3>
 <p>
 Instead of having fun outside in the warm summer months, we have made a
 <b>new release: <a href="download.html#release_0.8">FFmpeg 0.8</a></b>!
@@ -164,12 +164,12 @@ with "x264 --fullhelp".
 
 <p>
 The syntax has changed so be sure to update your commands. Example:
-<br />
-ffmpeg -i input -vcodec libx264 -preset fast -tune film -profile main -crf 22
--threads 0 output
 </p>
+<pre>
+ffmpeg -i input -vcodec libx264 -preset fast -tune film -profile main -crf 22 -threads 0 output
+</pre>
 
-<a  name="oldabi"></a><h3>April 27, 2011</h3>
+<a id="oldabi"></a><h3>April 27, 2011</h3>
 <p>
 FFmpeg now has an oldabi branch. It is updated to master but with the old ABI.
 Only fixes that break the old ABI are missing from this branch.
@@ -187,13 +187,13 @@ To get back to latest FFmpeg, just run:
 git checkout master
 </pre>
 
-<a  name="tenbith264"></a><h3>April 14, 2011</h3>
+<a id="tenbith264"></a><h3>April 14, 2011</h3>
 <p>
 FFmpeg can now decode 9-bit and 10-bit H.264 streams,
 used in particular by AVCIntra 50.
 </p>
 
-<a name="rc_0.6.90"></a><h3>April 4, 2011</h3>
+<a id="rc_0.6.90"></a><h3>April 4, 2011</h3>
 <p>
 In order to supply our release users with the newest features and bug
 fixes we are in the process of making a new release. The release will
@@ -203,7 +203,7 @@ to the previous release.
 Please <a href="download.html#release_0.6">download</a> the release candidate and report problems to our <a href="bugreports.html">bug tracker</a>.
 </p>
 
-<a  name="win32_builds"></a><h3>March 30, 2011</h3>
+<a id="win32_builds"></a><h3>March 30, 2011</h3>
 <p>
 Win32 and Win64 builds of FFmpeg are now available at 
 <a href="http://ffmpeg.zeranoe.com/builds/">http://ffmpeg.zeranoe.com/builds/</a>
@@ -214,7 +214,7 @@ Please report any bugs to our
 <a href="https://ffmpeg.org/trac/ffmpeg">bug tracker</a>.
 </p>
 
-<a name="mt_merge"></a><h3>March 21, 2011</h3>
+<a id="mt_merge"></a><h3>March 21, 2011</h3>
 
 <p>
 Today <a href="http://gitorious.org/ffmpeg/ffmpeg-mt">FFmpeg-mt</a>, the
@@ -229,7 +229,7 @@ Testing is appreciated and if you find any bugs please report them to our
 </p>
 
 
-<a name="mailing_list_migration"></a><h3>March 21, 2011</h3>
+<a id="mailing_list_migration"></a><h3>March 21, 2011</h3>
 
 <p>
 The mailing lists have been fully migrated to ffmpeg.org!
@@ -271,7 +271,7 @@ posted.
 </li>
 </ul>
 
-<a name="FF054"></a><h3>March 17, 2011</h3>
+<a id="FF054"></a><h3>March 17, 2011</h3>
 
 <p>
 Reinhard Tartler backported several security fixes to the 0.5 release branch and
@@ -292,7 +292,7 @@ and not so interesting for end users.
 </pre>
 
 
-<a name="return_to_freedom"></a><h3>March 15, 2011</h3>
+<a id="return_to_freedom"></a><h3>March 15, 2011</h3>
 
 <p>
 FFmpeg has been forked by some developers after their attempted
@@ -322,7 +322,7 @@ href="http://dir.gmane.org/gmane.comp.video.ffmpeg.devel">http://dir.gmane.org/g
 </ul>
 
 
-<a name="svn_to_git"></a><h3>February 24, 2011</h3>
+<a id="svn_to_git"></a><h3>February 24, 2011</h3>
 
 <p>
 FFmpeg development has moved to Git, and the SVN repository is no longer
@@ -335,7 +335,7 @@ The last revision committed to SVN was r26402 on 2011-01-19 and replaced
 the svn:external libswscale with a standalone copy.
 </p>
 
-<a name="release_0.6.1"></a><h3>Oct 18, 2010</h3>
+<a id="release_0.6.1"></a><h3>Oct 18, 2010</h3>
 
 <p>
 We have just pushed the first point release from our 0.6 release branch:
@@ -358,7 +358,7 @@ patches against our release branches.
 </p>
 
 
-<a name="release_0.6"></a><h3>June 15, 2010</h3>
+<a id="release_0.6"></a><h3>June 15, 2010</h3>
 
 <p>
 A bit longer than actually expected, but finally, we are proud to announce
@@ -446,14 +446,14 @@ codecs, such as:
 </ul>
 
 
-<a name="linuxtag_2010"></a><h3>June 2, 2010</h3>
+<a id="linuxtag_2010"></a><h3>June 2, 2010</h3>
 <p>
 We are pleased to announce that FFmpeg will be present at LinuxTag in
 Berlin June 9-12 where we will be showing some spectacular demos.
 There will also be some trolls.
 </p>
 
-<a name="release_0.5.2"></a><h3>May 25, 2010</h3>
+<a id="release_0.5.2"></a><h3>May 25, 2010</h3>
 <p>
 We have just pushed out another point release from our 0.5 release branch:
 <a href="download.html#release_0.5">FFmpeg 0.5.2</a>.
@@ -462,7 +462,7 @@ and portability issues. Distributors and system integrators are encouraged
 to update and share their patches against this branch.
 </p>
 
-<a name="gsoc_2010"></a><h3>March 19, 2010</h3>
+<a id="gsoc_2010"></a><h3>March 19, 2010</h3>
 <p>
 Once again, FFmpeg has been accepted to take part in the
 <a href="http://code.google.com/soc/">Google Summer of Code</a>. Here is the
@@ -498,7 +498,7 @@ you will get used to our development methodology. You have until the application
 deadline to complete your small task. Good luck!
 </p>
 
-<a name="release_0.5.1"></a><h3>March 2, 2010</h3>
+<a id="release_0.5.1"></a><h3>March 2, 2010</h3>
 <p>
 We have just pushed out a point release from our 0.5 release
 branch: <a href="download.html#release_0.5">FFmpeg 0.5.1</a>. This
@@ -700,7 +700,7 @@ better receive support and support each other. Interested parties can subscribe
 and view the archives via the <a href="contact.html">contact page</a>.
 </p>
 
-<a name="release_0.5"></a><h3>March 10, 2009</h3>
+<a id="release_0.5"></a><h3>March 10, 2009</h3>
 <p>
 It has been a very long time since we last made a release and many did not think
 we would make one again but, back by popular demand, we are proud to announce
