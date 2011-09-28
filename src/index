@@ -64,6 +64,7 @@ Hervé Flores.</p>
     stereo3d filter from libmpcodecs works now
     an experimental jpeg2000 encoder
     many bugfixes
+    libswresample
     ...
 </pre>
 
