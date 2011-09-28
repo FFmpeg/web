@@ -37,7 +37,7 @@ developers and groups of developers are available.
         to use.</td>
 </tr>
 <tr>
-    <td><a href="gil@ffmpeg.org:ffmpeg-web">gil@ffmpeg.org:ffmpeg-web</a></td>
+    <td><a href="git://ffmpeg.org/ffmpeg-web">git://ffmpeg.org/ffmpeg-web</a></td>
     <td>-</td>
     <td>-</td>
     <td>Michael Niedermayer</td>
