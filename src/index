@@ -45,6 +45,28 @@ Hervé Flores.</p>
 
 <h1>News</h1>
 
+<a name="libaacplus"></a><h3>September 28, 2011</h3>
+<p>
+    New stuff in git master:
+</p>
+<pre>
+    libaacplus support
+    ACT/BIT demuxers
+    AMV video encoder
+    g729 decoder
+    stdin control of drawtext
+    2bpp, 4bpp png support
+    interlaced 1bpp and PAETH png fixes
+    libspeex encoding support
+    hardened h264 decoder that wont overread the bitstream
+    wtv muxer
+    H/W Accelerated H.264 Decoding on Android
+    stereo3d filter from libmpcodecs works now
+    an experimental jpeg2000 encoder
+    many bugfixes
+    ...
+</pre>
+
 <a name="7dot5and8dot4"></a><h3>September 22, 2011</h3>
 <p>
 We have made 2 new point releases that fix more security issues.
