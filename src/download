@@ -15,6 +15,20 @@ Given the decentralized nature of Git, multiple repositories from
 developers and groups of developers are available.
 </p>
 
+<p>
+You can retrieve the source code through the standard Git client by
+using the command:
+</p>
+
+<blockquote>
+<pre>git clone <i>CLONE_URL</i> ffmpeg</pre>
+</blockquote>
+
+<p>
+where <i>CLONE_URL</i> is one of the Git clone URLs listed in the
+table below.
+</p>
+
 <table id="repos">
 <thead>
 <tr>
@@ -121,20 +135,6 @@ developers and groups of developers are available.
 </tr>
 </tbody>
 </table>
-
-<p>
-You can retrieve the source code through the standard Git client by
-using the command:
-</p>
-
-<blockquote>
-<pre>git clone <i>CLONE_URL</i> ffmpeg</pre>
-</blockquote>
-
-<p>
-where <i>CLONE_URL</i> is one of the Git clone URLs listed in the
-table above.
-</p>
 
 
 <h2>FFmpeg Repository Snapshots</h2>
