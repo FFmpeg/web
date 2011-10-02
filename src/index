@@ -45,6 +45,50 @@ Hervé Flores.</p>
 
 <h1>News</h1>
 
+<a id="pr7dot6and8dot5"></a><h3>October 2, 2011</h3>
+<p>
+We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.6</a></b> and <b><a href="download.html#release_0.8">0.8.5</a></b>) that fix security issues in
+<pre>
+4X Technologies demuxer
+4xm decoder
+ADPCM IMA Electronic Arts EACS decoder
+ANM decoder
+Delphine Software International CIN decoder
+Deluxe Paint Animation demuxer
+Electronic Arts CMV decoder
+PTX decoder
+QDM2 decoder
+QuickDraw decoder
+TIFF decoder
+Tiertex Limited SEQ decoder
+aac decoder
+avi demuxer
+avs demuxer
+bink decoder
+flic decoder
+h264 decoder
+indeo2 decoder
+jpeg 2000 decoder,
+libaac+ support
+libx264 interface to x264 encoder
+mov muxer
+mpc v8 decoder
+rasterfile decode
+shorten decoder
+sun raster decoder
+unsharp filter
+vmd audio decoder
+vmd video decoder
+wmapro decoder
+wmavoice decoder
+xan decoder
+</pre>
+These releases also add libaacplus support and include all changes
+from libav.org 0.7.2 (most of which where already in our previous releases).<br/>
+We recommand users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
 <a id="libaacplus"></a><h3>September 28, 2011</h3>
 <p>
     New stuff in git master:
