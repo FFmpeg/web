@@ -69,7 +69,6 @@ flic decoder
 h264 decoder
 indeo2 decoder
 jpeg 2000 decoder,
-libaac+ support
 libx264 interface to x264 encoder
 mov muxer
 mpc v8 decoder
