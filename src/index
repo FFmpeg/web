@@ -84,7 +84,7 @@ xan decoder
 </pre>
 These releases also add libaacplus support and include all changes
 from libav.org 0.7.2.<br/>
-We recommand users, distributors and system integrators to upgrade unless they use
+We recommend users, distributors and system integrators to upgrade unless they use
 current git master.
 </p>
 
