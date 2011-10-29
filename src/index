@@ -55,7 +55,7 @@ libmodplug &amp; bintext output
 g723.1 encoder
 g723.1 muxer
 random() function for the expression evaluator
-persistemt variables for the expression evaluator
+persistent variables for the expression evaluator
 pulseaudio input support
 h264 422 inter decoding support
 prores encoder
