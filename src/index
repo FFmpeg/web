@@ -45,6 +45,30 @@ Hervé Flores.</p>
 
 <h1>News</h1>
 
+  <a id="libmodplug"></a><h3>October 29, 2011</h3>
+<p>
+    New stuff in git master:
+</p>
+<pre>
+planar rgb input support in sws
+libmodplug &amp; bintext output
+g723.1 encoder
+g723.1 muxer
+random() function for the expression evaluator
+persistemt variables for the expression evaluator
+pulseaudio input support
+h264 422 inter decoding support
+prores encoder
+native utvideo decoder
+libutvideo support
+deshake filter
+aevalsrc filter
+segment muxer
+mkv timecode v2 muxer
+cache urlprotocol
+many bugfixes and many other things
+</pre>
+
 <a id="pr7dot6and8dot5"></a><h3>October 2, 2011</h3>
 <p>
 We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.6</a></b> and <b><a href="download.html#release_0.8">0.8.5</a></b>) that fix security issues in
