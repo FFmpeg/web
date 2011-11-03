@@ -160,8 +160,6 @@ Codec name / isom or fourcc
 </p>
 <pre>
 Avid DS Uncompressed     SUDS
-Avid 1:1 10-bit RGB Packer 	AVrp
-Avid AVC-Intra 	AVin
 Pinnacle TARGA2000	dvr1
 Pinnacle TARGA Ciné YUV	Y216
 BlackMagic Design 	Vr21
@@ -170,7 +168,6 @@ Media-100 844/X Uncompressed v.2.02	MYUV
 Media-100 iFinish Transcoder 	dtmt dtNT 
 Accom SphereOUS v.3.0.1 	ImJG
 Abekas ClipStore MXc J2K Compressed v.3.0.2	HDJ1 HDJK
-BitJazz SheerVideo Pro v.2.6.7.6	Shr0 Shr1 Shr2 Shr3 Shr4 Shr5 Shr6 Shr7
 BOXX v.1.0	bxrg bxbg bxyv bxy2
 LiveType Codec Decompressor	pRiz
 Cineon DPX 10-bit Y'CbCr 4:2:2	D210 C310 DPX cini
