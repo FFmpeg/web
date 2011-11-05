@@ -45,6 +45,14 @@ Hervé Flores.</p>
 
 <h1>News</h1>
 
+<a id="pr7dot7and8dot6"></a><h3>November 4, 2011</h3>
+<p>
+We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.7</a></b> and <b><a href="download.html#release_0.8">0.8.6</a></b>) that fix around 90 bugs, several of which
+are security relevant.
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
   <a id="libmodplug"></a><h3>October 29, 2011</h3>
 <p>
     New stuff in git master:
