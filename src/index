@@ -33,6 +33,54 @@ with the latest developments by subscribing to both the
 
 <h1>News</h1>
 
+<a id="pr5dot5"></a><h3>November 6, 2011</h3>
+<p>
+We have made a new point release (<b><a href="download.html#release_0.5">0.5.5</a></b>)
+from the old 0.5 branch. It fixes many serious security issues, a partial list is below.
+</p>
+<pre>
+d39cc3c0 resample2: fix potential overflow
+e124c3c2 resample: Fix overflow
+8acc0546 matroskadec: fix out of bounds write
+c603cf51 qtrle: check for out of bound writes.
+e1a46eff qtrle: check for invalid line offset
+23aaa82b vqa: fix double free on corrupted streams
+58087a4e mpc7: return error if packet is too small.
+8d1fa1c9 mpc7: check output buffer size before decoding
+2eb5f77b h264: do not let invalid values in h->ref_count after a decoder reset.
+ddbbe500 h264: fix the check for invalid SPS:num_ref_frames.
+d1a5b53e h264: do not let invalid values in h->ref_count on ff_h264_decode_ref_pic_list_reordering() errors.
+3699a46e Check for out of bound writes in the QDM2 decoder.
+62da9203 Check for out of bound writes in the avs demuxer.
+2e1e3c1e Check for corrupted data in avs demuxer.
+635256a3 Fix out of bound writes in fix_bitshift() of the shorten decoder.
+240546a1 Check for out of bounds writes in the Delphine Software International CIN decoder.
+07df40db Check for invalid update parameters in vmd video decoder.
+b24c2e59 Release old pictures after a resolution change in vp5/6 decoder
+25bc1108 Check output buffer size in nellymoser decoder.
+8ef917c0 check all svq3_get_ue_golomb() returns.
+648dc680 Reject audio tracks with invalid interleaver parameters in RM demuxer.
+d6f8b654 segafilm: Check for memory allocation failures in segafilm demuxer.
+d8439f04 rv34: check that subsequent slices have the same type as first one.
+6108f04d Fixed segfault on corrupted smacker streams in the demuxer.
+b261ebfd Fixed segfaults on corruped smacker streams in the decoder.
+03db051b Fixed segfault with wavpack decoder on corrupted decorrelation terms sub-blocks.
+9cda3d79 rv10: Reject slices that does not have the same type as the first one
+52b8edc9 oggdec: fix out of bound write in the ogg demuxer
+2e17744a Fixed off by one packet size allocation in the smacker demuxer.
+19431d4d ape demuxer: fix segfault on memory allocation failure.
+ecd6fa11 Check for invalid packet size in the smacker demuxer.
+80fb9f2c cavsdec: avoid possible crash with crafted input
+46f9a620 Fix possible double free when encoding using xvid.
+4f07a3aa Fix memory (re)allocation in matroskadec.c, related to MSVR-11-0080. Fixes: MSVR11-011, CVE-2011-3504
+04888ede cavs: fix some crashes with invalid bitstreams Fixes CVE-2011-3362, CVE-2011-3973, CVE-2011-3974
+24cd7c5d Fix apparently exploitable race condition.
+8210ee22 AMV: Fix possibly exploitable crash. Fixes http://seclists.org/bugtraq/2011/Apr/257
+</pre>
+<p>
+We recommend distributors and system integrators whenever possible to upgrade to 0.7.7, 0.8.6 or git master. But when this is not possible 0.5.5 is more secure than previous releases from the 0.5 branch. If you are looking for an updated 0.6 release, please consider 0.7.7 which is ABI compatible and contains a huge number of security fixes that are missing in 0.6.*.
+</p>
+
 <a id="pr7dot7and8dot6"></a><h3>November 4, 2011</h3>
 <p>
 We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.7</a></b> and <b><a href="download.html#release_0.8">0.8.6</a></b>) that fix around 90 bugs, several of which
