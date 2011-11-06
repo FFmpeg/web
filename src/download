@@ -264,3 +264,20 @@ If you want to maintain this old version, contact us.
 <a href="releases/ffmpeg-0.6.3.tar.gz.asc">PGP signature</a><br />
 <a href="releases/ffmpeg-0.6.3.changelog">Changelog</a><br />
 </p>
+
+<a name="release_0.5"></a><h2>
+FFmpeg 0.5.5 "half-way to world domination A.K.A. the belligerent blue bike
+ shed"</h2>
+
+<p>
+0.5.5 appeared on 2011-11-06. It is the latest point release from the
+0.5 release branch, which was cut on 2009-03-02.
+</p>
+
+<p>
+<a href="releases/ffmpeg-0.5.5.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.5.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.5.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.5.5.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.5.5">Changelog</a><br />
+</p>
