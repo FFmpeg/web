@@ -157,7 +157,7 @@ bootstrap your local repository.
 
 <h2>FFmpeg Linux Builds </h2>
 <p>
-FFmpeg Debian packages for oldstable/stable/testint/unstable
+FFmpeg Debian packages for oldstable/stable/testing/unstable
 amd64, i386, powerpc, sparc, ia64, armel, mips, mipsel arches are available at
 <a href="http://www.debian-multimedia.org/">http://www.debian-multimedia.org/</a>
 </p>
