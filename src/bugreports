@@ -108,7 +108,7 @@ your problem. In this case, please follow these steps:
     access.
   <ul>
     <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
-    <li>cd -> upload</li>
+    <li>cd -> incoming</li>
     <li>Create a new directory.</li>
     <li>cd -> your new directory</li>
     <li>Upload a brief text file describing the sample and what is wrong.
