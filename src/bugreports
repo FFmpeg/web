@@ -109,8 +109,6 @@ your problem. In this case, please follow these steps:
   <ul>
     <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
     <li>cd -> incoming</li>
-    <li>Create a new directory.</li>
-    <li>cd -> your new directory</li>
     <li>Upload a brief text file describing the sample and what is wrong.
         <b>This is important!</b> If you leave out the text file, your
         sample will most likely be deleted without further examination.</li>
