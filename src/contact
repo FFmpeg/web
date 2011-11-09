@@ -99,3 +99,11 @@ strictly dedicated to FFmpeg development. This means development of FFmpeg
 itself. Development of other software that uses the FFmpeg libraries is offtopic
 there.
 </p>
+
+<h2>IRC Channel Archives</h2>
+
+<p>
+Our IRC channels are publically logged and archives of both channels can be
+viewed at <a href="http://lists.ffmpeg.org/pipermail/ffmpeg-devel-irc/">
+ffmpeg-devel-irc</a>.
+</p>
