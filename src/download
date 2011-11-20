@@ -42,7 +42,7 @@ table below.
 </thead>
 <tbody>
 <tr>
-    <td><a href="git://git.videolan.org/ffmpeg.git">git://git.videolan.org/ffmpeg.git</a></td>
+    <td><a href="git://source.ffmpeg.org/ffmpeg.git">git://source.ffmpeg.org/ffmpeg.git</a></td>
     <td><a href="http://git.videolan.org/?p=ffmpeg.git">Browse</a></td>
     <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
     <td>Michael Niedermayer</td>
