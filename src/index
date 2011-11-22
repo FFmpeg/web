@@ -32,6 +32,13 @@ with the latest developments by subscribing to both the
 
 
 <h1>News</h1>
+<a id="pr7dot8and8dot7"></a><h3>November 21, 2011</h3>
+<p>
+We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.8</a></b> and <b><a href="download.html#release_0.8">0.8.7</a></b>) that fix many bugs, several of which are security relevant. Amongth them NGS00144, NGS00145 and NGS00148.
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
 <a id="Zensoren"></a>
 <h3><a style="position: absolute; z-index:5000" href="http://americancensorship.org"><img src="http://americancensorship.org/images/stop-censorship-small.png" alt="stop censorship logo" /></a>November 20, 2011</h3>
 <p>
