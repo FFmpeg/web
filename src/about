@@ -1,6 +1,37 @@
 <h1>About FFmpeg</h1>
 
-<p>The project is made of several components:
+<p>FFmpeg is the leading multimedia framework, able to decode, encode,
+transcode, mux, demux, stream, filter and play pretty much anything
+that humans and machines have created. It supports the most obscure
+ancient formats up to the cutting edge of open and secret proprietary
+formats. It contains libavcodec, libavutil, libavformat, libavdevice,
+libswscale and libswresample which can be used by applications.
+As well as ffmpeg, ffserver, ffplay and ffprobe which can be used by
+end users for transcoding, streaming and playing
+</p>
+
+<p>The FFmpeg project tries to provide the best technically possible
+solution for developers of applications and end users alike. To achieve
+this we combine the best free software options available. We slightly
+favor our own code to keep the dependencies on other libs low and to
+maximize code sharing.
+Wherever the question of "best" cannot be answered we support both
+options so the end user can choose.
+</p>
+
+<p>Security is a high priority and code review is always done with
+security in mind. Though due to the very large amounts of code touching
+untrusted data security issues are unavoidable and thus we provide
+as quick as possible updates to our last stable releases when
+new security issues are found.
+</p>
+
+<p>Everyone is welcome in FFmpeg and all contributions are welcome too.
+We are happy to receive patches, pull requests, bug reports, donations
+or any other type of contribution.
+</p>
+
+<p>FFmpeg provides various tools:
 </p>
 
 <ul>
@@ -14,7 +45,11 @@ broadcasts.</li>
 href="http://www.libsdl.org/">SDL</a> and the FFmpeg libraries.</li>
 
 <li><tt>ffprobe</tt> is a is a simple multimedia stream analyzer.</li>
+</ul>
 
+<p>and developers libraries:
+</p>
+<ul>
 <li><tt>libavutil</tt> is a library containing functions for
 simplifying programming, including random number generators, data
 structures, mathematics routines, core multimedia utilities, and much
