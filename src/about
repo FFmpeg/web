@@ -14,7 +14,7 @@ end users for transcoding, streaming and playing
 solution for developers of applications and end users alike. To achieve
 this we combine the best free software options available. We slightly
 favor our own code to keep the dependencies on other libs low and to
-maximize code sharing.
+maximize code sharing between parts of FFmpeg.
 Wherever the question of "best" cannot be answered we support both
 options so the end user can choose.
 </p>
