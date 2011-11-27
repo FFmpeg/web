@@ -3,8 +3,10 @@
 <p>FFmpeg is the leading multimedia framework, able to decode, encode,
 transcode, mux, demux, stream, filter and play pretty much anything
 that humans and machines have created. It supports the most obscure
-ancient formats up to the cutting edge of open and secret proprietary
-formats. It contains libavcodec, libavutil, libavformat, libavdevice,
+ancient formats up to the cutting edge. No matter if they where
+designed by some standards committee, the community or an evil
+corporation.
+It contains libavcodec, libavutil, libavformat, libavdevice,
 libswscale and libswresample which can be used by applications.
 As well as ffmpeg, ffserver, ffplay and ffprobe which can be used by
 end users for transcoding, streaming and playing
