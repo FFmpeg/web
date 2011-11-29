@@ -32,6 +32,16 @@ with the latest developments by subscribing to both the
 
 
 <h1>News</h1>
+<a id="gci2011"></a><h3>November 29, 2011</h3>
+<p>
+The FFmpeg project participates for the first time in
+<a href="http://code.google.com/opensource/gci/2011-12/index.html">Google Code-in</a>.
+Thanks go to the VideoLAN project for making this possible!
+We welcome all eligible students to pick up some task and win a
+T-Shirt or some money from google and at the same time have some
+fun and contribute to a Free software project.
+</p>
+
 <a id="pr7dot8and8dot7"></a><h3>November 21, 2011</h3>
 <p>
 We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.8</a></b> and <b><a href="download.html#release_0.8">0.8.7</a></b>) that fix many bugs, several of which are security relevant. Amongth them NGS00144, NGS00145 and NGS00148.
