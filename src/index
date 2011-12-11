@@ -44,6 +44,7 @@ mmsh seeking
 more accurate rgb->rgb in swscale
 MPO file format reading support
 mandelbrot fraktal video source
+libass filter
 export quarter_sample & divx_packed from decoders
 VBLE decoder
 libopenjpeg encoder
