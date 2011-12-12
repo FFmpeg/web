@@ -40,6 +40,15 @@ When writing your bug report, please include (uncompressed):
 </ul>
 
 <p>
+You can use the <code>-report</code> option or define the
+<code>FFREPORT</code> environment variable (to any value) to get the exact
+command line and the full verbose console output in a file named
+<code>ffmpeg-*.log</code> in the current directory.
+Note that the <code>-report</code> option is recent, it will not help
+tracking regressions in old revisions.
+</p>
+
+<p>
 If you encounter a crash bug, please provide the <code>gdb</code> output,
 backtrace and disassembly using the the <code>ffmpeg_g</code> debug binary as
 follows:
