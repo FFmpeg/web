@@ -13,7 +13,7 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="general.html">General Documentation</a></li>
 <li><a href="libavfilter.html">Libavfilter Documentation</a></li>
 <li><a href="developer.html">Developer Documentation</a></li>
-<li><a href="http://ffmpeg.arrozcru.org/">FFmpeg Windows Help</a>
+<li><a href="http://ffmpeg.zeranoe.com/">FFmpeg Windows Help</a>
 discusses all issues regarding FFmpeg under Windows including a wiki
 and help forums.</li>
 <li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
