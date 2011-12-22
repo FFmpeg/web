@@ -32,6 +32,25 @@ with the latest developments by subscribing to both the
 
 
 <h1>News</h1>
+<a id="call_for_maintainers"></a><h3>December 23, 2011, Call For Maintainers</h3>
+<p>
+FFmpeg is moving faster than ever before, and with your help we could move even
+faster. If you know C and git and want to maintain some part of FFmpeg you can
+help us. Clone git://source.ffmpeg.org/ffmpeg.git,
+pick an area of the codebase you want to maintain,
+subscribe to <a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/">ffmpeg-devel</a>
+and start hacking on the code you are interested in, review patches on the mailing
+list, and fix bugs from our <a href="http://ffmpeg.org/trac/ffmpeg">bug tracker</a>
+that are related to the area you want to
+maintain. Once you are happy with your work just send us a link to your public
+git clone (for example from <a href="https://github.com/FFmpeg/">Github</a>).
+Non-programmers are welcome to contribute too. We are also searching for someone
+to make new official Debian and Ubuntu packages, that would be part of the official
+distributions. If you have questions, just ask on
+<a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/">ffmpeg-devel</a>
+mailing list or our IRC channel #ffmpeg-devel.
+</p>
+
 <a id="logowinter"></a><h3>December 20, 2011</h3>
 <p>
 Our winter logo has been drawn by Daniel Perez from
