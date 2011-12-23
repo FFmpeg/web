@@ -51,7 +51,7 @@ distributions. If you have questions, just ask on
 mailing list or our IRC channel #ffmpeg-devel.
 </p>
 
-<a id="logowinter"></a><h3>December 20, 2011</h3>
+<a id="logowinter"></a><h3>December 20, 2011, Winter logo</h3>
 <p>
 Our winter logo has been drawn by Daniel Perez from
 <a href="http://www.google-melange.com/gci/homepage/google/gci2011">Google Code-In</a>.
@@ -65,7 +65,7 @@ project page if you would like to contribute.
 We would also like to thank our students who have already participated.
 </p>
 
-<a id="pr9"></a><h3>December 11, 2011</h3>
+<a id="pr9"></a><h3>December 11, 2011, FFmpeg 0.9</h3>
 <p>
 We have made a new major release (<b><a href="download.html#release_0.9">0.9</a></b>)
 It contains all features and bugfixes of the git master branch. A partial list of
@@ -137,7 +137,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-<a id="donate2011"></a><h3>December 10, 2011</h3>
+<a id="donate2011"></a><h3>December 10, 2011, Donations</h3>
 <p>
 Want to donate to FFmpeg? Well, theres no way to do that currently. Luckily
 we dont need any money. But there are many not for profit organizations with
@@ -145,7 +145,7 @@ noble goals that do. Select one of your choice that you trust and agree with
 their goals and instead of donating to FFmpeg, send your donation to them.
 </p>
 
-<a id="gci2011"></a><h3>November 29, 2011</h3>
+<a id="gci2011"></a><h3>November 29, 2011, Google Code-in</h3>
 <p>
 The FFmpeg project participates for the first time in
 <a href="http://code.google.com/opensource/gci/2011-12/index.html">Google Code-in</a>.
