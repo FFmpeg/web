@@ -32,6 +32,20 @@ with the latest developments by subscribing to both the
 
 
 <h1>News</h1>
+<a id="prchr2011"></a><h3>December 25, 2011, FFmpeg 0.5.7, 0.6.4, 0.7.9, 0.8.8</h3>
+<p>
+We have made 4 new point releases, (<b><a href="download.html#release_0.5">0.5.7</a></b>,
+<b><a href="download.html#release_0.6">0.6.4</a></b>,
+<b><a href="download.html#release_0.7">0.7.9</a></b> and
+<b><a href="download.html#release_0.8">0.8.8</a></b>). They contain some bug fixes,
+minor changes and security fixes.
+Note, CVE-2011-4352, CVE-2011-4579, CVE-2011-4353, CVE-2011-4351, CVE-2011-4364 and the
+addition of avcodec_open2() for libx264 have been fixed/done in previous 0.7 and 0.8 point
+releases already.
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master. We recommend everyone to upgrade to at least 0.7.8, 0.8.7 or 0.9.
+</p>
+
 <a id="call_for_maintainers"></a><h3>December 23, 2011, Call For Maintainers</h3>
 <p>
 FFmpeg is moving faster than ever before, and with your help we could move even
