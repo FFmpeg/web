@@ -31,7 +31,7 @@ with the latest developments by subscribing to both the
 </p>
 
 
-<h1>News <a href="main.rss"><img hspace="6" align="ABSMIDDLE" src="Feed-icon.png" /></a></h1>
+<h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
 <a id="prchr2011"></a><h3>December 25, 2011, FFmpeg 0.5.7, 0.6.4, 0.7.9, 0.8.8</h3>
 <p>
 We have made 4 new point releases, (<b><a href="download.html#release_0.5">0.5.7</a></b>,
@@ -88,11 +88,11 @@ new stuff is below:
 <pre>
 native dirac decoder
 mmsh seeking
-more accurate rgb->rgb in swscale
+more accurate rgb-&gt;rgb in swscale
 MPO file format reading support
 mandelbrot fraktal video source
 libass filter
-export quarter_sample & divx_packed from decoders
+export quarter_sample &amp; divx_packed from decoders
 VBLE decoder
 libopenjpeg encoder
 alpha opaqueness fixes in many codecs
@@ -265,6 +265,7 @@ many bugfixes and many other things
 <a id="pr7dot6and8dot5"></a><h3>October 2, 2011</h3>
 <p>
 We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.6</a></b> and <b><a href="download.html#release_0.8">0.8.5</a></b>) that fix security issues in
+</p>
 <pre>
 4X Technologies demuxer
 4xm decoder
@@ -299,6 +300,7 @@ wmapro decoder
 wmavoice decoder
 xan decoder
 </pre>
+<p>
 These releases also add libaacplus support and include all changes
 from libav.org 0.7.2.<br/>
 We recommend users, distributors and system integrators to upgrade unless they use
