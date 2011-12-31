@@ -31,7 +31,7 @@ with the latest developments by subscribing to both the
 </p>
 
 
-<h1>News</h1>
+<h1>News <a href="main.rss"><img hspace="6" align="ABSMIDDLE" src="Feed-icon.png" /></a></h1>
 <a id="prchr2011"></a><h3>December 25, 2011, FFmpeg 0.5.7, 0.6.4, 0.7.9, 0.8.8</h3>
 <p>
 We have made 4 new point releases, (<b><a href="download.html#release_0.5">0.5.7</a></b>,
