@@ -213,38 +213,38 @@ ffmpeg-mt, libav master of 2011-12-11, libav 0.7.2 as of 2011-12-11.
 </p>
 
 <a name="release_0.8"></a><h2>
-FFmpeg 0.8.8 "Love"</h2>
+FFmpeg 0.8.9 "Love"</h2>
 
 <p>
-0.8.8 was released on 2011-12-25. It is a stable FFmpeg release
+0.8.9 was released on 2012-01-02. It is a stable FFmpeg release
 from the 0.8 release branch, which was cut from master on 2011-06-21.
 Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2011-06-21, libav 0.7.3 as of 2011-12-25.
+ffmpeg-mt, libav master of 2011-06-21, libav 0.7.3 as of 2012-01-02.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.8.8.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.8.8.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.8.8.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.8.8.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.8.8">Changelog</a><br />
+<a href="releases/ffmpeg-0.8.9.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.8.9.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.8.9.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.8.9.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.8.9">Changelog</a><br />
 </p>
 
 <a name="release_0.7"></a><h2>
 FFmpeg 0.7.9 "Peace"</h2>
 
 <p>
-0.7.9 was released on 2011-12-25.
-It contains almost all features and bugfixes of 0.8.8 while being
+0.7.10 was released on 2012-01-02.
+It contains almost all features and bugfixes of 0.8.9 while being
 compatible with the 0.6 ABI and API.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.7.9.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.7.9.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.7.9.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.7.9.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.7.9">Changelog</a><br />
+<a href="releases/ffmpeg-0.7.10.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.7.10.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.7.10.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.7.10.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.7.10">Changelog</a><br />
 </p>
 
 <a name="release_0.6"></a><h2>
