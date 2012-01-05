@@ -32,6 +32,15 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+<a id="pr091"></a><h3>Januar 5, 2012, FFmpeg 0.9.1</h3>
+<p>
+We have made a new point release, (<b><a href="download.html#release_0.9">0.9.1</a></b>).
+It contains many bug and security fixes, amongth them CVE-2011-3893 and CVE-2011-3895.
+It also significantly improves seeking support in H.264.
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
 <a id="prchr2011"></a><h3>December 25, 2011, FFmpeg 0.5.7, 0.6.4, 0.7.9, 0.8.8</h3>
 <p>
 We have made 4 new point releases, (<b><a href="download.html#release_0.5">0.5.7</a></b>,
