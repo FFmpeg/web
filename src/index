@@ -122,7 +122,7 @@ Dxtory capture format decoder
 life video source
 wtv, sox, utvideo and many other new regression tests
 gcc coverage support
-callauto video source
+cellauto video source
 planar rgb input support in sws
 libmodplug &amp; bintext output
 g723.1 encoder
