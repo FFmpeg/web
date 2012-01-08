@@ -148,6 +148,12 @@ amd64, i386, powerpc, sparc, ia64, armel, mips, mipsel arches are available at
 <a href="http://www.debian-multimedia.org/">http://www.debian-multimedia.org/</a>
 </p>
 
+<p>
+FFmpeg Ubuntu packages for precise/oneiric/natty/maverick/lucid
+amd64, and i386 are available at
+<a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">https://launchpad.net/~jon-severinsson/+archive/ffmpeg</a>
+</p>
+
 <h2>FFmpeg Windows Builds </h2>
 <p>
 FFmpeg Windows Builds are available at
