@@ -32,6 +32,18 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+<a id="pr0810"></a><h3>Januar 12, 2012, FFmpeg 0.8.10, 0.7.11, 0.6.5, 0.5.8</h3>
+<p>
+We have made 4 new point releases, (<b><a href="download.html#release_0.5">0.5.8</a></b>,
+<b><a href="download.html#release_0.6">0.6.5</a></b>,
+<b><a href="download.html#release_0.7">0.7.11</a></b> and
+<b><a href="download.html#release_0.8">0.8.10</a></b>). All of them contain
+fixes for CVE-2011-3892 (already in previous 0.8 and 0.7 releases), CVE-2011-3893, and CVE-2011-3895. In addition 0.8.10
+and 0.7.11 contain all critical security fixes from 0.9.1.
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master. We recommend everyone to upgrade to at least 0.7.11, 0.8.10 or 0.9.1.
+</p>
+
 <a id="pr091"></a><h3>Januar 5, 2012, FFmpeg 0.9.1</h3>
 <p>
 We have made a new point release, (<b><a href="download.html#release_0.9">0.9.1</a></b>).
