@@ -1,7 +1,7 @@
 # ffmpeg.org HTML generation from source files
 
 SRCS = about bugreports consulting contact documentation download \
-       index legal projects shame
+       index legal projects shame security
 
 TARGETS = $(addsuffix .html,$(addprefix htdocs/,$(SRCS))) htdocs/main.rss
 

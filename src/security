@@ -1,0 +1,56 @@
+<h1>FFmpeg Security</h1>
+
+<h2>0.9</h2>
+<h3>FFmpeg 0.9.1</h3>
+<p>Fixes CVE-2011-3893 and CVE-2011-3895, and about 70 more security issues that
+have no CVE number. Many of these issues can be exploited when a remote file is
+played back and a few are probable arbitrary code execution vulnerabilities</p>
+
+<h2>0.8</h2>
+<h3>FFmpeg 0.8.10</h3>
+<p>Fixes CVE-2011-3893 and CVE-2011-3895, and many more</p>
+
+<h3>FFmpeg 0.8.7</h3>
+<p>Fixes CVE-2011-4352/NGS00145, CVE-2011-4579/NGS00148, CVE-2011-4351, NGS00144, CVE-2011-4353 amongth others</p>
+
+<h3>FFmpeg 0.8.6</h3>
+<p>Fixes CVE-2011-3892 amongth others</p>
+
+<h3>FFmpeg 0.8.5</h3>
+<p>Fixes CVE-2011-4364 amongth others</p>
+
+<h2>0.7</h2>
+<h3>FFmpeg 0.7.11</h3>
+<p>Fixes CVE-2011-3893 and CVE-2011-3895, and many more</p>
+
+<h3>FFmpeg 0.7.8</h3>
+<p>Fixes CVE-2011-4352, CVE-2011-4579, CVE-2011-4351, CVE-2011-4353</p>
+
+<h3>FFmpeg 0.7.7</h3>
+<p>Fixes CVE-2011-3892</p>
+
+<h3>FFmpeg 0.7.6</h3>
+<p>Fixes CVE-2011-4364 amongth others</p>
+
+<h2>0.6</h2>
+<h3>FFmpeg 0.6.5</h3>
+<p>Fixes CVE-2011-3892, CVE-2011-3893, CVE-2011-3895</p>
+
+<h3>FFmpeg 0.6.4</h3>
+<p>Fixes CVE-2011-4352, CVE-2011-4579, CVE-2011-4353, CVE-2011-4351, CVE-2011-4364</p>
+
+<h2>0.5</h2>
+<h3>FFmpeg 0.5.8</h3>
+<p>Fixes CVE-2011-3892, CVE-2011-3893, CVE-2011-3895</p>
+
+<h3>FFmpeg 0.5.7</h3>
+<p>CVE-2011-4353</p>
+
+<h3>FFmpeg 0.5.6</h3>
+<p>Fixes CVE-2011-4579, CVE-2011-4351</p>
+
+<h3>FFmpeg 0.5.5</h3>
+<p>Fixes CVE-2011-3504, CVE-2011-3362, CVE-2011-3973, CVE-2011-3974</p>
+
+<h3>FFmpeg 0.5.4</h3>
+<p>Fixes CVE-2010-3908, CVE-2011-0722, CVE-2010-4704, CVE-2011-0480, CVE-2011-0723</p>
