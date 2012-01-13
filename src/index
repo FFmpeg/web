@@ -367,7 +367,7 @@ FFmpeg now has a ProRes decoder in master git.
 </p>
 <p>
 We want to support more raw or 10bit or broadcast codecs.
-We need samples of the following codecs. If you have some, 
+We need samples of the following codecs. If you have some,
 please upload them to our
 <a href="http://ffmpeg.org/trac/ffmpeg/">trac</a>.
 </p>
@@ -381,7 +381,7 @@ Pinnacle TARGA Ciné YUV	Y216
 BlackMagic Design 	Vr21
 Digital Voodoo DV10 HD10
 Media-100 844/X Uncompressed v.2.02	MYUV
-Media-100 iFinish Transcoder 	dtmt dtNT 
+Media-100 iFinish Transcoder 	dtmt dtNT
 Accom SphereOUS v.3.0.1 	ImJG
 Abekas ClipStore MXc J2K Compressed v.3.0.2	HDJ1 HDJK
 BOXX v.1.0	bxrg bxbg bxyv bxy2
@@ -485,7 +485,7 @@ Please <a href="download.html#release_0.6">download</a> the release candidate an
 
 <a id="win32_builds"></a><h3>March 30, 2011</h3>
 <p>
-Win32 and Win64 builds of FFmpeg are now available at 
+Win32 and Win64 builds of FFmpeg are now available at
 <a href="http://ffmpeg.zeranoe.com/builds/">http://ffmpeg.zeranoe.com/builds/</a>
 </p>
 
