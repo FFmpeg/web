@@ -11,13 +11,13 @@ played back and a few are probable arbitrary code execution vulnerabilities</p>
 <p>Fixes CVE-2011-3893 and CVE-2011-3895, and many more</p>
 
 <h3>FFmpeg 0.8.7</h3>
-<p>Fixes CVE-2011-4352/NGS00145, CVE-2011-4579/NGS00148, CVE-2011-4351, NGS00144, CVE-2011-4353 amongth others</p>
+<p>Fixes CVE-2011-4352/NGS00145, CVE-2011-4579/NGS00148, CVE-2011-4351, NGS00144, CVE-2011-4353 among others</p>
 
 <h3>FFmpeg 0.8.6</h3>
-<p>Fixes CVE-2011-3892 amongth others</p>
+<p>Fixes CVE-2011-3892 among others</p>
 
 <h3>FFmpeg 0.8.5</h3>
-<p>Fixes CVE-2011-4364 amongth others</p>
+<p>Fixes CVE-2011-4364 among others</p>
 
 <h2>0.7</h2>
 <h3>FFmpeg 0.7.11</h3>
@@ -30,7 +30,7 @@ played back and a few are probable arbitrary code execution vulnerabilities</p>
 <p>Fixes CVE-2011-3892</p>
 
 <h3>FFmpeg 0.7.6</h3>
-<p>Fixes CVE-2011-4364 amongth others</p>
+<p>Fixes CVE-2011-4364 among others</p>
 
 <h2>0.6</h2>
 <h3>FFmpeg 0.6.5</h3>
