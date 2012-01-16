@@ -32,6 +32,22 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+<a id="clt2012"></a><h3>January 16, 2012, Chemnitzer Linux-Tage</h3>
+<p>
+  We happily announce that FFmpeg will be represented at `Chemnitzer Linux-Tage'
+in Chemnitz, Germany. The event will take place on 17th and 18th of March.
+</p>
+
+<p>
+  More information can be found <a href="http://chemnitzer.linux-tage.de/2012/info/index?cookielang=en">here</a>
+</p>
+
+<p>
+  We hereby invite you to visit us at our booth located in the Linux-Live area!
+There we will demonstrate usage of FFmpeg, answer your questions and listen to
+your problems and wishes.
+</p>
+
 <a id="pr0810"></a><h3>January 12, 2012, FFmpeg 0.8.10, 0.7.11, 0.6.5, 0.5.8</h3>
 <p>
 We have made 4 new point releases, (<b><a href="download.html#release_0.5">0.5.8</a></b>,
