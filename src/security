@@ -1,5 +1,15 @@
 <h1>FFmpeg Security</h1>
 
+<h2>0.10</h2>
+<h3>FFmpeg 0.10</h3>
+<p>Fixes  CVE-2011-3929, CVE-2011-3934, CVE-2011-3935, CVE-2011-3936,
+          CVE-2011-3937, CVE-2011-3940, CVE-2011-3941, CVE-2011-3944,
+          CVE-2011-3945, CVE-2011-3946, CVE-2011-3947, CVE-2011-3949,
+          CVE-2011-3950, CVE-2011-3951, CVE-2011-3952
+and several others that do not have a CVE number.
+Many of these issues can be exploited when a remote file is
+played back and some are probable arbitrary code execution vulnerabilities</p>
+
 <h2>0.9</h2>
 <h3>FFmpeg 0.9.1</h3>
 <p>Fixes CVE-2011-3893 and CVE-2011-3895, and about 70 more security issues that
