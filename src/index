@@ -32,6 +32,23 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+<a id="forgotpatch"></a><h3>January 24, 2012, Forgotten Patches</h3>
+<p>FFmpeg development has gone into OVERDRIVE. Over the years we have
+missed patches, so we need your help to locate old unapplied patches to review again.
+</p>
+
+<p>
+If you find a patch that was never applied, please let us know, either by resubmitting it
+to ffmpeg-devel or by attaching it to a bug on our
+<a href="http://ffmpeg.org/trac/ffmpeg">bug tracker</a>.
+</p>
+
+<p>
+For example, did you know there was a patch to read DVDs with FFmpeg? Its now being
+reviewed and fixed up for inclusion. Want to add BluRay support? We're interested!
+</p>
+
+
 <a id="clt2012"></a><h3>January 16, 2012, Chemnitzer Linux-Tage</h3>
 <p>
   We happily announce that FFmpeg will be represented at `Chemnitzer Linux-Tage'
