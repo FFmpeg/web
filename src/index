@@ -458,11 +458,11 @@ Codec name / isom or fourcc
 </p>
 <pre>
 Pinnacle TARGA2000	dvr1
-Pinnacle TARGA Ciné YUV	Y216
+Pinnacle TARGA Cine YUV	Y216
 BlackMagic Design 	Vr21
 Digital Voodoo DV10 HD10
 Media-100 844/X Uncompressed v.2.02	MYUV
-Media-100 iFinish Transcoder 	dtmt dtNT
+Media-100 iFinish Transcoder 	dtmt
 Accom SphereOUS v.3.0.1 	ImJG
 Abekas ClipStore MXc J2K Compressed v.3.0.2	HDJ1 HDJK
 BOXX v.1.0	bxrg bxbg bxyv bxy2
