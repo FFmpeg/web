@@ -12,9 +12,51 @@ played back and some are probable arbitrary code execution vulnerabilities</p>
 
 <h2>0.9</h2>
 <h3>FFmpeg 0.9.1</h3>
-<p>Fixes CVE-2011-3893 and CVE-2011-3895, and about 70 more security issues that
+<pre>Fixes CVE-2011-3893, CVE-2011-3895,
+
+CVE-2012-0847 FFmpeg ae21776207e8a2bbe268e7c9e203f7599dd87ddb lavfi:
+add missing check in avfilter_filter_samples()
+
+CVE-2012-0848 FFmpeg 5257743aee0c3982f0079e6553aabc6aa39401d2 ws_snd1:
+Fix wrong samples count and crash.
+
+CVE-2012-0849 FFmpeg 1f99939a6361e2e6d6788494dd7c682b051c6c34 j2kdec:
+Fix integer overflow leading to a segfault
+
+CVE-2012-0850 FFmpeg 944f5b2779e4aa63f7624df6cd4de832a53db81b aacsbr:
+Fix memory corruption.
+
+CVE-2012-0851 FFmpeg 7fff64e00d886fde11d61958888c82b461cf99b9 h264:
+check chroma_format_idc range.
+
+CVE-2012-0852 FFmpeg 608708009f69ba4cecebf05120c696167494c897 adpcm:
+Fix crash
+
+CVE-2012-0853 FFmpeg 9af6abdc17deb95c9b1f1d9242ba49b8b5e0b016 atrac3:
+Fix crash in tonal component decoding.
+
+CVE-2012-0854 FFmpeg 6d8e6fe9dbc365f50521cf0c4a5ffee97c970cb5
+CODEC_ID_SOL_DPCM: Fix used write buffer.
+
+CVE-2012-0855 FFmpeg 3eedf9f716733b3b4c5205726d2c1ca52b3d3d78 j2kdec:
+Check curtileno for validity
+
+CVE-2012-0856 FFmpeg 21270cffaeab2f67a613907516b2b0cd6c9eacf4 h263dec:
+Fix regression / crash with lowres.
+
+CVE-2012-0857 FFmpeg 282bb02839b1ce73963c8e3ee46804f1ade8b12a j2kdec:
+Fix crash in get_qcx
+
+CVE-2012-0858 FFmpeg 18bcfc912e48bf77a5202a0e24a3b884b9b2ff2c shorten:
+Fix invalid free()
+
+CVE-2012-0859 FFmpeg 6fcf2bb8af0e7d6bb179e71e67e5fab8ef0d2ec2 vorbis:
+Fix last quarter of CVE-2011-3893
+</pre>
+<p>and more security issues that
 have no CVE number. Many of these issues can be exploited when a remote file is
 played back and a few are probable arbitrary code execution vulnerabilities</p>
+
 
 <h2>0.8</h2>
 <h3>FFmpeg 0.8.10</h3>
