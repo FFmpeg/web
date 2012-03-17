@@ -32,6 +32,15 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+<a id="pr0101"></a><h3>March, 17, 2012, FFmpeg 0.10.1</h3>
+<p>
+We have made a new point release (<b><a href="download.html#release_0.10">0.10.1</a></b>)
+It contains some security fixes, over 100 bugfixes and some new features like the swapuv
+filter. See the changelog for details.
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
 <a id="pr10"></a><h3>January, 27, 2012, FFmpeg 0.10</h3>
 <p>
 We have made a new major release (<b><a href="download.html#release_0.10">0.10</a></b>)
