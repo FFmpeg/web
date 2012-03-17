@@ -201,21 +201,21 @@ and much faster bug fixes such as additional features and security patches.
 </p>
 
 <a name="release_0.10"></a><h2>
-FFmpeg 0.10 "Freedom"</h2>
+FFmpeg 0.10.1 "Freedom"</h2>
 
 <p>
-0.10 was released on 2012-01-26. It is the latest stable FFmpeg release
+0.10.1 was released on 2012-03-17. It is the latest stable FFmpeg release
 from the 0.10 release branch, which was cut from master on 2012-01-26.
 Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2012-01-26, libav 0.8 as of 2012-01-26.
+ffmpeg-mt, libav master of 2012-01-26, libav 0.8.1 as of 2012-03-17.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.10.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.10.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.10.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.10.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.10">Changelog</a><br />
+<a href="releases/ffmpeg-0.10.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.10.1.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.10.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.10.1.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.10.1">Changelog</a><br />
 </p>
 
 <a name="release_0.9"></a><h2>
