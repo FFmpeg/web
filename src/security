@@ -8,7 +8,11 @@
           CVE-2011-3950, CVE-2011-3951, CVE-2011-3952
 and several others that do not have a CVE number.
 Many of these issues can be exploited when a remote file is
-played back and some are probable arbitrary code execution vulnerabilities</p>
+played back and some are probable arbitrary code execution vulnerabilities.
+FFmpeg 0.10 is unaffected by: CVE-2011-3930, CVE-2011-3931, CVE-2011-3932,
+CVE-2011-3933, CVE-2011-3938, CVE-2011-3939, CVE-2011-3942, CVE-2011-3943,
+CVE-2011-3948.
+</p>
 
 <h2>0.9</h2>
 <h3>FFmpeg 0.9.1</h3>
