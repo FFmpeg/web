@@ -9,7 +9,7 @@
 
 <div id="banner">
 <a href="index.html">
-<img src="ffmpeg-logo.png" width="396" height="100" alt="FFmpeg" />
+<img src="ffmpeg-logo.png" alt="FFmpeg" />
 </a>
 </div>
 
