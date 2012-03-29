@@ -7,9 +7,7 @@ a:visited {
 }
 
 #banner {
-    background-color: #BBC9D8;
-    border-bottom: 1px solid #7A96B3;
-    border-top: 1px solid #7A96B3;
+    background-color: white;
     position: relative;
     text-align: center;
 }
