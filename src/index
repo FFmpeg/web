@@ -32,6 +32,14 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+<a id="up201204"></a><h3>April, 4, 2012, Server Upgrade</h3>
+<p>
+Today our main server has been upgraded due to performance issues with <a href="http://ffmpeg.org/trac/ffmpeg">our bug tracker</a>.
+While investigating the speed issues, we also took the opportunity to add voting
+support to bug reports and wiki pages, so you can now "tell" us which issues
+you want us to work on first.
+</p>
+
 <a id="pr0101"></a><h3>March, 17, 2012, FFmpeg 0.10.1</h3>
 <p>
 We have made a new point release (<b><a href="download.html#release_0.10">0.10.1</a></b>)
