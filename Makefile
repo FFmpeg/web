@@ -5,7 +5,7 @@ SRCS = about bugreports consulting contact documentation download \
 
 TARGETS = $(addsuffix .html,$(addprefix htdocs/,$(SRCS))) htdocs/main.rss
 
-PAGE_DEPS = src/template_head1 src/template_head2 src/template_footer sed_commands
+PAGE_DEPS = src/template_head1 src/template_head2 src/template_footer
 
 
 all: $(TARGETS)
@@ -14,8 +14,7 @@ clean:
 	rm -f $(TARGETS)
 
 htdocs/%.html: src/% src/%_title $(PAGE_DEPS)
-	sed -f sed_commands $< | \
-	cat src/template_head1 $<_title src/template_head2 - \
+	cat src/template_head1 $<_title src/template_head2 $< \
 	src/template_footer > $@
 
 htdocs/main.rss: htdocs/index.html
