@@ -32,6 +32,20 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+<a id="pr0811"></a><h3>April 12, 2012, FFmpeg 0.7.12 / 0.8.11</h3>
+<p>
+We have made two new point releases (<b><a href="download.html#release_0.7">0.7.12</a></b> and <b><a href="download.html#release_0.8">0.8.11</a></b>).
+An abbreviated list of changes is below:
+</p><pre>
+Fixes: CVE-2012-0853, CVE-2012-0858, CVE-2011-3929, CVE-2011-3936,
+       CVE-2011-3937, CVE-2011-3940, CVE-2011-3945, CVE-2011-3947
+Several security issues that dont have CVE numbers.
+and about 150 bugfixes
+See the changelog for details.
+</pre><p>
+We recommend distributors and system integrators to upgrade to 0.10.2 or git master when possible though.
+</p>
+
 <a id="up201204"></a><h3>April, 4, 2012, Server Upgrade</h3>
 <p>
 Today our main server has been upgraded due to performance issues with <a href="http://ffmpeg.org/trac/ffmpeg">our bug tracker</a>.
