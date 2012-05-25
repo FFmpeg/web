@@ -200,6 +200,24 @@ selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>
 
+<a name="release_0.11"></a><h2>
+FFmpeg 0.11 "Happiness"</h2>
+
+<p>
+0.11 was released on 2012-05-25. It is the latest stable FFmpeg release
+from the 0.11 release branch, which was cut from master on 2012-05-25.
+Amongst lots of other changes, it includes all changes from
+ffmpeg-mt, libav master of 2012-05-24, libav 0.8.2 as of 2012-05-25.
+</p>
+
+<p>
+<a href="releases/ffmpeg-0.11.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.11.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.11.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.11.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.11">Changelog</a><br />
+</p>
+
 <a name="release_0.10"></a><h2>
 FFmpeg 0.10.3 "Freedom"</h2>
 
