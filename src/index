@@ -32,6 +32,14 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+<a id="pr11.1"></a><h3>June, 7, 2012, FFmpeg 0.11.1</h3>
+<p>
+We have made a new point releases (<b><a href="download.html#release_0.11">0.11.1</a></b>).
+It contains about 70 bugfixes, some possibly security relevant.
+</p><p>
+We recommend users, distributors and system integrators to upgrade to 0.11.1 or git master.
+</p>
+
 <a id="pr11"></a><h3>May, 25, 2012, FFmpeg 0.11</h3>
 <p>
 We have made a new major release (<b><a href="download.html#release_0.11">0.11</a></b>)
