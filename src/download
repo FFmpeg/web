@@ -247,21 +247,26 @@ bootstrap your local repository.
 
 <h2>FFmpeg Linux Builds </h2>
 <p>
-FFmpeg Debian packages for oldstable/stable/testing/unstable
-amd64, i386, powerpc, sparc, ia64, armel, mips, mipsel arches are available at
-<a href="http://www.deb-multimedia.org/">http://www.deb-multimedia.org/</a>
+FFmpeg Debian packages for Oldstable, Stable, Testing, Unstable
+(amd64, i386, powerpc, sparc, ia64, armel, mips, mipsel) are available at
+<a href="http://www.deb-multimedia.org/">deb-multimedia</a>.
 </p>
 
 <p>
-FFmpeg Ubuntu packages for precise/oneiric/natty/maverick/lucid
-amd64, and i386 are available at
-<a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">https://launchpad.net/~jon-severinsson/+archive/ffmpeg</a>
+FFmpeg Ubuntu packages for Precise, Oneiric, Natty, Maverick, and Lucid
+(amd64, i386) are available at
+<a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">Jon Severinsson's FFmpeg PPA</a>.
+</p>
+
+<p>
+FFmpeg static builds are available at
+<a href="http://dl.dropbox.com/u/24633983/ffmpeg/index.html">Relaxed FFmpeg Static Builds</a>.
 </p>
 
 <h2>FFmpeg Windows Builds </h2>
 <p>
 FFmpeg Windows Builds are available at
-<a href="http://ffmpeg.zeranoe.com/builds/">http://ffmpeg.zeranoe.com/builds/</a>
+<a href="http://ffmpeg.zeranoe.com/builds/">Zeranoe FFmpeg Builds</a>.
 </p>
 
 
