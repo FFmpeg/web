@@ -260,7 +260,8 @@ FFmpeg Ubuntu packages for Precise, Oneiric, Natty, Maverick, and Lucid
 
 <p>
 FFmpeg static builds are available at
-<a href="http://dl.dropbox.com/u/24633983/ffmpeg/index.html">Relaxed FFmpeg Static Builds</a>.
+<a href="http://ffmpeg.gusari.org/static/">FFmpeg Static Builds by Burek</a> and
+<a href="http://dl.dropbox.com/u/24633983/ffmpeg/index.html">FFmpeg Static Builds by Relaxed</a>.
 </p>
 
 <h2>FFmpeg Windows Builds </h2>
