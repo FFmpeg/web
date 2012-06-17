@@ -25,6 +25,8 @@ a:visited {
 body {
     background-color: #313131;
     margin: 0;
+    font: 0.8em sans-serif;
+    text-align: justify;
 }
 
 .center {
@@ -44,25 +46,33 @@ body {
     text-align: center;
 }
 
+h1, h2, h3 {
+    padding-left: 0.4em;
+    border-radius: 4px;
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    border: 1px solid #6A996A;
+}
+
 h1 {
     background-color: #7BB37B;
-    border: 1px solid #6A996A;
     color: #151515;
     font-size: 1.2em;
-    padding-bottom: 0.2em;
-    padding-left: 0.4em;
-    padding-top: 0.2em;
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
 }
 
 h2 {
     color: #313131;
-    font-size: 1.2em;
+    font-size: 0.9em;
+    background-color: #ABE3AB;
 }
 
 h3 {
     color: #313131;
     font-size: 0.8em;
     margin-bottom: -8px;
+    background-color: #BBF3BB;
 }
 
 img {
@@ -104,6 +114,18 @@ img {
 p {
     margin-left: 1em;
     margin-right: 1em;
+}
+
+pre {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 0.3em;
+    border: 1px solid #bbb;
+    background-color: #efffef;
+}
+
+dl dt {
+    font-weight: bold;
 }
 
 #proj_desc {
