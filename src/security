@@ -168,3 +168,5 @@ Several security issues that dont have CVE numbers.
 
 <h3>0.5.4</h3>
 <p>Fixes CVE-2010-3908, CVE-2011-0722, CVE-2010-4704, CVE-2011-0480, CVE-2011-0723</p>
+
+<p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
