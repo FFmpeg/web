@@ -268,32 +268,6 @@ developers and groups of developers are available.
 Note, if you have a public clone of ffmpeg and want to be listed above, contact us.
 </p>
 
-
-<h2>FFmpeg SVN</h2>
-<p><b>
-FFmpeg development has moved to a Git repository, and the SVN
-repository is no longer updated. The last revision committed to SVN
-was r26402 on 2011-01-19.
-
-The SVN repository may be removed in a near future, so you're
-recommended to use the Git repository instead.
-</b></p>
-
-<p>
-In order to use the standard SVN client to check out the source code:
-</p>
-
-<blockquote>
-<pre>svn checkout <a href="svn://svn.ffmpeg.org/ffmpeg/trunk">svn://svn.ffmpeg.org/ffmpeg/trunk</a> ffmpeg</pre>
-</blockquote>
-
-<p>
-If you cannot access the repository, you are being firewalled somewhere.
-Our Subversion setup does <strong>not</strong> work over HTTP/HTTPS, nor
-will it in the future. There is no point in asking for it, the decision
-is final.
-</p>
-
 <a name="releases"></a><h1>FFmpeg Releases</h1>
 
 <p>
