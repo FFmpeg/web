@@ -8,25 +8,66 @@ constantly. Development branch snapshots work really well 99% of the
 time so people are not afraid to use them.
 </p>
 
-<h2>FFmpeg Git</h2>
-<p>
-FFmpeg is developed with <a href="http://git-scm.com/">Git</a>.
-Given the decentralized nature of Git, multiple repositories from
-developers and groups of developers are available.
-</p>
-
 <p>
 You can retrieve the source code through the standard Git client by
 using the command:
 </p>
 
-<blockquote>
-<pre>git clone <i>CLONE_URL</i> ffmpeg</pre>
-</blockquote>
+<pre>git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg</pre>
 
 <p>
-where <i>CLONE_URL</i> is one of the Git clone URLs listed in the
-table below.
+If you are a distributor, you can find <a href="#releases">release tarballs
+below</a>.
+</p>
+
+<h2 id="snapshots">FFmpeg Repository Snapshots</h2>
+
+<p>
+For the main ffmpeg repository you can also directly download the
+<a href="releases/ffmpeg-snapshot.tar.bz2">source snapshot</a>
+that we generate each night instead of grabbing a source snapshot
+from the gitweb URL. This is slightly preferred since it reduces
+the load on our server.
+</p>
+
+<p>
+Alternatively, if you cannot access Git directly or wish to speed up
+the cloning and reduce the bandwidth usage, we also offer a complete
+<a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a>
+tarball that comes with git metadata and version history to
+bootstrap your local repository.
+</p>
+
+<h2>FFmpeg Linux Builds </h2>
+<p>
+FFmpeg Debian packages for Oldstable, Stable, Testing, Unstable
+(amd64, i386, powerpc, sparc, ia64, armel, mips, mipsel) are available at
+<a href="http://www.deb-multimedia.org/">deb-multimedia</a>.
+</p>
+
+<p>
+FFmpeg Ubuntu packages for Precise, Oneiric, Natty, Maverick, and Lucid
+(amd64, i386) are available at
+<a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">Jon Severinsson's FFmpeg PPA</a>.
+</p>
+
+<p>
+FFmpeg static builds are available at
+<a href="http://ffmpeg.gusari.org/static/">FFmpeg Static Builds by Burek</a> and
+<a href="http://dl.dropbox.com/u/24633983/ffmpeg/index.html">FFmpeg Static Builds by Relaxed</a>.
+</p>
+
+<h2>FFmpeg Windows Builds </h2>
+<p>
+FFmpeg Windows Builds are available at
+<a href="http://ffmpeg.zeranoe.com/builds/">Zeranoe FFmpeg Builds</a>.
+</p>
+
+<h2>Extra repositories</h2>
+<p>
+FFmpeg is developed with <a href="http://git-scm.com/">Git</a>.
+Given the decentralized nature of Git, multiple repositories from
+developers and groups of developers are available.
 </p>
 
 <table id="repos">
@@ -225,49 +266,6 @@ table below.
 </table>
 <p>
 Note, if you have a public clone of ffmpeg and want to be listed above, contact us.
-</p>
-
-<h2>FFmpeg Repository Snapshots</h2>
-
-<p>
-For the main ffmpeg repository you can also directly download the
-<a href="releases/ffmpeg-snapshot.tar.bz2">source snapshot</a>
-that we generate each night instead of grabbing a source snapshot
-from the gitweb URL. This is slightly preferred since it reduces
-the load on our server.
-</p>
-
-<p>
-Alternatively, if you cannot access Git directly or wish to speed up
-the cloning and reduce the bandwidth usage, we also offer a complete
-<a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a>
-tarball that comes with git metadata and version history to
-bootstrap your local repository.
-</p>
-
-<h2>FFmpeg Linux Builds </h2>
-<p>
-FFmpeg Debian packages for Oldstable, Stable, Testing, Unstable
-(amd64, i386, powerpc, sparc, ia64, armel, mips, mipsel) are available at
-<a href="http://www.deb-multimedia.org/">deb-multimedia</a>.
-</p>
-
-<p>
-FFmpeg Ubuntu packages for Precise, Oneiric, Natty, Maverick, and Lucid
-(amd64, i386) are available at
-<a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">Jon Severinsson's FFmpeg PPA</a>.
-</p>
-
-<p>
-FFmpeg static builds are available at
-<a href="http://ffmpeg.gusari.org/static/">FFmpeg Static Builds by Burek</a> and
-<a href="http://dl.dropbox.com/u/24633983/ffmpeg/index.html">FFmpeg Static Builds by Relaxed</a>.
-</p>
-
-<h2>FFmpeg Windows Builds </h2>
-<p>
-FFmpeg Windows Builds are available at
-<a href="http://ffmpeg.zeranoe.com/builds/">Zeranoe FFmpeg Builds</a>.
 </p>
 
 
