@@ -50,7 +50,7 @@ tracking regressions in old revisions.
 
 <p>
 If you encounter a crash bug, please provide the <code>gdb</code> output,
-backtrace and disassembly, and if possible the <code>valgrind<code> output,
+backtrace and disassembly, and if possible the <code>valgrind</code> output,
 using the the <code>ffmpeg_g</code> debug binary.
 </p>
 
