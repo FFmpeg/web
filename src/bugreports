@@ -72,6 +72,11 @@ In <code>gdb</code>, type 'r' for run, along with the rest of the
 </blockquote>
 
 <p>
+(Alternatively, you can run <code>gdb --args ffmpeg_g &lt;rest of command
+line&gt;</code> and just type 'r' at the <code>gdb</code> prompt.)
+</p>
+
+<p>
 When <code>gdb</code> encounters its problem, run the following commands and
 copy/paste the output into your bug report:
 </p>
