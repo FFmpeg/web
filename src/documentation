@@ -28,7 +28,7 @@ explains installing and using FFmpeg on Mac OS X.</li>
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a></li>
 <li><a href="general.html">Supported codecs, formats, protocols, ...</a></li>
-<li><a href="libavfilter.html">Libavfilter Documentation</a></li>
+<li><a href="libavfilter.html">Filtering Documentation</a></li>
 <li><a href="developer.html">Developer Documentation</a></li>
 </ul>
 
