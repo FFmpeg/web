@@ -16,18 +16,20 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="sample.html">Sample ffserver configuration file</a></li>
 </ul>
 
+<h2>Community contributed documentation</h2>
+<ul>
+<li><a href="http://ffmpeg.org/trac/ffmpeg/wiki">Official FFmpeg Wiki</a></li>
+<li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
+explains installing and using FFmpeg on Mac OS X.</li>
+<li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
+</ul>
+
 <h2>General Documentation</h2>
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a></li>
 <li><a href="general.html">General Documentation</a></li>
 <li><a href="libavfilter.html">Libavfilter Documentation</a></li>
 <li><a href="developer.html">Developer Documentation</a></li>
-<li><a href="http://ffmpeg.zeranoe.com/">FFmpeg Windows Help</a>
-discusses all issues regarding FFmpeg under Windows including a wiki
-and help forums.</li>
-<li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
-explains installing and using FFmpeg on Mac OS X.</li>
-<li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
 </ul>
 
 <h2>API Documentation</h2>
