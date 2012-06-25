@@ -12,8 +12,7 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="ffmpeg.html">FFmpeg</a></li>
 <li><a href="ffplay.html">FFplay</a></li>
 <li><a href="ffprobe.html">FFprobe</a></li>
-<li><a href="ffserver.html">FFserver</a></li>
-<li><a href="sample.html">Sample ffserver configuration file</a></li>
+<li><a href="ffserver.html">FFserver</a> and a <a href="sample.html">sample ffserver configuration file</a></li>
 </ul>
 
 <h2>Community contributed documentation</h2>
