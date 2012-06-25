@@ -7,6 +7,15 @@ developers will be able to better diagnose the problem if you follow
 <a href="bugreports.html">these bug reporting guidelines</a>.
 </p>
 
+<h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
+<ul>
+<li><a href="ffmpeg.html">FFmpeg Documentation</a></li>
+<li><a href="ffplay.html">FFplay Documentation</a></li>
+<li><a href="ffprobe.html">FFprobe Documentation</a></li>
+<li><a href="ffserver.html">FFserver Documentation</a></li>
+<li><a href="sample.html">Sample ffserver configuration file</a></li>
+</ul>
+
 <h2>General Documentation</h2>
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a></li>
@@ -19,15 +28,6 @@ and help forums.</li>
 <li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
 explains installing and using FFmpeg on Mac OS X.</li>
 <li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
-</ul>
-
-<h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
-<ul>
-<li><a href="ffmpeg.html">FFmpeg Documentation</a></li>
-<li><a href="ffplay.html">FFplay Documentation</a></li>
-<li><a href="ffprobe.html">FFprobe Documentation</a></li>
-<li><a href="ffserver.html">FFserver Documentation</a></li>
-<li><a href="sample.html">Sample ffserver configuration file</a></li>
 </ul>
 
 <h2>API Documentation</h2>
