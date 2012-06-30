@@ -32,6 +32,26 @@ with the latest developments by subscribing to both the
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
+
+<a id="donations-201206"></a><h3>June, 30, 2012, Donations</h3>
+
+<p>We're glad to announce that FFmpeg has been accepted as <a
+href="http://www.spi-inc.org/projects/ffmpeg/">SPI associated
+project</a>.</p>
+
+<p>Donations to FFmpeg can be done through SPI, following the
+instructions <a href="http://www.spi-inc.org/donations/">here</a>, or
+following this <a
+href="https://co.clickandpledge.com/advanced/default.aspx?wid=56226">direct
+Click&Pledge link</a>.</p>
+
+<p>Donations will be used to fund expenses related to development
+(e.g. to cover equipment and server maintenance costs), to sponsor bug
+fixing, feature development, the participation or organization of
+meetings and events in the project interest area, and to support
+internal development or educational projects or any other activity
+promoting FFmpeg.</p>
+
 <a id="pr11.1"></a><h3>June, 7, 2012, FFmpeg 0.11.1</h3>
 <p>
 We have made a new point releases (<b><a href="download.html#release_0.11">0.11.1</a></b>).
