@@ -16,7 +16,8 @@ When writing your bug report, please include (uncompressed):
 <ul>
   <li>What you were trying to accomplish (e.g., "I am trying to transcode
     from this format to that format...")</li>
-  <li>The problem you encountered (e.g., "<code>ffmpeg</code> crashed" or "The
+  <li>The problem you encountered (e.g., "<code>ffmpeg</code> crashed, see the
+      gdb and valgrind output below" or "The
     output video was all green")</li>
   <li>The exact command line you were using (e.g., "<code>ffmpeg -i input.mov
     -an -vcodec foo output.avi</code>")</li>
