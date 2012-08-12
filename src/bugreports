@@ -1,23 +1,11 @@
 <h1>Reporting a Bug To The FFmpeg Project</h1>
 
 <p>
-First of all, please remember that all the developers working on FFmpeg are
-volunteers, we are not paid for analyzing, debugging, fixing and answering
-bug reports. While we try our best to create high quality software and be
-responsive, if you should not get an answer, please consider the above and
-be aware of the fact that we receive many bug reports and the amount of
-time it takes to deal with them can be substantial. Nevertheless most issues
-get resolved, just please understand that there are no guarantees nor
-promises.
-</p>
-
-<p>
 <b>Before reporting a bug, please consider the following items</b>:
 </p>
 
 <p>
-FFmpeg is in a state of perpetual development and we do not currently have the
-person power to backport fixes to official releases. As such, if you wish to
+FFmpeg is in a state of perpetual development. As such, if you wish to
 query or report a bug, you must try with the <b>latest development branch</b> revision of
 FFmpeg to confirm the issue still exists.
 </p>
