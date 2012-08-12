@@ -26,6 +26,8 @@ When writing your bug report, please include (uncompressed):
     (copy/pasted from the console, including the banner that indicates
     version and configuration options), paste <code>ffplay</code> output
     only if your problem is not reproducible with ffmpeg.</li>
+  <li>Sufficient information, including any required input files, to reproduce
+    the bug and confirm a potential fix.</li>
 </ul>
 
 <p>
