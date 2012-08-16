@@ -63,6 +63,12 @@ FFmpeg Windows Builds are available at
 <a href="http://ffmpeg.zeranoe.com/builds/">Zeranoe FFmpeg Builds</a>.
 </p>
 
+<h2>FFmpeg Mac OS X Builds </h2>
+<p>
+FFmpeg static builds for Mac OS X Intel 64bit are available at
+<a href="http://www.evermeet.cx/ffmpeg/">FFmpeg Static Builds by tessus</a>.
+</p>
+
 <h2>Extra repositories</h2>
 <p>
 FFmpeg is developed with <a href="http://git-scm.com/">Git</a>.
