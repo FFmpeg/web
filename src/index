@@ -33,6 +33,84 @@ with the latest developments by subscribing to both the
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
 
+<a id="pr1.0"></a><h3>September, 28, 2012, FFmpeg 1.0</h3>
+<p>
+We have made a new major release (<b><a href="download.html#release_1.0">1.0</a></b>)
+It contains all features and bugfixes of the git master branch. A partial list of
+new stuff is below:
+</p>
+<pre>
+- INI and flat output in ffprobe
+- Scene detection in libavfilter
+- Indeo Audio decoder
+- channelsplit audio filter
+- setnsamples audio filter
+- atempo filter
+- ffprobe -show_data option
+- RTMPT protocol support
+- iLBC encoding/decoding via libilbc
+- Microsoft Screen 1 decoder
+- join audio filter
+- audio channel mapping filter
+- Microsoft ATC Screen decoder
+- RTSP listen mode
+- TechSmith Screen Codec 2 decoder
+- AAC encoding via libfdk-aac
+- Microsoft Expression Encoder Screen decoder
+- RTMPS protocol support
+- RTMPTS protocol support
+- RTMPE protocol support
+- RTMPTE protocol support
+- showwaves and showspectrum filter
+- LucasArts SMUSH playback support
+- SAMI, RealText and SubViewer demuxers and decoders
+- Heart Of Darkness PAF playback support
+- iec61883 device
+- asettb filter
+- new option: -progress
+- 3GPP Timed Text encoder/decoder
+- GeoTIFF decoder support
+- ffmpeg -(no)stdin option
+- Opus decoder using libopus
+- caca output device using libcaca
+- alphaextract and alphamerge filters
+- concat filter
+- flite filter
+- Canopus Lossless Codec decoder
+- bitmap subtitles in filters (experimental and temporary)
+- MP2 encoding via TwoLAME
+- bmp parser
+- smptebars source
+- asetpts filter
+- hue filter
+- ICO muxer
+- SubRip encoder and decoder without embedded timing
+- edge detection filter
+- framestep filter
+- ffmpeg -shortest option is now per-output file
+  -pass and -passlogfile are now per-output stream
+- volume measurement filter
+- Ut Video encoder
+- Microsoft Screen 2 decoder
+- Matroska demuxer now identifies SRT subtitles as AV_CODEC_ID_SUBRIP
+  instead of AV_CODEC_ID_TEXT
+- smartblur filter ported from MPlayer
+- CPiA decoder
+- decimate filter ported from MPlayer
+- RTP depacketization of JPEG
+- Smooth Streaming live segmenter muxer
+- F4V muxer
+- sendcmd and asendcmd filters
+- WebVTT demuxer and decoder (simple tags supported)
+- RTP packetization of JPEG
+- faststart option in the MOV/MP4 muxer
+- Several security fixes
+</pre>
+<p>
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
 <a id="logo_art_contest_autumn-2012"></a><h3>August 29, 2012, Autumn Website Banner Contest</h3>
 <p>
 It is about time for the next seasonal banner. Soon the leaves will be
