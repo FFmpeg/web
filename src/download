@@ -1,6 +1,6 @@
 <h1>FFmpeg Download and Source Code Repository Access</h1>
 
-<h2>Getting FFmpeg</h2>
+<h2 id="GettingFFmpeg">Getting FFmpeg</h2>
 <p>
 FFmpeg has always been a very experimental and developer-driven project. It
 is a key component in many multimedia projects and has new features added
@@ -38,7 +38,7 @@ tarball that comes with git metadata and version history to
 bootstrap your local repository.
 </p>
 
-<h2>FFmpeg Linux Builds </h2>
+<h2 id="LinuxBuilds">FFmpeg Linux Builds</h2>
 <p>
 FFmpeg Debian packages for Oldstable, Stable, Testing, Unstable
 (amd64, i386, powerpc, sparc, ia64, armel, mips, mipsel) are available at
@@ -57,19 +57,19 @@ FFmpeg static builds are available at
 <a href="http://dl.dropbox.com/u/24633983/ffmpeg/index.html">FFmpeg Static Builds by Relaxed</a>.
 </p>
 
-<h2>FFmpeg Windows Builds </h2>
+<h2 id="WindowsBuilds">FFmpeg Windows Builds</h2>
 <p>
 FFmpeg Windows Builds are available at
 <a href="http://ffmpeg.zeranoe.com/builds/">Zeranoe FFmpeg Builds</a>.
 </p>
 
-<h2>FFmpeg Mac OS X Builds </h2>
+<h2 id="MacOSXBuilds">FFmpeg Mac OS X Builds</h2>
 <p>
 FFmpeg static builds for Mac OS X Intel 64bit are available at
 <a href="http://www.evermeet.cx/ffmpeg/">FFmpeg Static Builds by tessus</a>.
 </p>
 
-<h2>Extra repositories</h2>
+<h2 id="Extrarepositories">Extra repositories</h2>
 <p>
 FFmpeg is developed with <a href="http://git-scm.com/">Git</a>.
 Given the decentralized nature of Git, multiple repositories from
