@@ -92,7 +92,7 @@ output into your bug report:
 <pre>valgrind ffmpeg_g &lt;rest of command line&gt;</pre>
 </blockquote>
 
-<h2>Bug Tracker</h2>
+<h2 id="BugTracker">Bug Tracker</h2>
 
 <p>
 Once you have gathered this information, you can submit a report to the
@@ -105,7 +105,7 @@ Only send bug reports there if you also intend to provide a fix.
 </p>
 
 
-<h2>Submitting Sample Media</h2>
+<h2 id="SubmittingSampleMedia">Submitting Sample Media</h2>
 
 <p>
 The developers may ask you to provide a sample media file illustrating

@@ -1,6 +1,6 @@
 <h1>Contact Us</h1>
 
-<h2>Mailing Lists</h2>
+<h2 id="MailingLists">Mailing Lists</h2>
 
 <p>
 Please follow the netiquette when posting on FFmpeg mailing lists, especially
@@ -56,7 +56,7 @@ Alternatively, you can follow our mailing lists through
 </p>
 
 
-<h2>Mailing List Archives</h2>
+<h2 id="MailingListArchives">Mailing List Archives</h2>
 
 <p>
 To read up on past discussions, read the mailing list archives. It is highly
@@ -79,7 +79,7 @@ browse the archives before posting questions.
 </p>
 
 
-<h2>IRC Channels</h2>
+<h2 id="IRCChannels">IRC Channels</h2>
 
 <p>
 FFmpeg has two official channels on the <a href="http://freenode.net/">freenode</a>
@@ -100,7 +100,7 @@ itself. Development of other software that uses the FFmpeg libraries is offtopic
 there.
 </p>
 
-<h2>IRC Channel Archives</h2>
+<h2 id="IRCChannelArchives">IRC Channel Archives</h2>
 
 <p>
 Our IRC channels are publically logged and archives of both channels can be
@@ -108,7 +108,7 @@ viewed at <a href="http://lists.ffmpeg.org/pipermail/ffmpeg-devel-irc/">
 ffmpeg-devel-irc</a>.
 </p>
 
-<h2>Forums</h2>
+<h2 id="Forums">Forums</h2>
 <p>
 FFmpeg offers no official forum. However, we collect links to FFmpeg-related forums
 found in the world wide web. If you would like to see your forum added here, please
