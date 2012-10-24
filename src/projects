@@ -1,7 +1,7 @@
 <h1>FFmpeg-Based Projects</h1>
 
 <p>
-These are some of the projects and programs known to incorporate work from
+These are some of the free projects and programs known to incorporate work from
 FFmpeg. If you would like to see another project added here, please send
 an email to the <a href="contact.html">ffmpeg-devel mailing list</a>.
 </p>
@@ -28,6 +28,7 @@ an email to the <a href="contact.html">ffmpeg-devel mailing list</a>.
 <li><a href="http://dspguru.doom9.net/">BeSweet</a></li>
 <li><a href="http://bino3d.org/">Bino</a></li>
 <li><a href="http://www.longtailvideo.com/bits-on-the-run/">Bits on the Run</a></li>
+<li><a href="http://www.independentsounds.de/">Blaze</a></li>
 <li><a href="http://www.blender.org/">Blender</a></li>
 <li><a href="http://chromaplayer.com/">Chroma Player</a></li>
 <li><a href="http://www.chromium.org/">Chromium</a> / <a href="http://www.google.com/chrome">Google Chrome</a></li>
@@ -81,6 +82,7 @@ an email to the <a href="contact.html">ffmpeg-devel mailing list</a>.
 <li><a href="http://www.kdenlive.org/">Kdenlive</a></li>
 <li><a href="http://kfilm.sourceforge.net/">KFilm</a></li>
 <li><a href="http://code.google.com/p/kmediafactory/">KMediaFactory</a></li>
+<li><a href="http://savannah.nongnu.org/projects/kinetophone">Kinetophone</a></li>
 <li><a href="http://ktoon.net/">KToon</a></li>
 <li><a href="http://libdlna.geexbox.org/">libdlna</a></li>
 <li><a href="http://libquicktime.sourceforge.net/">libquicktime</a></li>
