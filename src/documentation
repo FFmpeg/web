@@ -34,6 +34,12 @@ explains installing and using FFmpeg on Mac OS X.</li>
 <ul>
 <li><a href="doxygen/trunk/index.html">Doxygen documentation</a> for current
 trunk (regenerated nightly); documentation for the
+<a href="doxygen/1.0/index.html">1.0</a>,
+<a href="doxygen/0.11/index.html">0.11</a>,
+<a href="doxygen/0.10/index.html">0.10</a>,
+<a href="doxygen/0.9/index.html">0.9</a>,
+<a href="doxygen/0.8/index.html">0.8</a>,
+<a href="doxygen/0.7/index.html">0.7</a>,
 <a href="doxygen/0.6/index.html">0.6</a> and
 <a href="doxygen/0.5/index.html">0.5</a> branches is also available.</li>
 <li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_codec_HOWTO">FFmpeg codec HOWTO</a>,
