@@ -15,14 +15,6 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="ffserver.html">ffserver</a> and a <a href="sample.html">sample ffserver configuration file</a></li>
 </ul>
 
-<h2>Community contributed documentation</h2>
-<ul>
-<li><a href="http://ffmpeg.org/trac/ffmpeg/wiki">Official FFmpeg Wiki</a></li>
-<li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
-explains installing and using FFmpeg on Mac OS X.</li>
-<li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
-</ul>
-
 <h2>General Documentation</h2>
 <ul>
 <li><a href="faq.html">Frequently Asked Questions</a></li>
@@ -48,6 +40,14 @@ describes how to add a codec to libavcodec.</li>
 describes how to add a (de)muxer to libavformat.</li>
 <li><a href="http://wiki.multimedia.cx/index.php?title=FFmpeg_filter_HOWTO">FFmpeg filter HOWTO</a>,
 describes how to add a filter to libavfilter.</li>
+</ul>
+
+<h2>Community contributed documentation</h2>
+<ul>
+<li><a href="http://ffmpeg.org/trac/ffmpeg/wiki">Official FFmpeg Wiki</a></li>
+<li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
+explains installing and using FFmpeg on Mac OS X.</li>
+<li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
 </ul>
 
 <h2>Tutorials</h2>
