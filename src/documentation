@@ -9,10 +9,10 @@ developers will be able to better diagnose the problem if you follow
 
 <h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
 <ul>
-<li><a href="ffmpeg.html">FFmpeg</a></li>
-<li><a href="ffplay.html">FFplay</a></li>
-<li><a href="ffprobe.html">FFprobe</a></li>
-<li><a href="ffserver.html">FFserver</a> and a <a href="sample.html">sample ffserver configuration file</a></li>
+<li><a href="ffmpeg.html">ffmpeg</a></li>
+<li><a href="ffplay.html">ffplay</a></li>
+<li><a href="ffprobe.html">ffprobe</a></li>
+<li><a href="ffserver.html">ffserver</a> and a <a href="sample.html">sample ffserver configuration file</a></li>
 </ul>
 
 <h2>Community contributed documentation</h2>
