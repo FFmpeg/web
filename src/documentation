@@ -7,12 +7,36 @@ developers will be able to better diagnose the problem if you follow
 <a href="bugreports.html">these bug reporting guidelines</a>.
 </p>
 
-<h2>Command Line Interface (CLI) and Related Usage Documentation</h2>
+<h2>Command Line Tools Documentation</h2>
 <ul>
 <li><a href="ffmpeg.html">ffmpeg</a></li>
 <li><a href="ffplay.html">ffplay</a></li>
 <li><a href="ffprobe.html">ffprobe</a></li>
 <li><a href="ffserver.html">ffserver</a> and a <a href="sample.html">sample ffserver configuration file</a></li>
+</ul>
+
+<h2>Components Documentations</h2>
+<ul>
+<li><a href="ffmpeg-utils.html">FFmpeg utilities</a></li>
+<li><a href="ffmpeg-scaler.html">FFmpeg video scaling and pixel format converter</a></li>
+<li><a href="ffmpeg-resampler.html">FFmpeg audio resampler</a></li>
+<li><a href="ffmpeg-codecs.html">FFmpeg encoders and decoders (codecs)</a></li>
+<li><a href="ffmpeg-bitstream-filters.html">FFmpeg bitstream filters</a></li>
+<li><a href="ffmpeg-formats.html">FFmpeg muxers and demuxers (formats)</a></li>
+<li><a href="ffmpeg-protocols.html">FFmpeg protocols</a></li>
+<li><a href="ffmpeg-devices.html">FFmpeg input and output devices</a></li>
+<li><a href="ffmpeg-filters.html">FFmpeg filters</a></li>
+</ul>
+
+<h2>Libraries Documentation</h2>
+<ul>
+<li><a href="libavutil.html">libavutil</a>
+<li><a href="libswscale.html">libswscale</a>
+<li><a href="libswresample.html">libswresample</a>
+<li><a href="libavcodec.html">libavcodec</a>
+<li><a href="libavformat.html">libavformat</a>
+<li><a href="libavdevice.html">libavdevice</a>
+<li><a href="libavfilter.html">libavfilter</a>
 </ul>
 
 <h2>General Documentation</h2>
