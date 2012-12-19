@@ -15,7 +15,7 @@ developers will be able to better diagnose the problem if you follow
 <li><a href="ffserver.html">ffserver</a> and a <a href="sample.html">sample ffserver configuration file</a></li>
 </ul>
 
-<h2>Components Documentations</h2>
+<h2>Components Documentation</h2>
 <ul>
 <li><a href="ffmpeg-utils.html">FFmpeg utilities</a></li>
 <li><a href="ffmpeg-scaler.html">FFmpeg video scaling and pixel format converter</a></li>
