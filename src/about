@@ -72,6 +72,6 @@ VfW, and ALSA.</li>
 <li><tt><a href="libswscale.html">libswscale</a></tt> is a library performing highly optimized image
 scaling and color space/pixel format conversion operations.</li>
 
-<li><tt><a href="libswresample">libswresample</a></tt> is a library performing highly optimized
+<li><tt><a href="libswresample.html">libswresample</a></tt> is a library performing highly optimized
 audio resampling, rematrixing and sample format conversion operations.</li>
 </ul>
