@@ -65,10 +65,6 @@ trunk (regenerated nightly); documentation for the
 <ul>
 <li><a href="http://ffmpeg.org/trac/ffmpeg/wiki">Official FFmpeg Wiki</a></li>
 <li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
-</ul>
-
-<h2>Tutorials</h2>
-<ul>
 <li><a href="http://dranger.com/ffmpeg/">An FFmpeg and SDL Tutorial</a>
 by Stephen Dranger, explains how to write a video player based on FFmpeg
 (<a href="https://github.com/mpenkov/ffmpeg-tutorial">updated source code</a> by Michael Penkov).</li>
