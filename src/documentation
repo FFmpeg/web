@@ -64,8 +64,6 @@ trunk (regenerated nightly); documentation for the
 <h2>Community contributed documentation</h2>
 <ul>
 <li><a href="http://ffmpeg.org/trac/ffmpeg/wiki">Official FFmpeg Wiki</a></li>
-<li><a href="http://stephenjungels.com/jungels.net/articles/ffmpeg-howto.html">FFmpeg on Mac OS X HOWTO</a>
-explains installing and using FFmpeg on Mac OS X.</li>
 <li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
 </ul>
 
