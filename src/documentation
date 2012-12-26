@@ -1,12 +1,5 @@
 <h1>FFmpeg Documentation</h1>
 
-<h2>Reporting Bugs</h2>
-<p>
-Want to report a bug? Help us help you: The FFmpeg
-developers will be able to better diagnose the problem if you follow
-<a href="bugreports.html">these bug reporting guidelines</a>.
-</p>
-
 <h2>Command Line Tools Documentation</h2>
 <ul>
 <li><a href="ffmpeg.html">ffmpeg</a></li>
