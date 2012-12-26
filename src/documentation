@@ -1,5 +1,9 @@
 <h1>FFmpeg Documentation</h1>
 
+The following documentation is regenerated nightly, and corresponds to
+the <a href="download.html">newest FFmpeg revision</a>.
+Consult your locally installed documentation for older versions.
+
 <h2>Command Line Tools Documentation</h2>
 <ul>
 <li><a href="ffmpeg.html">ffmpeg</a></li>
