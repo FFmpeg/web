@@ -33,6 +33,116 @@ with the latest developments by subscribing to both the
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a></h1>
 
+<a id="news-30122012"></a><h3>December 30, 2012, Recent Developments</h3>
+<p>
+Before this year ends we want to use the occasion and give you some news about
+recent developments in FFmpeg.
+</p>
+
+<h4>
+- <a href="/ffmpeg-filters.html#subtitles">subtitles filter</a>
+</h4>
+<p>
+The subtitles filter makes it possible to merge subtitles supported by
+libavformat/libavcodec into a video stream. This process is also known
+as burning them into the video or simply hardsubbing. This filter depends
+on libass and thus is only available in builds configured with --enable-ass.
+</p>
+<p>
+The subtitles filter is also useful to play external subtitle files with
+ffplay. An example of this usage can be found in the following entry about
+TED captions.
+</p>
+
+<h4>
+- JSON <a href="ffmpeg-formats.html#tedcaptions">captions for TED talks</a> decoding support
+</h4>
+<p>
+<a href="http://www.ted.com/">TED</a> provides video downloads for their talks.
+Not all of these are available with subtitles and when they are the subtitles
+are burnt into the video. Now with this new FFmpeg feature you can download the
+subtitle files and just display them on the fly when playing the video with ffplay:
+</p>
+<pre>
+  ffplay ted.mp4 -vf subtitles=ted.json
+</pre>
+
+<h4>
+- <a href="/ffmpeg-filters.html#geq">geq filter</a> ported from libmpcodecs
+</h4>
+<p>
+This is another filter ported from MPlayer. It allows you to arbitrarily
+change luma and chroma values for each pixel of the movie individually.
+To learn more look at the
+<a href="/ffmpeg-filters.html#geq">geq documentation</a>
+and
+<a href="ffmpeg-utils.html#Expression-Evaluation">the evaluation syntax description</a>.
+Do not forget to give it a try:
+</p>
+<pre>
+  ffplay input.movie -vf "geq=p(X\,Y):if(gt(Y\,H/2)\,128)+ifnot(gt(Y\,H/2)\,cr(X\,Y)):if(gt(Y\,H/2)\,128)+ifnot(gt(Y\,H/2)\,cb(X\,Y))"
+</pre>
+
+<h4>
+- filter for <a href="/ffmpeg-filters.html#ebur128">loudness analysis following EBU R128</a>
+</h4>
+<p>
+This filter analyses audio streams as recommended by EBU recommendation R128.
+The output can be either logged or visualized in a generated video stream.
+</p>
+
+<h4>
+- <a href="/ffserver.html#What-is-FFM_002c-FFM2">FFM2</a> support
+</h4>
+<p>
+The FFM2 format has been introduced to provide better interoperability
+between different versions of the FFmpeg tools. It is usually used to
+provide input to ffserver. It improves on its predecessor FFM by making
+the format backward-compatible and extensible. This means the generated
+files are are no longer dependant on specific FFmpeg versions.
+</p>
+
+<h4>
+- Opus encoder using libopus
+</h4>
+<p>
+You can encode Opus now via Xiph's
+<a href="http://opus-codec.org/development/">libopus</a>.
+</p>
+
+<h4>
+- VobSub demuxer
+</h4>
+<p>
+IDX/SUB file pairs can now be played back or be remuxed into other formats such as MKV.
+</p>
+
+<h4>
+- Resolution &amp; pixel format change support with multithreading for H.264
+</h4>
+<p>
+Finally H.264 with resolution and/or pixel format changes can be decoded multithreaded.
+</p>
+
+<h4>
+- <a href="documentation.html">documentation</a> split into per-component manuals
+</h4>
+<p>
+In an on-going effort, the documentation is split, reordered and extended
+to make it more accessible and more complete.
+</p>
+
+<p>
+Of course we can't possibly cover all changes since our last release in a single news
+article, but we encourage you to read the
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog">Changelog</a>
+yourself.
+</p>
+
+<p>
+<i>We wish you all a happy new year!</i>
+</p>
+
 <a id="logo_art_contest_winter-2012"></a><h3>November 14, 2012, Winter Website Banner Contest</h3>
 <p>
 As the days are getting shorter for some of us, we are proud to announce
