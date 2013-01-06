@@ -52,6 +52,12 @@ FFmpeg Ubuntu packages for Precise, Oneiric, Natty, Maverick, and Lucid
 </p>
 
 <p>
+FFmpeg Redhat and Fedora packages for EL, Fedora Rawhide
+(i386, x86_64) are available at
+<a href="http://rpmfusion.org/">RPM Fusion</a>.
+</p>
+
+<p>
 FFmpeg static builds are available at
 <a href="http://ffmpeg.gusari.org/static/">FFmpeg Static Builds by Burek</a> and
 <a href="http://dl.dropbox.com/u/24633983/ffmpeg/index.html">FFmpeg Static Builds by Relaxed</a>.
