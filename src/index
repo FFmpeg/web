@@ -95,7 +95,9 @@ new stuff is below:
 - support building on the Plan 9 operating system
 - kerndeint filter ported from MPlayer
 - histeq filter ported from VirtualDub
+- Megalux Frame demuxer
 - 012v decoder
+- Improved AVC Intra decoding support
 </pre>
 <p>
 We recommend users, distributors and system integrators to upgrade unless they use
