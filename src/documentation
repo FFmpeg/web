@@ -66,3 +66,8 @@ trunk (regenerated nightly); documentation for the
 by Stephen Dranger, explains how to write a video player based on FFmpeg
 (<a href="https://github.com/mpenkov/ffmpeg-tutorial">updated source code</a> by Michael Penkov).</li>
 </ul>
+<h2>Books about FFmpeg</h2>
+<ul>
+<li><a href="http://ffmpeg.tv">FFmpeg Basics</a> by Frantisek Korbel,
+describes various FFmpeg features and common tasks.</li>
+</ul>
