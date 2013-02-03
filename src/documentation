@@ -27,13 +27,13 @@ Consult your locally installed documentation for older versions.
 
 <h2>Libraries Documentation</h2>
 <ul>
-<li><a href="libavutil.html">libavutil</a>
-<li><a href="libswscale.html">libswscale</a>
-<li><a href="libswresample.html">libswresample</a>
-<li><a href="libavcodec.html">libavcodec</a>
-<li><a href="libavformat.html">libavformat</a>
-<li><a href="libavdevice.html">libavdevice</a>
-<li><a href="libavfilter.html">libavfilter</a>
+<li><a href="libavutil.html">libavutil</a></li>
+<li><a href="libswscale.html">libswscale</a></li>
+<li><a href="libswresample.html">libswresample</a></li>
+<li><a href="libavcodec.html">libavcodec</a></li>
+<li><a href="libavformat.html">libavformat</a></li>
+<li><a href="libavdevice.html">libavdevice</a></li>
+<li><a href="libavfilter.html">libavfilter</a></li>
 </ul>
 
 <h2>General Documentation</h2>
