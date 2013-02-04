@@ -3,6 +3,17 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
 <h2>FFmpeg 1.0</h2>
+<h3>1.0.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+commit 20c121c00747d6c3b0b0f98deeff021171b2ed74 / c83002a4f8042ccfa0688a9a18e8fa0369c1fda8
+commit 68e48ed72e0597ae61bc3e9e6e6d9edcb1a00073 / 7d66bc7920240cc0e8df6c44b2d2cdbe4b228fbe
+commit 9929991da7b843e7d80154fcacc4e80579b86a2d / cbe43e62c9ac7d4aefdc13476f6f691bd626525f
+commit e74cd2f4706f71da5e9205003c1d8263b54ed3fb / 03847eb8259291b4ff1bd840bd779d0699d71f96
+</pre>
+
 <h3>1.0.1</h3>
 <p>
 Fixes following vulnerabilities:
