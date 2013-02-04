@@ -27,12 +27,9 @@ Trespass these rules at the risk of being flamed.
 
 <p>
 <a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-user/">ffmpeg-user</a>:
-This list is for regular user questions like compilation troubles,
-command-line issues and similar.
-<br />
-<a href="https://lists.ffmpeg.org/mailman/listinfo/ffserver-user/">ffserver-user</a>:
-This list is for ffserver user questions like configuration and streaming
-issues.
+This list is for regular user questions and discussions including usage of
+<code>ffmpeg</code>, <code>ffplay</code>, <code>ffprobe</code>, and
+<code>ffserver</code>.
 <br />
 <a href="https://lists.ffmpeg.org/mailman/listinfo/libav-user/">libav-user</a>:
 This list is for application developer questions about development using the
@@ -47,7 +44,7 @@ for bug reports.
 This list gets all changes to the FFmpeg sources / main git repository.
 <br />
 <a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-trac/">ffmpeg-trac</a>:
-This list gets all changes to the FFmpeg Trac issuetracker.
+This list gets all changes to the FFmpeg Trac issue tracker.
 </p>
 
 <p>
@@ -67,8 +64,6 @@ browse the archives before posting questions.
 <p>
 <a href="https://lists.ffmpeg.org/pipermail/ffmpeg-user/">ffmpeg-user archives</a>
 <br />
-<a href="https://lists.ffmpeg.org/pipermail/ffserver-user/">ffserver-user archives</a>
-<br />
 <a href="https://lists.ffmpeg.org/pipermail/libav-user/">libav-user archives</a>
 <br />
 <a href="https://lists.ffmpeg.org/pipermail/ffmpeg-devel/">ffmpeg-devel archives</a>
@@ -76,6 +71,9 @@ browse the archives before posting questions.
 <a href="https://lists.ffmpeg.org/pipermail/ffmpeg-cvslog/">ffmpeg-cvslog archives</a>
 <br />
 <a href="https://lists.ffmpeg.org/pipermail/ffmpeg-soc/">ffmpeg-soc archives</a>
+<br />
+<a href="https://lists.ffmpeg.org/pipermail/ffserver-user/">ffserver-user archives</a>
+(ffserver-user merged with ffmpeg-user on 2013-02-04)
 </p>
 
 
