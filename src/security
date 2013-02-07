@@ -54,7 +54,7 @@ CVE-2013-0859, 6d1c5ea04af3e345232aa70c944de961061dab2d
 <h2>FFmpeg 1.0</h2>
 <h3>1.0.2</h3>
 <p>
-Fixes following vulnerabilities:
+Fixes following (minor) vulnerabilities:
 </p>
 <pre>
 commit 20c121c00747d6c3b0b0f98deeff021171b2ed74 / c83002a4f8042ccfa0688a9a18e8fa0369c1fda8
