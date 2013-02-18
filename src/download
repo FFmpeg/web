@@ -403,20 +403,20 @@ ffmpeg-mt, libav master of 2011-06-21, libav 0.7.7 as of 2013-02-17.
 </p>
 
 <a name="release_0.7"></a><h2>
-FFmpeg 0.7.13 "Peace"</h2>
+FFmpeg 0.7.14 "Peace"</h2>
 
 <p>
-0.7.13 was released on 2012-06-09.
-It contains almost all features and bugfixes of 0.8.12 while being
+0.7.14 was released on 2013-02-18.
+It contains almost all features and bugfixes of 0.8.13 while being
 compatible with the 0.6 ABI and API.
 </p>
 
 <p>
-<a href="releases/ffmpeg-0.7.13.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.7.13.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.7.13.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.7.13.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.7.13">Changelog</a><br />
+<a href="releases/ffmpeg-0.7.14.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.7.14.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-0.7.14.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-0.7.14.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.7.14">Changelog</a><br />
 </p>
 
 <a name="release_0.6"></a><h2>
