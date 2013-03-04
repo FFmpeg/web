@@ -3,6 +3,22 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
 <h2>FFmpeg 1.1</h2>
+<h3>1.1.3</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-2277, 02d1efdd5b61cefb96562ff9b94c03486a8ead15 / bdeb61ccc67911cfc5e20c7cfb1312d0501ca90a
+CVE-2013-2276, 469cb61193861baf46cce76f98985b026b08cd8d / 8a6449167a6da8cb747cfe3502ae86ffaac2ed48
+CVE-2013-0872, 7c40a0449b4771a0a09c3c38e081d3869d1f917b / 21cd905cd44a4bbafe8631bbaa6021d328413ce5
+CVE-2013-0873, 811a504c6bc2586a8ea5d52fbcfee94277123eb5 / 4f1279154ee9baf2078241bf5619774970d18b25
+CVE-2013-0874, 75211f2b8cfb8b4a3f47c514e55585651eeb2767 / e1219cdaf9fb4bc8cea410e1caf802373c1bfe51
+CVE-2013-0875, f6687bbb6464532f14b3246cdb7b03f6d04b25cb / 1ac0fa50eff30d413206cffa5f47f7fe6d4849b1
+CVE-2013-0876, 1400f1a1e46d72dc38d4cee66f611d91c3a1f49b / 5260edee7e5bd975837696c8c8c1a80eb2fbd7c1
+CVE-2013-0877, 1ea5bbc5940d2ea5ec1eea83cccef331d737f5f6 / 365270aec5c2b9284230abc702b11168818f14cf
+CVE-2013-0878, f5955d9f6f9ffdb81864c3de1c7b801782a55725 / 796012af6c780b5b13ebca39a491f215515a18fe
+</pre>
+
 <h3>1.1.2</h3>
 <p>
 Fixes following vulnerabilities:
