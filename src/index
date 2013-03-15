@@ -32,6 +32,40 @@ with the latest developments by subscribing to both the
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="pr1.2"></a><h3>March 15, 2013, FFmpeg 1.2</h3>
+<p>
+We have made a new major release (<b><a href="download.html#release_1.2">1.2</a></b>)
+It contains all features and bugfixes of the git master branch from 7th march.
+A partial list of new stuff is below:
+</p>
+<pre>
+- VDPAU hardware acceleration through normal hwaccel
+- SRTP support
+- Error diffusion dither in Swscale
+- Chained Ogg support
+- Theora Midstream reconfiguration support
+- EVRC decoder
+- audio fade filter
+- filtering audio with unknown channel layout
+- allpass, bass, bandpass, bandreject, biquad, equalizer, highpass, lowpass
+  and treble audio filter
+- improved showspectrum filter, with multichannel support and sox-like colors
+- histogram filter
+- tee muxer
+- il filter ported from libmpcodecs
+- support ID3v2 tags in ASF files
+- encrypted TTA stream decoding support
+- RF64 support in WAV muxer
+- noise filter ported from libmpcodecs
+- Subtitles character encoding conversion
+- blend filter
+- stereo3d filter ported from libmpcodecs
+</pre>
+<p>
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
 
 <a id="logo_art_contest_spring-2013"></a><h3>February 10, 2013, Spring Website Banner Contest</h3>
 <p>
