@@ -291,8 +291,8 @@ Note, if you have a public clone of ffmpeg and want to be listed above, contact 
 <a name="releases"></a><h1>FFmpeg Releases</h1>
 
 <p>
-At irregular intervals FFmpeg makes releases that represent snapshots of FFmpeg
-at the moment the release branch was cut. Between major releases point releases
+Approximately every 3 months The FFmpeg project makes a new major release.
+Between major releases point releases
 will appear that add important bug fixes but no new features.
 Note that these releases are intended for distributors and system integrators.
 Users that wish to compile from source themselves are strongly encouraged to
