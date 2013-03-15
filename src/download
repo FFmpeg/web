@@ -291,7 +291,7 @@ Note, if you have a public clone of ffmpeg and want to be listed above, contact 
 <a name="releases"></a><h1>FFmpeg Releases</h1>
 
 <p>
-Approximately every 3 months The FFmpeg project makes a new major release.
+Approximately every 3 months the FFmpeg project makes a new major release.
 Between major releases point releases
 will appear that add important bug fixes but no new features.
 Note that these releases are intended for distributors and system integrators.
