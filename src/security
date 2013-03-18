@@ -2,7 +2,26 @@
 
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 1.2</h2>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-2495, 3dbc0ff9c3e6f6e0d08ea3d42cb33761bae084ba
+CVE-2013-2496, e398990eb87785e20e065cd3f14d1dbb69df4392
+CVE-2013-0870, 14c8ee00ffd9d45e6e0c6f11a957ce7e56f7eb3a
+</pre>
+
 <h2>FFmpeg 1.1</h2>
+<h3>1.1.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-2495, f719e6566c08dc1e18cf1caf07ba8c0e93cd7283 / 3dbc0ff9c3e6f6e0d08ea3d42cb33761bae084ba
+CVE-2013-2496, e398990eb87785e20e065cd3f14d1dbb69df4392 / b9a1efa6f4d4cda20ce796614ff5b0c523df5672
+</pre>
+
 <h3>1.1.3</h3>
 <p>
 Fixes following vulnerabilities:
