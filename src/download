@@ -333,13 +333,13 @@ ffmpeg-mt, libav master of 2013-03-07, libav 9 as of 2013-03-07.
 </p>
 
 <a name="release_1.1"></a><h2>
-FFmpeg 1.1.3 "Fire Flower"</h2>
+FFmpeg 1.1.4 "Fire Flower"</h2>
 
 <p>
-1.1.3 was released on 2013-02-23. It is the latest stable FFmpeg release
+1.1.4 was released on 2013-03-18. It is the latest stable FFmpeg release
 from the 1.1 release branch, which was cut from master on 2013-01-06.
 Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2013-01-06, libav 9.1 as of 2013-02-23.
+ffmpeg-mt, libav master of 2013-01-06, libav 9.3 as of 2013-03-18.
 </p>
 <p>It includes the following library versions:
 </p>
@@ -355,11 +355,11 @@ ffmpeg-mt, libav master of 2013-01-06, libav 9.1 as of 2013-02-23.
 </pre>
 
 <p>
-<a href="releases/ffmpeg-1.1.3.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.1.3.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-1.1.3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.1.3.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.1.3">Changelog</a><br />
+<a href="releases/ffmpeg-1.1.4.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-1.1.4.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-1.1.4.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-1.1.4.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.1.4">Changelog</a><br />
 </p>
 
 <a name="release_1.0"></a><h2>
