@@ -6,23 +6,28 @@ Consult your locally installed documentation for older versions.
 
 <h2>Command Line Tools Documentation</h2>
 <ul>
-<li><a href="ffmpeg.html">ffmpeg</a></li>
-<li><a href="ffplay.html">ffplay</a></li>
-<li><a href="ffprobe.html">ffprobe</a></li>
-<li><a href="ffserver.html">ffserver</a> and a <a href="sample.html">sample ffserver configuration file</a></li>
+<li><a href="ffmpeg.html">ffmpeg</a>: <tt>ffmpeg tool</tt></li>
+<li><a href="ffmpeg-all.html">ffmpeg-all</a>: <tt>ffmpeg</tt> tool and FFmpeg components</li>
+<li><a href="ffplay.html">ffplay</a>: <tt>ffplay tool</tt></li>
+<li><a href="ffplay-all.html">ffplay-all</a>: <tt>ffplay</tt> tool and FFmpeg components</li>
+<li><a href="ffprobe.html">ffprobe</a>: <tt>ffprobe tool</tt></li>
+<li><a href="ffprobe-all.html">ffprobe-all</a>: <tt>ffprobe</tt> tool and FFmpeg components</li>
+<li><a href="ffserver.html">ffserver</a>: <tt>ffserver</tt> tool</li>
+<li><a href="ffserver-all.html">ffserver-all</a>: <tt>ffserver</tt> tool and FFmpeg components</li>
+<li><a href="sample.html">sample <tt>ffserver</tt> configuration file</a></li>
 </ul>
 
 <h2>Components Documentation</h2>
 <ul>
-<li><a href="ffmpeg-utils.html">FFmpeg utilities</a></li>
-<li><a href="ffmpeg-scaler.html">FFmpeg video scaling and pixel format converter</a></li>
-<li><a href="ffmpeg-resampler.html">FFmpeg audio resampler</a></li>
-<li><a href="ffmpeg-codecs.html">FFmpeg encoders and decoders (codecs)</a></li>
-<li><a href="ffmpeg-bitstream-filters.html">FFmpeg bitstream filters</a></li>
-<li><a href="ffmpeg-formats.html">FFmpeg muxers and demuxers (formats)</a></li>
-<li><a href="ffmpeg-protocols.html">FFmpeg protocols</a></li>
-<li><a href="ffmpeg-devices.html">FFmpeg input and output devices</a></li>
-<li><a href="ffmpeg-filters.html">FFmpeg filters</a></li>
+<li><a href="ffmpeg-utils.html">ffmpeg-utils</a>: FFmpeg utilities</li>
+<li><a href="ffmpeg-scaler.html">ffmpeg-scaler</a>: FFmpeg video scaling and pixel format converter</li>
+<li><a href="ffmpeg-resampler.html">ffmpeg-resampler</a>: FFmpeg audio resampler</li>
+<li><a href="ffmpeg-codecs.html">ffmpeg-codecs</a>: FFmpeg encoders and decoders (codecs)</li>
+<li><a href="ffmpeg-bitstream-filters.html">ffmpeg-bitstream-filters</a>: FFmpeg bitstream filters</li>
+<li><a href="ffmpeg-formats.html">ffmpeg-formats</a>: FFmpeg muxers and demuxers (formats)</li>
+<li><a href="ffmpeg-protocols.html">ffmpeg-protocols</a>: FFmpeg protocols</li>
+<li><a href="ffmpeg-devices.html">ffmpeg-devices</a>: FFmpeg input and output devices</li>
+<li><a href="ffmpeg-filters.html">ffmpeg-filters</a>: FFmpeg filters</li>
 </ul>
 
 <h2>Libraries Documentation</h2>
