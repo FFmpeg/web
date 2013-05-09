@@ -6,11 +6,11 @@ Consult your locally installed documentation for older versions.
 
 <h2>Command Line Tools Documentation</h2>
 <ul>
-<li><a href="ffmpeg.html">ffmpeg</a>: <tt>ffmpeg tool</tt></li>
+<li><a href="ffmpeg.html">ffmpeg</a>: <tt>ffmpeg</tt> tool</li>
 <li><a href="ffmpeg-all.html">ffmpeg-all</a>: <tt>ffmpeg</tt> tool and FFmpeg components</li>
-<li><a href="ffplay.html">ffplay</a>: <tt>ffplay tool</tt></li>
+<li><a href="ffplay.html">ffplay</a>: <tt>ffplay</tt> tool</li>
 <li><a href="ffplay-all.html">ffplay-all</a>: <tt>ffplay</tt> tool and FFmpeg components</li>
-<li><a href="ffprobe.html">ffprobe</a>: <tt>ffprobe tool</tt></li>
+<li><a href="ffprobe.html">ffprobe</a>: <tt>ffprobe</tt> tool</li>
 <li><a href="ffprobe-all.html">ffprobe-all</a>: <tt>ffprobe</tt> tool and FFmpeg components</li>
 <li><a href="ffserver.html">ffserver</a>: <tt>ffserver</tt> tool</li>
 <li><a href="ffserver-all.html">ffserver-all</a>: <tt>ffserver</tt> tool and FFmpeg components</li>
