@@ -120,12 +120,10 @@ your problem. In this case, please follow these steps:
     and then upload small-sample-file rather than sample-file</li>
   <li>Please choose descriptive names like "h264_green_tint.mov" or
       "block_artifacts_after_seeking.mkv". We already have plenty of "bug.rm"
-      and "sample.avi" to choose from.</li>
-  <li>Upload the sample to the MPlayer FTP server. Note that our FTP server
-    is write-only, as it would immediately get misused for warez trading
-    otherwise. Do not let this confuse you. Even though you cannot see the
-    stuff you upload, it will be there and the FFmpeg developers will have
-    access.
+      and "sample.avi".</li>
+  <li>Upload the sample to the FTP server. Note that our FTP server
+    is write-only. Even though you cannot see the files that you upload,
+    it will be there and the FFmpeg developers will have access.
   <ul>
     <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
     <li>cd -> incoming</li>
@@ -135,7 +133,7 @@ your problem. In this case, please follow these steps:
     <li>Upload the sample.</li>
   </ul>
   </li>
-  <li>Email the list and indicate the location of the sample.</li>
+  <li>Email the ffmpeg mailing list and indicate the filename of the sample.</li>
 </ul>
 
 <p>
