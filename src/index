@@ -32,6 +32,18 @@ with the latest developments by subscribing to both the
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="speech"></a><h3>June 5, 2013, Request for speech codec samples</h3>
+<p>
+FFmpeg developers want to support more voice and speech codecs.
+We are looking for samples of EVRC-WB , EVRC-B and SMV codecs.
+Some cell phones may record the audio in qcp, mp4 or 3g2 formats.
+</p>
+<p>
+Please upload these codec samples to us (ftp, trac, etc) so we may take a look.
+Or you can email them to projects@mplayerhq.hu , thanks!
+</p>
+
+
 <a id="lt2013"></a><h3>April 28, 2013, LinuxTag</h3>
 <p>
 We happily announce that FFmpeg will be represented at LinuxTag in
