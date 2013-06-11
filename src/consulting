@@ -10,7 +10,8 @@ some new feature.
 <p>
 This page is a list of those FFmpeg developers that are available for
 employment or consulting. The FFmpeg project highly recommends these people
-to be hired by your business. All developers on this list have commit rights,
+to be hired by your business. All developers on this list maintain some
+code in FFmpeg,
 which serves as a testimony for their competence. By hiring one of these
 developers, your business can also (indirectly) support the development
 of FFmpeg.
@@ -32,7 +33,7 @@ E.g.:
 "<h2>Firstname M.I. Lastname</h2>
  <p>
  Firstname is located in Location, Country and available for
- contracting work. He has worked on FFmpeg since Year1 and has had commit rights
+ contracting work. He has worked on FFmpeg since Year1 and has been a maintainer
  since Year2. He has special expertise in Feature and Field, but will also
  take on work related to This Special Thing or That Particular Thing. You
  can contact him at @Email@ or #Phone#.
@@ -42,7 +43,7 @@ E.g.:
 <h2>Baptiste Coudurier</h2>
 <p>
 Baptiste Coudurier is located in Los Angeles, California and is available for
-contracting work. He has worked on FFmpeg since 2005 and has had commit rights
+contracting work. He has worked on FFmpeg since 2005 and has been a maintainer
 since 2006. He has special expertise in broadcast codecs
 (ProRes, DNxHD, IMX/D-10, AVC-Intra), formats (MXF, GXF, MOV) and usages
 (Avid, FCP, Interlacing, Time Code, Metadata). You can contact him by email at
@@ -60,7 +61,7 @@ You can contact him by email at
 <h2>Carl Eugen Hoyos</h2>
 <p>
 Carl is located in Austria and available for contracting work.
-He has worked on FFmpeg since 2007 and is a committer since 2007.
+He has worked on FFmpeg since 2007 and has been a maintainer since 2007.
 He has experience with software license issues, and currently maintains the
 FFmpeg bug tracker
 You can contact him by email at
@@ -70,7 +71,7 @@ You can contact him by email at
 <h2>Clément Bœsch</h2>
 <p>
 Clément is located in France and available for contracting work.
-He has worked on FFmpeg since 2011 and is a committer since 2011.
+He has worked on FFmpeg since 2011 and has been a maintainer since 2011.
 He has experience with subtitles, filters and all kinds of random
 things accross the codebase.
 You can contact him by email at
@@ -87,7 +88,7 @@ You can contact him by email at <a href="mailto:michaelni@gmx.at">michaelni@gmx.
 <h2>Paul B Mahol</h2>
 <p>
 Paul is located in Croatia and available for contracting work. He has
-worked on FFmpeg since 2011 and is a committer since 2012. He has
+worked on FFmpeg since 2011 and has been a maintainer since 2012. He has
 experience with various codecs, containers, filters and reverse
 engineering. You can contact him by email at
 <a href="mailto:onemda at gmail dot com">onemda at gmail dot com</a>.
@@ -96,7 +97,7 @@ engineering. You can contact him by email at
 <h2>Stefano Sabatini</h2>
 <p>
 Stefano is located in Cagliari, Italy and is available for contracting
-work. He has worked on FFmpeg since 2007 and has had commit rights since
+work. He has worked on FFmpeg since 2007 and has been a maintainer since
 2008. He has special expertise in libavfilter, ff* tools usage and
 usability issues. You can contact him by email at
 <a href="mailto:stefasab@gmail.com">stefasab@gmail.com</a>.
