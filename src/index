@@ -106,7 +106,7 @@ seasonal art contest.
 </p>
 
 <p>
-Please read <a href="https://ffmpeg.org/trac/ffmpeg/ticket/2255">ticket 2255</a> for further
+Please read <a href="https://trac.ffmpeg.org/ticket/2255">ticket 2255</a> for further
 directions.
 </p>
 
@@ -327,7 +327,7 @@ to get your art on top of this website for the coming winter season.
 </p>
 
 <p>
-Please read on <a href="https://ffmpeg.org/trac/ffmpeg/ticket/1756">
+Please read on <a href="https://trac.ffmpeg.org/ticket/1756">
 here</a> for further directions.
 </p>
 
@@ -432,7 +432,7 @@ the FFmpeg website this autumn.
 </p>
 
 <p>
-Please read our <a href="https://ffmpeg.org/trac/ffmpeg/wiki/SubmitALogo">
+Please read our <a href="https://trac.ffmpeg.org/wiki/SubmitALogo">
 Art Submission How-to</a> if you are interested in participating.
 </p>
 
@@ -552,7 +552,7 @@ We recommend distributors and system integrators to upgrade to 0.10.2 or git mas
 
 <a id="up201204"></a><h3>April, 4, 2012, Server Upgrade</h3>
 <p>
-Today our main server has been upgraded due to performance issues with <a href="http://ffmpeg.org/trac/ffmpeg">our bug tracker</a>.
+Today our main server has been upgraded due to performance issues with <a href="http://trac.ffmpeg.org">our bug tracker</a>.
 While investigating the speed issues, we also took the opportunity to add voting
 support to bug reports and wiki pages, so you can now "tell" us which issues
 you want us to work on first.
@@ -624,7 +624,7 @@ missed patches, so we need your help to locate old unapplied patches to review a
 <p>
 If you find a patch that was never applied, please let us know, either by resubmitting it
 to ffmpeg-devel or by attaching it to a bug on our
-<a href="http://ffmpeg.org/trac/ffmpeg">bug tracker</a>.
+<a href="http://trac.ffmpeg.org">bug tracker</a>.
 </p>
 
 <p>
@@ -692,7 +692,7 @@ help us. Clone git://source.ffmpeg.org/ffmpeg.git,
 pick an area of the codebase you want to maintain,
 subscribe to <a href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/">ffmpeg-devel</a>
 and start hacking on the code you are interested in, review patches on the mailing
-list, and fix bugs from our <a href="http://ffmpeg.org/trac/ffmpeg">bug tracker</a>
+list, and fix bugs from our <a href="http://trac.ffmpeg.org">bug tracker</a>
 that are related to the area you want to
 maintain. Once you are happy with your work just send us a link to your public
 git clone (for example from <a href="https://github.com/FFmpeg/">Github</a>).
@@ -986,7 +986,7 @@ FFmpeg now has a ProRes decoder in master git.
 We want to support more raw or 10bit or broadcast codecs.
 We need samples of the following codecs. If you have some,
 please upload them to our
-<a href="http://ffmpeg.org/trac/ffmpeg/">trac</a>.
+<a href="http://trac.ffmpeg.org/">trac</a>.
 </p>
 <p>
 Codec name / isom or fourcc
@@ -1107,7 +1107,7 @@ Win32 and Win64 builds of FFmpeg are now available at
 
 <p>
 Please report any bugs to our
-<a href="https://ffmpeg.org/trac/ffmpeg">bug tracker</a>.
+<a href="https://trac.ffmpeg.org">bug tracker</a>.
 </p>
 
 <a id="mt_merge"></a><h3>March 21, 2011</h3>

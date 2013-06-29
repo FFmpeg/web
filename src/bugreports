@@ -96,8 +96,8 @@ output into your bug report:
 
 <p>
 Once you have gathered this information, you can submit a report to the
-<a href="https://ffmpeg.org/trac/ffmpeg">FFmpeg bug tracker</a>.
-Note, you must <a href="https://ffmpeg.org/trac/ffmpeg/register">register</a>
+<a href="https://trac.ffmpeg.org">FFmpeg bug tracker</a>.
+Note, you must <a href="https://trac.ffmpeg.org/register">register</a>
 there first before you can submit a report.
 You should provide all information so that anyone can reproduce the bug.
 Please do not report your problem on the developer mailing list:
