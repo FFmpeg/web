@@ -312,6 +312,36 @@ selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>
 
+<a name="release_2.0"></a><h2>
+FFmpeg 2.0 Nameless"</h2>
+
+<p>
+2.0 was released on 2013-07-08. It is the latest stable FFmpeg release
+from the 2.0 release branch, which was cut from master on 2013-07-08.
+Amongst lots of other changes, it includes all changes from
+ffmpeg-mt, libav master of 2013-07-07, libav 9 as of 2013-07-07.
+</p>
+<p>It includes the following library versions:
+</p>
+<pre>
+  libavutil      52. 38.100
+  libavcodec     55. 18.102
+  libavformat    55. 12.100
+  libavdevice    55.  3.100
+  libavfilter     3. 79.101
+  libswscale      2.  3.100
+  libswresample   0. 17.102
+  libpostproc    52.  3.100
+</pre>
+
+<p>
+<a href="releases/ffmpeg-2.0.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.0.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-2.0.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.0.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0">Changelog</a><br />
+</p>
+
 <a name="release_1.2"></a><h2>
 FFmpeg 1.2.1 "Magic"</h2>
 
