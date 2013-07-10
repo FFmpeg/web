@@ -316,10 +316,10 @@ and much faster bug fixes such as additional features and security patches.
 FFmpeg 2.0 "Nameless"</h2>
 
 <p>
-2.0 was released on 2013-07-08. It is the latest stable FFmpeg release
-from the 2.0 release branch, which was cut from master on 2013-07-08.
+2.0 was released on 2013-07-10. It is the latest stable FFmpeg release
+from the 2.0 release branch, which was cut from master on 2013-07-10.
 Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2013-07-07, libav 9 as of 2013-07-07.
+ffmpeg-mt, libav master of 2013-07-09, libav 9 as of 2013-07-09.
 </p>
 <p>It includes the following library versions:
 </p>
