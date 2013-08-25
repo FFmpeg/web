@@ -46,7 +46,7 @@ bootstrap your local repository.
 <h2 id="LinuxBuilds">FFmpeg Linux Builds</h2>
 <p>
 FFmpeg Debian packages for Oldstable, Stable, Testing, Unstable
-(amd64, i386, powerpc, sparc, ia64, armel, mips, mipsel) are available at
+(amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc) are available at
 <a href="http://www.deb-multimedia.org/">deb-multimedia</a>.
 </p>
 
