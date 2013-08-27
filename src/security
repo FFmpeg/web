@@ -3,6 +3,17 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
 <h2>FFmpeg 2.0</h2>
+<h3>2.0.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-4263, 1bf2461765c58aad5829ea45a2885d11f50b73f0 / e43a0a232dbf6d3c161823c2e07c52e76227a1bc
+CVE-2013-4264, acf511de34e0b79fff0183e06ed37f1aa8dc3d94 / 2960576378d17d71cc8dccc926352ce568b5eec1
+CVE-2013-4265, 211374e52a933a2b3f21a4d6e66e9f1b0623e44e / c94f9e854228e0ea00e1de8769d8d3f7cab84a55
+</pre>
+
+<h3>2.0</h3>
 <p>
 Fixes following vulnerabilities:
 </p>
@@ -15,27 +26,8 @@ CVE-2013-3674, ad002e1a13a8df934bd6cb2c84175a4780ab8942
 CVE-2013-3675, 9dd04f6d8cdd1c10c28b2cb4252c1a41df581915
 </pre>
 
-<h3>2.0.1</h3>
-<p>
-Fixes following vulnerabilities:
-</p>
-<pre>
-CVE-2013-4263, 1bf2461765c58aad5829ea45a2885d11f50b73f0 / e43a0a232dbf6d3c161823c2e07c52e76227a1bc
-CVE-2013-4264, acf511de34e0b79fff0183e06ed37f1aa8dc3d94 / 2960576378d17d71cc8dccc926352ce568b5eec1
-CVE-2013-4265, 211374e52a933a2b3f21a4d6e66e9f1b0623e44e / c94f9e854228e0ea00e1de8769d8d3f7cab84a55
-</pre>
-
 
 <h2>FFmpeg 1.2</h2>
-<p>
-Fixes following vulnerabilities:
-</p>
-<pre>
-CVE-2013-2495, 3dbc0ff9c3e6f6e0d08ea3d42cb33761bae084ba
-CVE-2013-2496, e398990eb87785e20e065cd3f14d1dbb69df4392
-CVE-2013-0870, 14c8ee00ffd9d45e6e0c6f11a957ce7e56f7eb3a
-</pre>
-
 <h3>1.2.1</h3>
 <p>
 Fixes following vulnerabilities:
@@ -47,6 +39,16 @@ CVE-2013-3672, 7fa6db2545643efb4fe2e0bb501fa50af35a6330 / 8d3c99e825317b7efda5fd
 CVE-2013-3673, 7ee5e97c46e30fb3d6f9f78cc3313dbc06528b37 / d23b8462b5a4a9da78ed45c4a7a3b35d538df909
 CVE-2013-3674, 7ef2dbd2392e3e4d430e0173e1e5c4df9f18b6dd / ad002e1a13a8df934bd6cb2c84175a4780ab8942
 CVE-2013-3675, 524d0d2cfc7bab1b348f85e7c0369859e63781cf / 9dd04f6d8cdd1c10c28b2cb4252c1a41df581915
+</pre>
+
+<h3>1.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-2495, 3dbc0ff9c3e6f6e0d08ea3d42cb33761bae084ba
+CVE-2013-2496, e398990eb87785e20e065cd3f14d1dbb69df4392
+CVE-2013-0870, 14c8ee00ffd9d45e6e0c6f11a957ce7e56f7eb3a
 </pre>
 
 
