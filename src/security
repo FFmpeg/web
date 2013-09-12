@@ -175,6 +175,16 @@ CVE-2013-0846, e34369e8ece08b7bd820366dea5965f4c40c0080 / a7ee6281f7ef1c29284e3a
 </pre>
 
 <h2>FFmpeg 0.11</h2>
+
+<h3>0.11.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-0869, 1934bb75361e7859873c6bf94ee1ceb17981c550 / 695af8eed642ff0104834495652d1ee784a4c14d
+commit 39ed5442620a7a0fd2328b7d4aefc6ae152c5441 / b9d887c225466576ae80ef7f2b109e866ff137b2
+</pre>
+
 <h3>0.11</h3>
 <p>
 Fixes following vulnerabilities:
