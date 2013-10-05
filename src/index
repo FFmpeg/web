@@ -32,6 +32,16 @@ with the latest developments by subscribing to both the
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="doom9news"></a><h3>October 05, 2013, Doom9 Forums Compromised</h3>
+<p>
+It looks like the Doom9 forums were compromised.
+Running a packet sniffer while accessing the site brings up urls:
+http://online-multiplayer.com/doom9/l.js
+http://online-multiplayer.com/doom9/data.php
+Make sure to change your password if you've logged into doom9 recently.
+</p>
+
+
 <a id="logo_art_contest_autumn-2013"></a><h3>August 22, 2013, Autumn Website Banner Contest</h3>
 <p>
 Welcome art-inclined readers of this rather technical website!
