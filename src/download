@@ -317,10 +317,10 @@ and much faster bug fixes such as additional features and security patches.
 </p>
 
 <a name="release_2.0"></a><h2>
-FFmpeg 2.0.1 "Nameless"</h2>
+FFmpeg 2.0.2 "Nameless"</h2>
 
 <p>
-2.0.1 was released on 2013-08-11. It is the latest stable FFmpeg release
+2.0.2 was released on 2013-10-08. It is the latest stable FFmpeg release
 from the 2.0 release branch, which was cut from master on 2013-07-10.
 Amongst lots of other changes, it includes all changes from
 ffmpeg-mt, libav master of 2013-07-09, libav 9 as of 2013-07-09.
@@ -339,11 +339,11 @@ ffmpeg-mt, libav master of 2013-07-09, libav 9 as of 2013-07-09.
 </pre>
 
 <p>
-<a href="releases/ffmpeg-2.0.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.0.1.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-2.0.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.0.1.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.1">Changelog</a><br />
+<a href="releases/ffmpeg-2.0.2.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.0.2.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-2.0.2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.0.2.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.2">Changelog</a><br />
 </p>
 
 <a name="release_1.2"></a><h2>
