@@ -32,6 +32,61 @@ with the latest developments by subscribing to both the
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="pr2.1"></a><h3>October 28, 2013, FFmpeg 2.1</h3>
+<p>
+We have made a new major release (<b><a href="download.html#release_2.1">2.1</a></b>)
+It contains all features and bugfixes of the git master branch from 28th October.
+A partial list of new stuff is below:
+</p>
+<pre>
+- aecho filter
+- perspective filter ported from libmpcodecs
+- ffprobe -show_programs option
+- compand filter
+- RTMP seek support
+- when transcoding with ffmpeg (i.e. not streamcopying), -ss is now accurate
+  even when used as an input option. Previous behavior can be restored with
+  the -noaccurate_seek option.
+- ffmpeg -t option can now be used for inputs, to limit the duration of
+  data read from an input file
+- incomplete Voxware MetaSound decoder
+- read EXIF metadata from JPEG
+- DVB teletext decoder
+- phase filter ported from libmpcodecs
+- w3fdif filter
+- Opus support in Matroska
+- FFV1 version 1.3 is stable and no longer experimental
+- FFV1: YUVA(444,422,420) 9, 10 and 16 bit support
+- changed DTS stream id in lavf mpeg ps muxer from 0x8a to 0x88, to be
+  more consistent with other muxers.
+- adelay filter
+- pullup filter ported from libmpcodecs
+- ffprobe -read_intervals option
+- Lossless and alpha support for WebP decoder
+- Error Resilient AAC syntax (ER AAC LC) decoding
+- Low Delay AAC (ER AAC LD) decoding
+- mux chapters in ASF files
+- SFTP protocol (via libssh)
+- libx264: add ability to encode in YUVJ422P and YUVJ444P
+- Fraps: use BT.709 colorspace by default for yuv, as reference fraps decoder does
+- make decoding alpha optional for prores, ffv1 and vp6 by setting
+  the skip_alpha flag.
+- ladspa wrapper filter
+- native VP9 decoder
+- dpx parser
+- max_error_rate parameter in ffmpeg
+- PulseAudio output device
+- ReplayGain scanner
+- Enhanced Low Delay AAC (ER AAC ELD) decoding (no LD SBR support)
+- Linux framebuffer output device
+- HEVC decoder, raw HEVC demuxer, HEVC demuxing in TS, Matroska and MP4
+- mergeplanes filter
+</pre>
+<p>
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
 <a id="doom9news"></a><h3>October 05, 2013, Doom9 Forums Compromised</h3>
 <p>
 It looks like the Doom9 forums were compromised.
