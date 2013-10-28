@@ -87,15 +87,6 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-<a id="doom9news"></a><h3>October 05, 2013, Doom9 Forums Compromised</h3>
-<p>
-It looks like the Doom9 forums were compromised.
-Running a packet sniffer while accessing the site brings up urls:
-http://online-multiplayer.com/doom9/l.js
-http://online-multiplayer.com/doom9/data.php
-Make sure to change your password if you've logged into doom9 recently.
-</p>
-
 
 <a id="logo_art_contest_autumn-2013"></a><h3>August 22, 2013, Autumn Website Banner Contest</h3>
 <p>
