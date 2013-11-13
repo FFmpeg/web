@@ -32,6 +32,24 @@ with the latest developments by subscribing to both the
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+
+<a id="ffmpeg_rfp"></a><h3>November 12, 2013, FFmpeg RFP in Debian</h3>
+<p>
+Since the splitting of Libav the Debian/Ubuntu maintainers have followed
+the Libav fork. Many people have requested the packaging of ffmpeg in
+Debian, as it is more feature-complete and in many cases less buggy.
+</p>
+<p>
+<a href="http://cynic.cc/blog/">Rogério Brito</a>, a Debian developer,
+has proposed a Request For Package (RFP) in the Debian bug tracking
+system.
+</p>
+<p>
+Please let the Debian and Ubuntu developers know that you support packaging
+of the real FFmpeg! See Debian <a href="http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=729203">ticket #729203</a>
+for more details.
+</p>
+
 <a id="pr2.1"></a><h3>October 28, 2013, FFmpeg 2.1</h3>
 <p>
 We have made a new major release (<b><a href="download.html#release_2.1">2.1</a></b>)
