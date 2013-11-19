@@ -2,31 +2,10 @@
 <p>
 <b>FFmpeg</b> is a complete, cross-platform solution to record, convert and
 stream audio and video. It includes <b>libavcodec</b> - the leading audio/video
-codec library. See the <a href="documentation.html">documentation</a> for a
-complete feature list and the <a href="http://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog">Changelog</a> for recent
+codec library. See the <a href="http://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog">Changelog</a> for recent
 changes.
 </p>
 </div>
-
-<p>
-<b>FFmpeg is free software licensed under the LGPL or GPL</b> depending
-on your choice of configuration options. If you use FFmpeg or its constituent
-libraries, you <b>must</b> adhere to the terms of the license in question.
-You can find basic compliance information and get licensing help on our
-<a  href="legal.html">license and legal considerations page</a>.
-</p>
-
-<p>
-<b>Looking for help?</b> <a href="contact.html">Contact us</a>, but before
-you report any bugs, read the <a href="bugreports.html">guidelines</a>
-that we created for this purpose.
-</p>
-
-<p>
-<b>Want to participate in the active development of FFmpeg?</b> Keep up
-with the latest developments by subscribing to both the
-<a href="contact.html">ffmpeg-devel and ffmpeg-cvslog</a> lists.
-</p>
 
 
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
