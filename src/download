@@ -317,10 +317,10 @@ and much faster bug fixes such as additional features and security patches.
 </p>
 
 <a name="release_2.1"></a><h2>
-FFmpeg 2.1 "Fourier"</h2>
+FFmpeg 2.1.1 "Fourier"</h2>
 
 <p>
-2.1 was released on 2013-10-28. It is the latest stable FFmpeg release
+2.1.1 was released on 2013-11-20. It is the latest stable FFmpeg release
 from the 2.1 release branch, which was cut from master on 2013-10-28.
 Amongst lots of other changes, it includes all changes from
 ffmpeg-mt, libav master of 2013-10-27, libav 9 as of 2013-10-27.
@@ -328,8 +328,8 @@ ffmpeg-mt, libav master of 2013-10-27, libav 9 as of 2013-10-27.
 <p>It includes the following library versions:
 </p>
 <pre>
-  libavutil      52. 48.100
-  libavcodec     55. 39.100
+  libavutil      52. 48.101
+  libavcodec     55. 39.101
   libavformat    55. 19.104
   libavdevice    55.  5.100
   libavfilter     3. 90.100
@@ -339,11 +339,11 @@ ffmpeg-mt, libav master of 2013-10-27, libav 9 as of 2013-10-27.
 </pre>
 
 <p>
-<a href="releases/ffmpeg-2.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.1.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-2.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.1.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.1">Changelog</a><br />
+<a href="releases/ffmpeg-2.1.1.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.1.1.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-2.1.1.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.1.1.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.1.1">Changelog</a><br />
 </p>
 
 <a name="release_2.0"></a><h2>
