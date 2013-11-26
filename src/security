@@ -2,6 +2,31 @@
 
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 2.1</h2>
+<h3>2.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+commit 29ffeef5e73b8f41ff3a3f2242d356759c66f91f
+commit 3819db745da2ac7fb3faacb116788c32f4753f34
+commit 454a11a1c9c686c78aa97954306fb63453299760
+commit 547d690d676064069d44703a1917e0dab7e33445
+commit 780669ef7c23c00836a24921fcc6b03be2b8ca4a
+commit 821a5938d100458f4d09d634041b05c860554ce0
+commit 86736f59d6a527d8bc807d09b93f971c0fe0bb07
+commit 880c73cd76109697447fbfbaa8e5ee5683309446
+commit 8bb11c3ca77b52e05a9ed1496a65f8a76e6e2d8f
+commit 912ce9dd2080c5837285a471d750fa311e09b555
+commit 9a271a9368eaabf99e6c2046103acb33957e63b7
+commit a1b9004b768bef606ee98d417bceb9392ceb788d
+commit b05cd1ea7e45a836f7f6071a716c38bb30326e0f
+commit cdd5df8189ff1537f7abe8defe971f80602cc2d2
+commit e07ac727c1cc9eed39e7f9117c97006f719864bd
+commit f31011e9abfb2ae75bb32bc44e2c34194c8dc40a
+commit fe448cd28d674c3eff3072552eae366d0b659ce9
+</pre>
+
 <h2>FFmpeg 2.0</h2>
 <h3>2.0.1</h3>
 <p>
