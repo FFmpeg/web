@@ -1,23 +1,79 @@
-<h1>FFmpeg Download and Source Code Repository Access</h1>
+<h1>FFmpeg Download</h1>
 
-<h2 id="GettingFFmpeg">Getting FFmpeg</h2>
+<p>FFmpeg static builds can be downloaded for every major operating system. They are built from recent
+development versions and include executables for you to run without the need to compile FFmpeg.</p>
+
+<h2 id="LinuxBuilds">Linux</h2>
+
+<p>Download static builds for Linux here:</p>
+
+<ul>
+  <li>
+    <a href="http://ffmpeg.gusari.org/static/">ffmpeg.gusari.org/static</a> &ndash; Builds for 32-bit and
+    64-bit with kernel 3.2.x and above
+  </li>
+  <li>
+    <a href="http://johnvansickle.com/ffmpeg/">johnvansickle.com/ffmpeg</a> &ndash; 64-bit builds for kernel
+    2.6.32 and above
+  </li>
+</ul>
+
+<p>FFmpeg packages are also offered for some distributions:</p>
+
+<ul>
+  <li>
+    <a href="http://www.deb-multimedia.org/">Deb Multimedia</a> &ndash; Debian packages for Oldstable, Stable,
+    Testing, Unstable (amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc)
+  </li>
+  <li>
+    <a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">Jon Severinsson's FFmpeg PPA</a> &ndash; Ubuntu packages
+    for Precise, Oneiric, Natty, Maverick, and Lucid (amd64, i386). Note that this package only provides FFmpeg 0.10 for
+    compatibility reasons.
+  </li>
+  <li>
+    <a href="http://rpmfusion.org/">RPM Fusion</a> &ndash; Redhat and Fedora packages for EL, Fedora Rawhide
+    (i386, x86_64)
+  </li>
+</ul>
+
+<h2 id="WindowsBuilds">Windows</h2>
+
 <p>
-FFmpeg has always been a very experimental and developer-driven project. It
-is a key component in many multimedia projects and has new features added
-constantly. Development branch snapshots work really well 99% of the
-time so people are not afraid to use them.
+Windows Builds are available at
+<a href="http://ffmpeg.zeranoe.com/builds/">Zeranoe FFmpeg Builds</a>.
 </p>
 
+<h2 id="MacOSXBuilds">OS X</h2>
+
+Static builds for OS X can be downloaded here:
+
+<ul>
+  <li>
+    <a href="http://www.evermeet.cx/ffmpeg/">Builds by tessus</a> &ndash; 64-bit builds for OS X Intel
+  </li>
+  <li>
+    <a href="http://ffmpegmac.net/">ffmpegmac.net</a> &ndash; 32-bit and 64-bit builds for OS X 10.5 and above
+  </li>
+</ul>
+
+Under OS X, FFmpeg can also be installed through <a href="http://brew.sh/">Homebrew</a>,
+<a href="http://www.macports.org/">MacPorts</a>, or <a href="http://www.finkproject.org/">Fink</a>.
+
+<h1>Source Code Repository Access</h1>
+
+<h2 id="GettingFFmpeg">Getting the FFmpeg Source Code</h2>
+
 <p>
-You can retrieve the source code through the standard Git client by
-using the command:
+Development branch snapshots work really well 99% of the time, so don't be afraid to use them. You can
+retrieve the latest source code through the standard Git client by using the command:
 </p>
 
 <pre>git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg</pre>
 
 <p>
 If you are a distributor, you can find <a href="#releases">release tarballs
-below</a>.
+below</a>. You can then compile FFmpeg by following the <a href="http://trac.ffmpeg.org/wiki/CompilationGuide">compilation
+guides on the FFmpeg Wiki</a>. It just takes a few minutes.
 </p>
 
 <p>
@@ -41,52 +97,6 @@ the cloning and reduce the bandwidth usage, we also offer a complete
 <a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a>
 tarball that comes with git metadata and version history to
 bootstrap your local repository.
-</p>
-
-<h2 id="LinuxBuilds">FFmpeg Linux Builds</h2>
-<p>
-FFmpeg Debian packages for Oldstable, Stable, Testing, Unstable
-(amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc) are available at
-<a href="http://www.deb-multimedia.org/">deb-multimedia</a>.
-</p>
-
-<p>
-FFmpeg Ubuntu packages for Precise, Oneiric, Natty, Maverick, and Lucid
-(amd64, i386) are available at
-<a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">Jon Severinsson's FFmpeg PPA</a>.
-</p>
-
-<p>
-FFmpeg Redhat and Fedora packages for EL, Fedora Rawhide
-(i386, x86_64) are available at
-<a href="http://rpmfusion.org/">RPM Fusion</a>.
-</p>
-
-<p>
-Static builds are available at:
-</p>
-
-<ul>
-  <li><a href="http://ffmpeg.gusari.org/static/">http://ffmpeg.gusari.org/static/</a></li>
-  <li><a href="http://johnvansickle.com/ffmpeg/">http://johnvansickle.com/ffmpeg/</a></li>
-</ul>
-
-
-<h2 id="WindowsBuilds">FFmpeg Windows Builds</h2>
-<p>
-FFmpeg Windows Builds are available at
-<a href="http://ffmpeg.zeranoe.com/builds/">Zeranoe FFmpeg Builds</a>.
-</p>
-
-<h2 id="MacOSXBuilds">FFmpeg OS X Builds</h2>
-<p>
-FFmpeg static builds for OS X Intel 64-bit are available at
-<a href="http://www.evermeet.cx/ffmpeg/">FFmpeg Static Builds by tessus</a>.
-</p>
-
-<p>
-FFmpeg builds (32-bit and 64-bit) for OS X 10.5 and above are available
-at <a href="http://ffmpegmac.net/">ffmpegmac.net</a>.
 </p>
 
 <h2 id="Extrarepositories">Extra repositories</h2>
