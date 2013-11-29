@@ -47,6 +47,8 @@ Consult your locally installed documentation for older versions.
 <li><a href="general.html">Supported External Libraries, Formats, Codecs or Features</a></li>
 <li><a href="platform.html">Platform Specific Information</a></li>
 <li><a href="developer.html">Developer Documentation</a></li>
+<li><a href="git-howto.html">Git How-To</a></li>
+<li><a href="fate.html">FATE FFmpeg Automated Testing Environment</a></li>
 </ul>
 
 <h2>API Documentation</h2>
