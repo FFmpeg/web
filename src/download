@@ -136,6 +136,14 @@ developers and groups of developers are available.
     <td>Main ffmpeg.org website repository</td>
 </tr>
 <tr>
+    <td><a href="git://ffmpeg.org/fateserver">git://git.ffmpeg.org/fateserver</a></td>
+    <td>-</td>
+    <td>-</td>
+    <td>Michael Niedermayer</td>
+    <td>All FFmpeg developers</td>
+    <td>Main ffmpeg.org FATE repository</td>
+</tr>
+<tr>
     <th colspan="6">Other Repositories</th>
 </tr>
 <tr>
