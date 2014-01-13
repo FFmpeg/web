@@ -123,7 +123,7 @@ developers and groups of developers are available.
     <td><a href="http://git.videolan.org/?p=ffmpeg.git">Browse</a></td>
     <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
     <td>Michael Niedermayer</td>
-    <td>All FFmpeg developers</td>
+    <td>All FFmpeg developers who want to have direct access</td>
     <td>Main FFmpeg / libavcodec / libavformat / libavfilter / libavutil / libswscale / libswresample git repository, all work is merged in here, and it is the recommended repository for users and developers
         to use.</td>
 </tr>
@@ -132,7 +132,7 @@ developers and groups of developers are available.
     <td>-</td>
     <td>-</td>
     <td>Michael Niedermayer</td>
-    <td>All FFmpeg developers</td>
+    <td>All FFmpeg developers who want to have direct access</td>
     <td>Main ffmpeg.org website repository</td>
 </tr>
 <tr>
