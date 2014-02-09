@@ -12,6 +12,25 @@ changes.
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
 
+<a id="trac_sec"></a><h3>February 9, 2014, trac.ffmpeg.org /
+trac.mplayerhq.hu Security Breach</h3>
+<p>
+The server on which FFmpeg and MPlayer Trac issue trackers were
+installed was compromised. The affected server was taken offline
+and has been replaced and all software reinstalled.
+FFmpeg Git, releases, FATE, web and mailinglists are on other servers
+and where not affected. We believe that the original compromise happened
+to a server, unrelated to FFmpeg and MPlayer, several months ago.
+That server was used as a source to clone the VM that we recently moved
+Trac to. It is not known if anyone used the backdoor that was found.
+</p>
+<p>
+We recommend all users to change their passwords.
+<b>Especially users who use a password on Trac that they also use
+elsewhere, should change that password at least elsewhere.</b>
+</p>
+
+
 <a id="ffmpeg_rfp"></a><h3>November 12, 2013, FFmpeg RFP in Debian</h3>
 <p>
 Since the splitting of Libav the Debian/Ubuntu maintainers have followed
