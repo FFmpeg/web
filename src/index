@@ -19,7 +19,7 @@ The server on which FFmpeg and MPlayer Trac issue trackers were
 installed was compromised. The affected server was taken offline
 and has been replaced and all software reinstalled.
 FFmpeg Git, releases, FATE, web and mailinglists are on other servers
-and where not affected. We believe that the original compromise happened
+and were not affected. We believe that the original compromise happened
 to a server, unrelated to FFmpeg and MPlayer, several months ago.
 That server was used as a source to clone the VM that we recently moved
 Trac to. It is not known if anyone used the backdoor that was found.
