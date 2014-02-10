@@ -12,8 +12,7 @@ changes.
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
 
-<a id="trac_sec"></a><h3>February 9, 2014, trac.ffmpeg.org /
-trac.mplayerhq.hu Security Breach</h3>
+<a id="trac_sec"></a><h3>February 9, 2014, trac.ffmpeg.org / trac.mplayerhq.hu Security Breach</h3>
 <p>
 The server on which FFmpeg and MPlayer Trac issue trackers were
 installed was compromised. The affected server was taken offline
