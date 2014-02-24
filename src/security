@@ -174,7 +174,7 @@ CVE-2013-0862, 8eda88868399de00806cf21a966d9660db4ae9b4 / 49b729d3af8464de431362
 
 <h3>1.0.2</h3>
 <p>
-Fixes following (minor) vulnerabilities:
+Fixes following vulnerabilities:
 </p>
 <pre>
 CVE-2012-6617, 9929991da7b843e7d80154fcacc4e80579b86a2d / cbe43e62c9ac7d4aefdc13476f6f691bd626525f
