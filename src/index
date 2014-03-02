@@ -12,6 +12,32 @@ changes.
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
 
+<a id="clt2014"></a><h3>February 3, 2014, Chemnitzer Linux-Tage</h3>
+<p>
+We happily announce that FFmpeg will be represented at `Chemnitzer Linux-Tage'
+in Chemnitz, Germany. The event will take place on 15th and 16th of March.
+</p>
+
+<p>
+More information can be found <a href="http://chemnitzer.linux-tage.de/2014/en/info/">here</a>
+</p>
+
+<p>
+We invite you to visit us at our booth located in the Linux-Live area!
+There we will demonstrate usage of FFmpeg, answer your questions and listen to
+your problems and wishes.
+</p>
+<p>
+<b>
+If you have media files that cannot be processed correctly with
+FFmpeg, be sure to have a sample with you so we can have a look!
+</b>
+</p>
+<p>
+We are looking forward to meet you (again)!
+</p>
+
+
 <a id="trac_sec"></a><h3>February 9, 2014, trac.ffmpeg.org / trac.mplayerhq.hu Security Breach</h3>
 <p>
 The server on which FFmpeg and MPlayer Trac issue trackers were
