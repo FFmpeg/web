@@ -3,6 +3,17 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
 <h2>FFmpeg 2.1</h2>
+
+<h3>2.1.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-2099, 4cc18ee5da110087b5661ef0269ef59742e90a82  / c919e1ca2ecfc47d796382973ba0e48b8f6f92a2
+CVE-2014-2098, f91ef98c9d740d6c1410d5cf206bda80c2416808  / ec9578d54d09b64bf112c2bf7a34b1ef3b93dbd3
+CVE-2014-2097, 8c6a976feeea8ee0ccdb31fbddb0d9c98b44ae0d  / f58eab151214d2d35ff0973f2b3e51c5eb372da4
+</pre>
+
 <h3>2.1</h3>
 <p>
 Fixes following vulnerabilities:
