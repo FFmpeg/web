@@ -40,6 +40,16 @@ CVE-2013-7024, fe448cd28d674c3eff3072552eae366d0b659ce9
 
 <h2>FFmpeg 2.0</h2>
 
+<h3>2.0.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-2098, 13ce3673684e0fe69964f71660747e674c1f524c / ec9578d54d09b64bf112c2bf7a34b1ef3b93dbd3
+CVE-2014-2099, bc1c8ec5e65098fd2ccd8456f667151dfc9cda42 / c919e1ca2ecfc47d796382973ba0e48b8f6f92a2
+CVE-2014-2097, d0d0924947a40df52b06cafd86fc293949edbfc2 / f58eab151214d2d35ff0973f2b3e51c5eb372da4
+</pre>
+
 <h3>2.0.3</h3>
 <p>
 Fixes following vulnerabilities:
