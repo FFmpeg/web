@@ -106,6 +106,16 @@ CVE-2013-3675, 9dd04f6d8cdd1c10c28b2cb4252c1a41df581915
 
 
 <h2>FFmpeg 1.2</h2>
+<h3>1.2.6</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+ab31a9ee4af5cfc0bab6b318512819fb706d0ff2 CVE-2014-2099, / c919e1ca2ecfc47d796382973ba0e48b8f6f92a2
+11b14d0e63f882171e579f05a0af3b2679dd021a CVE-2014-2098, / ec9578d54d09b64bf112c2bf7a34b1ef3b93dbd3
+ca9d302519b690af1318c4c5ef6aeff118548819 CVE-2014-2097, / f58eab151214d2d35ff0973f2b3e51c5eb372da4
+</pre>
+
 <h3>1.2.5</h3>
 <p>
 Fixes following vulnerabilities:
