@@ -485,6 +485,15 @@ CVE-2012-2804, 4a80ebe491609e04110a1dd540a0ca79d3be3d04
 </pre>
 
 <h2>FFmpeg 0.10</h2>
+<h3>0.10.12</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2012-2795, ca8c3ec11b8ceb6d753176d5c04145cb83cbbe47 / a0abefb0af64a311b15141062c77dd577ba590a3
+CVE-2014-2098, ae51d93983530a1900ee4e1e4bf43cb28a30efb2 / ec9578d54d09b64bf112c2bf7a34b1ef3b93dbd3
+CVE-2014-2099, f157f18b3473dc5bcef8d21d25ce0cdb6597bafd / c919e1ca2ecfc47d796382973ba0e48b8f6f92a2
+</pre>
 
 <h3>0.10.9</h3>
 <p>
