@@ -67,10 +67,10 @@ ffmpeg-mt, libav master of 2013-01-06, libav 9.11 as of 2014-03-07.
 </p>
 
 <a name="release_1.0"></a><h2>
-FFmpeg 1.0.8 "Angel"</h2>
+FFmpeg 1.0.9 "Angel"</h2>
 
 <p>
-1.0.8 was released on 2013-09-06. It is the latest stable FFmpeg release
+1.0.9 was released on 2014-03-10. It is the latest stable FFmpeg release
 from the 1.0 release branch, which was cut from master on 2012-09-28.
 Amongst lots of other changes, it includes all changes from
 ffmpeg-mt, libav master of 2012-09-27, libav 0.8.3 as of 2013-01-22.
@@ -89,11 +89,11 @@ ffmpeg-mt, libav master of 2012-09-27, libav 0.8.3 as of 2013-01-22.
 </pre>
 
 <p>
-<a href="releases/ffmpeg-1.0.8.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.0.8.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-1.0.8.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.0.8.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.0.8">Changelog</a><br />
+<a href="releases/ffmpeg-1.0.9.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-1.0.9.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-1.0.9.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-1.0.9.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.0.9">Changelog</a><br />
 </p>
 
 <a name="release_0.11"></a><h2>
