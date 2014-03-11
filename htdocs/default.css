@@ -148,8 +148,7 @@ dl dt {
 }
 
 #repos {
-    margin-left: 1em;
-    margin-right: 1em;
+    width: 100%;
     border-collapse: collapse;
     border: solid 1px #6A996A;
 }
@@ -162,4 +161,9 @@ dl dt {
 #repos td {
     padding: 0.2em;
     border: solid 1px #6A996A;
+}
+
+div.table {
+    margin-right: 1em;
+    margin-left: 1em;
 }

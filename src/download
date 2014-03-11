@@ -99,21 +99,15 @@ tarball that comes with git metadata and version history to
 bootstrap your local repository.
 </p>
 
-<h2 id="Extrarepositories">Extra repositories</h2>
-<p>
-FFmpeg is developed with <a href="http://git-scm.com/">Git</a>.
-Given the decentralized nature of Git, multiple repositories from
-developers and groups of developers are available.
-</p>
+<h2 id="Gitrepositories">Git repositories</h2>
 
+<div class="table">
 <table id="repos">
 <thead>
 <tr>
     <th>Clone URL</th>
     <th>Browse</th>
     <th>Snapshot</th>
-    <th>Admin</th>
-    <th>Commiters</th>
     <th>Description</th>
 </tr>
 </thead>
@@ -122,203 +116,44 @@ developers and groups of developers are available.
     <td><a href="git://source.ffmpeg.org/ffmpeg.git">git://source.ffmpeg.org/ffmpeg.git</a></td>
     <td><a href="http://git.videolan.org/?p=ffmpeg.git">Browse</a></td>
     <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
-    <td>Michael Niedermayer</td>
-    <td>All FFmpeg developers who want to have direct access</td>
-    <td>Main FFmpeg / libavcodec / libavformat / libavfilter / libavutil / libswscale / libswresample git repository, all work is merged in here, and it is the recommended repository for users and developers
-        to use.</td>
+    <td>Main FFmpeg Git repository</td>
 </tr>
 <tr>
     <td><a href="git://ffmpeg.org/ffmpeg-web">git://ffmpeg.org/ffmpeg-web</a></td>
     <td>-</td>
     <td>-</td>
-    <td>Michael Niedermayer</td>
-    <td>All FFmpeg developers who want to have direct access</td>
-    <td>Main ffmpeg.org website repository</td>
+    <td>ffmpeg.org website repository</td>
 </tr>
 <tr>
     <td><a href="git://ffmpeg.org/fateserver">git://git.ffmpeg.org/fateserver</a></td>
     <td>-</td>
     <td>-</td>
-    <td>Michael Niedermayer</td>
-    <td>All FFmpeg developers who want to have direct access</td>
-    <td>Main ffmpeg.org FATE repository</td>
+    <td><a href="http://fate.ffmpeg.org">fate.ffmpeg.org</a> server software repository</td>
 </tr>
 <tr>
-    <th colspan="6">Other Repositories</th>
+    <th colspan="6">Mirrors</th>
 </tr>
 <tr>
     <td><a href="https://github.com/FFmpeg/FFmpeg">https://github.com/FFmpeg/FFmpeg</a> <br/> <a href="git://github.com/FFmpeg/FFmpeg.git">git://github.com/FFmpeg/FFmpeg.git</a></td>
     <td><a href="https://github.com/FFmpeg/FFmpeg">Browse</a></td>
-    <td><a href="https://github.com/FFmpeg/FFmpeg/archives/master">Snapshot</a></td>
-    <td>-</td>
-    <td>-</td>
+    <td><a href="https://github.com/FFmpeg/FFmpeg/tarball/master">Snapshot</a></td>
     <td>Mirror of the main repository</td>
 </tr>
 <tr>
-    <td><a href="git://git.libav.org/libav.git">git://git.libav.org/libav.git</a></td>
-    <td><a href="http://git.libav.org/?p=libav.git">Browse</a></td>
-    <td><a href="http://git.libav.org/?p=libav.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
-    <td>?</td>
-    <td>8 developers</td>
-    <td></td>
+    <td><a href="https://github.com/FFmpeg/web">https://github.com/FFmpeg/web</a> <br/> <a href="git://github.com/FFmpeg/web.git">git://github.com/FFmpeg/web.git</a></td>
+    <td><a href="https://github.com/FFmpeg/web">Browse</a></td>
+    <td><a href="https://github.com/FFmpeg/web/tarball/master">Snapshot</a></td>
+    <td>Mirror of the website repository</td>
 </tr>
 <tr>
-    <td><a href="git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git">git://gitorious.org/~astrange/ffmpeg/ffmpeg-mt.git</a></td>
-    <td><a href="http://gitorious.org/~astrange/ffmpeg/ffmpeg-mt">Browse</a></td>
-    <td><a href="http://gitorious.org/ffmpeg/ffmpeg-mt/archive-tarball/master">Snapshot</a></td>
-    <td>Alexander Strange</td>
-    <td>Alexander Strange</td>
-    <td>Multithreaded decoding</td>
-</tr>
-<tr>
-    <td><a href="https://github.com/cehoyos/FFmpeg.git">https://github.com/cehoyos/FFmpeg.git</a></td>
-    <td><a href="https://github.com/cehoyos/FFmpeg.git">Browse</a></td>
-    <td>-</td>
-    <td>Carl Eugen Hoyos</td>
-    <td>Carl Eugen Hoyos</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="https://github.com/ubitux/FFmpeg.git">https://github.com/ubitux/FFmpeg.git</a></td>
-    <td><a href="https://github.com/ubitux/FFmpeg.git">Browse</a></td>
-    <td>-</td>
-    <td>Clément Bœsch</td>
-    <td>Clément Bœsch</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="https://github.com/dwbuiten/FFmpeg">https://github.com/dwbuiten/FFmpeg</a></td>
-    <td><a href="https://github.com/dwbuiten/FFmpeg">Browse</a></td>
-    <td>-</td>
-    <td>Derek Buitenhuis</td>
-    <td>Derek Buitenhuis</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="git://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg.git">git://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg.git</a></td>
-    <td><a href="http://gitorious.org/~flameeyes/ffmpeg/flameeyes-ffmpeg">Browse</a></td>
-    <td><a href="http://gitorious.org/ffmpeg/flameeyes-ffmpeg/archive-tarball/master">Snapshot</a></td>
-    <td>Diego E. Pettenò</td>
-    <td>Diego E. Pettenò</td>
-    <td>Personal repository with works in progress</td>
-</tr>
-<tr>
-    <td><a href="git://git.1f0.de/ffmpeg.git">git://git.1f0.de/ffmpeg.git</a></td>
-    <td><a href="git://git.1f0.de/ffmpeg.git">Browse</a></td>
-    <td>-</td>
-    <td>Hendrik Leppkes</td>
-    <td>Hendrik Leppkes</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="https://github.com/josephwecker/FFmpeg.git">https://github.com/josephwecker/FFmpeg.git</a></td>
-    <td><a href="https://github.com/josephwecker/FFmpeg.git">Browse</a></td>
-    <td>-</td>
-    <td>Joseph Wecker</td>
-    <td>Joseph Wecker</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="git://github.com/justinruggles/Libav">git://github.com/justinruggles/Libav</a></td>
-    <td><a href="http://justinruggles.github.com/Libav/">Browse</a></td>
-    <td>-</td>
-    <td>Justin Ruggles</td>
-    <td>Justin Ruggles</td>
-    <td>Personal repository with works in progress</td>
-</tr>
-<tr>
-    <td><a href="git://github.com/lu-zero/libav.git">git://github.com/lu-zero/libav.git</a></td>
-    <td><a href="https://github.com/lu-zero/libav">Browse</a></td>
-    <td><a href="https://github.com/lu-zero/libav/tarball/master">Snapshot</a></td>
-    <td>Luca Barbato</td>
-    <td>Luca Barbato</td>
-    <td>Personal repository with works in progress and experiments</td>
-</tr>
-<tr>
-    <td><a href="https://github.com/cus/ffplay.git">https://github.com/cus/ffplay.git</a></td>
-    <td><a href="https://github.com/cus/ffplay.git">Browse</a></td>
-    <td>-</td>
-    <td>Marton Balint</td>
-    <td>Marton Balint</td>
-    <td>FFplay</td>
-</tr>
-<tr>
-    <td><a href="https://github.com/mbouron/FFmpeg">https://github.com/mbouron/FFmpeg</a></td>
-    <td><a href="https://github.com/mbouron/FFmpeg">Browse</a></td>
-    <td>-</td>
-    <td>Matthieu Bouron</td>
-    <td>Matthieu Bouron</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="https://github.com/mjbshaw/FFmpeg-OpenJPEG-J2K-Encoder">https://github.com/mjbshaw/FFmpeg-OpenJPEG-J2K-Encoder</a></td>
-    <td><a href="https://github.com/mjbshaw/FFmpeg-OpenJPEG-J2K-Encoder">Browse</a></td>
-    <td>-</td>
-    <td>Michael Bradshaw</td>
-    <td>Michael Bradshaw</td>
-    <td>Personal repository with works in progress and experiments relating to the OpenJPEG encoder</td>
-</tr>
-<tr>
-    <td><a href="https://github.com/takis/FFmpeg">https://github.com/takis/FFmpeg</a></td>
-    <td><a href="https://github.com/takis/FFmpeg">Browse</a></td>
-    <td>-</td>
-    <td>Panagiotis H.M. Issaris</td>
-    <td>Panagiotis H.M. Issaris</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="https://github.com/richardpl/FFmpeg.git">https://github.com/richardpl/FFmpeg.git</a></td>
-    <td><a href="https://github.com/richardpl/FFmpeg.git">Browse</a></td>
-    <td>-</td>
-    <td>Paul B Mahol</td>
-    <td>Paul B Mahol</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="https://github.com/philipl/ffmpeg-crystalhd">https://github.com/philipl/ffmpeg-crystalhd</a></td>
-    <td><a href="https://github.com/philipl/ffmpeg-crystalhd">Browse</a></td>
-    <td>-</td>
-    <td>Philip Langdale</td>
-    <td>Philip Langdale</td>
-    <td>CrystalHD</td>
-</tr>
-<tr>
-    <td><a href="https://github.com/BastyCDGS/ffmpeg-soc.git">https://github.com/BastyCDGS/ffmpeg-soc.git</a></td>
-    <td><a href="https://github.com/BastyCDGS/ffmpeg-soc.git">Browse</a></td>
-    <td>-</td>
-    <td>Sebastian Vater</td>
-    <td>Sebastian Vater</td>
-    <td></td>
-</tr>
-<tr>
-    <td><a href="https://github.com/dilaroga/ffmpeg-vda.git">https://github.com/dilaroga/ffmpeg-vda.git</a></td>
-    <td><a href="https://github.com/dilaroga/ffmpeg-vda.git">Browse</a></td>
-    <td>-</td>
-    <td>Sebastien Zwickert</td>
-    <td>Sebastien Zwickert</td>
-    <td>VDA</td>
-</tr>
-<tr>
-    <td><a href="https://gitorious.org/~saste/ffmpeg/sastes-ffmpeg">git@gitorious.org:~saste/ffmpeg/sastes-ffmpeg.git</a></td>
-    <td><a href="https://gitorious.org/~saste/ffmpeg/sastes-ffmpeg">Browse</a></td>
-    <td>-</td>
-    <td>Stefano Sabatini</td>
-    <td>Stefano Sabatini</td>
-    <td>Personal repository with works in progress</td>
-</tr>
-<tr>
-    <td><a href="https://github.com/Tjoppen/FFmpeg">https://github.com/Tjoppen/FFmpeg</a></td>
-    <td><a href="https://github.com/Tjoppen/FFmpeg">Browse</a></td>
-    <td>-</td>
-    <td>Tomas Härdin</td>
-    <td>Tomas Härdin</td>
-    <td></td>
+    <td><a href="https://github.com/FFmpeg/fateserver">https://github.com/FFmpeg/fateserver</a> <br/> <a href="git://github.com/FFmpeg/fateserver.git">git://github.com/FFmpeg/fateserver.git</a></td>
+    <td><a href="https://github.com/FFmpeg/fateserver">Browse</a></td>
+    <td><a href="https://github.com/FFmpeg/fateserver/tarball/master">Snapshot</a></td>
+    <td>Mirror of the FATE server repository</td>
 </tr>
 </tbody>
 </table>
-<p>
-Note, if you have a public clone of ffmpeg and want to be listed above, contact us.
-</p>
+</div>
 
 <a name="releases"></a><h1>FFmpeg Releases</h1>
 
