@@ -172,6 +172,8 @@ Fixes following vulnerabilities:
 CVE-2013-2495, 3dbc0ff9c3e6f6e0d08ea3d42cb33761bae084ba
 CVE-2013-2496, e398990eb87785e20e065cd3f14d1dbb69df4392
 CVE-2013-0870, 14c8ee00ffd9d45e6e0c6f11a957ce7e56f7eb3a
+CVE-2012-5150, ae3d41636942cbc0236bad21ad06c65f4eb0f096
+CVE-2013-0894, 2c16bf2de07c68513072bf3cc96401d2c6291a3e
 </pre>
 
 
@@ -185,6 +187,7 @@ CVE-2014-2099, 0c58c165ab51260ba2e6cb606b8057a7c9783ef3 / c919e1ca2ecfc47d796382
 CVE-2014-2097, 74821341b9aca0be0938f1eabe3aabc1d3a004e8 / f58eab151214d2d35ff0973f2b3e51c5eb372da4
 CVE-2014-2098, b0b02a210109473cbc8d3bb8d7a6bcf4eb6ebb68 / ec9578d54d09b64bf112c2bf7a34b1ef3b93dbd3
 CVE-2014-2263, 694c3a13c9489c6e05f88486b489dd0746d114fc / 842b6c14bcfc1c5da1a2d288fd65386eb8c158ad
+CVE-2012-5150, ca2e3f113188e5835533d54000c314721b8445db / ae3d41636942cbc0236bad21ad06c65f4eb0f096
 </pre>
 
 <h3>1.1.8</h3>
@@ -238,6 +241,7 @@ Fixes following vulnerabilities:
 <pre>
 CVE-2013-2495, f719e6566c08dc1e18cf1caf07ba8c0e93cd7283 / 3dbc0ff9c3e6f6e0d08ea3d42cb33761bae084ba
 CVE-2013-2496, e398990eb87785e20e065cd3f14d1dbb69df4392 / b9a1efa6f4d4cda20ce796614ff5b0c523df5672
+CVE-2013-0894, 494ddd377ada76ed555f7a3f49391455daa099c9 / 11dcecfcca0eca1a571792c4fa3c21fb2cfdddd
 </pre>
 
 <h3>1.1.3</h3>
@@ -488,6 +492,9 @@ CVE-2012-2801, 1df49142bab1b7bccd11392aa9e819e297d21a6e
 CVE-2012-2802, 2c22701c371c2f3dea21fcdbb97c981939fb77af
 CVE-2012-2803, 951cbea56fdc03ef96d07fbd7e5bed755d42ac8a
 CVE-2012-2804, 4a80ebe491609e04110a1dd540a0ca79d3be3d04
+CVE-2012-5359, msvr12-017
+CVE-2012-5360, msvr12-017
+CVE-2012-5361, msvr12-017
 </pre>
 
 <h2>FFmpeg 0.10</h2>
@@ -522,6 +529,7 @@ Fixes following vulnerabilities:
 <pre>
 CVE-2013-0868, b07c791252707c88f610daa668eae3ddc6fbccc7 / 0dfc01c2bbf4b71bb56201bc4a393321e15d1b31
                ba4b57e8024a9635b4eaf7f3cc08837b065bd4c9 / f67a0d115254461649470452058fa3c28c0df294
+CVE-2013-0894, e050af9a809bd4e223c89e280ebd94da0e1034b5 / 11dcecfcca0eca1a571792c4fa3c21fb2cfddddc
 c3d7c805bc9c1ed584e92649cd8fa8cbb7010967 / c83002a4f8042ccfa0688a9a18e8fa0369c1fda8
 </pre>
 
@@ -622,6 +630,14 @@ played back and a few are probable arbitrary code execution vulnerabilities</p>
 
 
 <h2>FFmpeg 0.8</h2>
+<h3>0.8.15</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-0894, d86a5ce03f6993aaf7a28f2c2b29a788d7ea76ab / 11dcecfcca0eca1a571792c4fa3c21fb2cfddddc
+</pre>
+
 <h3>0.8.11</h3>
 <p>
 Fixes following vulnerabilities:
@@ -645,6 +661,14 @@ Several security issues that dont have CVE numbers.
 <p>Fixes CVE-2011-4364 among others</p>
 
 <h2>FFmpeg 0.7</h2>
+<h3>0.7.16</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-0894, d86a5ce03f6993aaf7a28f2c2b29a788d7ea76ab / 11dcecfcca0eca1a571792c4fa3c21fb2cfddddc
+</pre>
+
 <h3>0.7.12</h3>
 <p>
 Fixes following vulnerabilities:
@@ -689,3 +713,13 @@ Several security issues that dont have CVE numbers.
 
 <h3>0.5.4</h3>
 <p>Fixes CVE-2010-3908, CVE-2011-0722, CVE-2010-4704, CVE-2011-0480, CVE-2011-0723</p>
+
+<h3>0.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2008-4610 00bbe27631ddce543e00d5fbdee445c39fc84d7f
+CVE-2008-4867 4df7beb3686caf2df345d2e10564aa8cf6c24a65
+CVE-2009-0385 0838cfdc8a10185604db5cd9d6bffad71279a0e8
+</pre>
