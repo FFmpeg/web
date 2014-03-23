@@ -169,6 +169,36 @@ selected changes from the development branch, which therefore receives much more
 and much faster bug fixes such as additional features and security patches.
 </p>
 
+<a name="release_2.2"></a><h2>
+FFmpeg 2.2 "Muybridge"</h2>
+
+<p>
+2.2 was released on 2014-03-23. It is the latest stable FFmpeg release
+from the 2.2 release branch, which was cut from master on 2014-03-01.
+Amongst lots of other changes, it includes all changes from
+ffmpeg-mt, libav master of 2014-03-01, libav 10 as of 2014-03-23.
+</p>
+<p>It includes the following library versions:
+</p>
+<pre>
+  libavutil      52. 66.100
+  libavcodec     55. 52.102
+  libavformat    55. 33.100
+  libavdevice    55. 10.100
+  libavfilter     4.  2.100
+  libswscale      2.  5.102
+  libswresample   0. 18.100
+  libpostproc    52.  3.100
+</pre>
+
+<p>
+<a href="releases/ffmpeg-2.2.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.2.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-2.2.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.2.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.2">Changelog</a><br />
+</p>
+
 <a name="release_2.1"></a><h2>
 FFmpeg 2.1.4 "Fourier"</h2>
 
