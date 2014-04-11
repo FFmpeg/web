@@ -17,7 +17,7 @@ We have made a new point releases (<b><a href="download.html#release_2.2">2.2.1<
 It contains bug fixes for Tickets #2893, #3432, #3469, #3486, #3495 and #3540 as well as
 several other fixes.
 See the git log for details.
-</pre>
+</p>
 
 <a id="pr2.2"></a><h3>March 24, 2014, FFmpeg 2.2</h3>
 <p>
@@ -40,7 +40,7 @@ A partial list of new stuff is below:
 - WebP encoding via libwebp
 - ATRAC3+ decoder
 - VP8 in Ogg demuxing
-- side & metadata support in NUT
+- side &amp; metadata support in NUT
 - framepack filter
 - XYZ12 rawvideo support in NUT
 - Exif metadata support in WebP decoder
