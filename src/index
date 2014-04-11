@@ -11,6 +11,14 @@ changes.
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="pr2.2.1"></a><h3>April 11, 2014, FFmpeg 2.2.1</h3>
+<p>
+We have made a new point releases (<b><a href="download.html#release_2.2">2.2.1</a></b>).
+It contains bug fixes for Tickets #2893, #3432, #3469, #3486, #3495 and #3540 as well as
+several other fixes.
+See the git log for details.
+</pre>
+
 <a id="pr2.2"></a><h3>March 24, 2014, FFmpeg 2.2</h3>
 <p>
 We have made a new major release (<b><a href="download.html#release_2.2">2.2</a></b>)
