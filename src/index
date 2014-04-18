@@ -11,6 +11,25 @@ changes.
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="heartbleed"></a><h3>April 18, 2014, OpenSSL Heartbeat bug</h3>
+<p>
+Our server hosting the Trac issue tracker was vulnerable to the attack
+against OpenSSL known as "heartbleed". The OpenSSL software library
+was updated on 7th of April, shortly after the vulnerability was publicly
+disclosed. We have changed the private keys (and certificates) for all
+FFmpeg servers. The details were sent to the mailing lists by
+Alexander Strasser, who is part of the project server team. Here is a
+link to the user mailing list
+<a href="https://lists.ffmpeg.org/pipermail/ffmpeg-user/2014-April/020968.html">archive</a>
+.
+</p><p>
+We encourage you to read up on
+<a href="https://www.schneier.com/blog/archives/2014/04/heartbleed.html">"OpenSSL heartbleed"</a>.
+<b>It is possible that login data for the issue tracker was exposed to
+people exploiting this security hole. You might want to change your password
+in the tracker and everywhere else you used that same password.</b>
+</p>
+
 <a id="pr2.2.1"></a><h3>April 11, 2014, FFmpeg 2.2.1</h3>
 <p>
 We have made a new point releases (<b><a href="download.html#release_2.2">2.2.1</a></b>).
