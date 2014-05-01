@@ -11,6 +11,29 @@ changes.
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="lt2014"></a><h3>May 1, 2014, LinuxTag</h3>
+<p>
+Once again FFmpeg will be represented at LinuxTag in Berlin, Germany. The event will
+take place from 8th to 10th of May. Please note that this year's LinuxTag is at a
+different location closer to the city center.
+</p>
+
+<p>
+We will have a shared booth with XBMC and VideoLAN.
+<b>
+If you have media files that cannot be processed correctly with
+FFmpeg, be sure to have a sample with you so we can have a look!
+</b>
+</p>
+
+<p>
+More information about LinuxTag can be found <a href="http://www.linuxtag.org/2014/">here</a>
+</p>
+
+<p>
+We are looking forward to see you in Berlin!
+</p>
+
 <a id="heartbleed"></a><h3>April 18, 2014, OpenSSL Heartbeat bug</h3>
 <p>
 Our server hosting the Trac issue tracker was vulnerable to the attack
