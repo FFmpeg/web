@@ -27,8 +27,7 @@ development versions and include executables for you to run without the need to 
   </li>
   <li>
     <a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">Jon Severinsson's FFmpeg PPA</a> &ndash; Ubuntu packages
-    for Precise, Oneiric, Natty, Maverick, and Lucid (amd64, i386). Note that this package only provides FFmpeg 0.10 for
-    compatibility reasons.
+    (amd64, i386). Uses older release branches for compatibility reasons.
   </li>
   <li>
     <a href="http://rpmfusion.org/">RPM Fusion</a> &ndash; Redhat and Fedora packages for EL, Fedora Rawhide
