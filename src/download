@@ -199,10 +199,10 @@ ffmpeg-mt, libav master of 2014-03-01, libav 10.1 as of 2014-06-23.
 </p>
 
 <a name="release_2.1"></a><h2>
-FFmpeg 2.1.4 "Fourier"</h2>
+FFmpeg 2.1.5 "Fourier"</h2>
 
 <p>
-2.1.4 was released on 2014-02-24. It is the latest stable FFmpeg release
+2.1.5 was released on 2014-06-23. It is the latest stable FFmpeg release
 from the 2.1 release branch, which was cut from master on 2013-10-28.
 Amongst lots of other changes, it includes all changes from
 ffmpeg-mt, libav master of 2013-10-27, libav 9 as of 2013-10-27.
@@ -221,11 +221,11 @@ ffmpeg-mt, libav master of 2013-10-27, libav 9 as of 2013-10-27.
 </pre>
 
 <p>
-<a href="releases/ffmpeg-2.1.4.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.1.4.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-2.1.4.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.1.4.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.1.4">Changelog</a><br />
+<a href="releases/ffmpeg-2.1.5.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.1.5.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-2.1.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.1.5.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.1.5">Changelog</a><br />
 </p>
 
 <a name="release_1.2"></a><h2>
