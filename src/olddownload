@@ -7,10 +7,10 @@ discourage their use.</strong>
 maintaining an old release.
 
 <a name="release_2.0"></a><h2>
-FFmpeg 2.0.4 "Nameless"</h2>
+FFmpeg 2.0.5 "Nameless"</h2>
 
 <p>
-2.0.4 was released on 2014-03-04. It is the latest stable FFmpeg release
+2.0.5 was released on 2014-06-25. It is the latest stable FFmpeg release
 from the 2.0 release branch, which was cut from master on 2013-07-10.
 Amongst lots of other changes, it includes all changes from
 ffmpeg-mt, libav master of 2013-07-09, libav 9 as of 2013-07-09.
@@ -29,11 +29,11 @@ ffmpeg-mt, libav master of 2013-07-09, libav 9 as of 2013-07-09.
 </pre>
 
 <p>
-<a href="releases/ffmpeg-2.0.4.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.0.4.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-2.0.4.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.0.4.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.4">Changelog</a><br />
+<a href="releases/ffmpeg-2.0.5.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.0.5.tar.bz2.asc">PGP signature</a><br />
+<a href="releases/ffmpeg-2.0.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
+<a href="releases/ffmpeg-2.0.5.tar.gz.asc">PGP signature</a><br />
+<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.5">Changelog</a><br />
 </p>
 
 <a name="release_1.1"></a><h2>
