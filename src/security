@@ -556,6 +556,24 @@ CVE-2012-5361, msvr12-017
 </pre>
 
 <h2>FFmpeg 0.10</h2>
+
+<h3>0.10.14</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-4609, 6a968073daa74ffb98368fefd476a4562ce84e1b / d6af26c55c1ea30f85a7d9edbc373f53be1743ee
+CVE-2014-4610, 6a968073daa74ffb98368fefd476a4562ce84e1b / d6af26c55c1ea30f85a7d9edbc373f53be1743ee
+</pre>
+
+<h3>0.10.13</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2012-5150, 2facb10f705ab3f34b7a050107d7556b388c068c / ae3d41636942cbc0236bad21ad06c65f4eb0f096
+</pre>
+
 <h3>0.10.12</h3>
 <p>
 Fixes following vulnerabilities:
