@@ -11,6 +11,24 @@ changes.
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="pr2.2.4"></a><h3>June 29, 2014, FFmpeg 2.2.4, 2.1.5, 2.0.5, 1.2.7, 1.1.12, 0.10.14</h3>
+<p>
+We have made several new point releases (<b><a href="download.html#release_2.2">2.2.4</a>,
+<a href="download.html#release_2.1">2.1.5</a>,
+<a href="download.html#release_2.0">2.0.5</a>,
+<a href="download.html#release_1.2">1.2.7</a>,
+<a href="download.html#release_1.1">1.1.12</a>,
+<a href="download.html#release_0.10">0.10.14</a></b>).
+They fix a
+<a href="http://blog.securitymouse.com/2014/06/raising-lazarus-20-year-old-bug-that.html">security issue in the LZO implementation</a>,
+as well as several other bugs. See the git log for details.
+</p>
+<p>
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
+
 <a id="lt2014"></a><h3>May 1, 2014, LinuxTag</h3>
 <p>
 Once again FFmpeg will be represented at LinuxTag in Berlin, Germany. The event will
