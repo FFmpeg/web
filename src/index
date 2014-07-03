@@ -11,6 +11,22 @@ changes.
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="opw01"></a><h3>July 3, 2014, FFmpeg and the Outreach Program For Women</h3>
+<p>
+FFmpeg has started the process to become an OPW includer organization for the
+next round of the program, with internships starting December 9. The
+<a href="https://gnome.org/opw/">OPW</a> aims to "Help women (cis and trans)
+and genderqueer to get involved in free and open source software". Part of the
+process requires securing funds to support at least one internship (6K USD), so
+if you were holding on your donation to FFmpeg, this is a great chance for you
+to come forward, get in touch and help both the project and a great initiative!
+</p>
+<p>
+We have set up an <a href="mailto:opw@ffmpeg.org">email address</a> you can use
+to contact us about donations and general inquires regarding our participation
+in the program. Hope to hear from you soon!
+</p>
+
 <a id="pr2.2.4"></a><h3>June 29, 2014, FFmpeg 2.2.4, 2.1.5, 2.0.5, 1.2.7, 1.1.12, 0.10.14</h3>
 <p>
 We have made several new point releases (<b><a href="download.html#release_2.2">2.2.4</a>,
