@@ -11,6 +11,19 @@ changes.
 <h1>News <a href="main.rss"><img style="vertical-align: middle; margin-left: 6px" src="Feed-icon.png" alt="[RSS]" /></a><a href="https://plus.google.com/108003112428040046828?prsrc=3" rel="publisher" style="text-decoration:none;">
 <img src="gplus-16.png" alt="Google+" style="vertical-align: middle; margin-left: 16px"/></a></h1>
 
+<a id="pr2.3"></a><h3>July 17, 2014, FFmpeg 2.3</h3>
+<p>
+We have made a new major release (<b><a href="download.html#release_2.3">2.3</a></b>)
+It contains all features and bugfixes of the git master branch from the 16th July.
+Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=n2.3">Release Notes</a></b> for a
+list of note-worthy changes.
+</p>
+<p>
+We recommend users, distributors and system integrators to upgrade unless they use
+current git master.
+</p>
+
+
 <a id="opw01"></a><h3>July 3, 2014, FFmpeg and the Outreach Program For Women</h3>
 <p>
 FFmpeg has started the process to become an OPW includer organization for the
