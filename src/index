@@ -36,6 +36,15 @@
     News
   </h1>
 
+  <a id="newweb"></a><h3>July 20, 2014, New website</h3>
+  <p>
+    The FFmpeg project is proud a brand new version of the website made by <a
+    href="http://db0.fr">db0</a>. While this was initially motivated by the
+    need for a larger menu, the whole website ended up being redesigned, and
+    most pages got reworked to ease navigation. We hope you'll enjoy browsing
+    it.
+  </p>
+
   <a id="pr2.3"></a><h3>July 17, 2014, FFmpeg 2.3</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.3">2.3</a></b>)
