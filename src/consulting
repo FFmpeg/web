@@ -1,28 +1,31 @@
-<h1>Hiring FFmpeg developers</h1>
-
-<p>
-If you're running a business that uses FFmpeg or would like to use FFmpeg,
-you will sometimes want to have an expert, i.e. one of the original
-developers, work with you to figure out an issue, fix a bug or add
-some new feature.
+<p class="with-icon">
+  <span class="pull-left"><i class="fa fa-life-saver fa-5x"></i></span>
+  If you're running a business that uses FFmpeg or would like to use FFmpeg,
+  you will sometimes want to have an expert, i.e. one of the original
+  developers, work with you to figure out an issue, fix a bug or add
+  some new feature.
 </p>
 
-<p>
-This page is a list of those FFmpeg developers that are available for
-employment or consulting. The FFmpeg project highly recommends these people
-to be hired by your business. All developers on this list maintain some
-code in FFmpeg,
-which serves as a testimony for their competence. By hiring one of these
-developers, your business can also (indirectly) support the development
-of FFmpeg.
+<p class="with-icon">
+  <span class="pull-right"><i class="fa fa-users fa-5x"></i></span>
+  This page is a list of those FFmpeg developers that are available for
+  employment or consulting. The FFmpeg project highly recommends these people
+  to be hired by your business. All developers on this list maintain some
+  code in FFmpeg,
+  which serves as a testimony for their competence. By hiring one of these
+  developers, your business can also (indirectly) support the development
+  of FFmpeg.
 </p>
 
-<p>
-If you do not know whom to hire in particular or if none of the listed
-areas of expertise fits your requirements, you can send an email to
-the <a href="contact.html">ffmpeg-devel mailing list</a>, where it will
-reach a wider audience.
+<p class="with-icon">
+  <span class="pull-left"><i class="fa fa-question-circle fa-5x"></i></span>
+  If you do not know whom to hire in particular or if none of the listed
+  areas of expertise fits your requirements, you can send an email to
+  the <a href="contact.html">ffmpeg-devel mailing list</a>, where it will
+  reach a wider audience.
 </p>
+
+<br><br>
 
 <!--
 1) please keep this list alphabetically (by firstname)
@@ -30,7 +33,7 @@ reach a wider audience.
 3) make sure to add some way for potential clients to contact you
 
 E.g.:
-"<h2>Firstname M.I. Lastname</h2>
+"<h3>Firstname M.I. Lastname</h3>
  <p>
  Firstname is located in Location, Country and available for
  contracting work. He has worked on FFmpeg since Year1 and has been a maintainer
@@ -40,65 +43,93 @@ E.g.:
  </p>"
 -->
 
-<h2>Baptiste Coudurier</h2>
-<p>
-Baptiste Coudurier is located in Los Angeles, California and is available for
-contracting work. He has worked on FFmpeg since 2005 and has been a maintainer
-since 2006. He has special expertise in broadcast codecs
-(ProRes, DNxHD, IMX/D-10, AVC-Intra), formats (MXF, GXF, MOV) and usages
-(Avid, FCP, Interlacing, Time Code, Metadata). You can contact him by email at
-<a href="mailto:baptiste.coudurier@gmail.com">baptiste.coudurier@gmail.com</a>.
-</p>
-
-<h2>Benjamin Larsson</h2>
-<p>
-Benjamin Larsson is located in Stockholm, Sweden and is available for contracting
-work. He has worked on FFmpeg since 2004. Main area of expertise is audio codecs.
-You can contact him by email at
-<a href="mailto:benjamin%20at%20southpole%20dot%20se">benjamin at southpole dot se</a>.
-</p>
-
-<h2>Carl Eugen Hoyos</h2>
-<p>
-Carl Eugen is located in Austria and available for contracting work.
-He has worked on FFmpeg since 2007 and has been a maintainer since 2007.
-He has experience with software license issues, and currently maintains the
-FFmpeg bug tracker
-You can contact him by email at
-<a href="mailto:ce@hoyos.ws">ce at hoyos dot ws</a>.
-</p>
-
-<h2>Clément Bœsch</h2>
-<p>
-Clément is located in France and available for contracting work.
-He has worked on FFmpeg since 2011 and has been a maintainer since 2011.
-He has experience with subtitles, filters and all kinds of random
-things accross the codebase.
-You can contact him by email at
-<a href="mailto:ubitux%20at%20gmail%20dot%20com">ubitux at gmail dot com</a>.
-</p>
-
-<h2>Michael Niedermayer</h2>
-<p>
-Michael is located in Vienna, Austria and available for contracting work.
-He is an expert in all areas of video coding as well as x86 assembly.
-You can contact him by email at <a href="mailto:michael@niedermayer.cc">michael@niedermayer.cc</a>.
-</p>
-
-<h2>Paul B Mahol</h2>
-<p>
-Paul is located in Croatia and available for contracting work. He has
-worked on FFmpeg since 2011 and has been a maintainer since 2012. He has
-experience with various codecs, containers, filters and reverse
-engineering. You can contact him by email at
-<a href="mailto:onemda at gmail dot com">onemda at gmail dot com</a>.
-</p>
-
-<h2>Stefano Sabatini</h2>
-<p>
-Stefano is located in Italy and is available for contracting
-work. He has worked on FFmpeg since 2007 and has been a maintainer since
-2008. He has special expertise in libavfilter, ff* tools usage and
-usability issues. You can contact him by email at
-<a href="mailto:stefasab@gmail.com">stefasab@gmail.com</a>.
-</p>
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Baptiste Coudurier</h3>
+      <p>
+        Baptiste Coudurier is located in Los Angeles, California and is available for
+        contracting work. He has worked on FFmpeg since 2005 and has been a maintainer
+        since 2006. He has special expertise in broadcast codecs
+        (ProRes, DNxHD, IMX/D-10, AVC-Intra), formats (MXF, GXF, MOV) and usages
+        (Avid, FCP, Interlacing, Time Code, Metadata). You can contact him by email at
+        <a href="mailto:baptiste.coudurier@gmail.com">baptiste.coudurier@gmail.com</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Benjamin Larsson</h3>
+      <p>
+        Benjamin Larsson is located in Stockholm, Sweden and is available for contracting
+        work. He has worked on FFmpeg since 2004. Main area of expertise is audio codecs.
+        You can contact him by email at
+        <a href="mailto:benjamin%20at%20southpole%20dot%20se">benjamin at southpole dot se</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Carl Eugen Hoyos</h3>
+      <p>
+        Carl Eugen is located in Austria and available for contracting work.
+        He has worked on FFmpeg since 2007 and has been a maintainer since 2007.
+        He has experience with software license issues, and currently maintains the
+        FFmpeg bug tracker
+        You can contact him by email at
+        <a href="mailto:ce@hoyos.ws">ce at hoyos dot ws</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Clément Bœsch</h3>
+      <p>
+        Clément is located in France and available for contracting work.
+        He has worked on FFmpeg since 2011 and has been a maintainer since 2011.
+        He has experience with subtitles, filters and all kinds of random
+        things accross the codebase.
+        You can contact him by email at
+        <a href="mailto:ubitux%20at%20gmail%20dot%20com">ubitux at gmail dot com</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Michael Niedermayer</h3>
+      <p>
+        Michael is located in Vienna, Austria and available for contracting work.
+        He is an expert in all areas of video coding as well as x86 assembly.
+        You can contact him by email at <a href="mailto:michael@niedermayer.cc">michael@niedermayer.cc</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Paul B Mahol</h3>
+      <p>
+        Paul is located in Croatia and available for contracting work. He has
+        worked on FFmpeg since 2011 and has been a maintainer since 2012. He has
+        experience with various codecs, containers, filters and reverse
+        engineering. You can contact him by email at
+        <a href="mailto:onemda at gmail dot com">onemda at gmail dot com</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Stefano Sabatini</h3>
+      <p>
+        Stefano is located in Italy and is available for contracting
+        work. He has worked on FFmpeg since 2007 and has been a maintainer since
+        2008. He has special expertise in libavfilter, ff* tools usage and
+        usability issues. You can contact him by email at
+        <a href="mailto:stefasab@gmail.com">stefasab@gmail.com</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->

@@ -1,0 +1,6 @@
+</title>
+    <link rel="stylesheet" href="components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/simple-sidebar.css" />
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <script src="components/less/dist/less-1.7.3.min.js"></script>

@@ -1,85 +1,125 @@
-<h1>FFmpeg Documentation</h1>
+<p>
+  The following documentation is regenerated nightly, and corresponds to
+  the <a href="download.html">newest FFmpeg revision</a>.
+  Consult your locally installed documentation for older versions.
+</p>
 
-The following documentation is regenerated nightly, and corresponds to
-the <a href="download.html">newest FFmpeg revision</a>.
-Consult your locally installed documentation for older versions.
+<br><br>
 
-<h2>Command Line Tools Documentation</h2>
+<div class="row">
+  <div class="col-md-6">
+    <div class="well well-with-icon" id="command-line">
+      <span class="pull-right"><i class="fa fa-5x fa-fw fa-terminal"></i></span>
+      <h3><strong>Command Line Tools Documentation</strong></h3>
+      <ul>
+        <li><a href="ffmpeg.html">ffmpeg</a>: <tt>ffmpeg</tt> tool</li>
+        <li><a href="ffmpeg-all.html">ffmpeg-all</a>: <tt>ffmpeg</tt> tool and FFmpeg components</li>
+        <li><a href="ffplay.html">ffplay</a>: <tt>ffplay</tt> tool</li>
+        <li><a href="ffplay-all.html">ffplay-all</a>: <tt>ffplay</tt> tool and FFmpeg components</li>
+        <li><a href="ffprobe.html">ffprobe</a>: <tt>ffprobe</tt> tool</li>
+        <li><a href="ffprobe-all.html">ffprobe-all</a>: <tt>ffprobe</tt> tool and FFmpeg components</li>
+        <li><a href="ffserver.html">ffserver</a>: <tt>ffserver</tt> tool</li>
+        <li><a href="ffserver-all.html">ffserver-all</a>: <tt>ffserver</tt> tool and FFmpeg components</li>
+        <li><a href="sample.html">sample <tt>ffserver</tt> configuration file</a></li>
+      </ul>
+    </div>
+  </div> <!-- col -->
+  <div class="col-md-6">
+    <div class="well well-with-icon" id="components">
+      <span class="pull-right"><i class="fa fa-5x fa-fw fa-sitemap"></i></span>
+      <h3><strong>Components Documentation</strong></h3>
+      <ul>
+        <li><a href="ffmpeg-utils.html">ffmpeg-utils</a>: FFmpeg utilities</li>
+        <li><a href="ffmpeg-scaler.html">ffmpeg-scaler</a>: FFmpeg video scaling and pixel format converter</li>
+        <li><a href="ffmpeg-resampler.html">ffmpeg-resampler</a>: FFmpeg audio resampler</li>
+        <li><a href="ffmpeg-codecs.html">ffmpeg-codecs</a>: FFmpeg encoders and decoders (codecs)</li>
+        <li><a href="ffmpeg-bitstream-filters.html">ffmpeg-bitstream-filters</a>: FFmpeg bitstream filters</li>
+        <li><a href="ffmpeg-formats.html">ffmpeg-formats</a>: FFmpeg muxers and demuxers (formats)</li>
+        <li><a href="ffmpeg-protocols.html">ffmpeg-protocols</a>: FFmpeg protocols</li>
+        <li><a href="ffmpeg-devices.html">ffmpeg-devices</a>: FFmpeg input and output devices</li>
+        <li><a href="ffmpeg-filters.html">ffmpeg-filters</a>: FFmpeg filters</li>
+      </ul>
+    </div>
+  </div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
+  <div class="col-md-6">
+    <div class="well well-with-icon" id="libraries">
+      <span class="pull-right"><i class="fa fa-5x fa-fw fa-cogs"></i></span>
+      <h3><strong>Libraries Documentation</strong></h3>
+      <ul>
+        <li><a href="libavutil.html">libavutil</a></li>
+        <li><a href="libswscale.html">libswscale</a></li>
+        <li><a href="libswresample.html">libswresample</a></li>
+        <li><a href="libavcodec.html">libavcodec</a></li>
+        <li><a href="libavformat.html">libavformat</a></li>
+        <li><a href="libavdevice.html">libavdevice</a></li>
+        <li><a href="libavfilter.html">libavfilter</a></li>
+      </ul>
+    </div>
+  </div> <!-- col -->
+  <div class="col-md-6">
+    <div class="well well-with-icon" id="more">
+      <span class="pull-right"><i class="fa fa-5x fa-fw fa-file-text-o"></i></span>
+      <h3><strong>General Documentation</h2></strong></h3>
 <ul>
-<li><a href="ffmpeg.html">ffmpeg</a>: <tt>ffmpeg</tt> tool</li>
-<li><a href="ffmpeg-all.html">ffmpeg-all</a>: <tt>ffmpeg</tt> tool and FFmpeg components</li>
-<li><a href="ffplay.html">ffplay</a>: <tt>ffplay</tt> tool</li>
-<li><a href="ffplay-all.html">ffplay-all</a>: <tt>ffplay</tt> tool and FFmpeg components</li>
-<li><a href="ffprobe.html">ffprobe</a>: <tt>ffprobe</tt> tool</li>
-<li><a href="ffprobe-all.html">ffprobe-all</a>: <tt>ffprobe</tt> tool and FFmpeg components</li>
-<li><a href="ffserver.html">ffserver</a>: <tt>ffserver</tt> tool</li>
-<li><a href="ffserver-all.html">ffserver-all</a>: <tt>ffserver</tt> tool and FFmpeg components</li>
-<li><a href="sample.html">sample <tt>ffserver</tt> configuration file</a></li>
+  <li><a href="faq.html">Frequently Asked Questions</a></li>
+  <li><a href="general.html">Supported External Libraries, Formats, Codecs or Features</a></li>
+  <li><a href="platform.html">Platform Specific Information</a></li>
+  <li><a href="developer.html">Developer Documentation</a></li>
+  <li><a href="git-howto.html">Git How-To</a></li>
+  <li><a href="fate.html">FATE FFmpeg Automated Testing Environment</a></li>
 </ul>
-
-<h2>Components Documentation</h2>
-<ul>
-<li><a href="ffmpeg-utils.html">ffmpeg-utils</a>: FFmpeg utilities</li>
-<li><a href="ffmpeg-scaler.html">ffmpeg-scaler</a>: FFmpeg video scaling and pixel format converter</li>
-<li><a href="ffmpeg-resampler.html">ffmpeg-resampler</a>: FFmpeg audio resampler</li>
-<li><a href="ffmpeg-codecs.html">ffmpeg-codecs</a>: FFmpeg encoders and decoders (codecs)</li>
-<li><a href="ffmpeg-bitstream-filters.html">ffmpeg-bitstream-filters</a>: FFmpeg bitstream filters</li>
-<li><a href="ffmpeg-formats.html">ffmpeg-formats</a>: FFmpeg muxers and demuxers (formats)</li>
-<li><a href="ffmpeg-protocols.html">ffmpeg-protocols</a>: FFmpeg protocols</li>
-<li><a href="ffmpeg-devices.html">ffmpeg-devices</a>: FFmpeg input and output devices</li>
-<li><a href="ffmpeg-filters.html">ffmpeg-filters</a>: FFmpeg filters</li>
-</ul>
-
-<h2>Libraries Documentation</h2>
-<ul>
-<li><a href="libavutil.html">libavutil</a></li>
-<li><a href="libswscale.html">libswscale</a></li>
-<li><a href="libswresample.html">libswresample</a></li>
-<li><a href="libavcodec.html">libavcodec</a></li>
-<li><a href="libavformat.html">libavformat</a></li>
-<li><a href="libavdevice.html">libavdevice</a></li>
-<li><a href="libavfilter.html">libavfilter</a></li>
-</ul>
-
-<h2>General Documentation</h2>
-<ul>
-<li><a href="faq.html">Frequently Asked Questions</a></li>
-<li><a href="general.html">Supported External Libraries, Formats, Codecs or Features</a></li>
-<li><a href="platform.html">Platform Specific Information</a></li>
-<li><a href="developer.html">Developer Documentation</a></li>
-<li><a href="git-howto.html">Git How-To</a></li>
-<li><a href="fate.html">FATE FFmpeg Automated Testing Environment</a></li>
-</ul>
-
-<h2>API Documentation</h2>
-<ul>
-<li><a href="doxygen/trunk/index.html">Doxygen documentation</a> for current
-trunk (regenerated nightly); documentation for the
-<a href="doxygen/2.2/index.html">2.2</a>,
-<a href="doxygen/2.1/index.html">2.1</a>,
-<a href="doxygen/2.0/index.html">2.0</a>,
-<a href="doxygen/1.2/index.html">1.2</a>,
-<a href="doxygen/1.1/index.html">1.1</a>,
-<a href="doxygen/1.0/index.html">1.0</a>,
-<a href="doxygen/0.11/index.html">0.11</a>,
-<a href="doxygen/0.10/index.html">0.10</a>,
-<a href="doxygen/0.9/index.html">0.9</a>,
-<a href="doxygen/0.8/index.html">0.8</a>,
-<a href="doxygen/0.7/index.html">0.7</a>,
-<a href="doxygen/0.6/index.html">0.6</a> and
-<a href="doxygen/0.5/index.html">0.5</a> branches is also available.</li>
-</ul>
-
-<h2>Community Contributed Documentation</h2>
-<ul>
-<li><a href="http://trac.ffmpeg.org/wiki">Official FFmpeg Wiki</a></li>
-<li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
-<li><a href="http://dranger.com/ffmpeg/">An FFmpeg and SDL Tutorial</a>
-by Stephen Dranger, explains how to write a video player based on FFmpeg
-(<a href="https://github.com/chelyaev/ffmpeg-tutorial">updated source code</a>).</li>
-</ul>
-<h2>Books about FFmpeg</h2>
-<ul>
-<li><a href="http://ffmpeg.tv">FFmpeg Basics</a> by Frantisek Korbel,
-describes various FFmpeg features and common tasks.</li>
-</ul>
+</div>
+</div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
+  <div class="col-md-6">
+    <div class="well well-with-icon">
+      <span class="pull-right"><i class="fa fa-5x fa-fw fa-puzzle-piece"></i></span>
+      <h3><strong>API Documentation</strong></h3>
+      <ul>
+        <li><a href="doxygen/trunk/index.html">Doxygen documentation</a> for current
+          trunk (regenerated nightly); documentation for the
+          <a href="doxygen/2.2/index.html">2.2</a>,
+          <a href="doxygen/2.1/index.html">2.1</a>,
+          <a href="doxygen/2.0/index.html">2.0</a>,
+          <a href="doxygen/1.2/index.html">1.2</a>,
+          <a href="doxygen/1.1/index.html">1.1</a>,
+          <a href="doxygen/1.0/index.html">1.0</a>,
+          <a href="doxygen/0.11/index.html">0.11</a>,
+          <a href="doxygen/0.10/index.html">0.10</a>,
+          <a href="doxygen/0.9/index.html">0.9</a>,
+          <a href="doxygen/0.8/index.html">0.8</a>,
+          <a href="doxygen/0.7/index.html">0.7</a>,
+          <a href="doxygen/0.6/index.html">0.6</a> and
+          <a href="doxygen/0.5/index.html">0.5</a> branches is also available.</li>
+      </ul>
+    </div>
+  </div> <!-- col -->
+  <div class="col-md-6">
+    <div class="well well-with-icon">
+      <span class="pull-right"><i class="fa fa-5x fa-fw fa-users"></i></span>
+      <h3><strong>Community Contributed Documentation</strong></h3>
+      <ul>
+        <li><a href="http://trac.ffmpeg.org/wiki">Official FFmpeg Wiki</a></li>
+        <li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
+        <li><a href="http://dranger.com/ffmpeg/">An FFmpeg and SDL Tutorial</a>
+          by Stephen Dranger, explains how to write a video player based on FFmpeg
+          (<a href="https://github.com/chelyaev/ffmpeg-tutorial">updated source code</a>).</li>
+      </ul>
+    </div>
+  </div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
+  <div class="col-md-6">
+    <div class="well well-with-icon">
+      <span class="pull-right"><i class="fa fa-5x fa-fw fa-book"></i></span>
+      <h3><strong>Books about FFmpeg</strong></h3>
+      <ul>
+        <li><a href="http://ffmpeg.tv">FFmpeg Basics</a> by Frantisek Korbel,
+          describes various FFmpeg features and common tasks.</li>
+      </ul>
+    </div>
+  </div> <!-- col -->
+</div> <!-- row -->

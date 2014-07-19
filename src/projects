@@ -1,166 +1,165 @@
-<h1>FFmpeg-Based Projects</h1>
-
 <p>
-These are some of the free projects and programs known to incorporate work from
-FFmpeg. If you would like to see another project added here, please send
-an email to the <a href="contact.html">ffmpeg-devel mailing list</a>.
+  These are some of the free projects and programs known to incorporate work from
+  FFmpeg. If you would like to see another project added here, please send
+  an email to the <a href="contact.html">ffmpeg-devel mailing list</a>.
 </p>
 
-<table>
-<tr>
-<td>
-<ul>
-<li><a href="http://sourceforge.net/projects/ac3encode/">ac3encode</a></li>
-<li><a href="http://alembik.sourceforge.net/">Alembik</a></li>
-<li><a href="http://code.google.com/p/amv-codec-tools/">AMV codec tools</a></li>
-<li><a href="http://atglas.sourceforge.net/">AtGLas</a></li>
-<li><a href="http://code.google.com/p/avbin/">AVbin</a></li>
-<li><a href="http://avifile.sourceforge.net/">avifile</a></li>
-<li><a href="http://gatos.sourceforge.net/avview.php">Avview</a></li>
-<li><a href="http://www.bebits.com/app/2575">BeOS FFmpeg decoders</a> and <a href="http://www.bebits.com/app/2867">BeOS HybridDivx</a></li>
-<li><a href="http://bino3d.org/">Bino</a></li>
-<li><a href="http://www.independentsounds.de/">Blaze</a></li>
-<li><a href="http://www.blender.org/">Blender</a></li>
-<li><a href="http://www.chromium.org/">Chromium</a> / <a href="http://www.google.com/chrome">Google Chrome</a></li>
-<li><a href="http://sourceforge.net/projects/chronictv/">chronictv</a></li>
-<li><a href="http://cinelerra.org/">Cinelerra</a></li>
-<li><a href="http://ccv.nuigroup.com/">Community Core Vision</a></li>
-<li><a href="http://www.corecodec.com/products/coreplayer">CorePlayer</a></li>
-<li><a href="http://datura.sourceforge.net/">Datura</a></li>
-<li><a href="http://sourceforge.net/projects/divxtodvd/">DivXtoDVD</a></li>
-<li><a href="http://labs.divx.com/DrDivX">Dr. Divx</a></li>
-<li><a href="http://code.google.com/p/drag2dv/">Drag2DV</a></li>
-<li><a href="http://dvbcut.sourceforge.net/">dvbcut</a></li>
-<li><a href="http://www.dvdflick.net/">DVDFlick</a></li>
-<li><a href="http://sites.google.com/site/dvrmstompeg/dvr-mstompegconverter">DVR-MS to MPEG Converter</a></li>
-<li><a href="http://sourceforge.net/projects/easyvob2divx/">Easy VOB 2 DivX</a></li>
-<li><a href="http://www.easywma.com/">EasyWMA</a> / <a href="http://www.easywma.com/wmv/">EasyWMV</a></li>
-<li><a href="http://www.electricsheep.org">Electric Sheep</a></li>
-<li><a href="http://dcunningham.net/applications/encodehd/">EncodeHD</a></li>
-<li><a href="http://sourceforge.net/projects/ffdshow/">ffdshow</a></li>
-<li><a href="http://ffdshow-tryout.sourceforge.net/">ffdshow-tryouts</a></li>
-<li><a href="http://corz.org/windows/software/ffe/">ffe</a></li>
-<li><a href="http://code.google.com/p/ffmbc/">FFmedia Broadcast</a></li>
-<li><a href="http://www.thilobrai.onlinehome.de/ffmpegGUI.htm">ffmpeg-GUI</a></li>
-<li><a href="http://ffmpeg-php.sourceforge.net/">ffmpeg-php</a></li>
-<li><a href="http://www.v2v.cc/~j/ffmpeg2theora/">ffmpeg2theora</a></li>
-<li><a href="http://code.google.com/p/ffmpeg4iphone/">ffmpeg4iphone</a></li>
-<li><a href="http://sourceforge.net/projects/qt-ffmpeg/">FFMPEG for QT</a></li>
-<li><a href="https://github.com/wseemann/FFmpegMediaMetadataRetriever">FFmpegMediaMetadataRetriever</a></li>
-<li><a href="http://code.google.com/p/ffmpegthumbnailer/">FFMpegThumbnailer</a></li>
-<li><a href="http://www.ffmpegx.com/">ffmpegX for Mac OS X</a></li>
-<li><a href="http://ffmpegyag.sourceforge.net">FFmpegYAG</a></li>
-<li><a href="http://colabti.org/convertx/ffrecord.html">FFRecord</a></li>
-<li><a href="http://www.tagtraum.com/ffsampledsp/">FFSampledSP - Java Sound for Win/OS X</a></li>
-<li><a href="http://fftv.sourceforge.net/">fftv</a></li>
-<li><a href="http://aldorandenet.free.fr/codecs/">FFusion, Alternative Codecs for Mac OS X</a></li>
-<li><a href="http://firefogg.org">Firefogg</a></li>
-<li><a href="http://fmj.sourceforge.net/">FMJ</a></li>
-<li><a href="http://fobs.sourceforge.net/">Fobs</a></li>
-<li><a href="http://freej.org/">FreeJ</a></li>
-<li><a href="http://frogger.rules.pl/">Frogger</a></li>
-<li><a href="http://galleryproject.org/">Gallery</a></li>
-<li><a href="https://github.com/lano1106/glcs">glcs</a></li>
-<li><a href="http://gmerlin.sourceforge.net/">gmerlin</a></li>
-<li><a href="http://gnashdev.org/">Gnash</a></li>
-<li><a href="http://gpac.sourceforge.net/">GPAC</a></li>
-<li><a href="http://gstreamer.freedesktop.org">GStreamer</a></li>
-<li><a href="http://handbrake.fr/">HandBrake</a></li>
-<li><a href="http://www.homer-conferencing.com">Homer Conferencing</a></li>
-<li><a href="http://sourceforge.net/projects/hypervideoconve/">Hyper Video Converter</a></li>
-<li><a href="http://www.eingrad.com/products/internet-radio-box/">Internet Radio Box</a></li>
-<li><a href="http://jffmpeg.sourceforge.net/">Jffmpeg</a></li>
-<li><a href="http://www.jwplayer.com/hosting-and-streaming/">JW Platform</a></li>
-<li><a href="http://www.kdenlive.org/">Kdenlive</a></li>
-<li><a href="http://code.google.com/p/kmediafactory/">KMediaFactory</a></li>
-<li><a href="http://savannah.nongnu.org/projects/kinetophone">Kinetophone</a></li>
-<li><a href="http://ktoon.net/">KTooN</a></li>
-<li><a href="http://libdlna.geexbox.org/">libdlna</a></li>
-<li><a href="http://libquicktime.sourceforge.net/">libquicktime</a></li>
-<li><a href="http://sourcey.com/libsourcey/">LibSourcey</a></li>
-<li><a href="http://lightspark.github.io/">Lightspark</a></li>
-<li><a href="http://lives.sourceforge.net/">LiVES</a></li>
-<li><a href="http://lulop2.sourceforge.net/">LULOP2</a></li>
-<li><a href="http://lumiera.org/">Lumiera</a></li>
-<li><a href="http://lynkeos.sourceforge.net/">Lynkeos</a></li>
-</ul>
-</td>
+<br><br>
 
-<td>
-<ul>
-<li><a href="http://mconverter.sourceforge.net/">mConverter</a></li>
-<li><a href="http://www.mltframework.org/">MLT Framework</a></li>
-<li><a href="http://mobilehackerz.jp/contents/3GPConv">MobileHackerz</a></li>
-<li><a href="http://www.miksoft.net/mobileMediaConverter.php">Mobile Media Converter</a></li>
-<li><a href="http://www.mobiletoones.com/">MobileToones</a></li>
-<li><a href="http://mod2avi.sourceforge.net/">mod2avi</a></li>
-<li><a href="http://sourceforge.net/projects/modprismiq/">modprismiq</a></li>
-<li><a href="http://www.lavrsen.dk/twiki/bin/view/Motion/WebHome">Motion</a></li>
-<li><a href="http://moviethumbnail.sourceforge.net/">movie thumbnailer</a></li>
-<li><a href="http://movieconverter.online.fr/">MovieConverter</a></li>
-<li><a href="http://code.google.com/p/movist/">Movist</a></li>
-<li><a href="http://sourceforge.net/projects/mpc-hc/">MPC - Homecinema</a></li>
-<li><a href="http://mpeg4ip.sourceforge.net/">mpeg4ip</a></li>
-<li><a href="http://mplayerhq.hu/">MPlayer</a></li>
-<li><a href="http://sourceforge.net/projects/multiconvert/">Multiconvert</a></li>
-<li><a href="http://www.mythtv.org/">MythTV</a></li>
-<li><a href="http://nvrec.sourceforge.net/">nvrec</a></li>
-<li><a href="http://www.2600.com/offthehook/">Off The Hook</a></li>
-<li><a href="http://sourceforge.net/projects/openh323/">OpenH323</a></li>
-<li><a href="http://www.jahshaka.com/develop/openlibraries/">OpenLibraries</a></li>
-<li><a href="http://www.openmovieeditor.org/">Open Movie Editor</a></li>
-<li><a href="http://openvip.sourceforge.net/">OpenVIP</a></li>
-<li><a href="http://www.perian.org/">Perian</a></li>
-<li><a href="http://falun.dafa.is.free.fr/altair/php4ffprobe.php">PHP4FFprobe</a></li>
-<li><a href="https://github.com/buggedcom/phpvideotoolkit-v2">phpvideotoolkit</a></li>
-<li><a href="http://pspvc.sourceforge.net/">PlayStation Portable Video Converter</a></li>
-<li><a href="http://www.cyberlink.com/stat/support/enu/open-source-info/index.jsp">PowerCinema for Linux</a></li>
-<li><a href="http://www.pspvideo9.com/">PSP Video 9</a></li>
-<li><a href="http://code.google.com/p/pyffmpeg/">pyffmpeg</a></li>
-<li><a href="http://pymedia.org/">PyMedia</a></li>
-<li><a href="http://pytivo.sourceforge.net/wiki/index.php/PyTivo">pyTivo</a></li>
-<li><a href="http://bellard.org/qemacs/">QEmacs</a></li>
-<li><a href="http://qmmp.ylsoftware.com/">Qmmp</a></li>
-<li><a href="http://qstream.org/">QStream</a></li>
-<li><a href="https://github.com/wang-bin/QtAV">QtAV</a></li>
-<li><a href="http://linuxvideo.info/">QuickView Pro</a></li>
-<li><a href="http://rivavx.com/">Riva VX</a></li>
-<li><a href="http://rmovie.rubyforge.org">rmovie</a></li>
-<li><a href="http://www.rockbox.org">Rockbox</a></li>
-<li><a href="http://shotdetect.nonutc.fr/">shotdetect</a></li>
-<li><a href="http://sourceforge.net/projects/screenkast/">SkreenKast</a></li>
-<li><a href="http://spek.cc/">Spek - Acoustic Spectrum Analyser</a></li>
-<li><a href="http://stepmania.com/">StepMania</a></li>
-<li><a href="http://markolson.github.io/storyboard/">Storyboard</a></li>
-<li><a href="http://www.erightsoft.net/SUPER.html">SUPER</a></li>
-<li><a href="http://git.mansr.com/?p=tcvp">TCVP</a></li>
-<li><a href="http://www.transcoding.org/">Transcode</a></li>
-<li><a href="http://sourceforge.net/projects/tubecaster/">Tubecaster</a></li>
-<li><a href="http://tversity.com/">TVersity</a></li>
-<li><a href="http://vchannel.sourceforge.net/player.html">V-Player</a></li>
-<li><a href="http://vdownloader.com/">VDownloader</a></li>
-<li><a href="http://softdevice.berlios.de/">vdr-softdevice</a></li>
-<li><a href="http://www.veejayhq.net/">VeeJay</a></li>
-<li><a href="http://www.viceteam.org/">VICE</a></li>
-<li><a href="http://videospec.free.fr/english/">VideoSpec</a></li>
-<li><a href="http://virchor.sourceforge.net/">Virtual Choreographer</a></li>
-<li><a href="http://vitooki.sourceforge.net/">ViTooKi</a></li>
-<li><a href="http://vive.sourceforge.net/">Vive</a></li>
-<li><a href="http://www.videolan.org/vlc/">VLC</a></li>
-<li><a href="http://www.redkawa.com/videoconverters/wiivideo9/">Wii Video 9</a></li>
-<li><a href="http://winff.org">WinFF</a></li>
-<li><a href="http://qtwmacodec.sourceforge.net/">WMA codec for Mac OS X</a></li>
-<li><a href="http://www.wunderradio.com/code.html">WunderRadio</a></li>
-<li><a href="http://xawdecode.sourceforge.net/">Xawdecode</a></li>
-<li><a href="http://xbmc.org/">XBMC</a></li>
-<li><a href="http://www.xine-project.org/">xine</a></li>
-<li><a href="http://sourceforge.net/projects/xmffmpeg/">XMFFMPEG</a></li>
-<li><a href="http://www.xuggle.com/xuggler/">Xuggler</a></li>
-<li><a href="http://xvidcap.sourceforge.net/">xvidcap</a></li>
-<li><a href="http://sourceforge.net/projects/xbyamp/">YAMP</a></li>
-<li><a href="http://www.zoneminder.com/">ZoneMinder</a></li>
-</ul>
-</td>
-</tr>
-</table>
-   
+<div class="row">
+  <div class="col-md-6">
+    <div class="list-group">
+      <a class="list-group-item" href="http://sourceforge.net/projects/ac3encode/">ac3encode</a>
+      <a class="list-group-item" href="http://alembik.sourceforge.net/">Alembik</a>
+      <a class="list-group-item" href="http://code.google.com/p/amv-codec-tools/">AMV codec tools</a>
+      <a class="list-group-item" href="http://atglas.sourceforge.net/">AtGLas</a>
+      <a class="list-group-item" href="http://code.google.com/p/avbin/">AVbin</a>
+      <a class="list-group-item" href="http://avifile.sourceforge.net/">avifile</a>
+      <a class="list-group-item" href="http://gatos.sourceforge.net/avview.php">Avview</a>
+      <a class="list-group-item" href="http://www.bebits.com/app/2575">BeOS FFmpeg decoders</a>
+      <a class="list-group-item" href="http://www.bebits.com/app/2867">BeOS HybridDivx</a>
+      <a class="list-group-item" href="http://bino3d.org/">Bino</a>
+      <a class="list-group-item" href="http://www.independentsounds.de/">Blaze</a>
+      <a class="list-group-item" href="http://www.blender.org/">Blender</a>
+      <a class="list-group-item" href="http://www.chromium.org/">Chromium</a>
+      <a class="list-group-item" href="http://www.google.com/chrome">Google Chrome</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/chronictv/">chronictv</a>
+      <a class="list-group-item" href="http://cinelerra.org/">Cinelerra</a>
+      <a class="list-group-item" href="http://ccv.nuigroup.com/">Community Core Vision</a>
+      <a class="list-group-item" href="http://www.corecodec.com/products/coreplayer">CorePlayer</a>
+      <a class="list-group-item" href="http://datura.sourceforge.net/">Datura</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/divxtodvd/">DivXtoDVD</a>
+      <a class="list-group-item" href="http://labs.divx.com/DrDivX">Dr. Divx</a>
+      <a class="list-group-item" href="http://code.google.com/p/drag2dv/">Drag2DV</a>
+      <a class="list-group-item" href="http://dvbcut.sourceforge.net/">dvbcut</a>
+      <a class="list-group-item" href="http://www.dvdflick.net/">DVDFlick</a>
+      <a class="list-group-item" href="http://sites.google.com/site/dvrmstompeg/dvr-mstompegconverter">DVR-MS to MPEG Converter</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/easyvob2divx/">Easy VOB 2 DivX</a>
+      <a class="list-group-item" href="http://www.easywma.com/">EasyWMA</a>
+      <a class="list-group-item" href="http://www.easywma.com/wmv/">EasyWMV</a>
+      <a class="list-group-item" href="http://www.electricsheep.org">Electric Sheep</a>
+      <a class="list-group-item" href="http://dcunningham.net/applications/encodehd/">EncodeHD</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/ffdshow/">ffdshow</a>
+      <a class="list-group-item" href="http://ffdshow-tryout.sourceforge.net/">ffdshow-tryouts</a>
+      <a class="list-group-item" href="http://corz.org/windows/software/ffe/">ffe</a>
+      <a class="list-group-item" href="http://code.google.com/p/ffmbc/">FFmedia Broadcast</a>
+      <a class="list-group-item" href="http://www.thilobrai.onlinehome.de/ffmpegGUI.htm">ffmpeg-GUI</a>
+      <a class="list-group-item" href="http://ffmpeg-php.sourceforge.net/">ffmpeg-php</a>
+      <a class="list-group-item" href="http://www.v2v.cc/~j/ffmpeg2theora/">ffmpeg2theora</a>
+      <a class="list-group-item" href="http://code.google.com/p/ffmpeg4iphone/">ffmpeg4iphone</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/qt-ffmpeg/">FFMPEG for QT</a>
+      <a class="list-group-item" href="https://github.com/wseemann/FFmpegMediaMetadataRetriever">FFmpegMediaMetadataRetriever</a>
+      <a class="list-group-item" href="http://code.google.com/p/ffmpegthumbnailer/">FFMpegThumbnailer</a>
+      <a class="list-group-item" href="http://www.ffmpegx.com/">ffmpegX for Mac OS X</a>
+      <a class="list-group-item" href="http://ffmpegyag.sourceforge.net">FFmpegYAG</a>
+      <a class="list-group-item" href="http://colabti.org/convertx/ffrecord.html">FFRecord</a>
+      <a class="list-group-item" href="http://www.tagtraum.com/ffsampledsp/">FFSampledSP - Java Sound for Win/OS X</a>
+      <a class="list-group-item" href="http://fftv.sourceforge.net/">fftv</a>
+      <a class="list-group-item" href="http://aldorandenet.free.fr/codecs/">FFusion, Alternative Codecs for Mac OS X</a>
+      <a class="list-group-item" href="http://firefogg.org">Firefogg</a>
+      <a class="list-group-item" href="http://fmj.sourceforge.net/">FMJ</a>
+      <a class="list-group-item" href="http://fobs.sourceforge.net/">Fobs</a>
+      <a class="list-group-item" href="http://freej.org/">FreeJ</a>
+      <a class="list-group-item" href="http://frogger.rules.pl/">Frogger</a>
+      <a class="list-group-item" href="http://galleryproject.org/">Gallery</a>
+      <a class="list-group-item" href="https://github.com/lano1106/glcs">glcs</a>
+      <a class="list-group-item" href="http://gmerlin.sourceforge.net/">gmerlin</a>
+      <a class="list-group-item" href="http://gnashdev.org/">Gnash</a>
+      <a class="list-group-item" href="http://gpac.sourceforge.net/">GPAC</a>
+      <a class="list-group-item" href="http://gstreamer.freedesktop.org">GStreamer</a>
+      <a class="list-group-item" href="http://handbrake.fr/">HandBrake</a>
+      <a class="list-group-item" href="http://www.homer-conferencing.com">Homer Conferencing</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/hypervideoconve/">Hyper Video Converter</a>
+      <a class="list-group-item" href="http://www.eingrad.com/products/internet-radio-box/">Internet Radio Box</a>
+      <a class="list-group-item" href="http://jffmpeg.sourceforge.net/">Jffmpeg</a>
+      <a class="list-group-item" href="http://www.jwplayer.com/hosting-and-streaming/">JW Platform</a>
+      <a class="list-group-item" href="http://www.kdenlive.org/">Kdenlive</a>
+      <a class="list-group-item" href="http://code.google.com/p/kmediafactory/">KMediaFactory</a>
+      <a class="list-group-item" href="http://savannah.nongnu.org/projects/kinetophone">Kinetophone</a>
+      <a class="list-group-item" href="http://ktoon.net/">KTooN</a>
+      <a class="list-group-item" href="http://libdlna.geexbox.org/">libdlna</a>
+      <a class="list-group-item" href="http://libquicktime.sourceforge.net/">libquicktime</a>
+      <a class="list-group-item" href="http://sourcey.com/libsourcey/">LibSourcey</a>
+      <a class="list-group-item" href="http://lightspark.github.io/">Lightspark</a>
+      <a class="list-group-item" href="http://lives.sourceforge.net/">LiVES</a>
+      <a class="list-group-item" href="http://lulop2.sourceforge.net/">LULOP2</a>
+      <a class="list-group-item" href="http://lumiera.org/">Lumiera</a>
+      <a class="list-group-item" href="http://lynkeos.sourceforge.net/">Lynkeos</a>
+    </div>
+  </div> <!-- col -->
+  <div class="col-md-6">
+    <div class="list-group">
+      <a class="list-group-item" href="http://mconverter.sourceforge.net/">mConverter</a>
+      <a class="list-group-item" href="http://www.mltframework.org/">MLT Framework</a>
+      <a class="list-group-item" href="http://mobilehackerz.jp/contents/3GPConv">MobileHackerz</a>
+      <a class="list-group-item" href="http://www.miksoft.net/mobileMediaConverter.php">Mobile Media Converter</a>
+      <a class="list-group-item" href="http://www.mobiletoones.com/">MobileToones</a>
+      <a class="list-group-item" href="http://mod2avi.sourceforge.net/">mod2avi</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/modprismiq/">modprismiq</a>
+      <a class="list-group-item" href="http://www.lavrsen.dk/twiki/bin/view/Motion/WebHome">Motion</a>
+      <a class="list-group-item" href="http://moviethumbnail.sourceforge.net/">movie thumbnailer</a>
+      <a class="list-group-item" href="http://movieconverter.online.fr/">MovieConverter</a>
+      <a class="list-group-item" href="http://code.google.com/p/movist/">Movist</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/mpc-hc/">MPC - Homecinema</a>
+      <a class="list-group-item" href="http://mpeg4ip.sourceforge.net/">mpeg4ip</a>
+      <a class="list-group-item" href="http://mplayerhq.hu/">MPlayer</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/multiconvert/">Multiconvert</a>
+      <a class="list-group-item" href="http://www.mythtv.org/">MythTV</a>
+      <a class="list-group-item" href="http://nvrec.sourceforge.net/">nvrec</a>
+      <a class="list-group-item" href="http://www.2600.com/offthehook/">Off The Hook</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/openh323/">OpenH323</a>
+      <a class="list-group-item" href="http://www.jahshaka.com/develop/openlibraries/">OpenLibraries</a>
+      <a class="list-group-item" href="http://www.openmovieeditor.org/">Open Movie Editor</a>
+      <a class="list-group-item" href="http://openvip.sourceforge.net/">OpenVIP</a>
+      <a class="list-group-item" href="http://www.perian.org/">Perian</a>
+      <a class="list-group-item" href="http://falun.dafa.is.free.fr/altair/php4ffprobe.php">PHP4FFprobe</a>
+      <a class="list-group-item" href="https://github.com/buggedcom/phpvideotoolkit-v2">phpvideotoolkit</a>
+      <a class="list-group-item" href="http://pspvc.sourceforge.net/">PlayStation Portable Video Converter</a>
+      <a class="list-group-item" href="http://www.cyberlink.com/stat/support/enu/open-source-info/index.jsp">PowerCinema for Linux</a>
+      <a class="list-group-item" href="http://www.pspvideo9.com/">PSP Video 9</a>
+      <a class="list-group-item" href="http://code.google.com/p/pyffmpeg/">pyffmpeg</a>
+      <a class="list-group-item" href="http://pymedia.org/">PyMedia</a>
+      <a class="list-group-item" href="http://pytivo.sourceforge.net/wiki/index.php/PyTivo">pyTivo</a>
+      <a class="list-group-item" href="http://bellard.org/qemacs/">QEmacs</a>
+      <a class="list-group-item" href="http://qmmp.ylsoftware.com/">Qmmp</a>
+      <a class="list-group-item" href="http://qstream.org/">QStream</a>
+      <a class="list-group-item" href="https://github.com/wang-bin/QtAV">QtAV</a>
+      <a class="list-group-item" href="http://linuxvideo.info/">QuickView Pro</a>
+      <a class="list-group-item" href="http://rivavx.com/">Riva VX</a>
+      <a class="list-group-item" href="http://rmovie.rubyforge.org">rmovie</a>
+      <a class="list-group-item" href="http://www.rockbox.org">Rockbox</a>
+      <a class="list-group-item" href="http://shotdetect.nonutc.fr/">shotdetect</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/screenkast/">SkreenKast</a>
+      <a class="list-group-item" href="http://spek.cc/">Spek - Acoustic Spectrum Analyser</a>
+      <a class="list-group-item" href="http://stepmania.com/">StepMania</a>
+      <a class="list-group-item" href="http://markolson.github.io/storyboard/">Storyboard</a>
+      <a class="list-group-item" href="http://www.erightsoft.net/SUPER.html">SUPER</a>
+      <a class="list-group-item" href="http://git.mansr.com/?p=tcvp">TCVP</a>
+      <a class="list-group-item" href="http://www.transcoding.org/">Transcode</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/tubecaster/">Tubecaster</a>
+      <a class="list-group-item" href="http://tversity.com/">TVersity</a>
+      <a class="list-group-item" href="http://vchannel.sourceforge.net/player.html">V-Player</a>
+      <a class="list-group-item" href="http://vdownloader.com/">VDownloader</a>
+      <a class="list-group-item" href="http://softdevice.berlios.de/">vdr-softdevice</a>
+      <a class="list-group-item" href="http://www.veejayhq.net/">VeeJay</a>
+      <a class="list-group-item" href="http://www.viceteam.org/">VICE</a>
+      <a class="list-group-item" href="http://videospec.free.fr/english/">VideoSpec</a>
+      <a class="list-group-item" href="http://virchor.sourceforge.net/">Virtual Choreographer</a>
+      <a class="list-group-item" href="http://vitooki.sourceforge.net/">ViTooKi</a>
+      <a class="list-group-item" href="http://vive.sourceforge.net/">Vive</a>
+      <a class="list-group-item" href="http://www.videolan.org/vlc/">VLC</a>
+      <a class="list-group-item" href="http://www.redkawa.com/videoconverters/wiivideo9/">Wii Video 9</a>
+      <a class="list-group-item" href="http://winff.org">WinFF</a>
+      <a class="list-group-item" href="http://qtwmacodec.sourceforge.net/">WMA codec for Mac OS X</a>
+      <a class="list-group-item" href="http://www.wunderradio.com/code.html">WunderRadio</a>
+      <a class="list-group-item" href="http://xawdecode.sourceforge.net/">Xawdecode</a>
+      <a class="list-group-item" href="http://xbmc.org/">XBMC</a>
+      <a class="list-group-item" href="http://www.xine-project.org/">xine</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/xmffmpeg/">XMFFMPEG</a>
+      <a class="list-group-item" href="http://www.xuggle.com/xuggler/">Xuggler</a>
+      <a class="list-group-item" href="http://xvidcap.sourceforge.net/">xvidcap</a>
+      <a class="list-group-item" href="http://sourceforge.net/projects/xbyamp/">YAMP</a>
+      <a class="list-group-item" href="http://www.zoneminder.com/">ZoneMinder</a>
+    </div>
+  </div> <!-- col -->
+</div> <!-- row -->   

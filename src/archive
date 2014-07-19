@@ -1,4 +1,500 @@
-<h1>Archive</h1>
+
+
+  <a id="logo_art_contest_autumn-2013"></a><h3>August 22, 2013, Autumn Website Banner Contest</h3>
+  <p>
+    Welcome art-inclined readers of this rather technical website!
+  </p>
+
+  <p>
+    Again it is time for a contest to select a new banner for the coming autumn season.
+    It is your chance to display your art to the world and make this site a little bit
+    more artistic for the coming months.
+  </p>
+
+  <p>
+    Please read <a href="https://trac.ffmpeg.org/ticket/2891">ticket 2891</a> for further
+    directions.
+  </p>
+
+  <p>
+    Deadline is on 20th of September.
+  </p>
+
+  <p>
+    And as always: Happy painting!
+  </p>
+
+  <a id="pr2.0"></a><h3>July 10, 2013, FFmpeg 2.0</h3>
+  <p>
+    We have made a new major release (<b><a href="download.html#release_2.0">2.0</a></b>)
+    It contains all features and bugfixes of the git master branch from 10th July.
+    A partial list of new stuff is below:
+  </p>
+  <pre>
+    - curves filter
+    - reference-counting for AVFrame and AVPacket data
+    - ffmpeg now fails when input options are used for output file
+    or vice versa
+    - support for Monkey's Audio versions from 3.93
+    - perms and aperms filters
+    - audio filtering support in ffplay
+    - 10% faster aac encoding on x86 and MIPS
+    - sine audio filter source
+    - WebP demuxing and decoding support
+    - new ffmpeg options -filter_script and -filter_complex_script, which allow a
+    filtergraph description to be read from a file
+    - OpenCL support
+    - audio phaser filter
+    - separatefields filter
+    - libquvi demuxer
+    - uniform options syntax across all filters
+    - telecine filter
+    - new interlace filter
+    - smptehdbars source
+    - inverse telecine filters (fieldmatch and decimate)
+    - colorbalance filter
+    - colorchannelmixer filter
+    - The matroska demuxer can now output proper verbatim ASS packets. It will
+    become the default at the next libavformat major bump.
+    - decent native animated GIF encoding
+    - asetrate filter
+    - interleave filter
+    - timeline editing with filters
+    - vidstabdetect and vidstabtransform filters for video stabilization using
+    the vid.stab library
+    - astats filter
+    - trim and atrim filters
+    - ffmpeg -t and -ss (output-only) options are now sample-accurate when
+    transcoding audio
+    - Matroska muxer can now put the index at the beginning of the file.
+    - extractplanes filter
+    - avectorscope filter
+    - ADPCM DTK decoder
+    - ADP demuxer
+    - RSD demuxer
+    - RedSpark demuxer
+    - ADPCM IMA Radical decoder
+    - zmq filters
+    - DCT denoiser filter (dctdnoiz)
+    - Wavelet denoiser filter ported from libmpcodecs as owdenoise (formerly "ow")
+    - Apple Intermediate Codec decoder
+    - Escape 130 video decoder
+    - FTP protocol support
+    - V4L2 output device
+    - 3D LUT filter (lut3d)
+    - SMPTE 302M audio encoder
+    - support for slice multithreading in libavfilter
+    - Hald CLUT support (generation and filtering)
+    - VC-1 interlaced B-frame support
+    - support for WavPack muxing (raw and in Matroska)
+    - XVideo output device
+    - vignette filter
+    - True Audio (TTA) encoder
+    - Go2Webinar decoder
+    - mcdeint filter ported from libmpcodecs
+    - sab filter ported from libmpcodecs
+    - ffprobe -show_chapters option
+    - WavPack encoding through libwavpack
+    - rotate filter
+    - spp filter ported from libmpcodecs
+    - libgme support
+    - psnr filter
+  </pre>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
+
+
+  <a id="speech"></a><h3>June 5, 2013, Request for speech codec samples</h3>
+  <p>
+    FFmpeg developers want to support more voice and speech codecs.
+    We are looking for samples of EVRC-WB , EVRC-B and SMV codecs.
+    Some cell phones may record the audio in qcp, mp4 or 3g2 formats.
+  </p>
+  <p>
+    Please upload these codec samples to us (ftp, trac, etc) so we may take a look.
+    Or you can email them to projects@mplayerhq.hu , thanks!
+  </p>
+
+
+  <a id="lt2013"></a><h3>April 28, 2013, LinuxTag</h3>
+  <p>
+    We happily announce that FFmpeg will be represented at LinuxTag in
+    Berlin, Germany. The event will take place from 22nd to 25th of May.
+  </p>
+  <p>
+    We will have a shared booth with XBMC. So just come over and visit our
+    booth to have a chat with us. And please bring along your media samples
+    if you possess any that do not work correctly with FFmpeg!
+  </p>
+
+  <p>
+    More information about LinuxTag can be found <a href="http://www.linuxtag.org/2013/en/">here</a>
+  </p>
+
+  <p>
+    We are looking forward to see you in Berlin!
+  </p>
+
+
+  <a id="pr1.2"></a><h3>March 15, 2013, FFmpeg 1.2</h3>
+  <p>
+    We have made a new major release (<b><a href="download.html#release_1.2">1.2</a></b>)
+    It contains all features and bugfixes of the git master branch from 7th march.
+    A partial list of new stuff is below:
+  </p>
+  <pre>
+    - VDPAU hardware acceleration through normal hwaccel
+    - SRTP support
+    - Error diffusion dither in Swscale
+    - Chained Ogg support
+    - Theora Midstream reconfiguration support
+    - EVRC decoder
+    - audio fade filter
+    - filtering audio with unknown channel layout
+    - allpass, bass, bandpass, bandreject, biquad, equalizer, highpass, lowpass
+    and treble audio filter
+    - improved showspectrum filter, with multichannel support and sox-like colors
+    - histogram filter
+    - tee muxer
+    - il filter ported from libmpcodecs
+    - support ID3v2 tags in ASF files
+    - encrypted TTA stream decoding support
+    - RF64 support in WAV muxer
+    - noise filter ported from libmpcodecs
+    - Subtitles character encoding conversion
+    - blend filter
+    - stereo3d filter ported from libmpcodecs
+  </pre>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
+
+
+  <a id="logo_art_contest_spring-2013"></a><h3>February 10, 2013, Spring Website Banner Contest</h3>
+  <p>
+    Spring is approaching on the northern hemisphere. So it is time to announce another episode of our
+    seasonal art contest.
+  </p>
+
+  <p>
+    Please read <a href="https://trac.ffmpeg.org/ticket/2255">ticket 2255</a> for further
+    directions.
+  </p>
+
+  <p>
+    The deadline is on March 15th.
+  </p>
+
+  <p>
+    Happy painting!
+  </p>
+
+
+  <a id="clt2013"></a><h3>February 4, 2013, Chemnitzer Linux-Tage</h3>
+  <p>
+    We happily announce that FFmpeg will be represented at `Chemnitzer Linux-Tage'
+    in Chemnitz, Germany. The event will take place on 16th and 17th of March.
+  </p>
+
+  <p>
+    More information can be found <a href="http://chemnitzer.linux-tage.de/2013/info/index?cookielang=en">here</a>
+  </p>
+
+  <p>
+    We hereby invite you to visit us at our booth located in the Linux-Live area!
+    There we will demonstrate usage of FFmpeg, answer your questions and listen to
+    your problems and wishes.
+  </p>
+  <p>
+    We are looking forward to meet you (again)!
+  </p>
+
+
+  <a id="pr1.1"></a><h3>January, 7, 2013, FFmpeg 1.1</h3>
+  <p>
+    We have made a new major release (<b><a href="download.html#release_1.1">1.1</a></b>)
+    It contains all features and bugfixes of the git master branch. A partial list of
+    new stuff is below:
+  </p>
+  <pre>
+    - stream disposition information printing in ffprobe
+    - filter for loudness analysis following EBU R128
+    - Opus encoder using libopus
+    - ffprobe -select_streams option
+    - Pinnacle TARGA CineWave YUV16 decoder
+    - TAK demuxer, decoder and parser
+    - DTS-HD demuxer
+    - remove -same_quant, it hasn't worked for years
+    - FFM2 support
+    - X-Face image encoder and decoder
+    - 24-bit FLAC encoding
+    - multi-channel ALAC encoding up to 7.1
+    - metadata (INFO tag) support in WAV muxer
+    - subtitles raw text decoder
+    - support for building DLLs using MSVC
+    - LVF demuxer
+    - ffescape tool
+    - metadata (info chunk) support in CAF muxer
+    - field filter ported from libmpcodecs
+    - AVR demuxer
+    - geq filter ported from libmpcodecs
+    - remove ffserver daemon mode
+    - AST muxer/demuxer
+    - new expansion syntax for drawtext
+    - BRender PIX image decoder
+    - ffprobe -show_entries option
+    - ffprobe -sections option
+    - ADPCM IMA Dialogic decoder
+    - BRSTM demuxer
+    - animated GIF decoder and demuxer
+    - PVF demuxer
+    - subtitles filter
+    - IRCAM muxer/demuxer
+    - Paris Audio File demuxer
+    - Virtual concatenation demuxer
+    - VobSub demuxer
+    - JSON captions for TED talks decoding support
+    - SOX Resampler support in libswresample
+    - aselect filter
+    - SGI RLE 8-bit decoder
+    - Silicon Graphics Motion Video Compressor 1 &amp; 2 decoder
+    - Silicon Graphics Movie demuxer
+    - apad filter
+    - Resolution &amp; pixel format change support with multithreading for H.264
+    - documentation split into per-component manuals
+    - pp (postproc) filter ported from MPlayer
+    - NIST Sphere demuxer
+    - MPL2, VPlayer, MPlayer, AQTitle, PJS and SubViewer v1 subtitles demuxers and decoders
+    - Sony Wave64 muxer
+    - adobe and limelight publisher authentication in RTMP
+    - data: URI scheme
+    - support building on the Plan 9 operating system
+    - kerndeint filter ported from MPlayer
+    - histeq filter ported from VirtualDub
+    - Megalux Frame demuxer
+    - 012v decoder
+    - Improved AVC Intra decoding support
+  </pre>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
+
+  <a id="news-30122012"></a><h3>December 30, 2012, Recent Developments</h3>
+  <p>
+    Before this year ends we want to use the occasion and give you some news about
+    recent developments in FFmpeg.
+  </p>
+
+  <h4>
+    - <a href="/ffmpeg-filters.html#subtitles">subtitles filter</a>
+  </h4>
+  <p>
+    The subtitles filter makes it possible to merge subtitles supported by
+    libavformat/libavcodec into a video stream. This process is also known
+    as burning them into the video or simply hardsubbing. This filter depends
+    on libass and thus is only available in builds configured with --enable-ass.
+  </p>
+  <p>
+    The subtitles filter is also useful to play external subtitle files with
+    ffplay. An example of this usage can be found in the following entry about
+    TED captions.
+  </p>
+
+  <h4>
+    - JSON <a href="ffmpeg-formats.html#tedcaptions">captions for TED talks</a> decoding support
+  </h4>
+  <p>
+    <a href="http://www.ted.com/">TED</a> provides video downloads for their talks.
+    Not all of these are available with subtitles and when they are the subtitles
+    are burnt into the video. Now with this new FFmpeg feature you can download the
+    subtitle files and just display them on the fly when playing the video with ffplay:
+  </p>
+  <pre>
+    ffplay ted.mp4 -vf subtitles=ted.json
+  </pre>
+
+  <h4>
+    - <a href="/ffmpeg-filters.html#geq">geq filter</a> ported from libmpcodecs
+  </h4>
+  <p>
+    This is another filter ported from MPlayer. It allows you to arbitrarily
+    change luma and chroma values for each pixel of the movie individually.
+    To learn more look at the
+    <a href="/ffmpeg-filters.html#geq">geq documentation</a>
+    and
+    <a href="ffmpeg-utils.html#Expression-Evaluation">the evaluation syntax description</a>.
+    Do not forget to give it a try:
+  </p>
+  <pre>
+    ffplay input.movie -vf "geq=p(X\,Y):if(gt(Y\,H/2)\,128)+ifnot(gt(Y\,H/2)\,cr(X\,Y)):if(gt(Y\,H/2)\,128)+ifnot(gt(Y\,H/2)\,cb(X\,Y))"
+  </pre>
+
+  <h4>
+    - filter for <a href="/ffmpeg-filters.html#ebur128">loudness analysis following EBU R128</a>
+  </h4>
+  <p>
+    This filter analyses audio streams as recommended by EBU recommendation R128.
+    The output can be either logged or visualized in a generated video stream.
+  </p>
+
+  <h4>
+    - <a href="/ffserver.html#What-is-FFM_002c-FFM2">FFM2</a> support
+  </h4>
+  <p>
+    The FFM2 format has been introduced to provide better interoperability
+    between different versions of the FFmpeg tools. It is usually used to
+    provide input to ffserver. It improves on its predecessor FFM by making
+    the format backward-compatible and extensible. This means the generated
+    files are are no longer dependant on specific FFmpeg versions.
+  </p>
+
+  <h4>
+    - Opus encoder using libopus
+  </h4>
+  <p>
+    You can encode Opus now via Xiph's
+    <a href="http://opus-codec.org/development/">libopus</a>.
+  </p>
+
+  <h4>
+    - VobSub demuxer
+  </h4>
+  <p>
+    IDX/SUB file pairs can now be played back or be remuxed into other formats such as MKV.
+  </p>
+
+  <h4>
+    - Resolution &amp; pixel format change support with multithreading for H.264
+  </h4>
+  <p>
+    Finally H.264 with resolution and/or pixel format changes can be decoded multithreaded.
+  </p>
+
+  <h4>
+    - <a href="documentation.html">documentation</a> split into per-component manuals
+  </h4>
+  <p>
+    In an on-going effort, the documentation is split, reordered and extended
+    to make it more accessible and more complete.
+  </p>
+
+  <p>
+    Of course we can't possibly cover all changes since our last release in a single news
+    article, but we encourage you to read the
+    <a href="http://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog">Changelog</a>
+    yourself.
+  </p>
+
+  <p>
+    <i>We wish you all a happy new year!</i>
+  </p>
+
+  <a id="logo_art_contest_winter-2012"></a><h3>November 14, 2012, Winter Website Banner Contest</h3>
+  <p>
+    As the days are getting shorter for some of us, we are proud to announce
+    a new episode of our FFmpeg seasonal banners contest! This is your chance
+    to get your art on top of this website for the coming winter season.
+  </p>
+
+  <p>
+    Please read on <a href="https://trac.ffmpeg.org/ticket/1756">
+      here</a> for further directions.
+  </p>
+
+  <p>
+    The deadline is on December 14th.
+  </p>
+
+  <p>
+    If you are member of an artist community we encourage you to spread the word
+    about this contest.
+  </p>
+
+  <p>
+    Frosty painting!
+  </p>
+
+  <a id="pr1.0"></a><h3>September, 28, 2012, FFmpeg 1.0</h3>
+  <p>
+    We have made a new major release (<b><a href="download.html#release_1.0">1.0</a></b>)
+    It contains all features and bugfixes of the git master branch. A partial list of
+    new stuff is below:
+  </p>
+  <pre>
+    - INI and flat output in ffprobe
+    - Scene detection in libavfilter
+    - Indeo Audio decoder
+    - channelsplit audio filter
+    - setnsamples audio filter
+    - atempo filter
+    - ffprobe -show_data option
+    - RTMPT protocol support
+    - iLBC encoding/decoding via libilbc
+    - Microsoft Screen 1 decoder
+    - join audio filter
+    - audio channel mapping filter
+    - Microsoft ATC Screen decoder
+    - RTSP listen mode
+    - TechSmith Screen Codec 2 decoder
+    - AAC encoding via libfdk-aac
+    - Microsoft Expression Encoder Screen decoder
+    - RTMPS protocol support
+    - RTMPTS protocol support
+    - RTMPE protocol support
+    - RTMPTE protocol support
+    - showwaves and showspectrum filter
+    - LucasArts SMUSH playback support
+    - SAMI, RealText and SubViewer demuxers and decoders
+    - Heart Of Darkness PAF playback support
+    - iec61883 device
+    - asettb filter
+    - new option: -progress
+    - 3GPP Timed Text encoder/decoder
+    - GeoTIFF decoder support
+    - ffmpeg -(no)stdin option
+    - Opus decoder using libopus
+    - caca output device using libcaca
+    - alphaextract and alphamerge filters
+    - concat filter
+    - flite filter
+    - Canopus Lossless Codec decoder
+    - bitmap subtitles in filters (experimental and temporary)
+    - MP2 encoding via TwoLAME
+    - bmp parser
+    - smptebars source
+    - asetpts filter
+    - hue filter
+    - ICO muxer
+    - SubRip encoder and decoder without embedded timing
+    - edge detection filter
+    - framestep filter
+    - ffmpeg -shortest option is now per-output file
+    -pass and -passlogfile are now per-output stream
+    - volume measurement filter
+    - Ut Video encoder
+    - Microsoft Screen 2 decoder
+    - Matroska demuxer now identifies SRT subtitles as AV_CODEC_ID_SUBRIP
+    instead of AV_CODEC_ID_TEXT
+    - smartblur filter ported from MPlayer
+    - CPiA decoder
+    - decimate filter ported from MPlayer
+    - RTP depacketization of JPEG
+    - Smooth Streaming live segmenter muxer
+    - F4V muxer
+    - sendcmd and asendcmd filters
+    - WebVTT demuxer and decoder (simple tags supported)
+    - RTP packetization of JPEG
+    - faststart option in the MOV/MP4 muxer
+    - Several security fixes
+  </pre>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
 
 <a id="logo_art_contest_autumn-2012"></a><h3>August 29, 2012, Autumn Website Banner Contest</h3>
 <p>

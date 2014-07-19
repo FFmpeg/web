@@ -1,0 +1,12 @@
+{
+    "name": "ffmpeg-web",
+    "description": "FFmpeg official website",
+    "version": "2.0.0",
+    "homepage": "http://ffmpeg.org/",
+    "main": "htdocs/style.css",
+    "dependencies": {
+	"less": "1.7.3",
+	"bootstrap": "3.2.0",
+	"font-awesome": "4.1.0"
+    }
+}

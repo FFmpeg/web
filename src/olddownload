@@ -1,245 +1,300 @@
-<a name="oldreleases"></a><h1>Old FFmpeg Releases</h1>
+<div class="with-icon">
+  <span class="pull-left"><i class="fa fa-3x fa-warning"></i></span>
+  These releases are not actively maintained and thus we
+  discourage their use.<br>
+  <a href="contact.html">Contact us</a> if you are interested in
+  maintaining an old release.
+</div>
+
+<a name="release_2.0"></a><h3>
+  FFmpeg 2.0.5 "Nameless"</h3>
 
 <p>
-<strong>These releases are not actively maintained and thus we
-discourage their use.</strong>
-<a href="contact.html">Contact us</a> if you are interested in
-maintaining an old release.
-
-<a name="release_2.0"></a><h2>
-FFmpeg 2.0.5 "Nameless"</h2>
-
-<p>
-2.0.5 was released on 2014-06-25. It is the latest stable FFmpeg release
-from the 2.0 release branch, which was cut from master on 2013-07-10.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2013-07-09, libav 9 as of 2013-07-09.
+  2.0.5 was released on 2014-06-25. It is the latest stable FFmpeg release
+  from the 2.0 release branch, which was cut from master on 2013-07-10.
+  Amongst lots of other changes, it includes all changes from
+  ffmpeg-mt, libav master of 2013-07-09, libav 9 as of 2013-07-09.
 </p>
 <p>It includes the following library versions:
 </p>
 <pre>
-  libavutil      52. 38.100
-  libavcodec     55. 18.102
-  libavformat    55. 12.100
-  libavdevice    55.  3.100
-  libavfilter     3. 79.101
-  libswscale      2.  3.100
-  libswresample   0. 17.102
-  libpostproc    52.  3.100
-</pre>
+libavutil      52. 38.100
+libavcodec     55. 18.102
+libavformat    55. 12.100
+libavdevice    55.  3.100
+libavfilter     3. 79.101
+libswscale      2.  3.100
+libswresample   0. 17.102
+libpostproc    52.  3.100</pre>
+
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-2.0.2.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-2.0.2.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-2.0.2.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-2.0.2.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.2">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_1.1"></a><h3>
+  FFmpeg 1.1.12 "Fire Flower"</h3>
 
 <p>
-<a href="releases/ffmpeg-2.0.5.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.0.5.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-2.0.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.0.5.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.5">Changelog</a><br />
-</p>
-
-<a name="release_1.1"></a><h2>
-FFmpeg 1.1.12 "Fire Flower"</h2>
-
-<p>
-1.1.12 was released on 2014-06-26. It is the latest stable FFmpeg release
-from the 1.1 release branch, which was cut from master on 2013-01-06.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2013-01-06, libav 9.13 as of 2014-06-25.
+  1.1.12 was released on 2014-06-26. It is the latest stable FFmpeg release
+  from the 1.1 release branch, which was cut from master on 2013-01-06.
+  Amongst lots of other changes, it includes all changes from
+  ffmpeg-mt, libav master of 2013-01-06, libav 9.13 as of 2014-06-25.
 </p>
 <p>It includes the following library versions:
 </p>
 <pre>
-  libavutil      52. 13.100
-  libavcodec     54. 86.100
-  libavformat    54. 59.106
-  libavdevice    54.  3.102
-  libavfilter     3. 32.100
-  libswscale      2.  1.103
-  libswresample   0. 17.102
-  libpostproc    52.  2.100
-</pre>
+libavutil      52. 13.100
+libavcodec     54. 86.100
+libavformat    54. 59.106
+libavdevice    54.  3.102
+libavfilter     3. 32.100
+libswscale      2.  1.103
+libswresample   0. 17.102
+libpostproc    52.  2.100</pre>
+
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-1.1.12.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-1.1.12.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-1.1.12.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-1.1.12.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.1.12">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_1.0"></a><h3>
+  FFmpeg 1.0.9 "Angel"</h3>
 
 <p>
-<a href="releases/ffmpeg-1.1.12.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.1.12.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-1.1.12.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.1.12.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.1.12">Changelog</a><br />
-</p>
-
-<a name="release_1.0"></a><h2>
-FFmpeg 1.0.9 "Angel"</h2>
-
-<p>
-1.0.9 was released on 2014-03-10. It is the latest stable FFmpeg release
-from the 1.0 release branch, which was cut from master on 2012-09-28.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2012-09-27, libav 0.8.3 as of 2013-01-22.
+  1.0.9 was released on 2014-03-10. It is the latest stable FFmpeg release
+  from the 1.0 release branch, which was cut from master on 2012-09-28.
+  Amongst lots of other changes, it includes all changes from
+  ffmpeg-mt, libav master of 2012-09-27, libav 0.8.3 as of 2013-01-22.
 </p>
 <p>It includes the following library versions:
 </p>
 <pre>
-  libavutil      51. 73.101
-  libavcodec     54. 59.100
-  libavformat    54. 29.104
-  libavdevice    54.  2.101
-  libavfilter     3. 17.100
-  libswscale      2.  1.101
-  libswresample   0. 15.100
-  libpostproc    52.  0.100
-</pre>
+libavutil      51. 73.101
+libavcodec     54. 59.100
+libavformat    54. 29.104
+libavdevice    54.  2.101
+libavfilter     3. 17.100
+libswscale      2.  1.101
+libswresample   0. 15.100
+libpostproc    52.  0.100</pre>
+
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-1.0.9.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-1.0.9.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-1.0.9.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-1.0.9.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.0.9">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_0.11"></a><h3>
+  FFmpeg 0.11.5 "Happiness"</h3>
 
 <p>
-<a href="releases/ffmpeg-1.0.9.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.0.9.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-1.0.9.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.0.9.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.0.9">Changelog</a><br />
-</p>
-
-<a name="release_0.11"></a><h2>
-FFmpeg 0.11.5 "Happiness"</h2>
-
-<p>
-0.11.5 was released on 2014-03-10. It is the latest stable FFmpeg release
-from the 0.11 release branch, which was cut from master on 2012-05-25.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2012-05-24, libav 0.8.2 as of 2012-09-19.
+  0.11.5 was released on 2014-03-10. It is the latest stable FFmpeg release
+  from the 0.11 release branch, which was cut from master on 2012-05-25.
+  Amongst lots of other changes, it includes all changes from
+  ffmpeg-mt, libav master of 2012-05-24, libav 0.8.2 as of 2012-09-19.
 </p>
 <p>It includes the following library versions:
 </p>
 <pre>
-  libavutil      51. 54.100
-  libavcodec     54. 23.100
-  libavformat    54.  6.100
-  libavdevice    54.  0.100
-  libavfilter     2. 77.100
-  libswscale      2.  1.100
-  libswresample   0. 15.100
-  libpostproc    52.  0.100
-</pre>
+libavutil      51. 54.100
+libavcodec     54. 23.100
+libavformat    54.  6.100
+libavdevice    54.  0.100
+libavfilter     2. 77.100
+libswscale      2.  1.100
+libswresample   0. 15.100
+libpostproc    52.  0.100</pre>
+
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.11.5.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-0.11.5.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.11.5.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-0.11.5.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.11.5">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_0.10"></a><h3>
+  FFmpeg 0.10.14 "Freedom"</h3>
 
 <p>
-<a href="releases/ffmpeg-0.11.5.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.11.5.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.11.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.11.5.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.11.5">Changelog</a><br />
-</p>
-
-<a name="release_0.10"></a><h2>
-FFmpeg 0.10.14 "Freedom"</h2>
-
-<p>
-0.10.14 was released on 2014-06-29. It is the latest stable FFmpeg release
-from the 0.10 release branch, which was cut from master on 2012-01-26.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2012-01-26, libav 0.8.13 as of 2014-06-29.
+  0.10.14 was released on 2014-06-29. It is the latest stable FFmpeg release
+  from the 0.10 release branch, which was cut from master on 2012-01-26.
+  Amongst lots of other changes, it includes all changes from
+  ffmpeg-mt, libav master of 2012-01-26, libav 0.8.13 as of 2014-06-29.
 </p>
 <p>It includes the following library versions:
 </p>
 <pre>
-  libavutil      51. 35.100
-  libavcodec     53. 61.100
-  libavformat    53. 32.100
-  libavdevice    53.  4.100
-  libavfilter     2. 61.100
-  libswscale      2.  1.100
-  libswresample   0.  6.100
-  libpostproc    52.  0.100
-</pre>
+libavutil      51. 35.100
+libavcodec     53. 61.100
+libavformat    53. 32.100
+libavdevice    53.  4.100
+libavfilter     2. 61.100
+libswscale      2.  1.100
+libswresample   0.  6.100
+libpostproc    52.  0.100</pre>
+
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.10.14.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-0.10.14.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.10.14.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-0.10.14.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.10.14">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_0.9"></a><h3>
+  FFmpeg 0.9.4 "Harmony"</h3>
 
 <p>
-<a href="releases/ffmpeg-0.10.14.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.10.14.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.10.14.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.10.14.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.10.14">Changelog</a><br />
+  0.9.4 was released on 2014-03-21. It is the latest stable FFmpeg release
+  from the 0.9 release branch, which was cut from master on 2011-12-11.
+  Amongst lots of other changes, it includes all changes from
+  ffmpeg-mt, libav master of 2011-12-11, libav 0.7.2 as of 2011-12-11.
 </p>
 
-<a name="release_0.9"></a><h2>
-FFmpeg 0.9.4 "Harmony"</h2>
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.9.4.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-0.9.4.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.9.4.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-0.9.4.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.9.4">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_0.8"></a><h3>
+  FFmpeg 0.8.15 "Love"</h3>
 
 <p>
-0.9.4 was released on 2014-03-21. It is the latest stable FFmpeg release
-from the 0.9 release branch, which was cut from master on 2011-12-11.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2011-12-11, libav 0.7.2 as of 2011-12-11.
+  0.8.15 was released on 2013-10-06. It is a stable FFmpeg release
+  from the 0.8 release branch, which was cut from master on 2011-06-21.
+  Amongst lots of other changes, it includes all changes from
+  ffmpeg-mt, libav master of 2011-06-21, libav 0.7.7 as of 2013-02-20.
 </p>
+
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.8.15.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-0.8.15.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.8.15.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-0.8.15.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.8.15">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_0.7"></a><h3>
+  FFmpeg 0.7.16 "Peace"</h3>
 
 <p>
-<a href="releases/ffmpeg-0.9.4.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.9.4.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.9.4.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.9.4.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.9.4">Changelog</a><br />
+  0.7.16 was released on 2013-10-06.
+  It contains almost all features and bugfixes of 0.8.15 while being
+  compatible with the 0.6 ABI and API.
 </p>
 
-<a name="release_0.8"></a><h2>
-FFmpeg 0.8.15 "Love"</h2>
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.7.16.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-0.7.16.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.7.16.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-0.7.16.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.7.16">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_0.6"></a><h3>
+  FFmpeg 0.6.7 "Works with HTML5"</h3>
 
 <p>
-0.8.15 was released on 2013-10-06. It is a stable FFmpeg release
-from the 0.8 release branch, which was cut from master on 2011-06-21.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2011-06-21, libav 0.7.7 as of 2013-02-20.
+  0.6.7 appeared on 2013-09-23. It is the latest point release from the
+  0.6 release branch, which was cut on 2010-05-04. it includes all changes from
+  libav 0.6.6 as of 2013-09-23.
 </p>
+
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.6.7.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-0.6.7.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.6.7.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-0.6.7.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.6.7">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<a name="release_0.5"></a><h3>
+  FFmpeg 0.5.13 "half-way to world domination A.K.A. the belligerent blue bike
+  shed"</h3>
 
 <p>
-<a href="releases/ffmpeg-0.8.15.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.8.15.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.8.15.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.8.15.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.8.15">Changelog</a><br />
+  0.5.13 appeared on 2013-09-25. It is the latest point release from the
+  0.5 release branch, which was cut on 2009-03-02. it includes all changes from
+  libav 0.5.10 as of 2013-02-28.
 </p>
 
-<a name="release_0.7"></a><h2>
-FFmpeg 0.7.16 "Peace"</h2>
-
-<p>
-0.7.16 was released on 2013-10-06.
-It contains almost all features and bugfixes of 0.8.15 while being
-compatible with the 0.6 ABI and API.
-</p>
-
-<p>
-<a href="releases/ffmpeg-0.7.16.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.7.16.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.7.16.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.7.16.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.7.16">Changelog</a><br />
-</p>
-
-<a name="release_0.6"></a><h2>
-FFmpeg 0.6.7 "Works with HTML5"</h2>
-
-<p>
-0.6.7 appeared on 2013-09-23. It is the latest point release from the
-0.6 release branch, which was cut on 2010-05-04. it includes all changes from
-libav 0.6.6 as of 2013-09-23.
-</p>
-
-<p>
-<a href="releases/ffmpeg-0.6.7.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.7.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.6.7.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.6.7.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.6.7">Changelog</a><br />
-</p>
-
-<a name="release_0.5"></a><h2>
-FFmpeg 0.5.13 "half-way to world domination A.K.A. the belligerent blue bike
- shed"</h2>
-
-<p>
-0.5.13 appeared on 2013-09-25. It is the latest point release from the
-0.5 release branch, which was cut on 2009-03-02. it includes all changes from
-libav 0.5.10 as of 2013-02-28.
-</p>
-
-<p>
-<a href="releases/ffmpeg-0.5.13.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.5.13.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-0.5.13.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-0.5.13.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.5.13">Changelog</a><br />
-</p>
+<div class="row">
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.5.13.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-0.5.13.tar.bz2.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <a class="btn btn-success" href="releases/ffmpeg-0.5.13.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-0.5.13.tar.gz.asc">PGP signature</a></small>
+  </div> <!-- col -->
+  <div class="col-md-4 text-right">
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.5.13">Changelog</a>
+  </div> <!-- col -->
+</div> <!-- row -->

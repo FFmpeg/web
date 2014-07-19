@@ -1,32 +1,61 @@
-<h1>Donations</h1>
-
-<p>Donations will be used to fund expenses related to development
-(e.g. to cover equipment and server maintenance costs), to sponsor bug
-fixing, feature development, the participation or organization of
-meetings and events in the project interest area, and to support
-internal development or educational projects or any other activity
-promoting FFmpeg.</p>
-
-<h2>Donations for FFmpeg through SPI</h2>
-<p>You can send donations to FFmpeg through SPI.
+<p class="with-icon">
+  <span class="pull-left" style="color: #e55"><i class="fa fa-heart fa-5x"></i></span>
+  Donations will be used to fund expenses related to development
+  (e.g. to cover equipment and server maintenance costs), to sponsor bug
+  fixing, feature development, the participation or organization of
+  meetings and events in the project interest area, and to support
+  internal development or educational projects or any other activity
+  promoting FFmpeg.
 </p>
 
-<h3>by credit card</h3>
-<p>
-Using <a href="https://co.clickandpledge.com/advanced/default.aspx?wid=56226">Click&amp;Pledge (direct link)</a>.
-</p>
+<br><br>
 
-<h3>by check or money order</h3>
-<p>
-Following the <a href="http://www.spi-inc.org/donations/">instructions</a> from SPI.
-<b>Please make sure that you specify that your donation is for FFmpeg</b>.
-</p>
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Credit card</h3>
+      <p>Visa, MasterCard or Discovery</p><br><br>
+      <div class="text-center">
+        <a class="btn btn-success btn-lg"
+           href="https://co.clickandpledge.com/advanced/default.aspx?wid=56226">
+          Click&amp;Pledge</a><br><br>
+      </div>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Check or Money Order</h3>
+      <p>US Dollars only</p><br><br>
+      <div class="text-center">
+        <a class="btn btn-success btn-lg"
+           href="http://www.spi-inc.org/donations/">
+          Use SPI</a><br><br>
+      </div>
+    <p class="with-icon">
+      <span class="pull-left"><i class="fa fa-warning fa-3x"></i></span>
+      Don't forget to specify that your donation is for FFmpeg!
+    </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Bank Transfer IBAN</h3>
+      <p>Not for USA and Canada</p><br><br>
+      <div class="text-center">
+        <a class="btn btn-success btn-lg"
+           href="http://www.ffis.de/Verein/spi-en.html">
+          Donate</a><br><br>
+      </div>
+    <p class="with-icon">
+      <span class="pull-left"><i class="fa fa-warning fa-3x"></i></span>
+      Don't forget to specify that your donation is for FFmpeg!
+    </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
 
-<h3>by bank transfer using IBAN (Not for USA/Canada)</h3>
-<p>
-Following the <a href='http://www.ffis.de/Verein/spi-en.html'>instructions</a> from ffis e.V.
-<b>Please make sure that you specify that your donation is for FFmpeg</b>.
-</p>
-<p>
-For more detailed instructions please check the <a href="http://www.spi-inc.org/donations/">SPI donations page</a>.
-</p>
+<div class="row">
+  <div class="col-md-offset-4 col-md-8">
+  </div>
+</div>
+

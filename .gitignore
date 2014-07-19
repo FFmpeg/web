@@ -1,2 +1,5 @@
 /htdocs/*.html
+/htdocs/css/style.min.css
 /htdocs/main.rss
+/htdocs/components
+/htdocs/style.less

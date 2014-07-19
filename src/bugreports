@@ -1,146 +1,164 @@
-<h1>Reporting a Bug To The FFmpeg Project</h1>
-
 <p>
-<b>Before reporting a bug, please consider the following items</b>:
+  Before reporting a bug, please consider the following:<br>
 </p>
 
-<p>
-FFmpeg is in a state of perpetual development. As such, if you wish to
-query or report a bug, you must try with the <b>latest development branch</b> revision of
-FFmpeg to confirm the issue still exists.
-</p>
+<br>
 
-<p>
-When writing your bug report, please include (uncompressed):
-</p>
-<ul>
-  <li>What you were trying to accomplish (e.g., "I am trying to transcode
-    from this format to that format...")</li>
-  <li>The problem you encountered (e.g., "<code>ffmpeg</code> crashed, see the
+<div class="info with-icon">
+  <span class="pull-right"><i class="fa fa-5x fa-check-square-o"></i></span>
+  FFmpeg is in a state of perpetual development.<br>
+  As such, if you wish to query or report a bug, you must try with the <b>latest development branch</b> revision of FFmpeg to confirm the issue still exists.
+</div>
+
+<br>
+
+<div class="info with-icon">
+  <span class="pull-right"><i class="fa fa-5x fa-list-alt"></i></span>
+  When writing your bug report, please include (uncompressed):
+
+  <ul>
+    <li>What you were trying to accomplish (e.g., "I am trying to transcode
+      from this format to that format...")</li>
+    <li>The problem you encountered (e.g., "ffmpeg crashed, see the
       gdb and valgrind output below" or "The
-    output video was all green")</li>
-  <li>The exact command line you were using (e.g., "<code>ffmpeg -i input.mov
-    -an -vcodec foo output.avi</code>")</li>
-  <li>The full, uncut console output provided by
-    <code>ffmpeg -v 9 -loglevel 99 -i </code> followed by the name of your input file
-    (copy/pasted from the console, including the banner that indicates
-    version and configuration options), paste <code>ffplay</code> output
-    only if your problem is not reproducible with ffmpeg.</li>
-  <li>Sufficient information, including any required input files, to reproduce
-    the bug and confirm a potential fix.</li>
-</ul>
+      output video was all green")</li>
+    <li>The exact command line you were using (e.g., "<code>ffmpeg -i input.mov
+        -an -vcodec foo output.avi</code>")</li>
+    <li>The full, uncut console output provided by
+      <code>ffmpeg -v 9 -loglevel 99 -i </code> followed by the name of your input file
+      (copy/pasted from the console, including the banner that indicates
+      version and configuration options), paste ffplay output
+      only if your problem is not reproducible with ffmpeg.</li>
+    <li>Sufficient information, including any required input files, to reproduce
+      the bug and confirm a potential fix.</li>
+  </ul>
+</div>
 
-<p>
-You can use the <code>-report</code> option or define the
-<code>FFREPORT</code> environment variable (to any value) to get the exact
-command line and the full verbose console output in a file named
-<code>ffmpeg-*.log</code> in the current directory.
-Note that the <code>-report</code> option is recent, it will not help
-tracking regressions in old revisions.
-</p>
+<br>
 
-<p>
-If you encounter a crash bug, please provide the <code>gdb</code> output,
-backtrace and disassembly, and if possible the <code>valgrind</code> output,
-using the the <code>ffmpeg_g</code> debug binary.
-</p>
+<div class="info with-icon">
+  <span class="pull-right"><i class="fa fa-5x fa-file-text-o"></i></span>
+  You can use the <code>-report</code> option or define the
+  <code>FFREPORT</code> environment variable (to any value) to get the exact
+  command line and the full verbose console output in a file named
+  <code>ffmpeg-*.log</code> in the current directory.<br>
+  Note that the <code>-report</code> option is recent, it will not help
+  tracking regressions in old revisions.
+</div>
 
-<p>
-For <code>gdb</code>, proceed as follows:
-</p>
+<br>
 
-<blockquote>
-<pre>gdb ffmpeg_g</pre>
-</blockquote>
+<div class="info with-icon">
+  <span class="pull-right"><i class="fa fa-5x fa-bug"></i></span>
+  If you encounter a crash bug, please provide the <code>gdb</code> output,
+  backtrace and disassembly, and if possible the <code>valgrind</code> output,
+  using the the <code>ffmpeg_g</code> debug binary.
 
-<p>
-In <code>gdb</code>, type 'r' for run, along with the rest of the
-<code>ffmpeg</code> command line:
-</p>
+  <hr>
 
-<blockquote>
-<pre>r &lt;rest of command line&gt;</pre>
-</blockquote>
+  <p>
+    For <code>gdb</code>, proceed as follows:
+  </p>
 
-<p>
-(Alternatively, you can run <code>gdb --args ffmpeg_g &lt;rest of command
-line&gt;</code> and just type 'r' at the <code>gdb</code> prompt.)
-</p>
+  <pre>gdb ffmpeg_g</pre>
 
-<p>
-When <code>gdb</code> encounters its problem, run the following commands and
-copy/paste the output into your bug report:
-</p>
+  <p>
+    In <code>gdb</code>, type 'r' for run, along with the rest of the
+    <code>ffmpeg</code> command line:
+  </p>
 
-<blockquote>
-<pre>
+  <pre>r &lt;rest of command line&gt;</pre>
+
+  <i>
+    Alternatively, you can run <code>gdb --args ffmpeg_g &lt;rest of command
+      line&gt;</code> and just type 'r' at the <code>gdb</code> prompt.
+  </i>
+
+  <p>
+    When <code>gdb</code> encounters its problem, run the following commands and
+    copy/paste the output into your bug report:
+  </p>
+
+  <pre>
 bt
 disass $pc-32,$pc+32
-info all-registers
-</pre>
-</blockquote>
-<p>
-With older <code>gdb</code> versions, use <code>disass $pc-32 $pc+32</code>.
-</p>
+info all-registers</pre>
+  <p>
+    With older <code>gdb</code> versions, use <code>disass $pc-32 $pc+32</code>.
+  </p>
+
+  <hr>
+
+  <p>
+    For <code>valgrind</code>, run the following command and copy/paste the
+    output into your bug report:
+  </p>
+
+  <pre>valgrind ffmpeg_g &lt;rest of command line&gt;</pre>
+
+</div>
+
+<h3 id="BugTracker">
+  <span class="pull-right">
+    <i class="fa fa-bug"></i> &nbsp;
+  </span>
+  Bug Tracker</h3>
 
 <p>
-For <code>valgrind</code>, run the following command and copy/paste the
-output into your bug report:
+  Once you have gathered this information, you can submit a report to the
+  <a href="https://trac.ffmpeg.org">FFmpeg bug tracker</a>.
+</p>
+<p>
+  <i>Note, you must <a href="https://trac.ffmpeg.org/register">register</a>
+    there first before you can submit a report.</i>
+</p>
+<p>
+  You should provide all information so that anyone can reproduce the bug.<br>
+  Please do not report your problem on the developer mailing list:<br>
+  Only send bug reports there if you also intend to provide a fix.
 </p>
 
-<blockquote>
-<pre>valgrind ffmpeg_g &lt;rest of command line&gt;</pre>
-</blockquote>
-
-<h2 id="BugTracker">Bug Tracker</h2>
+<h3 id="SubmittingSampleMedia">
+  <span class="pull-right">
+    <i class="fa fa-file-video-o"></i> &nbsp;
+  </span>
+  Submitting Sample Media</h3>
 
 <p>
-Once you have gathered this information, you can submit a report to the
-<a href="https://trac.ffmpeg.org">FFmpeg bug tracker</a>.
-Note, you must <a href="https://trac.ffmpeg.org/register">register</a>
-there first before you can submit a report.
-You should provide all information so that anyone can reproduce the bug.
-Please do not report your problem on the developer mailing list:
-Only send bug reports there if you also intend to provide a fix.
+  The developers may ask you to provide a sample media file illustrating
+  your problem. In this case, please follow these steps:
 </p>
-
-
-<h2 id="SubmittingSampleMedia">Submitting Sample Media</h2>
-
-<p>
-The developers may ask you to provide a sample media file illustrating
-your problem. In this case, please follow these steps:
-</p>
-<ul>
+<ol>
   <li>If the sample file is too large ( &gt; 10 megabytes), cut it down to
-    size with the Unix 'dd' command:
-      <blockquote>
-      <pre>dd if=sample-file of=small-sample-file bs=1024 count=10000</pre>
-      </blockquote>
-    and then upload small-sample-file rather than sample-file</li>
-  <li>Please choose descriptive names like "h264_green_tint.mov" or
-      "block_artifacts_after_seeking.mkv". We already have plenty of "bug.rm"
-      and "sample.avi".</li>
+    size with the Unix 'dd' command:<br><br>
+
+    <pre>dd if=sample-file of=small-sample-file bs=1024 count=10000</pre>
+    and then upload small-sample-file rather than sample-file<br><br></li>
+
+  <li>Please choose descriptive names like <code>h264_green_tint.mov</code> or
+    <code>block_artifacts_after_seeking.mkv</code>. We already have plenty of <code>bug.rm</code>
+    and <code>sample.avi</code>.<br><br></li>
+
   <li>Upload the sample to the FTP server. Note that our FTP server
     is write-only. Even though you cannot see the files that you upload,
-    it will be there and the FFmpeg developers will have access.
-  <ul>
-    <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
-    <li>cd -> incoming</li>
-    <li>Upload a brief text file describing the sample and what is wrong.
+    it will be there and the FFmpeg developers will have access.<br><br>
+    <ul>
+      <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
+      <li>cd -> incoming</li>
+      <li>Upload a brief text file describing the sample and what is wrong.
         <b>This is important!</b> If you leave out the text file, your
         sample will most likely be deleted without further examination.</li>
-    <li>Upload the sample.</li>
-  </ul>
-  </li>
-  <li>Email the ffmpeg mailing list and indicate the filename of the sample.</li>
-</ul>
+      <li>Upload the sample.</li>
+    </ul>
+    <br><br></li>
+  <li>Email the ffmpeg mailing list and indicate the filename of the sample.<br><br></li>
+</ol>
 
-<p>
-<b>Important: Movie files which have been compressed (rar,7z,gzip,...) will be
-deleted without being examined unless they are raw RGB/YUV/PCM.</b>
-<b>Furthermore movie files uploaded to services like megaupload, rapidshare or
-any other similar service will be ignored. We are not willing to spend our
-time fighting with this ridiculous, bloated and spam-filled crap.</b>
+<p class="info with-icon">
+  <span class="pull-left"><i class="fa fa-5x fa-warning"></i></span>
+  Movie files which have been compressed (rar,7z,gzip,...) will be
+  deleted without being examined unless they are raw RGB/YUV/PCM.<br>
+  Furthermore movie files uploaded to services like rapidshare or
+  any other similar service will be ignored. We are not willing to spend our
+  time fighting with this ridiculous, bloated and spam-filled crap.
 </p>
-

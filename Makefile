@@ -3,21 +3,40 @@
 SRCS = about bugreports consulting contact donations documentation download \
        olddownload index legal projects shame security archive
 
-TARGETS = $(addsuffix .html,$(addprefix htdocs/,$(SRCS))) htdocs/main.rss
+HTML_TARGETS  = $(addsuffix .html,$(addprefix htdocs/,$(SRCS)))
 
-PAGE_DEPS = src/template_head1 src/template_head2 src/template_footer
+RSS_FILENAME = main.rss
+RSS_TARGET = htdocs/$(RSS_FILENAME)
 
+CSS_SRCS = src/less/style.less
+CSS_TARGET = htdocs/css/style.min.css
+LESS_TARGET = htdocs/style.less
+LESSC_OPTIONS := --clean-css
 
-all: $(TARGETS)
+BOWER_PACKAGES = bower.json
+BOWER_COMPONENTS = htdocs/components
 
-clean:
-	rm -f $(TARGETS)
+ifdef DEV
+SUFFIX = dev
+TARGETS = $(BOWER_COMPONENTS) $(LESS_TARGET) $(HTML_TARGETS) $(RSS_TARGET)
+else
+SUFFIX = prod
+TARGETS = $(HTML_TARGETS) $(CSS_TARGET) $(RSS_TARGET)
+endif
 
-htdocs/%.html: src/% src/%_title $(PAGE_DEPS)
-	cat src/template_head1 $<_title src/template_head2 $< \
-	src/template_footer > $@
+DEPS = src/template_head1 src/template_head2 src/template_head3 src/template_head_$(SUFFIX) \
+       src/template_footer1 src/template_footer2 src/template_footer_$(SUFFIX)
 
-htdocs/main.rss: htdocs/index.html
+all: htdocs
+
+htdocs: $(TARGETS)
+
+htdocs/%.html: src/% src/%_title src/%_js $(DEPS)
+	cat src/template_head1 $<_title src/template_head_$(SUFFIX) \
+	src/template_head2 $<_title src/template_head3 $< \
+	src/template_footer1 src/template_footer_$(SUFFIX) $<_js src/template_footer2 > $@
+
+$(RSS_TARGET): htdocs/index.html
 	echo '<?xml version="1.0" encoding="UTF-8" ?>' > $@
 	echo '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">' >> $@
 	echo '<channel>' >> $@
@@ -35,5 +54,21 @@ X' >> $@
 	echo '</channel>' >> $@
 	echo '</rss>' >> $@
 
+$(BOWER_COMPONENTS): $(BOWER_PACKAGES)
+	bower install
+	cp -r $(BOWER_COMPONENTS)/font-awesome/fonts htdocs/
+	cp $(BOWER_COMPONENTS)/font-awesome/css/font-awesome.min.css htdocs/css/
+	cp $(BOWER_COMPONENTS)/bootstrap/dist/css/bootstrap.min.css htdocs/css/
+	cp $(BOWER_COMPONENTS)/bootstrap/dist/js/bootstrap.min.js htdocs/js/
+	cp $(BOWER_COMPONENTS)/jquery/dist/jquery.min.js htdocs/js/
+
+$(CSS_TARGET): $(CSS_SRCS)
+	lessc $(LESSC_OPTIONS) $(CSS_SRCS) > $@
+
+$(LESS_TARGET): $(CSS_SRCS)
+	ln -sf $(CSS_SRCS) $@
+
+clean:
+	$(RM) -r $(TARGETS)
 
 .PHONY: all clean

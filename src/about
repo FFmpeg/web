@@ -1,77 +1,116 @@
-<h1>About FFmpeg</h1>
-
-<p>FFmpeg is the leading multimedia framework, able to decode, encode,
-transcode, mux, demux, stream, filter and play pretty much anything
-that humans and machines have created. It supports the most obscure
-ancient formats up to the cutting edge. No matter if they were
-designed by some standards committee, the community or a corporation.
-It contains libavcodec, libavutil, libavformat, libavfilter, libavdevice,
-libswscale and libswresample which can be used by applications.
-As well as ffmpeg, ffserver, ffplay and ffprobe which can be used by
-end users for transcoding, streaming and playing
+<p class="with-icon">
+  <span class="pull-left"><i class="fa fa-5x fa-play-circle"></i></span>
+  FFmpeg is the leading multimedia framework, able to <strong>decode</strong>, <strong>encode</strong>, <strong>
+    transcode</strong>, <strong>mux</strong>, <strong>demux</strong>, <strong>stream</strong>, <strong>filter</strong> and <strong>play</strong> pretty much anything
+  that humans and machines have created. It supports the most obscure
+  ancient formats up to the cutting edge. No matter if they were
+  designed by some standards committee, the community or a corporation.
 </p>
 
-<p>The FFmpeg project tries to provide the best technically possible
-solution for developers of applications and end users alike. To achieve
-this we combine the best free software options available. We slightly
-favor our own code to keep the dependencies on other libs low and to
-maximize code sharing between parts of FFmpeg.
-Wherever the question of "best" cannot be answered we support both
-options so the end user can choose.
+<p class="info">It contains libavcodec, libavutil, libavformat, libavfilter, libavdevice,
+  libswscale and libswresample which can be used by applications.
+  As well as ffmpeg, ffserver, ffplay and ffprobe which can be used by
+  end users for <strong>transcoding</strong>, <strong>streaming</strong> and <strong>playing</strong>.
 </p>
 
-<p>Security is a high priority and code review is always done with
-security in mind. Though due to the very large amounts of code touching
-untrusted data security issues are unavoidable and thus we provide
-as quick as possible updates to our last stable releases when
-new security issues are found.
+<p class="with-icon">
+  <span class="pull-left"><i class="fa fa-5x fa-code-fork"></i></span>
+  The FFmpeg project tries to provide the best technically possible
+  solution for developers of applications and end users alike. To achieve
+  this we combine the best free software options available. We slightly
+  favor our own code to keep the dependencies on other libs low and to
+  maximize code sharing between parts of FFmpeg.
+  Wherever the question of "best" cannot be answered we support both
+  options so the end user can choose.
 </p>
 
-<p>Everyone is welcome in FFmpeg and all contributions are welcome too.
-We are happy to receive patches, pull requests, bug reports, donations
-or any other type of contribution.
+<p class="info">Everyone is welcome in FFmpeg and all contributions are welcome too.
+  We are happy to receive patches, pull requests, bug reports, donations
+  or any other type of contribution.
 </p>
 
-<p>FFmpeg provides various tools:
+<p class="with-icon">
+  <span class="pull-left"><i class="fa fa-5x fa-lock"></i></span>
+  Security is a high priority and code review is always done with
+  security in mind. Though due to the very large amounts of code touching
+  untrusted data security issues are unavoidable and thus we provide
+  as quick as possible updates to our last stable releases when
+  new security issues are found.
 </p>
 
-<ul>
-<li><tt><a href="ffmpeg.html">ffmpeg</a></tt> is a command line tool to convert multimedia files
-between formats.</li>
+<h3>
+  <span class="pull-right">
+    <i class="fa fa-wrench"></i> &nbsp;
+  </span>
+  FFmpeg Tools</h3>
 
-<li><tt><a href="ffserver.html">ffserver</a></tt> is a multimedia streaming server for live
-broadcasts.</li>
+<br><br>
 
-<li><tt><a href="ffplay.html">ffplay</a></tt> is a simple media player based on <a
-href="http://www.libsdl.org/">SDL</a> and the FFmpeg libraries.</li>
+<div class="row">
+  <div class="col-md-6">
+    <a href="ffmpeg.html" class="well well-with-icon">
+      <span class="pull-left"><i class="fa fa-5x fa-fw fa-terminal"></i></span>
+      <h3><strong>ffmpeg</strong></h3>
+      <p>A <strong>command line tool</strong> to convert multimedia files
+        between formats</p>
+    </a>
+  </div>
+  <div class="col-md-6">
+    <a href="ffserver.html" class="well well-with-icon">
+      <span class="pull-left"><i class="fa fa-5x fa-fw fa-cloud"></i></span>
+      <h3><strong>ffserver</strong></h3>
+      <p>A multimedia <strong>streaming server</strong> for live
+        broadcasts</p>
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <a href="ffplay.html" class="well well-with-icon">
+      <span class="pull-left"><i class="fa fa-5x fa-fw fa-play"></i></span>
+      <h3><strong>ffplay</strong></h3>
+      <p>A simple media player based on SDL and the FFmpeg libraries</p>
+    </a>
+  </div>
+  <div class="col-md-6">
+    <a href="ffprobe.html" class="well well-with-icon">
+      <span class="pull-left"><i class="fa fa-5x fa-fw fa-bar-chart-o"></i></span>
+      <h3><strong>ffprobe</strong></h3>
+      <p>A simple multimedia stream analyzer</p>
+    </a>
+  </div>
+</div>
 
-<li><tt><a href="ffprobe.html">ffprobe</a></tt> is a is a simple multimedia stream analyzer.</li>
-</ul>
+<h3>
+  <span class="pull-right">
+    <i class="fa fa-cogs"></i> &nbsp;
+  </span>
+  FFmpeg Libraries for developers</h3>
 
-<p>and developers libraries:
-</p>
-<ul>
-<li><tt><a href="libavutil.html">libavutil</a></tt> is a library containing functions for
-simplifying programming, including random number generators, data
-structures, mathematics routines, core multimedia utilities, and much
-more.</li>
+<br><br>
 
-<li><tt><a href="libavcodec.html">libavcodec</a></tt> is a library containing decoders and encoders
-for audio/video codecs.</li>
+<ul class="list-group list-group-big">
+  <li class="list-group-item"><strong><a href="libavutil.html">libavutil</a></strong> is a library containing functions for
+    simplifying programming, including random number generators, data
+    structures, mathematics routines, core multimedia utilities, and much
+    more.</li>
 
-<li><tt><a href="libavformat.html">libavformat</a></tt> is a library containing demuxers and
-muxers for multimedia container formats.</li>
+  <li class="list-group-item"><strong><a href="libavcodec.html">libavcodec</a></strong> is a library containing decoders and encoders
+    for audio/video codecs.</li>
 
-<li><tt><a href="libavdevice.html">libavdevice</a></tt> is a library containing input and output
-devices for grabbing from and rendering to many common multimedia
-input/output software frameworks, including Video4Linux, Video4Linux2,
-VfW, and ALSA.</li>
+  <li class="list-group-item"><strong><a href="libavformat.html">libavformat</a></strong> is a library containing demuxers and
+    muxers for multimedia container formats.</li>
 
-<li><tt><a href="libavfilter.html">libavfilter</a></tt> is a library containing media filters.</li>
+  <li class="list-group-item"><strong><a href="libavdevice.html">libavdevice</a></strong> is a library containing input and output
+    devices for grabbing from and rendering to many common multimedia
+    input/output software frameworks, including Video4Linux, Video4Linux2,
+    VfW, and ALSA.</li>
 
-<li><tt><a href="libswscale.html">libswscale</a></tt> is a library performing highly optimized image
-scaling and color space/pixel format conversion operations.</li>
+  <li class="list-group-item"><strong><a href="libavfilter.html">libavfilter</a></strong> is a library containing media filters.</li>
 
-<li><tt><a href="libswresample.html">libswresample</a></tt> is a library performing highly optimized
-audio resampling, rematrixing and sample format conversion operations.</li>
+  <li class="list-group-item"><strong><a href="libswscale.html">libswscale</a></strong> is a library performing highly optimized image
+    scaling and color space/pixel format conversion operations.</li>
+
+  <li class="list-group-item"><strong><a href="libswresample.html">libswresample</a></strong> is a library performing highly optimized
+    audio resampling, rematrixing and sample format conversion operations.</li>
 </ul>

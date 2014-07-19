@@ -1,297 +1,405 @@
-<h1>FFmpeg Download</h1>
 
-<p>FFmpeg static builds can be downloaded for every major operating system. They are built from recent
-development versions and include executables for you to run without the need to compile FFmpeg.</p>
+<div id="download">
+  <div class="btn-download-wrapper">
+    <a href="http://ffmpeg.org/releases/ffmpeg-2.3.tar.bz2" class="btn btn-success">
+      <i class="fa fa-cloud-download"></i>
+      Download
+      <small>ffmpeg-2.3.tar.bz2</small>
+    </a>
+    <br>
+    <a href="#releases">More releases</a>
 
-<h2 id="LinuxBuilds">Linux</h2>
+  </div> <!-- btn-download-wrapper -->
 
-<p>Download static builds for Linux here:</p>
 
-<ul>
-  <li>
-    <a href="http://ffmpeg.gusari.org/static/">ffmpeg.gusari.org/static</a> &ndash; Builds for 32-bit and
-    64-bit with kernel 3.2.x and above
-  </li>
-  <li>
-    <a href="http://johnvansickle.com/ffmpeg/">johnvansickle.com/ffmpeg</a> &ndash; 64-bit builds for kernel
-    2.6.32 and above
-  </li>
-</ul>
+  <h4 class="first">
+    <small class="pull-right">
+        If you find FFmpeg useful, you are welcome to contribute
+        by <a href="donations.html">donating</a>.
+    </small>
 
-<p>FFmpeg packages are also offered for some distributions:</p>
+    <i class="fa fa-download"></i>
+    More downloading options</h4>
 
-<ul>
-  <li>
-    <a href="http://www.deb-multimedia.org/">Deb Multimedia</a> &ndash; Debian packages for Oldstable, Stable,
-    Testing, Unstable (amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc)
-  </li>
-  <li>
-    <a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg">Jon Severinsson's FFmpeg PPA</a> &ndash; Ubuntu packages
-    (amd64, i386). Uses older release branches for compatibility reasons.
-  </li>
-  <li>
-    <a href="http://rpmfusion.org/">RPM Fusion</a> &ndash; Redhat and Fedora packages for EL, Fedora Rawhide
-    (i386, x86_64)
-  </li>
-</ul>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="well" id="get-packages">
+        <h3>
+          <i class="fa fa-download"></i>
+          Get the packages</h3>
 
-<h2 id="WindowsBuilds">Windows</h2>
+        <div class="os-selector">
+          <div class="row">
+            <div class="col-xs-4">
+              <a class="btn-build active" href="#build-linux">
+                <i class="fa fa-5x fa-fw fa-linux"></i>
+              </a>
+            </div> <!-- col -->
+            <div class="col-xs-4">
+              <a class="btn-build" href="#build-windows">
+                <i class="fa fa-5x fa-fw fa-windows"></i>
+              </a>
+            </div> <!-- col -->
+            <div class="col-xs-4">
+              <a class="btn-build" href="#build-mac">
+                <i class="fa fa-5x fa-fw fa-apple"></i>
+              </a>
+            </div> <!-- col -->
+          </div> <!-- row -->
+        </div> <!-- os-selector -->
 
-<p>
-Windows Builds are available at
-<a href="http://ffmpeg.zeranoe.com/builds/">Zeranoe FFmpeg Builds</a>.
-</p>
+        <div class="tab-content">
+          <div id="build-linux" class="tab-pane active">
 
-<h2 id="MacOSXBuilds">OS X</h2>
+            <h3>Linux Packages</h3>
+            <div class="list-group">
+              <a class="list-group-item" href="http://www.deb-multimedia.org/">
+                <strong>Debian</strong> packages for Oldstable, Stable, Testing, Unstable
+                (amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc)
+              </a>
+              <a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg" class="list-group-item">
+                <strong>Ubuntu</strong> packages for Precise, Oneiric, Natty, Maverick, and Lucid
+                (amd64, i386)<br>
+                <small>Uses older release branches for compatibility reasons</small>
+              </a>
+              <a class="list-group-item" href="http://rpmfusion.org/">
+                <strong>Redhat</strong> and <strong>Fedora</strong> packages for EL, Fedora Rawhide
+                (i386, x86_64)
+              </a>
+            </div> <!-- list-group -->
 
-Static builds for OS X can be downloaded here:
+            <h3>Linux Static Builds</h3>
+            <div class="list-group">
+              <a class="list-group-item" href="http://ffmpeg.gusari.org/static/">32-bit and
+                64-bit with kernel 3.2.x and above</a>
+              <a class="list-group-item" href="http://ffmpeg.gusari.org/static/">64-bit
+                with kernel 2.6.32 and above</a>
+            </div> <!-- list-group -->
 
-<ul>
-  <li>
-    <a href="http://www.evermeet.cx/ffmpeg/">Builds by tessus</a> &ndash; 64-bit builds for OS X Intel
-  </li>
-  <li>
-    <a href="http://ffmpegmac.net/">ffmpegmac.net</a> &ndash; 32-bit and 64-bit builds for OS X 10.5 and above
-  </li>
-</ul>
+          </div> <!-- build -->
+          <div id="build-windows" class="tab-pane fade">
 
-Under OS X, FFmpeg can also be installed through <a href="http://brew.sh/">Homebrew</a>,
-<a href="http://www.macports.org/">MacPorts</a>, or <a href="http://www.finkproject.org/">Fink</a>.
+            <h3>Windows Packages</h3>
 
-<h1>Source Code Repository Access</h1>
+            <div class="list-group">
+              <a class="list-group-item" href="http://ffmpeg.zeranoe.com/builds/">
+                <strong>Windows</strong> Builds
+              </a>
+            </div> <!-- list-group -->
 
-<h2 id="GettingFFmpeg">Getting the FFmpeg Source Code</h2>
+          </div> <!-- build -->
+          <div id="build-mac" class="tab-pane fade">
 
-<p>
-Development branch snapshots work really well 99% of the time, so don't be afraid to use them. You can
-retrieve the latest source code through the standard Git client by using the command:
-</p>
+            <h3>Mac OS X Packages</h3>
 
-<pre>git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg</pre>
+            <div class="list-group">
+              <a class="list-group-item" href="http://www.evermeet.cx/ffmpeg/">
+                Static builds for <strong>OS X Intel 64-bit</strong>
+              </a>
+              <a class="list-group-item" href="http://ffmpegmac.net/">
+                Builds 32-bit and 64-bit for <strong>OS X 10.5 and above</strong>
+              </a>
+            </div> <!-- list-group -->
 
-<p>
-If you are a distributor, you can find <a href="#releases">release tarballs
-below</a>. You can then compile FFmpeg by following the <a href="http://trac.ffmpeg.org/wiki/CompilationGuide">compilation
-guides on the FFmpeg Wiki</a>. It just takes a few minutes.
-</p>
+          </div> <!-- build -->
 
-<p>
-If you find FFmpeg useful, you are welcome to contribute
-by <a href="donations.html">donating</a>.
-</p>
+        </div> <!-- tab-content -->
 
-<h2 id="snapshots">FFmpeg Repository Snapshots</h2>
+      </div> <!-- well -->
+    </div> <!-- col -->
 
-<p>
-For the main ffmpeg repository you can also directly download the
-<a href="releases/ffmpeg-snapshot.tar.bz2">source snapshot</a>
-that we generate each night instead of grabbing a source snapshot
-from the gitweb URL. This is slightly preferred since it reduces
-the load on our server.
-</p>
+    <div class="col-md-6">
+      <div class="well" id="get-sources">
+        <h3>
+          <i class="fa fa-eye"></i>
+          Get the Sources</h3>
 
-<p>
-Alternatively, if you cannot access Git directly or wish to speed up
-the cloning and reduce the bandwidth usage, we also offer a complete
-<a href="releases/ffmpeg-snapshot-git.tar.bz2">git snapshot</a>
-tarball that comes with git metadata and version history to
-bootstrap your local repository.
-</p>
+        <br><br>
+        <div class="btn-download text-center">
+          <a href="releases/ffmpeg-snapshot.tar.bz2" class="btn btn-success btn-lg">
+            <i class="fa fa-download"></i>
+            Download Snapshot
+          </a>
+        </div> <!-- text -->
 
-<h2 id="Gitrepositories">Git repositories</h2>
+        <br><br>
 
-<div class="table">
-<table id="repos">
-<thead>
-<tr>
-    <th>Clone URL</th>
-    <th>Browse</th>
-    <th>Snapshot</th>
-    <th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td><a href="git://source.ffmpeg.org/ffmpeg.git">git://source.ffmpeg.org/ffmpeg.git</a></td>
-    <td><a href="http://git.videolan.org/?p=ffmpeg.git">Browse</a></td>
-    <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
-    <td>Main FFmpeg Git repository</td>
-</tr>
-<tr>
-    <td><a href="git://ffmpeg.org/ffmpeg-web">git://ffmpeg.org/ffmpeg-web</a></td>
-    <td>-</td>
-    <td>-</td>
-    <td>ffmpeg.org website repository</td>
-</tr>
-<tr>
+        <p>
+          You can retrieve the source code through
+          <a href="http://git-scm.com/" target="_blank">Git</a>
+          by using the command:
+        </p>
+
+        <pre>git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg</pre>
+
+        <div>
+          <div class="pull-right">
+            &nbsp;
+            <a href="releases/ffmpeg-snapshot-git.tar.bz2" class="btn btn-success">
+              <i class="fa fa-git"></i>
+              Git Snapshot
+            </a> &nbsp;
+            <a href="http://git.videolan.org/?p=ffmpeg.git;a=tree" class="btn btn-success">
+              Browse
+            </a>
+          </div>
+          <small>
+            Cannot access Git or wish to speed up the cloning and reduce the bandwidth usage?
+          </small>
+        </div>
+
+        <br><br>
+
+        <p class="info">
+          FFmpeg has always been a very experimental and developer-driven project. It
+          is a key component in many multimedia projects and has new features added
+          constantly.
+          Development branch snapshots work really well 99% of the
+          time so people are not afraid to use them.
+        </p>
+
+        <br><br>
+        <div class="text-center">
+          <a href="#repositories" class="btn btn-success">
+            <i class="fa fa-cubes"></i>
+            Git Repositories
+          </a>
+        </div>
+
+      </div> <!-- well -->
+    </div> <!-- col -->
+
+  </div> <!-- row -->
+
+
+  <div></div>
+  <h4 id="repositories">
+    <i class="fa fa-cubes"></i>
+    Git Repositories</h4>
+
+  <p>
+    Since FFmpeg is developed with <a href="http://git-scm.com/">Git</a>,
+    multiple repositories from developers and groups of developers are available.
+  </p>
+
+  <div class="table-responsive">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Clone URL</th>
+          <th>Browse</th>
+          <th>Snapshot</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="git://source.ffmpeg.org/ffmpeg.git">git://source.ffmpeg.org/ffmpeg.git</a></td>
+          <td><a href="http://git.videolan.org/?p=ffmpeg.git">Browse</a></td>
+          <td><a href="http://git.videolan.org/?p=ffmpeg.git;a=snapshot;h=HEAD;sf=tgz">Snapshot</a></td>
+          <td>Main FFmpeg Git repository</td>
+        </tr>
+        <tr>
+          <td><a href="git://ffmpeg.org/ffmpeg-web">git://ffmpeg.org/ffmpeg-web</a></td>
+          <td>-</td>
+          <td>-</td>
+          <td>Main ffmpeg.org website repository</td>
+        </tr>
+  <tr>
     <td><a href="git://ffmpeg.org/fateserver">git://git.ffmpeg.org/fateserver</a></td>
     <td>-</td>
     <td>-</td>
     <td><a href="http://fate.ffmpeg.org">fate.ffmpeg.org</a> server software repository</td>
-</tr>
-<tr>
-    <th colspan="6">Mirrors</th>
-</tr>
-<tr>
+  </tr>
+        <tr>
+          <th colspan="4">Mirrors</th>
+        </tr>
+  <tr>
     <td><a href="https://github.com/FFmpeg/FFmpeg">https://github.com/FFmpeg/FFmpeg</a> <br/> <a href="git://github.com/FFmpeg/FFmpeg.git">git://github.com/FFmpeg/FFmpeg.git</a></td>
     <td><a href="https://github.com/FFmpeg/FFmpeg">Browse</a></td>
     <td><a href="https://github.com/FFmpeg/FFmpeg/tarball/master">Snapshot</a></td>
     <td>Mirror of the main repository</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
     <td><a href="https://github.com/FFmpeg/web">https://github.com/FFmpeg/web</a> <br/> <a href="git://github.com/FFmpeg/web.git">git://github.com/FFmpeg/web.git</a></td>
     <td><a href="https://github.com/FFmpeg/web">Browse</a></td>
     <td><a href="https://github.com/FFmpeg/web/tarball/master">Snapshot</a></td>
     <td>Mirror of the website repository</td>
-</tr>
-<tr>
+  </tr>
+  <tr>
     <td><a href="https://github.com/FFmpeg/fateserver">https://github.com/FFmpeg/fateserver</a> <br/> <a href="git://github.com/FFmpeg/fateserver.git">git://github.com/FFmpeg/fateserver.git</a></td>
     <td><a href="https://github.com/FFmpeg/fateserver">Browse</a></td>
     <td><a href="https://github.com/FFmpeg/fateserver/tarball/master">Snapshot</a></td>
     <td>Mirror of the FATE server repository</td>
-</tr>
-</tbody>
-</table>
-</div>
+  </tr>
+      </tbody>
+    </table>
+  </div> <!-- table-responsive -->
 
-<a name="releases"></a><h1>FFmpeg Releases</h1>
+  <div></div>
+  <h4 id="releases">
+    <i class="fa fa-history"></i>
+    Releases</h4>
 
-<p>
-Approximately every 3 months the FFmpeg project makes a new major release.
-Between major releases point releases
-will appear that add important bug fixes but no new features.
-Note that these releases are intended for distributors and system integrators.
-Users that wish to compile from source themselves are strongly encouraged to
-consider using the development branch (see above), this is the only version on
-which FFmpeg developers actively work.  The release branches only cherry pick
-selected changes from the development branch, which therefore receives much more
-and much faster bug fixes such as additional features and security patches.
-</p>
+  <p>
+    Approximately every 3 months the FFmpeg project makes a new major release.
+    Between major releases point releases
+    will appear that add important bug fixes but no new features.
+    Note that these releases are intended for distributors and system integrators.
+    Users that wish to compile from source themselves are strongly encouraged to
+    consider using the development branch (see above), this is the only version on
+    which FFmpeg developers actively work.  The release branches only cherry pick
+    selected changes from the development branch, which therefore receives much more
+    and much faster bug fixes such as additional features and security patches.
+  </p>
 
-<a name="release_2.3"></a><h2>
-FFmpeg 2.3 "Mandelbrot"</h2>
 
-<p>
-2.3 was released on 2014-07-16. It is the latest stable FFmpeg release
-from the 2.3 release branch, which was cut from master on 2014-07-16.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2014-07-15, libav 10.2 as of 2014-07-15.
-</p>
-<p>It includes the following library versions:
-</p>
-<pre>
-  libavutil      52. 92.100
-  libavcodec     55. 69.100
-  libavformat    55. 48.100
-  libavdevice    55. 13.102
-  libavfilter     4. 11.100
-  libswscale      2.  6.100
-  libswresample   0. 19.100
-  libpostproc    52.  3.100
-</pre>
+  <a name="release_2.3"></a><h3>
+    FFmpeg 2.3 "Mandelbrot"</h3>
 
-<p>
-<a href="releases/ffmpeg-2.3.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.3.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-2.3.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.3.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.3">Changelog</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=n2.3">Release Notes</a><br />
-</p>
+  <p>
+    2.3 was released on 2014-07-16. It is the latest stable FFmpeg release
+    from the 2.3 release branch, which was cut from master on 2014-07-16.
+    Amongst lots of other changes, it includes all changes from
+    ffmpeg-mt, libav master of 2014-07-15, libav 10.2 as of 2014-07-15.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      52. 92.100
+libavcodec     55. 69.100
+libavformat    55. 48.100
+libavdevice    55. 13.102
+libavfilter     4. 11.100
+libswscale      2.  6.100
+libswresample   0. 19.100
+libpostproc    52.  3.100</pre>
 
-<a name="release_2.2"></a><h2>
-FFmpeg 2.2.5 "Muybridge"</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-2.3.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-2.3.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-2.3.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-2.3.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4 text-right">
+      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.3">Changelog</a></small>
+      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=n2.3">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 
-<p>
-2.2.5 was released on 2014-07-15. It is the latest stable FFmpeg release
-from the 2.2 release branch, which was cut from master on 2014-03-01.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2014-03-01, libav 10.2 as of 2014-07-15.
-</p>
-<p>It includes the following library versions:
-</p>
-<pre>
-  libavutil      52. 66.100
-  libavcodec     55. 52.102
-  libavformat    55. 33.100
-  libavdevice    55. 10.100
-  libavfilter     4.  2.100
-  libswscale      2.  5.102
-  libswresample   0. 18.100
-  libpostproc    52.  3.100
-</pre>
+  <a name="release_2.2"></a><h3>
+    FFmpeg 2.2.5 "Muybridge"</h3>
 
-<p>
-<a href="releases/ffmpeg-2.2.5.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.2.5.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-2.2.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.2.5.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.2.5">Changelog</a><br />
-</p>
+  <p>
+    2.2.5 was released on 2014-07-15. It is the latest stable FFmpeg release
+    from the 2.2 release branch, which was cut from master on 2014-03-01.
+    Amongst lots of other changes, it includes all changes from
+    ffmpeg-mt, libav master of 2014-03-01, libav 10.2 as of 2014-07-15.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      52. 66.100
+libavcodec     55. 52.102
+libavformat    55. 33.100
+libavdevice    55. 10.100
+libavfilter     4.  2.100
+libswscale      2.  5.102
+libswresample   0. 18.100
+libpostproc    52.  3.100</pre>
 
-<a name="release_2.1"></a><h2>
-FFmpeg 2.1.5 "Fourier"</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-2.2.5.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-2.2.5.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-2.2.5.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-2.2.5.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4 text-right">
+      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.2.5">Changelog</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 
-<p>
-2.1.5 was released on 2014-06-23. It is the latest stable FFmpeg release
-from the 2.1 release branch, which was cut from master on 2013-10-28.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2013-10-27, libav 9 as of 2013-10-27.
-</p>
-<p>It includes the following library versions:
-</p>
-<pre>
-  libavutil      52. 48.101
-  libavcodec     55. 39.101
-  libavformat    55. 19.104
-  libavdevice    55.  5.100
-  libavfilter     3. 90.100
-  libswscale      2.  5.101
-  libswresample   0. 17.104
-  libpostproc    52.  3.100
-</pre>
+  <a name="release_2.1"></a><h3>
+    FFmpeg 2.1.5 "Fourier"</h3>
 
-<p>
-<a href="releases/ffmpeg-2.1.5.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.1.5.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-2.1.5.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-2.1.5.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.1.5">Changelog</a><br />
-</p>
+  <p>
+    2.1.5 was released on 2014-06-23. It is the latest stable FFmpeg release
+    from the 2.1 release branch, which was cut from master on 2013-10-28.
+    Amongst lots of other changes, it includes all changes from
+    ffmpeg-mt, libav master of 2013-10-27, libav 9 as of 2013-10-27.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      52. 48.101
+libavcodec     55. 39.101
+libavformat    55. 19.104
+libavdevice    55.  5.100
+libavfilter     3. 90.100
+libswscale      2.  5.101
+libswresample   0. 17.104
+libpostproc    52.  3.100</pre>
 
-<a name="release_1.2"></a><h2>
-FFmpeg 1.2.7 "Magic"</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-2.1.5.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-2.1.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-2.1.5.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-2.1.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4 text-right">
+      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.1.5">Changelog</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 
-<p>
-1.2.7 was released on 2014-06-23. It is the latest stable FFmpeg release
-from the 1.2 release branch, which was cut from master on 2013-03-07.
-Amongst lots of other changes, it includes all changes from
-ffmpeg-mt, libav master of 2013-03-07, libav 9 as of 2013-03-07.
-</p>
-<p>It includes the following library versions:
-</p>
-<pre>
-  libavutil      52. 18.100
-  libavcodec     54. 92.100
-  libavformat    54. 63.104
-  libavdevice    54.  3.103
-  libavfilter     3. 42.103
-  libswscale      2.  2.100
-  libswresample   0. 17.102
-  libpostproc    52.  2.100
-</pre>
+  <a name="release_1.2"></a><h3>
+    FFmpeg 1.2.7 "Magic"</h3>
 
-<p>
-<a href="releases/ffmpeg-1.2.7.tar.bz2">Download bzip2 tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.2.7.tar.bz2.asc">PGP signature</a><br />
-<a href="releases/ffmpeg-1.2.7.tar.gz">Download gzip tarball</a>&nbsp;&nbsp;
-<a href="releases/ffmpeg-1.2.7.tar.gz.asc">PGP signature</a><br />
-<a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.2.7">Changelog</a><br />
-</p>
+  <p>
+    1.2.7 was released on 2014-06-23. It is the latest stable FFmpeg release
+    from the 1.2 release branch, which was cut from master on 2013-03-07.
+    Amongst lots of other changes, it includes all changes from
+    ffmpeg-mt, libav master of 2013-03-07, libav 9 as of 2013-03-07.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      52. 18.100
+libavcodec     54. 92.100
+libavformat    54. 63.104
+libavdevice    54.  3.103
+libavfilter     3. 42.103
+libswscale      2.  2.100
+libswresample   0. 17.102
+libpostproc    52.  2.100</pre>
 
-<a name="old_releases"></a>
-<h2>Old Releases</h2>
-<p>
-Older versions are available at the <a href="olddownload.html">Old
-Releases</a> page.
-</p>
+  <div class="row">
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-1.2.7.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-1.2.7.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-1.2.7.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-1.2.7.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4 text-right">
+      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.2.7">Changelog</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
+
+  <a name="old_releases"></a>
+  <h3>Old Releases</h3>
+  <p>
+    Older versions are available at the <a href="olddownload.html">Old
+      Releases</a> page.
+  </p>
+
+</div> <!-- #download -->
