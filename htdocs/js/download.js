@@ -1,5 +1,8 @@
 
 $(document).ready(function() {
+	$('#build-windows').removeClass('active');
+	$('#build-mac').removeClass('active');
+
 	var f = function (e) {
 	    e.preventDefault()
 	    $(this).tab('show')
