@@ -137,7 +137,7 @@
             &nbsp;
             <a href="releases/ffmpeg-snapshot-git.tar.bz2" class="btn btn-success">
               <i class="fa fa-git"></i>
-              Git Snapshot
+              Snapshot
             </a> &nbsp;
             <a href="http://git.videolan.org/?p=ffmpeg.git;a=tree" class="btn btn-success">
               Browse
