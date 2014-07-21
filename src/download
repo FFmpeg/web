@@ -72,7 +72,7 @@
             <div class="list-group">
               <a class="list-group-item" href="http://ffmpeg.gusari.org/static/">32-bit and
                 64-bit with kernel 3.2.x and above</a>
-              <a class="list-group-item" href="http://ffmpeg.gusari.org/static/">64-bit
+              <a class="list-group-item" href="http://johnvansickle.com/ffmpeg/">64-bit
                 with kernel 2.6.32 and above</a>
             </div> <!-- list-group -->
 
