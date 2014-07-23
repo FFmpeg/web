@@ -90,7 +90,7 @@
           </div> <!-- build -->
           <div id="build-mac" class="tab-pane active">
 
-            <h3>Mac OS X Packages</h3>
+            <h3>OS X Packages</h3>
 
             <div class="list-group">
               <a class="list-group-item" href="http://www.evermeet.cx/ffmpeg/">
