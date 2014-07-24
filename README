@@ -29,7 +29,7 @@ To generate the documentation pages:
 
 In case of a major CSS update, please also update the `style.min.css` file in
 the main FFmpeg repo:
-  $ cat /path/to/ffmpeg-web/htdocs/css/{bootstrap.min.css,style.min.css} > /path/to/ffmpeg/doc/style.min.css
+  $ cat /path/to/ffmpeg-web/src/css_credit /path/to/ffmpeg-web/htdocs/css/{bootstrap.min.css,style.min.css} > /path/to/ffmpeg/doc/style.min.css
 
 
 WEBSITE DEVELOPERS INSTRUCTIONS
