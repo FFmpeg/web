@@ -286,7 +286,7 @@ libpostproc    52.  3.100</pre>
     </div> <!-- col -->
     <div class="col-md-4 text-right">
       <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.3">Changelog</a></small>
-      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=n2.3">Release Notes</a>
+      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=489d066">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
