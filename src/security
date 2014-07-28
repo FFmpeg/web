@@ -1,5 +1,14 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 2.3</h2>
+<h3>2.3</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-4609, d6af26c55c1ea30f85a7d9edbc373f53be1743ee
+CVE-2014-4610, d6af26c55c1ea30f85a7d9edbc373f53be1743ee
+</pre>
 
 <h2>FFmpeg 2.2</h2>
 <h3>2.2.4</h3>
@@ -367,6 +376,17 @@ CVE-2012-6618, 03847eb8259291b4ff1bd840bd779d0699d71f96
 </pre>
 
 <h2>FFmpeg 1.0</h2>
+<h3>1.0.10</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2012-5150, 85b1ce977bd5d477cd47d0942e1a09f0a56e6778 / ae3d41636942cbc0236bad21ad06c65f4eb0f096
+CVE-2013-0894, 0916d0f9d1b94b4bb88382edae45b9276746574d / 2c16bf2de07c68513072bf3cc96401d2c6291a3e
+CVE-2014-4609, 7b5c706494a775b2b0d0e0a38448610802eef8f4 / d6af26c55c1ea30f85a7d9edbc373f53be1743ee
+CVE-2014-4609, 7b5c706494a775b2b0d0e0a38448610802eef8f4 / d6af26c55c1ea30f85a7d9edbc373f53be1743ee
+</pre>
+
 <h3>1.0.9</h3>
 <p>
 Fixes following vulnerabilities:
@@ -800,6 +820,39 @@ Several security issues that dont have CVE numbers.
 <p>Fixes CVE-2011-4352, CVE-2011-4579, CVE-2011-4353, CVE-2011-4351, CVE-2011-4364</p>
 
 <h2>FFmpeg 0.5</h2>
+<h3>0.5.14</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2012-5150, 90c8fa52216b7a9fc83167f791dd7bb1d01bbaf2 / ae3d41636942cbc0236bad21ad06c65f4eb0f096
+CVE-2013-7023, 04fb6bb9155a5b1857027b78728badec72734c2e / f31011e9abfb2ae75bb32bc44e2c34194c8dc40a
+CVE-2014-4609, 24a0273cb86ec0b8bf17c71e7f426c3aa9e4989f / 7b5c706494a775b2b0d0e0a38448610802eef8f4
+CVE-2014-4609, 24a0273cb86ec0b8bf17c71e7f426c3aa9e4989f / d6af26c55c1ea30f85a7d9edbc373f53be1743ee
+CVE-2014-4610, 24a0273cb86ec0b8bf17c71e7f426c3aa9e4989f / d6af26c55c1ea30f85a7d9edbc373f53be1743ee
+</pre>
+
+<h3>0.5.13</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-7009, fde0b7d91c9cbcc427f87c2651f39d0075c66efe / 3819db745da2ac7fb3faacb116788c32f4753f34
+CVE-2013-7010, e7484d54252d3442b64ed09770d4c84c44e104e9 / 454a11a1c9c686c78aa97954306fb63453299760
+</pre>
+
+<h3>0.5.11</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-0849, fee26d352a52eb9f7fcd8d9167fb4a5ba015b612 / 3ae610451170cd5a28b33950006ff0bd23036845
+CVE-2013-0846, a23a3dba25448939e6be43c9196f1e6917258e2e / a7ee6281f7ef1c29284e3a4cadfe0f227ffde1ed
+CVE-2013-0865, 13093f9767b922661132a3c1f4b5ba2c7338b660 / ab6c9332bfa1e20127a16392a0b85a4aa4840889
+CVE-2013-0868, ac476bfa9f90587eadef5b98cfc40ec77dde3f18 / 0dfc01c2bbf4b71bb56201bc4a393321e15d1b31
+CVE-2013-0868, 272e7f6443b76fb47192930d157bfd9284294188 / f67a0d115254461649470452058fa3c28c0df294
+</pre>
+
 <h3>0.5.8</h3>
 <p>Fixes CVE-2011-3892, CVE-2011-3893, CVE-2011-3895</p>
 
