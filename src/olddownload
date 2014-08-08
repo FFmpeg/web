@@ -23,6 +23,7 @@ libavcodec     55. 18.102
 libavformat    55. 12.100
 libavdevice    55.  3.100
 libavfilter     3. 79.101
+libavresample   1.  1.  0
 libswscale      2.  3.100
 libswresample   0. 17.102
 libpostproc    52.  3.100</pre>
@@ -58,6 +59,7 @@ libavcodec     54. 86.100
 libavformat    54. 59.106
 libavdevice    54.  3.102
 libavfilter     3. 32.100
+libavresample   1.  0.  1
 libswscale      2.  1.103
 libswresample   0. 17.102
 libpostproc    52.  2.100</pre>
@@ -93,6 +95,7 @@ libavcodec     54. 59.100
 libavformat    54. 29.104
 libavdevice    54.  2.101
 libavfilter     3. 17.100
+libavresample   0.  0.  3
 libswscale      2.  1.101
 libswresample   0. 15.100
 libpostproc    52.  0.100</pre>
@@ -128,6 +131,7 @@ libavcodec     54. 23.100
 libavformat    54.  6.100
 libavdevice    54.  0.100
 libavfilter     2. 77.100
+libavresample   0.  0.  2
 libswscale      2.  1.100
 libswresample   0. 15.100
 libpostproc    52.  0.100</pre>
