@@ -1,6 +1,23 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
 <h2>FFmpeg 2.3</h2>
+
+<h3>2.3.3</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-5271 60bfa9154d0084bc8b007b984051a6bb82d9652c  / 52b81ff4635c077b2bc8b8d3637d933b6629d803
+</pre>
+
+<h3>2.3.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-5272, 83956309cc16b47fbf8548e8c5bcf67b8cd4b65f / 3539d6c63a16e1b2874bb037a86f317449c58770
+</pre>
+
 <h3>2.3</h3>
 <p>
 Fixes following vulnerabilities:
@@ -11,6 +28,16 @@ CVE-2014-4610, d6af26c55c1ea30f85a7d9edbc373f53be1743ee
 </pre>
 
 <h2>FFmpeg 2.2</h2>
+
+<h3>2.2.7</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-5272, 0397d434054ab9a80fbf8e2357538ca29d4fe427 / 3539d6c63a16e1b2874bb037a86f317449c58770
+CVE-2014-5271, 1ad1723c24cd2683df6d00a83b6f28d3ff45fb96 / 52b81ff4635c077b2bc8b8d3637d933b6629d803
+</pre>
+
 <h3>2.2.4</h3>
 <p>
 Fixes following vulnerabilities:
@@ -574,6 +601,19 @@ CVE-2012-5361, msvr12-017
 </pre>
 
 <h2>FFmpeg 0.10</h2>
+
+<h3>0.10.15</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2013-0848, a1804df66a4064aa30554a11e4fd6cdac3ed89c0
+CVE-2013-0852, a465ed5707f5cbc9713d5e9629d424cd2d46e038
+CVE-2013-0860, c79cf0129edafc388ba1c47cd7b6a620557e48de
+CVE-2013-3672, e17dc0a254ac8d3c33887a114a66e2b659ba0bc5
+CVE-2013-3674, 3aebdffb010df025728d6c2af89642f9634aa806
+CVE-2013-7020, b5d7b80a7e43779ca2962ba56442579c2a7e927d
+</pre>
 
 <h3>0.10.14</h3>
 <p>
