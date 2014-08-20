@@ -36,6 +36,19 @@
     News
   </h1>
 
+  <a id="pr2.3.3"></a><h3>August 20, 2014, FFmpeg 2.3.3, 2.2.7, 1.2.8</h3>
+  <p>
+    We have made several new point releases (<b><a href="download.html#release_2.3">2.3.3</a>,
+      <a href="download.html#release_2.2">2.2.7</a>,
+      <a href="download.html#release_1.2">1.2.8</a></b>).
+    They fix various bugs, as well as CVE-2014-5271 and CVE-2014-5272.
+    Please see the changelog for more details.
+  </p>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
+
   <a id="opw02"></a><h3>July 29, 2014, Help us out securing our spot in OPW</h3>
   <p>
     Following our previous post regarding our participation on this year's
