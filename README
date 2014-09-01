@@ -15,17 +15,7 @@ GENERATE THE DOCUMENTATION
 
 /!\ None of the generated versions of the website contain the documentation.
 
-To generate the documentation pages:
-- Add the HTML wrappers to your environment:
-  $ export FFMPEG_HEADER1="$(cat src/template_head1 src/template_doctitle src/template_head_prod)"
-  $ export FFMPEG_HEADER2="$(cat src/template_head2 src/template_doctitle src/template_head3)"
-  $ export FFMPEG_FOOTER="$(cat src/template_footer1 src/template_footer_prod src/template_footer2)"
-- Get the main ffmpeg repo:
-  $ git clone git://source.ffmpeg.org/ffmpeg.git
-- Compile the documentation using the ffmpeg main repo Makefile:
-  $ make doc
-- Copy the generated HTML files inside the website:
-  $ cp /path/to/ffmpeg/doc/*.html /path/to/ffmpeg-web/htdocs/
+To generate the documentation pages, just `./generate-doc.sh <ffmpeg-src>`.
 
 In case of a major CSS update, please also update the `style.min.css` file in
 the main FFmpeg repo:
