@@ -15,6 +15,7 @@
 @Cseconddarkdark: darken(@Cseconddark, 10%);
 @Csecondlight: lighten(@Csecond, 15%);
 @Csecondlightlight: lighten(@Csecondlight, 20%);
+@Cwarning: #ae4c4c;
 
 // ************************************************************************* //
 // SIZES
@@ -180,15 +181,22 @@ a.well {
     }
 }
 
-.info {
+.info, .warning {
     margin: 10px;
     padding: 10px;
     background-color: @Cmainlight;
-    border-left: 10px @Csecond solid;
     color: @Cinvert;
     code {
 	background-color: @Cmain;
     }
+}
+
+.info {
+    border-left: 10px @Csecond solid;
+}
+
+.warning {
+    border-left: 10px @Cwarning solid;
 }
 
 .with-icon {
