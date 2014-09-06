@@ -29,15 +29,15 @@
       <span class="pull-right"><i class="fa fa-5x fa-fw fa-sitemap"></i></span>
       <h3><strong>Components Documentation</strong></h3>
       <ul>
-        <li><a href="ffmpeg-utils.html">ffmpeg-utils</a>: FFmpeg utilities</li>
-        <li><a href="ffmpeg-scaler.html">ffmpeg-scaler</a>: FFmpeg video scaling and pixel format converter</li>
-        <li><a href="ffmpeg-resampler.html">ffmpeg-resampler</a>: FFmpeg audio resampler</li>
-        <li><a href="ffmpeg-codecs.html">ffmpeg-codecs</a>: FFmpeg encoders and decoders (codecs)</li>
-        <li><a href="ffmpeg-bitstream-filters.html">ffmpeg-bitstream-filters</a>: FFmpeg bitstream filters</li>
-        <li><a href="ffmpeg-formats.html">ffmpeg-formats</a>: FFmpeg muxers and demuxers (formats)</li>
-        <li><a href="ffmpeg-protocols.html">ffmpeg-protocols</a>: FFmpeg protocols</li>
-        <li><a href="ffmpeg-devices.html">ffmpeg-devices</a>: FFmpeg input and output devices</li>
-        <li><a href="ffmpeg-filters.html">ffmpeg-filters</a>: FFmpeg filters</li>
+        <li><a href="ffmpeg-utils.html">Utilities</a></li>
+        <li><a href="ffmpeg-scaler.html">Video scaling and pixel format converter</a></li>
+        <li><a href="ffmpeg-resampler.html">Audio resampler</a></li>
+        <li><a href="ffmpeg-codecs.html">Encoders and decoders (codecs)</a></li>
+        <li><a href="ffmpeg-bitstream-filters.html">Bitstream filters</a></li>
+        <li><a href="ffmpeg-formats.html">Muxers and demuxers (formats)</a></li>
+        <li><a href="ffmpeg-protocols.html">Protocols</a></li>
+        <li><a href="ffmpeg-devices.html">Input and output devices</a></li>
+        <li><a href="ffmpeg-filters.html">Filters</a></li>
       </ul>
     </div>
   </div> <!-- col -->
