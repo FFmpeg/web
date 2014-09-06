@@ -30,9 +30,10 @@
               <li><a href="http://trac.ffmpeg.org">Wiki</a></li>
             </ul>
           </li>
-          <li><a href="#">Developers</a>
+          <li><a href="developer.html">Developers</a>
             <ul>
               <li><a href="download.html#get-sources">Source Code</a>
+              <li><a href="developer.html#Contributing">Contribute</a></li>
               <li><a href="http://fate.ffmpeg.org">FATE</a></li>
               <li><a href="http://coverage.ffmpeg.org">Code Coverage</a></li>
             </ul>
