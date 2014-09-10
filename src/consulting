@@ -72,10 +72,10 @@ E.g.:
     <div class="well">
       <h3>Carl Eugen Hoyos</h3>
       <p>
-        Carl Eugen is located in Austria and available for contracting work.
+        Carl Eugen is located in Austria and is available for contracting work.
         He has worked on FFmpeg since 2007 and has been a maintainer since 2007.
         He has experience with software license issues, and currently maintains the
-        FFmpeg bug tracker
+        FFmpeg bug tracker.
         You can contact him by email at
         <a href="mailto:ce@hoyos.ws">ce at hoyos dot ws</a>.
       </p>
@@ -87,10 +87,10 @@ E.g.:
     <div class="well">
       <h3>Clément Bœsch</h3>
       <p>
-        Clément is located in France and available for contracting work.
+        Clément is located in France and is available for contracting work.
         He has worked on FFmpeg since 2011 and has been a maintainer since 2011.
         He has experience with subtitles, filters and all kinds of random
-        things accross the codebase.
+        things across the codebase.
         You can contact him by email at
         <a href="mailto:ubitux%20at%20gmail%20dot%20com">ubitux at gmail dot com</a>.
       </p>
@@ -100,7 +100,7 @@ E.g.:
     <div class="well">
       <h3>Michael Niedermayer</h3>
       <p>
-        Michael is located in Vienna, Austria and available for contracting work.
+        Michael is located in Vienna, Austria and is available for contracting work.
         He is an expert in all areas of video coding as well as x86 assembly.
         You can contact him by email at <a href="mailto:michael@niedermayer.cc">michael@niedermayer.cc</a>.
       </p>
@@ -110,7 +110,7 @@ E.g.:
     <div class="well">
       <h3>Paul B Mahol</h3>
       <p>
-        Paul is located in Croatia and available for contracting work. He has
+        Paul is located in Croatia and is available for contracting work. He has
         worked on FFmpeg since 2011 and has been a maintainer since 2012. He has
         experience with various codecs, containers, filters and reverse
         engineering. You can contact him by email at
