@@ -26,11 +26,10 @@
           text/plain or even better text/x-diff or text/x-patch.<br>
           If you send us a patch, please make it some form of unified diff. We prefer
           patches made using <code>git format-patch</code> from the root of your FFmpeg
-          checkout or sent with <code>git send-email</code>. For more detailed
-          guidelines, have a look at the
-          <a href="http://www.mplayerhq.hu/DOCS/tech/patches.txt">MPlayer patch guidelines</a>
-          most of what is written there applies to FFmpeg as well.
-          Trespass these rules at the risk of being flamed.
+          checkout or sent with <code>git send-email</code> as shown in
+          <a href="git-howto.html">Using git to develop FFmpeg</a>. For additional
+          information and guidelines refer to the
+          <a href="developer.html">FFmpeg Developer Documentation</a>.
         </p>
       </span>
       <br>
