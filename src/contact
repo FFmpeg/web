@@ -32,30 +32,29 @@
       </div>
       <br>
       <div class="list-group">
+        <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/">
+          <strong>ffmpeg-devel</strong><br>
+          For discussions involving development of FFmpeg. Patches for FFmpeg should be submitted
+          here. It is <strong>not</strong> for development of software that use the FFmpeg libraries
+          and <strong>not</strong> for bug reports unless you are submitting a patch that fixes the
+          problem.
+        </a>
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-user/">
           <strong>ffmpeg-user</strong><br>
-          This list is for regular user questions and discussions including usage of
-          <code>ffmpeg</code>, <code>ffplay</code>, <code>ffprobe</code>, and
-          <code>ffserver</code>
+          For general user questions and discussions involving the FFmpeg cli tools:
+          <code>ffmpeg</code>, <code>ffplay</code>, <code>ffprobe</code>, and <code>ffserver</code>.
         </a>
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/libav-user/">
           <strong>libav-user</strong><br>
-          This list is for application developer questions about development using the
-          FFmpeg libraries
-        </a>
-        <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/">
-          <strong>ffmpeg-devel</strong><br>
-          This list is for development of FFmpeg itself. It is <strong>not</strong> for
-          development of software that use the FFmpeg libraries and <strong>not</strong>
-          for bug reports
+          For questions about using the FFmpeg libraries and API.
         </a>
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-cvslog/">
           <strong>ffmpeg-cvslog</strong><br>
-          This list gets all changes to the FFmpeg sources / main git repository.
+          A log of all changes and updates made to the FFmpeg source.
         </a>
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-trac/">
           <strong>ffmpeg-trac</strong><br>
-          This list gets all changes to the FFmpeg Trac issue tracker.
+          Receives all bug reports, comments, and status changes made on the bug tracker.
         </a>
       </div> <!-- list-group -->
     </div> <!-- col -->
