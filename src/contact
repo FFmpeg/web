@@ -13,8 +13,6 @@
           something completely unrelated that was not being discussed within the original
           thread).
         </p>
-      </div>
-      <span style="color: white">
         <p>
           Configuring your mail client to break lines after 70 or so characters is a plus.
           If you attach files, avoid compressing small files, uncompressed is preferred.
@@ -31,7 +29,7 @@
           information and guidelines refer to the
           <a href="developer.html">FFmpeg Developer Documentation</a>.
         </p>
-      </span>
+      </div>
       <br>
       <div class="list-group">
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-user/">
