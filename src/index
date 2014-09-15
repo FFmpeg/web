@@ -36,6 +36,18 @@
     News
   </h1>
 
+  <a id="pr2.4"></a><h3>September 15, 2014, FFmpeg 2.4</h3>
+  <p>
+    We have made a new major release (<b><a href="download.html#release_2.4">2.4</a></b>)
+    It contains all features and bugfixes of the git master branch from the 14th September.
+    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=n2.4">Release Notes</a></b> for a
+    list of note-worthy changes.
+  </p>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
+
   <a id="pr2.3.3"></a><h3>August 20, 2014, FFmpeg 2.3.3, 2.2.7, 1.2.8</h3>
   <p>
     We have made several new point releases (<b><a href="download.html#release_2.3">2.3.3</a>,
