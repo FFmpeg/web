@@ -40,7 +40,7 @@
   <p>
     We have made a new major release (<b><a href="download.html#release_2.4">2.4</a></b>)
     It contains all features and bugfixes of the git master branch from the 14th September.
-    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=n2.4">Release Notes</a></b> for a
+    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.4">Release Notes</a></b> for a
     list of note-worthy changes.
   </p>
   <p>
