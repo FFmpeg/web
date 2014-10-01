@@ -870,12 +870,18 @@ Several security issues that dont have CVE numbers.
 <h3>0.7.6</h3>
 <p>Fixes CVE-2011-4364 among others</p>
 
+<h3>0.7</h3>
+<p>Fixes CVE-2011-2161</p>
+
 <h2>FFmpeg 0.6</h2>
 <h3>0.6.5</h3>
 <p>Fixes CVE-2011-3892, CVE-2011-3893, CVE-2011-3895</p>
 
 <h3>0.6.4</h3>
 <p>Fixes CVE-2011-4352, CVE-2011-4579, CVE-2011-4353, CVE-2011-4351, CVE-2011-4364</p>
+
+<h3>0.6.2</h3>
+<p>Fixes CVE-2011-2161</p>
 
 <h2>FFmpeg 0.5</h2>
 <h3>0.5.14</h3>
@@ -924,7 +930,7 @@ CVE-2013-0868, 272e7f6443b76fb47192930d157bfd9284294188 / f67a0d1152544616494704
 <p>Fixes CVE-2011-3504, CVE-2011-3362, CVE-2011-3973, CVE-2011-3974</p>
 
 <h3>0.5.4</h3>
-<p>Fixes CVE-2010-3908, CVE-2011-0722, CVE-2010-4704, CVE-2011-0480, CVE-2011-0723</p>
+<p>Fixes CVE-2010-3908, CVE-2011-0722, CVE-2010-4704, CVE-2011-0480, CVE-2011-0723, CVE-2011-2161</p>
 
 <h3>0.5</h3>
 <p>
