@@ -57,10 +57,14 @@
                 <strong>Debian</strong> packages for Oldstable, Stable, Testing, Unstable
                 (amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc)
               </a>
+              <a href="https://launchpad.net/~mc3man/+archive/ubuntu/trusty-media" class="list-group-item">
+                <strong>Ubuntu</strong> – Ubuntu Multimedia for Trusty PPA. Provides static binaries
+                from most recent release branch.
+              </a>
               <a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg" class="list-group-item">
-                <strong>Ubuntu</strong> packages for Precise, Oneiric, Natty, Maverick, and Lucid
-                (amd64, i386)<br>
-                <small>Uses older release branches for compatibility reasons</small>
+                <strong>Ubuntu</strong> – Jon Severinsson's FFmpeg PPA. Provides shared libraries,
+                development files, and binaries from older release branches for compatibility with
+                repository packages.
               </a>
               <a class="list-group-item" href="http://rpmfusion.org/">
                 <strong>Redhat</strong> and <strong>Fedora</strong> packages for EL, Fedora Rawhide
