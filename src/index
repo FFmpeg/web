@@ -36,6 +36,21 @@
     News
   </h1>
 
+  <a id="ffmpeg_back_in_sid"></a><h3>October 10, 2014, FFmpeg is in Debian unstable again</h3>
+  <p>
+    We wanted you to know there are
+    <a href="https://packages.debian.org/search?keywords=ffmpeg&amp;searchon=sourcenames&amp;suite=unstable&amp;section=main">
+    FFmpeg packages in Debian unstable</a> again. <strong>A big thank-you
+    to Andreas Cadhalpun and all the people that made it possible.</strong> It has been anything but simple.
+  </p>
+  <p>
+    Unfortunately that was already the easy part of this news. The bad news is the packages probably won't
+    migrate to Debian testing to be in the upcoming release codenamed jessie.
+    <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=763148">Read the argumentation over at Debian.</a>
+  </p>
+  <p>
+    <strong>However things will come out in the end, we hope for your continued remarkable support!</strong>
+  </p>
 
   <a id="opw03"></a><h3>October 8, 2014, FFmpeg secured a place in OPW!</h3>
   <p>
