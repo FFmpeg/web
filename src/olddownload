@@ -5,6 +5,42 @@
   <a href="contact.html">Contact us</a> if you are interested in
   maintaining an old release.
 </div>
+  <a name="release_2.3"></a><h3>
+    FFmpeg 2.3.4 "Mandelbrot"</h3>
+
+  <p>
+    2.3.4 was released on 2014-10-03. It is the latest stable FFmpeg release
+    from the 2.3 release branch, which was cut from master on 2014-07-16.
+    Amongst lots of other changes, it includes all changes from
+    ffmpeg-mt, libav master of 2014-07-15, libav 10.2 as of 2014-07-15.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      52. 92.100
+libavcodec     55. 69.100
+libavformat    55. 48.100
+libavdevice    55. 13.102
+libavfilter     4. 11.100
+libavresample   1.  3.  0
+libswscale      2.  6.100
+libswresample   0. 19.100
+libpostproc    52.  3.100</pre>
+
+  <div class="row">
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-2.3.4.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-2.3.4.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4">
+      <a class="btn btn-success" href="releases/ffmpeg-2.3.4.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-2.3.4.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-4 text-right">
+      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.3.4">Changelog</a></small>
+      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=489d066">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 
   <a name="release_2.1"></a><h3>
     FFmpeg 2.1.5 "Fourier"</h3>
