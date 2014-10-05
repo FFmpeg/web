@@ -1,10 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="http://ffmpeg.org/releases/ffmpeg-2.4.1.tar.bz2" class="btn btn-success">
+    <a href="http://ffmpeg.org/releases/ffmpeg-2.4.2.tar.bz2" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download
-      <small>ffmpeg-2.4.1.tar.bz2</small>
+      <small>ffmpeg-2.4.2.tar.bz2</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
@@ -257,13 +257,13 @@
 
 
   <a name="release_2.4"></a><h3>
-    FFmpeg 2.4.1 "Fresnel"</h3>
+    FFmpeg 2.4.2 "Fresnel"</h3>
 
   <p>
-    2.4.1 was released on 2014-09-22. It is the latest stable FFmpeg release
+    2.4.2 was released on 2014-10-05. It is the latest stable FFmpeg release
     from the 2.4 release branch, which was cut from master on 2014-09-14.
     Amongst lots of other changes, it includes all changes from
-    ffmpeg-mt, libav master of 2014-09-14, libav 11 as of 2014-09-14.
+    ffmpeg-mt, libav master of 2014-09-14, libav 11 as of 2014-10-05.
   </p>
   <p>It includes the following library versions:
   </p>
@@ -280,15 +280,15 @@ libpostproc    53.  0.100</pre>
 
   <div class="row">
     <div class="col-md-4">
-      <a class="btn btn-success" href="releases/ffmpeg-2.4.1.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-2.4.1.tar.bz2.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-2.4.2.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-2.4.2.tar.bz2.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-4">
-      <a class="btn btn-success" href="releases/ffmpeg-2.4.1.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-2.4.1.tar.gz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-2.4.2.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-2.4.2.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-4 text-right">
-      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.4.1">Changelog</a></small>
+      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.4.2">Changelog</a></small>
       <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.4">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
