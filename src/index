@@ -36,6 +36,32 @@
     News
   </h1>
 
+
+  <a id="opw03"></a><h3>October 8, 2014, FFmpeg secured a place in OPW!</h3>
+  <p>
+    Thanks to a generous 6K USD donation by Samsung (Open Source Group),
+    FFmpeg will be welcoming at least 1 "Outreach Program for Women" intern
+    to work with our community for an initial period starting December 2014
+    (through March 2015).
+  </p>
+
+  <p>
+    We all know FFmpeg is used by the industry, but even while there are
+    countless products building on our code, is not at all common for
+    companies to step up and help us out when needed. So a big thank-you
+    to Samsung and the OPW program committee!
+  </p>
+
+  <p>
+    If you are thinking on participating in OPW as an intern, please take
+    a look at https://trac.ffmpeg.org/wiki/SponsoringPrograms/OPW/2014-12
+    for some initial guidelines. The page is still a work in progress, but
+    there should be enough information there to get you started. If you, on
+    the other hand, are thinking on sponsoring work on FFmpeg through the
+    OPW program, please get in touch with us at opw@ffmpeg.org. With your
+    help, we might be able to secure some extra intern spots for this round!
+  </p>
+
   <a id="pr2.4"></a><h3>September 15, 2014, FFmpeg 2.4</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.4">2.4</a></b>)
