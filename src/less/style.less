@@ -24,18 +24,25 @@ SOFTWARE.
 // ************************************************************************* //
 // COLORS
 
-@Cmain: #313131;
-@Cmaindark: darken(@Cmain, 5%);
-@Cmaindarkdark: darken(@Cmaindark, 5%);
-@Cmainlight: lighten(@Cmain, 5%);
-@Cmainlightlight: lighten(@Cmainlight, 50%);
-@Cborder: #101010;
-@Cinvert: darken(#fff, 10%);
-@Csecond: darken(#4cae4c, 0%);
-@Cseconddark: darken(@Csecond, 10%);
-@Cseconddarkdark: darken(@Cseconddark, 10%);
-@Csecondlight: lighten(@Csecond, 15%);
-@Csecondlightlight: lighten(@Csecondlight, 20%);
+// Main black color and its shades.
+@Cmain:                 hsl(0, 0%,    19%);
+@Cmaindark:          darken(@Cmain,    5%);
+@Cmaindarkdark:      darken(@Cmain,   10%);
+@Cborder:            darken(@Cmain,   13%);
+@Cmainlight:        lighten(@Cmain,    5%);
+@Cmainlightlight:   lighten(@Cmain,   55%);
+
+// Complete invert of the main black theme.
+@Cinvert:               hsl(0, 0%,    90%);
+
+// The green theme colors and its shades.
+@Csecond:                   #4cae4c;
+@Cseconddark:        darken(@Csecond, 10%);
+@Cseconddarkdark:    darken(@Csecond, 20%);
+@Csecondlight:      lighten(@Csecond, 15%);
+@Csecondlightlight: lighten(@Csecond, 35%);
+
+// The red theme color.
 @Cwarning: #ae4c4c;
 
 // ************************************************************************* //
