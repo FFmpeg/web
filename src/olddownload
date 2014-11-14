@@ -79,10 +79,10 @@ libpostproc    52.  3.100</pre>
   </div> <!-- row -->
 
 <a name="release_2.0"></a><h3>
-  FFmpeg 2.0.5 "Nameless"</h3>
+  FFmpeg 2.0.6 "Nameless"</h3>
 
 <p>
-  2.0.5 was released on 2014-06-25. It is the latest stable FFmpeg release
+  2.0.6 was released on 2014-11-14. It is the latest stable FFmpeg release
   from the 2.0 release branch, which was cut from master on 2013-07-10.
   Amongst lots of other changes, it includes all changes from
   ffmpeg-mt, libav master of 2013-07-09, libav 9 as of 2013-07-09.
@@ -102,15 +102,15 @@ libpostproc    52.  3.100</pre>
 
 <div class="row">
   <div class="col-md-4">
-    <a class="btn btn-success" href="releases/ffmpeg-2.0.2.tar.bz2">Download bzip2 tarball</a>
-    <small><a href="releases/ffmpeg-2.0.2.tar.bz2.asc">PGP signature</a></small>
+    <a class="btn btn-success" href="releases/ffmpeg-2.0.6.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-2.0.6.tar.bz2.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4">
-    <a class="btn btn-success" href="releases/ffmpeg-2.0.2.tar.gz">Download gzip tarball</a>
-    <small><a href="releases/ffmpeg-2.0.2.tar.gz.asc">PGP signature</a></small>
+    <a class="btn btn-success" href="releases/ffmpeg-2.0.6.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-2.0.6.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.2">Changelog</a>
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.6">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
