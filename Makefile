@@ -11,7 +11,7 @@ RSS_TARGET = htdocs/$(RSS_FILENAME)
 CSS_SRCS = src/less/style.less
 CSS_TARGET = htdocs/css/style.min.css
 LESS_TARGET = htdocs/style.less
-LESSC_OPTIONS := --clean-css --clean-option=--s0
+LESSC_OPTIONS := --clean-css
 
 BOWER_PACKAGES = bower.json
 BOWER_COMPONENTS = htdocs/components
