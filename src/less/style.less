@@ -270,8 +270,25 @@ code {
             }
             > th {
                 background-color: @Cmainlightlight;
+            }
+        }
+    }
+    // Table headings
+    > thead {
+        > tr {
+            > th {
                 // Bottom align for column headings
                 border-bottom: 2px solid @Cmainlightlightl;
+            }
+        }
+    }
+    > tbody {
+        > tr.table-heading {
+            // These special rules are useful for long headings in <tbody>
+            // Headings in <thead> or row headings are handled already.
+            > th {
+                border-bottom: 2px solid @Cmainlightlightl;
+                background-color: @Cmainlightlight;
             }
         }
     }

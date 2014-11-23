@@ -213,7 +213,7 @@
     <td>-</td>
     <td><a href="http://fate.ffmpeg.org">fate.ffmpeg.org</a> server software repository</td>
   </tr>
-        <tr>
+        <tr class="table-heading">
           <th colspan="4">Mirrors</th>
         </tr>
   <tr>
