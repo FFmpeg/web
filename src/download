@@ -207,52 +207,52 @@
           <td><a href="git://ffmpeg.org/ffmpeg-web">git://ffmpeg.org/ffmpeg-web</a></td>
           <td>Main ffmpeg.org website repository</td>
         </tr>
-  <tr>
-    <td><a href="git://ffmpeg.org/fateserver">git://git.ffmpeg.org/fateserver</a></td>
-    <td><a href="http://fate.ffmpeg.org">fate.ffmpeg.org</a> server software repository</td>
-  </tr>
+        <tr>
+          <td><a href="git://ffmpeg.org/fateserver">git://git.ffmpeg.org/fateserver</a></td>
+          <td><a href="http://fate.ffmpeg.org">fate.ffmpeg.org</a> server software repository</td>
+        </tr>
         <tr class="table-heading">
           <th colspan="2">Mirrors</th>
         </tr>
-  <tr>
-    <td>
-      <div class="pull-left">
-        <a href="https://github.com/FFmpeg/FFmpeg">https://github.com/FFmpeg/FFmpeg</a><br/>
-        <a href="git://github.com/FFmpeg/FFmpeg.git">git://github.com/FFmpeg/FFmpeg.git</a>
-      </div>
-      <div class="pull-right">
-        <a class="btn btn-success" href="https://github.com/FFmpeg/FFmpeg">Browse</a>
-        <a class="btn btn-success" href="https://github.com/FFmpeg/FFmpeg/tarball/master">Snapshot</a>
-      </div>
-    </td>
-    <td>Mirror of the main repository</td>
-  </tr>
-  <tr>
-    <td>
-      <div class="pull-left">
-        <a href="https://github.com/FFmpeg/web">https://github.com/FFmpeg/web</a><br/>
-        <a href="git://github.com/FFmpeg/web.git">git://github.com/FFmpeg/web.git</a>
-      </div>
-      <div class="pull-right">
-        <a class="btn btn-success" href="https://github.com/FFmpeg/web">Browse</a>
-        <a class="btn btn-success" href="https://github.com/FFmpeg/web/tarball/master">Snapshot</a>
-      </div>
-    </td>
-    <td>Mirror of the website repository</td>
-  </tr>
-  <tr>
-    <td>
-      <div class="pull-left">
-        <a href="https://github.com/FFmpeg/fateserver">https://github.com/FFmpeg/fateserver</a><br/>
-        <a href="git://github.com/FFmpeg/fateserver.git">git://github.com/FFmpeg/fateserver.git</a>
-      </div>
-      <div class="pull-right">
-        <a class="btn btn-success" href="https://github.com/FFmpeg/fateserver">Browse</a>
-        <a class="btn btn-success" href="https://github.com/FFmpeg/fateserver/tarball/master">Snapshot</a>
-      </div>
-    </td>
-    <td>Mirror of the FATE server repository</td>
-  </tr>
+        <tr>
+          <td>
+            <div class="pull-left">
+              <a href="https://github.com/FFmpeg/FFmpeg">https://github.com/FFmpeg/FFmpeg</a><br/>
+              <a href="git://github.com/FFmpeg/FFmpeg.git">git://github.com/FFmpeg/FFmpeg.git</a>
+            </div>
+            <div class="pull-right">
+              <a class="btn btn-success" href="https://github.com/FFmpeg/FFmpeg">Browse</a>
+              <a class="btn btn-success" href="https://github.com/FFmpeg/FFmpeg/tarball/master">Snapshot</a>
+            </div>
+          </td>
+          <td>Mirror of the main repository</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="pull-left">
+              <a href="https://github.com/FFmpeg/web">https://github.com/FFmpeg/web</a><br/>
+              <a href="git://github.com/FFmpeg/web.git">git://github.com/FFmpeg/web.git</a>
+            </div>
+            <div class="pull-right">
+              <a class="btn btn-success" href="https://github.com/FFmpeg/web">Browse</a>
+              <a class="btn btn-success" href="https://github.com/FFmpeg/web/tarball/master">Snapshot</a>
+            </div>
+          </td>
+          <td>Mirror of the website repository</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="pull-left">
+              <a href="https://github.com/FFmpeg/fateserver">https://github.com/FFmpeg/fateserver</a><br/>
+              <a href="git://github.com/FFmpeg/fateserver.git">git://github.com/FFmpeg/fateserver.git</a>
+            </div>
+            <div class="pull-right">
+              <a class="btn btn-success" href="https://github.com/FFmpeg/fateserver">Browse</a>
+              <a class="btn btn-success" href="https://github.com/FFmpeg/fateserver/tarball/master">Snapshot</a>
+            </div>
+          </td>
+          <td>Mirror of the FATE server repository</td>
+        </tr>
       </tbody>
     </table>
   </div> <!-- table-responsive -->
