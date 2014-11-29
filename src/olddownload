@@ -352,25 +352,25 @@ libpostproc    52.  0.100</pre>
 </div> <!-- row -->
 
 <a name="release_0.5"></a><h3>
-  FFmpeg 0.5.14 "half-way to world domination A.K.A. the belligerent blue bike
+  FFmpeg 0.5.15 "half-way to world domination A.K.A. the belligerent blue bike
   shed"</h3>
 
 <p>
-  0.5.14 appeared on 2014-07-20. It is the latest point release from the
+  0.5.15 appeared on 2014-11-29. It is the latest point release from the
   0.5 release branch, which was cut on 2009-03-02. it includes all changes from
   libav 0.5.10 as of 2013-02-28.
 </p>
 
 <div class="row">
   <div class="col-md-4">
-    <a class="btn btn-success" href="releases/ffmpeg-0.5.14.tar.bz2">Download bzip2 tarball</a>
-    <small><a href="releases/ffmpeg-0.5.14.tar.bz2.asc">PGP signature</a></small>
+    <a class="btn btn-success" href="releases/ffmpeg-0.5.15.tar.bz2">Download bzip2 tarball</a>
+    <small><a href="releases/ffmpeg-0.5.15.tar.bz2.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4">
-    <a class="btn btn-success" href="releases/ffmpeg-0.5.14.tar.gz">Download gzip tarball</a>
-    <small><a href="releases/ffmpeg-0.5.14.tar.gz.asc">PGP signature</a></small>
+    <a class="btn btn-success" href="releases/ffmpeg-0.5.15.tar.gz">Download gzip tarball</a>
+    <small><a href="releases/ffmpeg-0.5.15.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.5.14">Changelog</a>
+    <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.5.15">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
