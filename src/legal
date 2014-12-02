@@ -1,15 +1,3 @@
-<h1>Legal threats</h1>
-
-<a id="legal_threat"></a><h3>May 30, 2011</h3>
-<p>
-Today FFmpeg has received the <a href="threat1.png">first legal threat</a> in its existence. Its
-from a previous root admin of FFmpeg, who now is root admin of the
-Libav fork of FFmpeg. He claims copyright on the zigzag part of our
-logo. It has to be noted that he said 4 years ago <a href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/44742"><cite>Credit to whoever came up with the zigzag idea</cite></a></p>
-<p><i>Update May 31/June 1:</i> we have replaced the logo with a better looking one drawn by
-Hervé Flores.</p>
-
-
 <h1>FFmpeg License and Legal Considerations</h1>
 
 <p>
@@ -169,3 +157,14 @@ you start trying to make money from patented technologies, the owners of
 the patents will come after their licensing fees. Notably, MPEG LA is
 vigilant and diligent about collecting for MPEG-related technologies.
 </p>
+
+<h1>Legal threats</h1>
+
+<a id="legal_threat"></a><h3>May 30, 2011</h3>
+<p>
+Today FFmpeg has received the <a href="threat1.png">first legal threat</a> in its existence. Its
+from a previous root admin of FFmpeg, who now is root admin of the
+Libav fork of FFmpeg. He claims copyright on the zigzag part of our
+logo. It has to be noted that he said 4 years ago <a href="http://article.gmane.org/gmane.comp.video.ffmpeg.devel/44742"><cite>Credit to whoever came up with the zigzag idea</cite></a></p>
+<p><i>Update May 31/June 1:</i> we have replaced the logo with a better looking one drawn by
+Hervé Flores.</p>
