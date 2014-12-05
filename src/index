@@ -36,6 +36,18 @@
     News
   </h1>
 
+  <a id="pr2.5"></a><h3>December 5, 2014, FFmpeg 2.5</h3>
+  <p>
+    We have made a new major release (<b><a href="download.html#release_2.5">2.5</a></b>)
+    It contains all features and bugfixes of the git master branch from the 4th December.
+    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.5">Release Notes</a></b> for a
+    list of note-worthy changes.
+  </p>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
+
   <a id="ffmpeg_back_in_sid"></a><h3>October 10, 2014, FFmpeg is in Debian unstable again</h3>
   <p>
     We wanted you to know there are
