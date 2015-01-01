@@ -35,7 +35,8 @@
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/">
           <strong>ffmpeg-devel</strong><br>
           For discussions involving development of FFmpeg. Patches for FFmpeg should be submitted
-          here. It is <strong>not</strong> for development of software that use the FFmpeg libraries
+          here. Make sure you are subscribed so you will receive comments and reviews for your
+          patches. It is <strong>not</strong> for development of software that use the FFmpeg libraries
           and <strong>not</strong> for bug reports unless you are submitting a patch that fixes the
           problem.
         </a>
