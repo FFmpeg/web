@@ -67,8 +67,7 @@
                 repository packages.
               </a>
               <a class="list-group-item" href="http://rpmfusion.org/">
-                <strong>Redhat</strong> and <strong>Fedora</strong> packages for EL, Fedora Rawhide
-                (i386, x86_64)
+                <strong>Fedora</strong> and <strong>Red Hat Enterprise Linux</strong> packages (i386, x86_64)
               </a>
             </div> <!-- list-group -->
 
