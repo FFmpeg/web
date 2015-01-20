@@ -135,6 +135,15 @@ CVE-2014-4610, d6af26c55c1ea30f85a7d9edbc373f53be1743ee
 
 <h2>FFmpeg 2.2</h2>
 
+<h3>2.2.12</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-9603, 7279be7c75c38547994466b6f95bc3cadb05238b / 3030fb7e0d41836f8add6399e9a7c7b740b48bfd
+CVE-2014-9604, c351cd720a0c870dc09a15b6e191188978349bc7 / 3881606240953b9275a247a1c98a567f3c44890f
+</pre>
+
 <h3>2.2.11</h3>
 <p>
 Fixes following vulnerabilities:
