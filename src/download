@@ -216,8 +216,7 @@
         <tr>
           <td>
             <div class="pull-left">
-              <a href="https://github.com/FFmpeg/FFmpeg">https://github.com/FFmpeg/FFmpeg</a><br/>
-              <a href="git://github.com/FFmpeg/FFmpeg.git">git://github.com/FFmpeg/FFmpeg.git</a>
+              <a href="https://github.com/FFmpeg/FFmpeg">https://github.com/FFmpeg/FFmpeg</a>
             </div>
             <div class="pull-right">
               <a class="btn btn-success" href="https://github.com/FFmpeg/FFmpeg">Browse</a>
@@ -229,8 +228,7 @@
         <tr>
           <td>
             <div class="pull-left">
-              <a href="https://github.com/FFmpeg/web">https://github.com/FFmpeg/web</a><br/>
-              <a href="git://github.com/FFmpeg/web.git">git://github.com/FFmpeg/web.git</a>
+              <a href="https://github.com/FFmpeg/web">https://github.com/FFmpeg/web</a>
             </div>
             <div class="pull-right">
               <a class="btn btn-success" href="https://github.com/FFmpeg/web">Browse</a>
@@ -242,8 +240,7 @@
         <tr>
           <td>
             <div class="pull-left">
-              <a href="https://github.com/FFmpeg/fateserver">https://github.com/FFmpeg/fateserver</a><br/>
-              <a href="git://github.com/FFmpeg/fateserver.git">git://github.com/FFmpeg/fateserver.git</a>
+              <a href="https://github.com/FFmpeg/fateserver">https://github.com/FFmpeg/fateserver</a>
             </div>
             <div class="pull-right">
               <a class="btn btn-success" href="https://github.com/FFmpeg/fateserver">Browse</a>
