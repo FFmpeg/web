@@ -2,6 +2,15 @@
 
 <h2>FFmpeg 2.5</h2>
 
+<h3>2.5.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-1872, 58096b70fa9868bf8f40a998e9870e58fb4630ef / fabbfaa095660982cc0bc63242c459561fa37037
+</pre>
+
+
 <h3>2.5.2</h3>
 <p>
 Fixes following vulnerabilities:
@@ -33,6 +42,14 @@ CVE-2014-9319, ea38e5a6b75706477898eb1e6582d667dbb9946c
 </pre>
 
 <h2>FFmpeg 2.4</h2>
+
+<h3>2.4.7</h2>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-1872, 08822122987f563b72dff77b019ae3f98b0acebb / fabbfaa095660982cc0bc63242c459561fa37037
+</pre>
 
 <h3>2.4.5</h2>
 <p>
@@ -201,6 +218,15 @@ CVE-2014-2097, f58eab151214d2d35ff0973f2b3e51c5eb372da4
 
 <h2>FFmpeg 2.1</h2>
 
+<h3>2.1.7</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2014-9603, 96981b092c0971ac4c572692141cda87f5371989 / 3030fb7e0d41836f8add6399e9a7c7b740b48bfd
+CVE-2014-9604, ba99e90357c97f7845f1d463f73d9a4a7e77d78a / 3881606240953b9275a247a1c98a567f3c44890f
+</pre>
+
 <h3>2.1.6</h3>
 <p>
 Fixes following vulnerabilities:
@@ -361,6 +387,15 @@ CVE-2013-3675, 9dd04f6d8cdd1c10c28b2cb4252c1a41df581915
 
 
 <h2>FFmpeg 1.2</h2>
+
+<h3>1.2.12</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-1872, fd6a9fcd427b86c0a249a8cdb33f746f33706725 / fabbfaa095660982cc0bc63242c459561fa37037
+</pre>
+
 <h3>1.2.11</h3>
 <p>
 Fixes following vulnerabilities:
