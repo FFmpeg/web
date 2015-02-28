@@ -36,6 +36,35 @@
     News
   </h1>
 
+  <a id="clt2015"></a><h3>March 1, 2015, Chemnitzer Linux-Tage</h3>
+  <p>
+    We happily announce that FFmpeg will be represented at Chemnitzer Linux-Tage
+    (CLT) in Chemnitz, Germany. The event will take place on 21st and 22nd of March.
+  </p>
+
+  <p>
+    More information can be found <a href="https://chemnitzer.linux-tage.de/2015/en/">here</a>
+  </p>
+
+  <p>
+    We demonstrate usage of FFmpeg, answer your questions and listen to
+    your problems and wishes. <strong>If you have media files that cannot be
+    processed correctly with FFmpeg, be sure to have a sample with you
+    so we can have a look!</strong>
+  </p>
+  <p>
+    For the first time in our CLT history, there will be an <strong>FFmpeg workshop</strong>!
+    You can read the details <a href="https://chemnitzer.linux-tage.de/2015/de/programm/beitrag/209">here</a>.
+    The workshop is targeted at FFmpeg beginners. First the basics of
+    multimedia will be covered. Thereafter you will learn how to use
+    that knowledge and the FFmpeg CLI tools to analyse and process media
+    files. The workshop is in German language only and prior registration
+    is necessary. The workshop will be on Saturday starting at 10 o'clock.
+  </p>
+  <p>
+    We are looking forward to meet you (again)!
+  </p>
+
   <a id="pr2.5"></a><h3>December 5, 2014, FFmpeg 2.5</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.5">2.5</a></b>)
