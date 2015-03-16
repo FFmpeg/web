@@ -36,6 +36,18 @@
     News
   </h1>
 
+  <a id="pr2.6.1"></a><h3>March 16, 2015, FFmpeg 2.6.1</h3>
+  <p>
+    We have made a new major release (<b><a href="download.html#release_2.6">2.6</a></b>)
+    and now one week afterward 2.6.1. It contains all features and bugfixes of the git master branch from the 6th March.
+    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.6">Release Notes</a></b> for a
+    list of note-worthy changes.
+  </p>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
+
   <a id="gsoc2015"></a><h3>March 4, 2015, Google Summer of Code</h3>
   <p>
     FFmpeg has been accepted as a <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2015">Google Summer of Code</a> Project. If you wish to
