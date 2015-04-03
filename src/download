@@ -61,11 +61,6 @@
                 <strong>Ubuntu</strong> – Ubuntu Multimedia for Trusty PPA. Provides static binaries
                 from most recent release branch.
               </a>
-              <a href="https://launchpad.net/~jon-severinsson/+archive/ffmpeg" class="list-group-item">
-                <strong>Ubuntu</strong> – Jon Severinsson's FFmpeg PPA. Provides shared libraries,
-                development files, and binaries from older release branches for compatibility with
-                repository packages.
-              </a>
               <a class="list-group-item" href="http://rpmfusion.org/">
                 <strong>Fedora</strong> and <strong>Red Hat Enterprise Linux</strong> packages (i386, x86_64)
               </a>
