@@ -201,7 +201,7 @@
           <td>Main ffmpeg.org website repository</td>
         </tr>
         <tr>
-          <td><a href="git://ffmpeg.org/fateserver">git://git.ffmpeg.org/fateserver</a></td>
+          <td><a href="git://git.ffmpeg.org/fateserver">git://git.ffmpeg.org/fateserver</a></td>
           <td><a href="http://fate.ffmpeg.org">fate.ffmpeg.org</a> server software repository</td>
         </tr>
         <tr class="table-heading">
