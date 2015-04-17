@@ -89,7 +89,7 @@
             <h3>OS X Packages</h3>
 
             <div class="list-group">
-              <a class="list-group-item" href="http://www.evermeet.cx/ffmpeg/">
+              <a class="list-group-item" href="http://evermeet.cx/ffmpeg/">
                 Static builds for <strong>OS X Intel 64-bit</strong>
               </a>
               <a class="list-group-item" href="http://ffmpegmac.net/">
