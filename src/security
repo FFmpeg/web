@@ -1,6 +1,25 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 2.6</h2>
+
+<h3>2.6.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-3395, dfce316c12d867400fb132ff5094163e3d2634a3 / f7e1367f58263593e6cee3c282f7277d7ee9d553
+</pre>
+
+
 <h2>FFmpeg 2.5</h2>
+
+<h3>2.5.6</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-3395, a376ef4a17edb947bbcf54171daa914bd4585a4f / f7e1367f58263593e6cee3c282f7277d7ee9d553
+</pre>
 
 <h3>2.5.4</h3>
 <p>
@@ -42,6 +61,14 @@ CVE-2014-9319, ea38e5a6b75706477898eb1e6582d667dbb9946c
 </pre>
 
 <h2>FFmpeg 2.4</h2>
+
+<h3>2.4.8</h2>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-3395, 539172c85b13796fe5ce2a7482f436b6e9b33cf6 / f7e1367f58263593e6cee3c282f7277d7ee9d553
+</pre>
 
 <h3>2.4.7</h2>
 <p>
@@ -151,6 +178,14 @@ CVE-2014-4610, d6af26c55c1ea30f85a7d9edbc373f53be1743ee
 </pre>
 
 <h2>FFmpeg 2.2</h2>
+
+<h3>2.2.15</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-3395, 33877cd276f99fc234b5269d9d158ce71e50d363 / f7e1367f58263593e6cee3c282f7277d7ee9d553
+</pre>
 
 <h3>2.2.13</h3>
 <p>
