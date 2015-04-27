@@ -62,7 +62,7 @@ CVE-2014-9319, ea38e5a6b75706477898eb1e6582d667dbb9946c
 
 <h2>FFmpeg 2.4</h2>
 
-<h3>2.4.8</h2>
+<h3>2.4.8</h3>
 <p>
 Fixes following vulnerabilities:
 </p>
@@ -70,7 +70,7 @@ Fixes following vulnerabilities:
 CVE-2015-3395, 539172c85b13796fe5ce2a7482f436b6e9b33cf6 / f7e1367f58263593e6cee3c282f7277d7ee9d553
 </pre>
 
-<h3>2.4.7</h2>
+<h3>2.4.7</h3>
 <p>
 Fixes following vulnerabilities:
 </p>
@@ -78,7 +78,7 @@ Fixes following vulnerabilities:
 CVE-2015-1872, 08822122987f563b72dff77b019ae3f98b0acebb / fabbfaa095660982cc0bc63242c459561fa37037
 </pre>
 
-<h3>2.4.5</h2>
+<h3>2.4.5</h3>
 <p>
 Fixes following vulnerabilities:
 </p>
@@ -87,7 +87,7 @@ CVE-2014-9603, 195e8ecacc8b81b71e86d283ce7742bbdc230826 / 3030fb7e0d41836f8add63
 CVE-2014-9604, 64fdce7802632801d36f9d3973a065e0e011c154 / 3881606240953b9275a247a1c98a567f3c44890f
 </pre>
 
-<h3>2.4.4</h2>
+<h3>2.4.4</h3>
 <p>
 Fixes following vulnerabilities:
 </p>
@@ -98,7 +98,7 @@ CVE-2014-9318, 12e064d6c2ae66bd501872ab4fc2033588419f85 / 1d3a3b9f8907625b361420
 CVE-2014-9319, 4b8f3c5bf34e517f8a50c5b5152985b8ef725c6b / ea38e5a6b75706477898eb1e6582d667dbb9946c
 </pre>
 
-<h3>2.4.2</h2>
+<h3>2.4.2</h3>
 <p>
 Fixes following vulnerabilities:
 </p>
