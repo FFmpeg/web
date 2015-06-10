@@ -1,5 +1,16 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 2.7</h2>
+
+<h3>2.7</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-3395 f7e1367f58263593e6cee3c282f7277d7ee9d553
+</pre>
+
+
 <h2>FFmpeg 2.6</h2>
 
 <h3>2.6.2</h3>
