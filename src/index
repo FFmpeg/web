@@ -40,7 +40,7 @@
   <a id="needhost"></a><h3>July 4th, 2015, FFmpeg needs a new host</h3>
   <p>
     After graciously hosting our projects (<a href="http://www.ffmpeg.org">FFmpeg</a>, <a href="http://www.mplayerhq.hu">MPlayer</a>
-    and <a href="http://rtmpdump.mplayerhq.hu">rtmpdump</a>) for 4 years, Arpi (our hoster) has informed us that we have to secure a new host somewhere else.
+    and <a href="http://rtmpdump.mplayerhq.hu">rtmpdump</a>) for 4 years, Arpi (our hoster) has informed us that we have to secure a new host somewhere else immediately.
   </p>
   <p>
     If you want to host an open source project, please let us know, either on <a href="https://lists.sourceforge.net/lists/listinfo/ffmpeg-admins">ffmpeg-admins</a>
