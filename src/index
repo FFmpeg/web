@@ -47,7 +47,7 @@
     mailing list or irc.freenode.net #ffmpeg-devel.
   </p>
   <p>
-    We use about 4TB of storage and at least 4TB of bandwidth / month for various mailing lists, <a href="http://trac.ffmpeg.org">trac</a>, <a href="http://samples.ffmpeg.org">samples repo</a>, svn, etc. 
+    We use about 4TB of storage and at least 4TB of bandwidth / month for various mailing lists, <a href="http://trac.ffmpeg.org">trac</a>, <a href="http://samples.ffmpeg.org">samples repo</a>, svn, etc.
   </p>
 
   <a id="pr2.6.1"></a><h3>March 16, 2015, FFmpeg 2.6.1</h3>
