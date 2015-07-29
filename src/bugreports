@@ -98,6 +98,13 @@ info all-registers</pre>
 
 </div>
 
+<div class="info with-icon">
+  <span class="pull-right"><i class="fa fa-5x fa-bug"></i></span>
+  If you encounter a regression, please use <code>git bisect</code> to find the
+  revission that caused the regression. Having this information available can
+  greatly speed up correcting the bug.
+</div>
+
 <h3 id="BugTracker">
   <span class="pull-right">
     <i class="fa fa-bug"></i> &nbsp;
