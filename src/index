@@ -18,7 +18,7 @@
   </div> <!-- row -->
 
   <div class="well example">
-    <h3>Converting <strong>videos</strong> and <strong>audios</strong> has never been so easy.
+    <h3>Converting <strong>video</strong> and <strong>audio</strong> has never been so easy.
     </h3>
     <pre>$ ffmpeg -i input.mp4 output.avi</pre>
     <div class="text-right">
