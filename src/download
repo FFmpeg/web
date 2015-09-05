@@ -135,7 +135,7 @@
               <i class="fa fa-git"></i>
               Snapshot
             </a> &nbsp;
-            <a href="http://git.videolan.org/?p=ffmpeg.git;a=tree" class="btn btn-success">
+            <a href="https://github.com/FFmpeg/FFmpeg" class="btn btn-success">
               Browse
             </a>
           </div>
