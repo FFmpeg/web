@@ -1,10 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="http://ffmpeg.org/releases/ffmpeg-2.7.2.tar.bz2" class="btn btn-success">
+    <a href="http://ffmpeg.org/releases/ffmpeg-2.8.tar.bz2" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download
-      <small>ffmpeg-2.7.2.tar.bz2</small>
+      <small>ffmpeg-2.8.tar.bz2</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
@@ -263,6 +263,48 @@
     selected changes from the development branch, which therefore receives much more
     and much faster bug fixes such as additional features and security patches.
   </p>
+
+
+  <a name="release_2.8"></a><h3>
+    FFmpeg 2.8 "Feynman"</h3>
+
+  <p>
+    2.8 was released on 2015-09-09. It is the latest stable FFmpeg release
+    from the 2.8 release branch, which was cut from master on 2015-09-05.
+    Amongst lots of other changes, it includes all changes from
+    ffmpeg-mt, libav master of 2015-08-28, libav 11 as of 2015-08-28.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      54. 31.100
+libavcodec     56. 60.100
+libavformat    56. 40.101
+libavdevice    56.  4.100
+libavfilter     5. 40.101
+libavresample   2.  1.  0
+libswscale      3.  1.101
+libswresample   1.  2.101
+libpostproc    53.  3.100</pre>
+
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-2.8.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-2.8.tar.xz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-2.8.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-2.8.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-2.8.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-2.8.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3 text-right">
+      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.8">Changelog</a></small>
+      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.8">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 
 
   <a name="release_2.7"></a><h3>

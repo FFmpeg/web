@@ -1,5 +1,24 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 2.8</h2>
+
+<h3>2.8</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2015-6818, 47f4e2d8960ca756ca153ab8e3e93d80449b8c91
+CVE-2015-6819, 84afc6b70d24fc0bf686e43138c96cf60a9445fe
+CVE-2015-6820, 79a98294da6cd85f8c86b34764c5e0c43b09eea3
+CVE-2015-6821, b160fc290cf49b516c5b6ee0730fd9da7fc623b1
+CVE-2015-6822, 39bbdebb1ed8eb9c9b0cd6db85afde6ba89d86e4
+CVE-2015-6823, f7068bf277a37479aecde2832208d820682b35e6
+CVE-2015-6824, a5d44d5c220e12ca0cb7a4eceb0f74759cb13111
+CVE-2015-6825, f1a38264f20382731cf2cc75fdd98f4c9a84a626
+CVE-2015-6826, 3197c0aa87a3b7190e17d49e6fbc7b554e4b3f0a
+</pre>
+
+
 <h2>FFmpeg 2.7</h2>
 
 <h3>2.7.2</h3>
