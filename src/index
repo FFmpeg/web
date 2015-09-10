@@ -37,6 +37,17 @@
     News
   </h1>
 
+  <a id="pr2.8"></a><h3>September 9th, 2015, FFmpeg 2.8</h3>
+  <p>
+    We published release <b><a href="download.html#release_2.8">2.8</a></b> as new major version.
+    It contains all features and bug fixes of the git master branch from September 8th. Please see
+    the <b><a href="https://raw.githubusercontent.com/FFmpeg/FFmpeg/release/2.8/Changelog">changelog</a></b>
+    for a list of the most important changes.
+  </p>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use current git master.
+  </p>
+
   <a id="message"></a><h3>August 1st, 2015, A message from the FFmpeg project</h3>
   <p>
     Dear multimedia community,
