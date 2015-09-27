@@ -37,6 +37,240 @@
     News
   </h1>
 
+  <a id="gsoc2015_result"></a><h3>September 29th, 2015, GSoC 2015 results</h3>
+
+  <p>
+    FFmpeg participated to the latest edition of
+    the <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2015">Google
+    Summer of Code</a> Project. FFmpeg got a total of 8 assigned
+    projects, and 7 of them were successful.
+  </p>
+
+  <p>We want to thank <a href="https://www.google.com">Google</a>, the
+    participating students, and especially the mentors who joined this
+    effort. We're looking forward to participating in the next GSoC
+    edition!
+  </p>
+
+  <p>
+    Below you can find a brief description of the final outcome of
+    each single project.
+  </p>
+
+  <h4>Basic servers for network protocols, mentee: Stephan Holljes, mentor: Nicolas George</h4>
+
+  <p>
+    Stephan Holljes's project for this session of Google Summer of Code was to
+    implement basic HTTP server features for libavformat, to complement the
+    already present HTTP client and RTMP and RTSP server code.
+  </p>
+
+  <p>
+    The first part of the project was to make the HTTP code capable of accepting
+    a single client; it was completed partly during the qualification period and
+    partly during the first week of the summer. Thanks to this work, it is now
+    possible to make a simple HTTP stream using the following commands:
+    <pre>
+      ffmpeg -i /dev/video0 -listen 1 -f matroska \
+      -c:v libx264 -preset fast -tune zerolatency http://:8080
+      ffplay http://localhost:8080/
+    </pre>
+  </p>
+
+  <p>
+    The next part of the project was to extend the code to be able to accept
+    several clients, simultaneously or consecutively. Since libavformat did not
+    have an API for that kind of task, it was necessary to design one. This part
+    was mostly completed before the midterm and applied shortly afterwards.
+    Since the ffmpeg command-line tool is not ready to serve several clients,
+    the test ground for that new API is an example program serving hard-coded
+    content.
+  </p>
+
+  <p>
+    The last and most ambitious part of the project was to update ffserver to
+    make use of the new API. It would prove that the API is usable to implement
+    real HTTP servers, and expose the points where more control was needed. By
+    the end of the summer, a first working patch series was undergoing code
+    review.
+  </p>
+
+  <h4>Browsing content on the server, mentee: Mariusz Szczepańczyk, mentor: Lukasz Marek</h4>
+
+  <p>
+    Mariusz finished an API prepared by the FFmpeg community and implemented
+    Samba directory listing as qualification task.
+  </p>
+
+  <p>
+    During the program he extended the API with the possibility to
+    remove and rename files on remote servers. He completed the
+    implementation of these features for file, Samba, SFTP, and FTP
+    protocols.
+  </p>
+
+  <p>
+    At the end of the program, Mariusz provided a sketch of an
+    implementation for HTTP directory listening.
+  </p>
+
+  <h4>Directshow digital video capture, mentee: Mate Sebok, mentor: Roger Pack</h4>
+
+  <p>
+    Mate was working on directshow input from digital video sources. He
+    got working input from ATSC input sources, with specifiable tuner.
+  </p>
+
+  <p>
+    The code has not been committed, but a patch of it was sent to the
+    ffmpeg-devel mailing list for future use.
+  </p>
+
+  <p>
+    The mentor plans on cleaning it up and committing it, at least for the
+    ATSC side of things. Mate and the mentor are still working trying to
+    finally figure out how to get DVB working.
+  </p>
+
+  <h4>Implementing full support for 3GPP Timed Text Subtitles, mentee: Niklesh Lalwani, mentor: Philip Langdale</h4>
+
+  <p>
+    Niklesh's project was to expand our support for 3GPP Timed Text
+    subtitles. This is the native subtitle format for mp4 containers, and
+    is interesting because it's usually the only subtitle format supported
+    by the stock playback applications on iOS and Android devices.
+  </p>
+
+  <p>
+    ffmpeg already had basic support for these subtitles which ignored all
+    formatting information - it just provided basic plain-text support.
+  </p>
+
+  <p>
+    Niklesh did work to add support on both the encode and decode side for
+    text formatting capabilities, such as font size/colour and effects like
+    bold/italics, highlighting, etc.
+  </p>
+
+  <p>
+    The main challenge here is that Timed Text handles formatting in a very
+    different way from most common subtitle formats. It uses a binary
+    encoding (based on mp4 boxes, naturally) and stores information
+    separately from the text itself. This requires additional work to track
+    which parts of the text formatting applies to, and explicitly dealing
+    with overlapping formatting (which other formats support but Timed
+    Text does not) so it requires breaking the overlapping sections into
+    separate non-overlapping ones with different formatting.
+  </p>
+
+  <p>
+    Finally, Niklesh had to be careful about not trusting any size
+    information in the subtitles - and that's no joke: the now infamous
+    Android stagefright bug was in code for parsing Timed Text subtitles.
+  </p>
+
+  <p>
+    All of Niklesh's work is committed and was released in ffmpeg 2.8.
+  </p>
+
+<h4>libswscale refactoring, mentee: Pedro Arthur, mentors: Michael Niedermayer, Ramiro Polla</h4>
+
+  <p>
+    Pedro Arthur has modularized the vertical and horizontal scalers.
+    To do this he designed and implemented a generic filter framework
+    and moved the existing scaler code into it. These changes now allow
+    easily adding removing, splitting or merging processing steps.
+    The implementation was benchmarked and several alternatives were
+    tried to avoid speedloss.
+  </p>
+
+  <p>
+    He also added gamma corrected scaling support.
+    An example to use gamma corrected scaling would be:
+    <pre>
+      ffmpeg -i input -vf scale=512:384:gamma=1 output
+    </pre>
+  </p>
+
+  <p>
+    Pedro has done impressive work considering the short time available,
+    and he is a FFmpeg committer now. He continues to contribute to
+    FFmpeg, and has fixed some bugs in libswscale after GSoC has
+    ended.
+  </p>
+
+  <h4>AAC Encoder Improvements, mentee: Rostislav Pehlivanov, mentor: Claudio Freire</h4>
+
+  <p>
+    Rostislav Pehlivanov has implemented PNS, TNS, I/S coding and main
+    prediction on the native AAC encoder. Of all those extensions, only
+    TNS was left in a less-than-usable state, but the implementation has
+    been pushed (disabled) anyway since it's a good basis for further
+    improvements.
+  </p>
+
+  <p>
+    PNS replaces noisy bands with a single scalefactor representing the
+    energy of that band, gaining in coding efficiency considerably, and
+    the quality improvements on low bitrates are impressive for such a
+    simple feature.
+  </p>
+
+  <p>
+    TNS still needs some polishing, but has the potential to reduce coding
+    artifacts by applying noise shaping in the temporal domain (something
+    that is a source of annoying, notable distortion on low-entropy
+    bands).
+  </p>
+
+  <p>
+    Intensity Stereo coding (I/S) can double coding efficiency by
+    exploiting strong correlation between stereo channels, most effective
+    on pop-style tracks that employ panned mixing. The technique is not as
+    effective on classic X-Y recordings though.
+  </p>
+
+  <p>
+    Finally, main prediction improves coding efficiency by exploiting
+    correlation among successive frames. While the gains have not been
+    huge at this point, Rostislav has remained active even after the GSoC,
+    and is polishing both TNS and main prediction, as well as looking for
+    further improvements to make.
+  </p>
+
+  <p>
+    In the process, the MIPS port of the encoder was broken a few times,
+    something he's also working to fix.
+  </p>
+
+  <h4>Animated Portable Network Graphics (APNG), mentee: Donny Yang, mentor: Paul B Mahol</h4>
+
+  <p>
+    Donny Yang implemented basic keyframe only APNG encoder as the
+    qualification task. Later he wrote interframe compression via
+    various blend modes. The current implementation tries all blend
+    modes and picks one which takes the smallest amount of memory.
+  </p>
+
+  <p>
+    Special care was taken to make sure that the decoder plays
+    correctly all files found in the wild and that the encoder
+    produces files that can be played in browsers that support APNG.
+  </p>
+
+  <p>
+    During his work he was tasked to fix any encountered bug in the
+    decoder due to the fact that it doesn't match APNG
+    specifications. Thanks to this work, a long standing bug in the
+    PNG decoder has been fixed.
+  </p>
+
+  <p>
+    For latter work he plans to continue working on the encoder,
+    making it possible to select which blend modes will be used in the
+    encoding process. This could speed up encoding of APNG files.
+  </p>
+
   <a id="pr2.8"></a><h3>September 9th, 2015, FFmpeg 2.8</h3>
   <p>
     We published release <b><a href="download.html#release_2.8">2.8</a></b> as new major version.
