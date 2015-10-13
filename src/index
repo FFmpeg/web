@@ -214,7 +214,7 @@
     and moved the existing scaler code into it. These changes now allow
     easily adding removing, splitting or merging processing steps.
     The implementation was benchmarked and several alternatives were
-    tried to avoid speedloss.
+    tried to avoid speed loss.
   </p>
 
   <p>
