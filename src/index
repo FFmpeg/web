@@ -37,6 +37,39 @@
     News
   </h1>
 
+  <a id="thanks_sponsor_0001"></a><h3>Telepoint & MediaHub are now supporting our project</h3>
+  <p>
+    A big thank you note goes to our newest supporters: MediaHub and Telepoint.
+    Both companies have donated a dedicated server with free of charge internet
+    connectivity. Here is a little bit about them in their own words:
+  </p>
+
+  <ul>
+    <li>
+      <p>
+        <a href="http://www.telepoint.bg/en">Telepoint</a> is the biggest
+        carrier-neutral data center in Bulgaria. Located in the heart of Sofia
+        on a cross-road of many Bulgarian and International networks, the
+        facility is a fully featured Tier 3 data center that provides flexible
+        customer-oriented colocation solutions (ranging from a server to a
+        private collocation hall) and a high level of security.
+      </p>
+    </li>
+
+    <li>
+      <p>
+        MediaHub Ltd. is a Bulgarian IPTV platform and services provider which
+        uses FFmpeg heavily since it started operating a year ago. <i>"Donating
+        to help keep FFmpeg online is our way of giving back to the community"
+        </i>.
+      </p>
+    </li>
+  </ul>
+
+  <p>
+    Thanks Telepoint and MediaHub for their support!
+  </p>
+
   <a id="gsoc2015_result"></a><h3>September 29th, 2015, GSoC 2015 results</h3>
 
   <p>
