@@ -55,23 +55,19 @@
             <div class="list-group">
               <a class="list-group-item" href="https://tracker.debian.org/pkg/ffmpeg">
                 <strong>Debian</strong> – Official packages for Stable-Backports, Testing, Unstable
-                (amd64, arm64, armel, armhf, i386, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, ppc64el, s390x)
               </a>
               <a class="list-group-item" href="http://www.deb-multimedia.org/">
                 <strong>Debian</strong> – deb-multimedia packages for Oldstable, Stable, Testing, Unstable
-                (amd64, armel, armhf, i386, ia64, kfreebsd-amd64, kfreebsd-i386, mips, mipsel, powerpc, sparc)
               </a>
               <a href="https://launchpad.net/ubuntu/+source/ffmpeg" class="list-group-item">
                 <strong>Ubuntu</strong> – Official packages for Vivid, Wily, Xenial
-                (amd64, arm64, armhf, i386, powerpc, ppc64el)
               </a>
               <a href="https://launchpad.net/~mc3man/+archive/ubuntu/trusty-media" class="list-group-item">
                 <strong>Ubuntu</strong> – Ubuntu Multimedia for Trusty PPA. Provides static binaries
                 from most recent release branch.
-                (amd64, i386)
               </a>
               <a class="list-group-item" href="http://rpmfusion.org/">
-                <strong>Fedora</strong> and <strong>Red Hat Enterprise Linux</strong> packages (i386, x86_64)
+                <strong>Fedora</strong> and <strong>Red Hat Enterprise Linux</strong> packages
               </a>
             </div> <!-- list-group -->
 
