@@ -194,7 +194,7 @@
       <tbody>
         <tr>
           <td>
-            <div class="pull-left"><a href="git://source.ffmpeg.org/ffmpeg.git">git://source.ffmpeg.org/ffmpeg.git</a></div>
+            <div class="pull-left"><a href="http://source.ffmpeg.org/git/ffmpeg.git">http://source.ffmpeg.org/git/ffmpeg.git</a></div>
             <div class="pull-right">
               <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git">Browse</a>
             </div>
