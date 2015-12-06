@@ -37,6 +37,32 @@
     News
   </h1>
 
+  <a id="aac_encoder_stable"></a><h3>The native FFmpeg AAC encoder is now stable!</h3>
+  <p>
+    After seven years the native FFmpeg AAC encoder has had its experimental flag
+    removed and declared as ready for general use. The encoder is transparent
+    at 128kbps for most samples tested with artifacts only appearing in extreme
+    cases. Subjective quality tests put the encoder to be of equal or greater
+    quality than most of the other encoders available to the public.
+  </p>
+  <p>
+    Licensing has always been an issue with encoding AAC audio as most of the
+    encoders have had a license making FFmpeg unredistributable if compiled with
+    support for them. The fact that there now exists a fully open and truly
+    free AAC encoder integrated directly within the project means a lot to those
+    who wish to use accepted and widespread standards.
+  </p>
+  <p>
+    The majority of the work done to bring the encoder up to quality was started
+    during this year's GSoC by developer Claudio Freire and Rostislav Pehlivanov.
+    Both continued to work on the encoder with the latter joining as a developer
+    and mainainer, working on other parts of the project as well. Also, thanks
+    to <a href="http://d.hatena.ne.jp/kamedo2/">Kamedo2</a> who does comparisons
+    and tests, the original authors and all past and current contributors to the
+    encoder. Users are suggested and encouraged to use the encoder and provide
+    feedback or breakage reports through our <a href="https://trac.ffmpeg.org/">bug tracker</a>.
+  </p>
+
   <a id="thanks_sponsor_0001"></a><h3>Telepoint & MediaHub are now supporting our project</h3>
   <p>
     A big thank you note goes to our newest supporters: MediaHub and Telepoint.
