@@ -131,7 +131,7 @@
           by using the command:
         </p>
 
-        <pre>git clone http://source.ffmpeg.org/git/ffmpeg.git ffmpeg</pre>
+        <pre>git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg</pre>
 
         <div>
           <div class="pull-right">
