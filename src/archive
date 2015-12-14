@@ -1,6 +1,6 @@
 
 
-  <a id="logo_art_contest_autumn-2013"></a><h3>August 22, 2013, Autumn Website Banner Contest</h3>
+  <h3 id="logo_art_contest_autumn-2013">August 22, 2013, Autumn Website Banner Contest</h3>
   <p>
     Welcome art-inclined readers of this rather technical website!
   </p>
@@ -24,7 +24,7 @@
     And as always: Happy painting!
   </p>
 
-  <a id="pr2.0"></a><h3>July 10, 2013, FFmpeg 2.0</h3>
+  <h3 id="pr2.0">July 10, 2013, FFmpeg 2.0</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.0">2.0</a></b>)
     It contains all features and bugfixes of the git master branch from 10th July.
@@ -106,7 +106,7 @@
   </p>
 
 
-  <a id="speech"></a><h3>June 5, 2013, Request for speech codec samples</h3>
+  <h3 id="speech">June 5, 2013, Request for speech codec samples</h3>
   <p>
     FFmpeg developers want to support more voice and speech codecs.
     We are looking for samples of EVRC-WB , EVRC-B and SMV codecs.
@@ -118,7 +118,7 @@
   </p>
 
 
-  <a id="lt2013"></a><h3>April 28, 2013, LinuxTag</h3>
+  <h3 id="lt2013">April 28, 2013, LinuxTag</h3>
   <p>
     We happily announce that FFmpeg will be represented at LinuxTag in
     Berlin, Germany. The event will take place from 22nd to 25th of May.
@@ -138,7 +138,7 @@
   </p>
 
 
-  <a id="pr1.2"></a><h3>March 15, 2013, FFmpeg 1.2</h3>
+  <h3 id="pr1.2">March 15, 2013, FFmpeg 1.2</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_1.2">1.2</a></b>)
     It contains all features and bugfixes of the git master branch from 7th march.
@@ -173,7 +173,7 @@
   </p>
 
 
-  <a id="logo_art_contest_spring-2013"></a><h3>February 10, 2013, Spring Website Banner Contest</h3>
+  <h3 id="logo_art_contest_spring-2013">February 10, 2013, Spring Website Banner Contest</h3>
   <p>
     Spring is approaching on the northern hemisphere. So it is time to announce another episode of our
     seasonal art contest.
@@ -193,7 +193,7 @@
   </p>
 
 
-  <a id="clt2013"></a><h3>February 4, 2013, Chemnitzer Linux-Tage</h3>
+  <h3 id="clt2013">February 4, 2013, Chemnitzer Linux-Tage</h3>
   <p>
     We happily announce that FFmpeg will be represented at `Chemnitzer Linux-Tage'
     in Chemnitz, Germany. The event will take place on 16th and 17th of March.
@@ -213,7 +213,7 @@
   </p>
 
 
-  <a id="pr1.1"></a><h3>January, 7, 2013, FFmpeg 1.1</h3>
+  <h3 id="pr1.1">January, 7, 2013, FFmpeg 1.1</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_1.1">1.1</a></b>)
     It contains all features and bugfixes of the git master branch. A partial list of
@@ -283,7 +283,7 @@
     current git master.
   </p>
 
-  <a id="news-30122012"></a><h3>December 30, 2012, Recent Developments</h3>
+  <h3 id="news-30122012">December 30, 2012, Recent Developments</h3>
   <p>
     Before this year ends we want to use the occasion and give you some news about
     recent developments in FFmpeg.
@@ -393,7 +393,7 @@
     <i>We wish you all a happy new year!</i>
   </p>
 
-  <a id="logo_art_contest_winter-2012"></a><h3>November 14, 2012, Winter Website Banner Contest</h3>
+  <h3 id="logo_art_contest_winter-2012">November 14, 2012, Winter Website Banner Contest</h3>
   <p>
     As the days are getting shorter for some of us, we are proud to announce
     a new episode of our FFmpeg seasonal banners contest! This is your chance
@@ -418,7 +418,7 @@
     Frosty painting!
   </p>
 
-  <a id="pr1.0"></a><h3>September, 28, 2012, FFmpeg 1.0</h3>
+  <h3 id="pr1.0">September, 28, 2012, FFmpeg 1.0</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_1.0">1.0</a></b>)
     It contains all features and bugfixes of the git master branch. A partial list of
@@ -496,7 +496,7 @@
     current git master.
   </p>
 
-<a id="logo_art_contest_autumn-2012"></a><h3>August 29, 2012, Autumn Website Banner Contest</h3>
+<h3 id="logo_art_contest_autumn-2012">August 29, 2012, Autumn Website Banner Contest</h3>
 <p>
 It is about time for the next seasonal banner. Soon the leaves will be
 starting to change colors on the northern hemisphere and we are seeking
@@ -523,7 +523,7 @@ about this contest.
 Happy painting!
 </p>
 
-<a id="socis_2012"></a><h3>July 18, 2012, SOCIS</h3>
+<h3 id="socis_2012">July 18, 2012, SOCIS</h3>
 <p>
 FFmpeg has been accepted to take part in the
 <a href="http://sophia.estec.esa.int/socis2012/">ESA Summer of Code In
@@ -532,7 +532,7 @@ href="http://wiki.multimedia.cx/index.php?title=FFmpeg_Summer_Of_Code_In_Space_2
 page</a> and get in touch with us as soon as possible!
 </p>
 
-<a id="donations-201207"></a><h3>July, 5, 2012, Donations</h3>
+<h3 id="donations-201207">July, 5, 2012, Donations</h3>
 <p>We're glad to announce that FFmpeg has been accepted as <a
 href="http://www.spi-inc.org/projects/ffmpeg/">SPI associated
 project</a>.</p>
@@ -550,7 +550,7 @@ meetings and events in the project interest area, and to support
 internal development or educational projects or any other activity
 promoting FFmpeg.</p>
 
-<a id="pr11.1"></a><h3>June, 7, 2012, FFmpeg 0.11.1</h3>
+<h3 id="pr11.1">June, 7, 2012, FFmpeg 0.11.1</h3>
 <p>
 We have made a new point releases (<b><a href="download.html#release_0.11">0.11.1</a></b>).
 It contains about 70 bugfixes, some possibly security relevant.
@@ -558,7 +558,7 @@ It contains about 70 bugfixes, some possibly security relevant.
 We recommend users, distributors and system integrators to upgrade to 0.11.1 or git master.
 </p>
 
-<a id="pr11"></a><h3>May, 25, 2012, FFmpeg 0.11</h3>
+<h3 id="pr11">May, 25, 2012, FFmpeg 0.11</h3>
 <p>
 We have made a new major release (<b><a href="download.html#release_0.11">0.11</a></b>)
 It contains all features and bugfixes of the git master branch. A partial list of
@@ -610,7 +610,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-<a id="pr0811"></a><h3>April 12, 2012, FFmpeg 0.7.12 / 0.8.11</h3>
+<h3 id="pr0811">April 12, 2012, FFmpeg 0.7.12 / 0.8.11</h3>
 <p>
 We have made two new point releases (<b><a href="download.html#release_0.7">0.7.12</a></b> and <b><a href="download.html#release_0.8">0.8.11</a></b>).
 An abbreviated list of changes is below:
@@ -624,7 +624,7 @@ See the changelog for details.
 We recommend distributors and system integrators to upgrade to 0.10.2 or git master when possible though.
 </p>
 
-<a id="up201204"></a><h3>April, 4, 2012, Server Upgrade</h3>
+<h3 id="up201204">April, 4, 2012, Server Upgrade</h3>
 <p>
 Today our main server has been upgraded due to performance issues with <a href="http://trac.ffmpeg.org">our bug tracker</a>.
 While investigating the speed issues, we also took the opportunity to add voting
@@ -632,7 +632,7 @@ support to bug reports and wiki pages, so you can now "tell" us which issues
 you want us to work on first.
 </p>
 
-<a id="pr0101"></a><h3>March, 17, 2012, FFmpeg 0.10.1</h3>
+<h3 id="pr0101">March, 17, 2012, FFmpeg 0.10.1</h3>
 <p>
 We have made a new point release (<b><a href="download.html#release_0.10">0.10.1</a></b>)
 It contains some security fixes, over 100 bugfixes and some new features like the swapuv
@@ -641,7 +641,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-<a id="pr10"></a><h3>January, 27, 2012, FFmpeg 0.10</h3>
+<h3 id="pr10">January, 27, 2012, FFmpeg 0.10</h3>
 <p>
 We have made a new major release (<b><a href="download.html#release_0.10">0.10</a></b>)
 It contains all features and bugfixes of the git master branch. A partial list of
@@ -690,7 +690,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-<a id="forgotpatch"></a><h3>January 24, 2012, Forgotten Patches</h3>
+<h3 id="forgotpatch">January 24, 2012, Forgotten Patches</h3>
 <p>FFmpeg development has gone into OVERDRIVE. Over the years we have
 missed patches, so we need your help to locate old unapplied patches to review again.
 </p>
@@ -707,7 +707,7 @@ reviewed and fixed up for inclusion. Want to add BluRay support? We're intereste
 </p>
 
 
-<a id="clt2012"></a><h3>January 16, 2012, Chemnitzer Linux-Tage</h3>
+<h3 id="clt2012">January 16, 2012, Chemnitzer Linux-Tage</h3>
 <p>
   We happily announce that FFmpeg will be represented at `Chemnitzer Linux-Tage'
 in Chemnitz, Germany. The event will take place on 17th and 18th of March.
@@ -723,7 +723,7 @@ There we will demonstrate usage of FFmpeg, answer your questions and listen to
 your problems and wishes.
 </p>
 
-<a id="pr0810"></a><h3>January 12, 2012, FFmpeg 0.8.10, 0.7.11, 0.6.5, 0.5.8</h3>
+<h3 id="pr0810">January 12, 2012, FFmpeg 0.8.10, 0.7.11, 0.6.5, 0.5.8</h3>
 <p>
 We have made 4 new point releases, (<b><a href="download.html#release_0.5">0.5.8</a></b>,
 <b><a href="download.html#release_0.6">0.6.5</a></b>,
@@ -735,7 +735,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master. We recommend everyone to upgrade to at least 0.7.11, 0.8.10 or 0.9.1.
 </p>
 
-<a id="pr091"></a><h3>January 5, 2012, FFmpeg 0.9.1</h3>
+<h3 id="pr091">January 5, 2012, FFmpeg 0.9.1</h3>
 <p>
 We have made a new point release, (<b><a href="download.html#release_0.9">0.9.1</a></b>).
 It contains many bug and security fixes, amongth them CVE-2011-3893 and CVE-2011-3895.
@@ -744,7 +744,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-<a id="prchr2011"></a><h3>December 25, 2011, FFmpeg 0.5.7, 0.6.4, 0.7.9, 0.8.8</h3>
+<h3 id="prchr2011">December 25, 2011, FFmpeg 0.5.7, 0.6.4, 0.7.9, 0.8.8</h3>
 <p>
 We have made 4 new point releases, (<b><a href="download.html#release_0.5">0.5.7</a></b>,
 <b><a href="download.html#release_0.6">0.6.4</a></b>,
@@ -758,7 +758,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master. We recommend everyone to upgrade to at least 0.7.8, 0.8.7 or 0.9.
 </p>
 
-<a id="call_for_maintainers"></a><h3>December 23, 2011, Call For Maintainers</h3>
+<h3 id="call_for_maintainers">December 23, 2011, Call For Maintainers</h3>
 <p>
 FFmpeg is moving faster than ever before, and with your help we could move even
 faster. If you know C and git and want to maintain some part of FFmpeg you can
@@ -777,7 +777,7 @@ distributions. If you have questions, just ask on
 mailing list or our IRC channel #ffmpeg-devel.
 </p>
 
-<a id="logowinter"></a><h3>December 20, 2011, Winter logo</h3>
+<h3 id="logowinter">December 20, 2011, Winter logo</h3>
 <p>
 Our winter logo has been drawn by Daniel Perez from
 <a href="http://www.google-melange.com/gci/homepage/google/gci2011">Google Code-In</a>.
@@ -791,7 +791,7 @@ project page if you would like to contribute.
 We would also like to thank our students who have already participated.
 </p>
 
-<a id="pr9"></a><h3>December 11, 2011, FFmpeg 0.9</h3>
+<h3 id="pr9">December 11, 2011, FFmpeg 0.9</h3>
 <p>
 We have made a new major release (<b><a href="download.html#release_0.9">0.9</a></b>)
 It contains all features and bugfixes of the git master branch. A partial list of
@@ -863,7 +863,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-<a id="donate2011"></a><h3>December 10, 2011, Donations</h3>
+<h3 id="donate2011">December 10, 2011, Donations</h3>
 <p>
 Want to donate to FFmpeg? Well, theres no way to do that currently. Luckily
 we don't need any money. But there are many not for profit organizations with
@@ -871,7 +871,7 @@ noble goals that do. Select one of your choice that you trust and agree with
 their goals and instead of donating to FFmpeg, send your donation to them.
 </p>
 
-<a id="gci2011"></a><h3>November 29, 2011, Google Code-in</h3>
+<h3 id="gci2011">November 29, 2011, Google Code-in</h3>
 <p>
 The FFmpeg project participates for the first time in
 <a href="http://code.google.com/opensource/gci/2011-12/index.html">Google Code-in</a>.
@@ -881,20 +881,19 @@ T-Shirt or some money from google and at the same time have some
 fun and contribute to a Free software project.
 </p>
 
-<a id="pr7dot8and8dot7"></a><h3>November 21, 2011</h3>
+<h3 id="pr7dot8and8dot7">November 21, 2011</h3>
 <p>
 We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.8</a></b> and <b><a href="download.html#release_0.8">0.8.7</a></b>) that fix many bugs, several of which are security relevant. Amongth them NGS00144, NGS00145 and NGS00148.
 We recommend users, distributors and system integrators to upgrade unless they use
 current git master.
 </p>
 
-<a id="Zensoren"></a>
-<h3><a style="position: absolute; z-index:5000" href="http://americancensorship.org"><img src="http://americancensorship.org/images/stop-censorship-small.png" alt="stop censorship logo" /></a>November 20, 2011</h3>
+<h3 id="Zensoren"><a style="position: absolute; z-index:5000" href="http://americancensorship.org"><img src="http://americancensorship.org/images/stop-censorship-small.png" alt="stop censorship logo" /></a>November 20, 2011</h3>
 <p>
 FFmpeg supports the fight against American Internet censorship.
 </p>
 
-<a id="pr5dot5"></a><h3>November 6, 2011</h3>
+<h3 id="pr5dot5">November 6, 2011</h3>
 <p>
 We have made a new point release (<b><a href="download.html#release_0.5">0.5.5</a></b>)
 from the old 0.5 branch. It fixes many serious security issues, a partial list is below.
@@ -942,7 +941,7 @@ ecd6fa11 Check for invalid packet size in the smacker demuxer.
 We recommend distributors and system integrators whenever possible to upgrade to 0.7.7, 0.8.6 or git master. But when this is not possible 0.5.5 is more secure than previous releases from the 0.5 branch. If you are looking for an updated 0.6 release, please consider 0.7.7 which is ABI compatible and contains a huge number of security fixes that are missing in 0.6.*.
 </p>
 
-<a id="pr7dot7and8dot6"></a><h3>November 4, 2011</h3>
+<h3 id="pr7dot7and8dot6">November 4, 2011</h3>
 <p>
 We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.7</a></b> and <b><a href="download.html#release_0.8">0.8.6</a></b>) that fix around 90 bugs, several of which
 are security relevant.
@@ -950,7 +949,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-  <a id="libmodplug"></a><h3>October 29, 2011</h3>
+  <h3 id="libmodplug">October 29, 2011</h3>
 <p>
     New stuff in git master:
 </p>
@@ -974,7 +973,7 @@ cache urlprotocol
 many bugfixes and many other things
 </pre>
 
-<a id="pr7dot6and8dot5"></a><h3>October 2, 2011</h3>
+<h3 id="pr7dot6and8dot5">October 2, 2011</h3>
 <p>
 We have made 2 new point releases (<b><a href="download.html#release_0.7">0.7.6</a></b> and <b><a href="download.html#release_0.8">0.8.5</a></b>) that fix security issues in
 </p>
@@ -1019,7 +1018,7 @@ We recommend users, distributors and system integrators to upgrade unless they u
 current git master.
 </p>
 
-<a id="libaacplus"></a><h3>September 28, 2011</h3>
+<h3 id="libaacplus">September 28, 2011</h3>
 <p>
     New stuff in git master:
 </p>
@@ -1042,7 +1041,7 @@ current git master.
     ...
 </pre>
 
-<a id="pr7dot5and8dot4"></a><h3>September 22, 2011</h3>
+<h3 id="pr7dot5and8dot4">September 22, 2011</h3>
 <p>
 We have made 2 new point releases that fix more security issues.
 They also include many bugfixes and a few backported features, for
@@ -1052,7 +1051,7 @@ Grab them from our <b><a href="download.html#release_0.8">download page</a></b>.
 or even better use latest git master.
 </p>
 
-<a id="prores"></a><h3>September 15, 2011</h3>
+<h3 id="prores">September 15, 2011</h3>
 <p>
 FFmpeg now has a ProRes decoder in master git.
 </p>
@@ -1081,7 +1080,7 @@ Radius DV YUV PAL/NTSC	R420 R411
 </pre>
 
 
-<a id="pr7dot4and8dot3"></a><h3>September 7, 2011</h3>
+<h3 id="pr7dot4and8dot3">September 7, 2011</h3>
 <p>
 We have made 2 new point releases that fix several security issues,
 amongth them MSVR-11-0088.
@@ -1091,7 +1090,7 @@ Grab them from our <b><a href="download.html#release_0.8">download page</a></b>.
 or even better use latest git master.
 </p>
 
-<a id="h264422intra"></a><h3>August 29, 2011</h3>
+<h3 id="h264422intra">August 29, 2011</h3>
 <p>
 We have added support for H.264 4:2:2 intra, there are some new
 8-&gt;10bit fixes in swscale, ffplay has more accurate AV-sync, ogg
@@ -1099,7 +1098,7 @@ duration is more accurate now, we can decode WMVP and WVP2 streams
 and many many other new things and bugfixes. All in ffmpeg git master.
 </p>
 
-<a id="pr7dot2and8dot1"></a><h3>July 28, 2011</h3>
+<h3 id="pr7dot2and8dot1">July 28, 2011</h3>
 <p>
 We have made 2 new point releases that fix several security issues,
 amongth them MSVR-11-0080.
@@ -1109,7 +1108,7 @@ Grab them from our <b><a href="download.html#release_0.8">download page</a></b>.
 or even better use latest git master.
 </p>
 
-<a id="pr7dot1and8"></a><h3>June 24, 2011</h3>
+<h3 id="pr7dot1and8">June 24, 2011</h3>
 <p>
 Instead of having fun outside in the warm summer months, we have made a
 <b>new release: <a href="download.html#release_0.8">FFmpeg 0.8</a></b>!
@@ -1124,7 +1123,7 @@ while being compatible with the 0.6 ABI and API. It has a few missing features,
 read the Changelog for more information.
 </p>
 
-<a id="x264_presets"></a><h3>May 3, 2011</h3>
+<h3 id="x264_presets">May 3, 2011</h3>
 <p>
 FFmpeg now accesses x264 presets via libx264. This extends functionality by
 introducing several new libx264 options including <i>-preset</i>, <i>-tune</i>,
@@ -1139,7 +1138,7 @@ The syntax has changed so be sure to update your commands. Example:
 ffmpeg -i input -vcodec libx264 -preset fast -tune film -profile main -crf 22 -threads 0 output
 </pre>
 
-<a id="oldabi"></a><h3>April 27, 2011</h3>
+<h3 id="oldabi">April 27, 2011</h3>
 <p>
 FFmpeg now has an oldabi branch. It is updated to master but with the old ABI.
 Only fixes that break the old ABI are missing from this branch.
@@ -1157,13 +1156,13 @@ To get back to latest FFmpeg, just run:
 git checkout master
 </pre>
 
-<a id="tenbith264"></a><h3>April 14, 2011</h3>
+<h3 id="tenbith264">April 14, 2011</h3>
 <p>
 FFmpeg can now decode 9-bit and 10-bit H.264 streams,
 used in particular by AVCIntra 50.
 </p>
 
-<a id="rc_0.6.90"></a><h3>April 4, 2011</h3>
+<h3 id="rc_0.6.90">April 4, 2011</h3>
 <p>
 In order to supply our release users with the newest features and bug
 fixes we are in the process of making a new release. The release will
@@ -1173,7 +1172,7 @@ to the previous release.
 Please <a href="download.html#release_0.6">download</a> the release candidate and report problems to our <a href="bugreports.html">bug tracker</a>.
 </p>
 
-<a id="win32_builds"></a><h3>March 30, 2011</h3>
+<h3 id="win32_builds">March 30, 2011</h3>
 <p>
 Win32 and Win64 builds of FFmpeg are now available at
 <a href="http://ffmpeg.zeranoe.com/builds/">http://ffmpeg.zeranoe.com/builds/</a>
@@ -1184,7 +1183,7 @@ Please report any bugs to our
 <a href="https://trac.ffmpeg.org">bug tracker</a>.
 </p>
 
-<a id="mt_merge"></a><h3>March 21, 2011</h3>
+<h3 id="mt_merge">March 21, 2011</h3>
 
 <p>
 Today <a href="http://gitorious.org/ffmpeg/ffmpeg-mt">FFmpeg-mt</a>, the
@@ -1199,7 +1198,7 @@ Testing is appreciated and if you find any bugs please report them to our
 </p>
 
 
-<a id="mailing_list_migration"></a><h3>March 21, 2011</h3>
+<h3 id="mailing_list_migration">March 21, 2011</h3>
 
 <p>
 The mailing lists have been fully migrated to ffmpeg.org!
@@ -1241,7 +1240,7 @@ posted.
 </li>
 </ul>
 
-<a id="FF054"></a><h3>March 17, 2011</h3>
+<h3 id="FF054">March 17, 2011</h3>
 
 <p>
 Reinhard Tartler backported several security fixes to the 0.5 release branch and
@@ -1262,7 +1261,7 @@ and not so interesting for end users.
 </pre>
 
 
-<a id="return_to_freedom"></a><h3>March 15, 2011</h3>
+<h3 id="return_to_freedom">March 15, 2011</h3>
 
 <p>
 FFmpeg has been forked by some developers after their attempted
@@ -1292,7 +1291,7 @@ href="http://dir.gmane.org/gmane.comp.video.ffmpeg.devel">http://dir.gmane.org/g
 </ul>
 
 
-<a id="svn_to_git"></a><h3>February 24, 2011</h3>
+<h3 id="svn_to_git">February 24, 2011</h3>
 
 <p>
 FFmpeg development has moved to Git, and the SVN repository is no longer
@@ -1305,7 +1304,7 @@ The last revision committed to SVN was r26402 on 2011-01-19 and replaced
 the svn:external libswscale with a standalone copy.
 </p>
 
-<a id="release_0.6.1"></a><h3>Oct 18, 2010</h3>
+<h3 id="release_0.6.1">Oct 18, 2010</h3>
 
 <p>
 We have just pushed the first point release from our 0.6 release branch:
@@ -1328,7 +1327,7 @@ patches against our release branches.
 </p>
 
 
-<a id="release_0.6"></a><h3>June 15, 2010</h3>
+<h3 id="release_0.6">June 15, 2010</h3>
 
 <p>
 A bit longer than actually expected, but finally, we are proud to announce
@@ -1416,14 +1415,14 @@ codecs, such as:
 </ul>
 
 
-<a id="linuxtag_2010"></a><h3>June 2, 2010</h3>
+<h3 id="linuxtag_2010">June 2, 2010</h3>
 <p>
 We are pleased to announce that FFmpeg will be present at LinuxTag in
 Berlin June 9-12 where we will be showing some spectacular demos.
 There will also be some trolls.
 </p>
 
-<a id="release_0.5.2"></a><h3>May 25, 2010</h3>
+<h3 id="release_0.5.2">May 25, 2010</h3>
 <p>
 We have just pushed out another point release from our 0.5 release branch:
 <a href="download.html#release_0.5">FFmpeg 0.5.2</a>.
@@ -1432,7 +1431,7 @@ and portability issues. Distributors and system integrators are encouraged
 to update and share their patches against this branch.
 </p>
 
-<a id="gsoc_2010"></a><h3>March 19, 2010</h3>
+<h3 id="gsoc_2010">March 19, 2010</h3>
 <p>
 Once again, FFmpeg has been accepted to take part in the
 <a href="http://code.google.com/soc/">Google Summer of Code</a>. Here is the
@@ -1468,7 +1467,7 @@ you will get used to our development methodology. You have until the application
 deadline to complete your small task. Good luck!
 </p>
 
-<a id="release_0.5.1"></a><h3>March 2, 2010</h3>
+<h3 id="release_0.5.1">March 2, 2010</h3>
 <p>
 We have just pushed out a point release from our 0.5 release
 branch: <a href="download.html#release_0.5">FFmpeg 0.5.1</a>. This
@@ -1670,7 +1669,7 @@ better receive support and support each other. Interested parties can subscribe
 and view the archives via the <a href="contact.html">contact page</a>.
 </p>
 
-<a id="release_0.5"></a><h3>March 10, 2009</h3>
+<h3 id="release_0.5">March 10, 2009</h3>
 <p>
 It has been a very long time since we last made a release and many did not think
 we would make one again but, back by popular demand, we are proud to announce

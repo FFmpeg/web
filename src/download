@@ -270,8 +270,7 @@
   </p>
 
 
-  <a name="release_2.8"></a><h3>
-    FFmpeg 2.8.3 "Feynman"</h3>
+  <h3 id="release_2.8">FFmpeg 2.8.3 "Feynman"</h3>
 
   <p>
     2.8.3 was released on 2015-11-27. It is the latest stable FFmpeg release
@@ -312,8 +311,7 @@ libpostproc    53.  3.100</pre>
   </div> <!-- row -->
 
 
-  <a name="release_2.7"></a><h3>
-    FFmpeg 2.7.3 "Nash"</h3>
+  <h3 id="release_2.7">FFmpeg 2.7.3 "Nash"</h3>
 
   <p>
     2.7.3 was released on 2015-11-19. It is the latest stable FFmpeg release
@@ -354,8 +352,7 @@ libpostproc    53.  3.100</pre>
   </div> <!-- row -->
 
 
-  <a name="release_2.6"></a><h3>
-    FFmpeg 2.6.5 "Grothendieck"</h3>
+  <h3 id="release_2.6">FFmpeg 2.6.5 "Grothendieck"</h3>
 
   <p>
     2.6.5 was released on 2015-11-23. It is the latest stable FFmpeg release
@@ -396,8 +393,7 @@ libpostproc    53.  3.100</pre>
   </div> <!-- row -->
 
 
-  <a name="release_2.5"></a><h3>
-    FFmpeg 2.5.9 "Bohr"</h3>
+  <h3 id="release_2.5">FFmpeg 2.5.9 "Bohr"</h3>
 
   <p>
     2.5.9 was released on 2015-12-07. It is the latest stable FFmpeg release
@@ -438,8 +434,7 @@ libpostproc    53.  3.100</pre>
   </div> <!-- row -->
 
 
-  <a name="release_2.4"></a><h3>
-    FFmpeg 2.4.12 "Fresnel"</h3>
+  <h3 id="release_2.4">FFmpeg 2.4.12 "Fresnel"</h3>
 
   <p>
     2.4.12 was released on 2015-12-10. It is the latest stable FFmpeg release
@@ -476,8 +471,7 @@ libpostproc    53.  0.100</pre>
   </div> <!-- row -->
 
 
-  <a name="old_releases"></a>
-  <h3>Old Releases</h3>
+  <h3 id="old_releases">Old Releases</h3>
   <p>
     Older versions are available at the <a href="olddownload.html">Old
       Releases</a> page.

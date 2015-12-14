@@ -37,7 +37,7 @@
     News
   </h1>
 
-  <a id="aac_encoder_stable"></a><h3>The native FFmpeg AAC encoder is now stable!</h3>
+  <h3 id="aac_encoder_stable">The native FFmpeg AAC encoder is now stable!</h3>
   <p>
     After seven years the native FFmpeg AAC encoder has had its experimental flag
     removed and declared as ready for general use. The encoder is transparent
@@ -63,7 +63,7 @@
     feedback or breakage reports through our <a href="https://trac.ffmpeg.org/">bug tracker</a>.
   </p>
 
-  <a id="thanks_sponsor_0001"></a><h3>Telepoint & MediaHub are now supporting our project</h3>
+  <h3 id="thanks_sponsor_0001">Telepoint & MediaHub are now supporting our project</h3>
   <p>
     A big thank you note goes to our newest supporters: MediaHub and Telepoint.
     Both companies have donated a dedicated server with free of charge internet
@@ -96,7 +96,7 @@
     Thanks Telepoint and MediaHub for their support!
   </p>
 
-  <a id="gsoc2015_result"></a><h3>September 29th, 2015, GSoC 2015 results</h3>
+  <h3 id="gsoc2015_result">September 29th, 2015, GSoC 2015 results</h3>
 
   <p>
     FFmpeg participated to the latest edition of
@@ -330,7 +330,7 @@
     encoding process. This could speed up encoding of APNG files.
   </p>
 
-  <a id="pr2.8"></a><h3>September 9th, 2015, FFmpeg 2.8</h3>
+  <h3 id="pr2.8">September 9th, 2015, FFmpeg 2.8</h3>
   <p>
     We published release <b><a href="download.html#release_2.8">2.8</a></b> as new major version.
     It contains all features and bug fixes of the git master branch from September 8th. Please see
@@ -341,7 +341,7 @@
     We recommend users, distributors and system integrators to upgrade unless they use current git master.
   </p>
 
-  <a id="message"></a><h3>August 1st, 2015, A message from the FFmpeg project</h3>
+  <h3 id="message">August 1st, 2015, A message from the FFmpeg project</h3>
   <p>
     Dear multimedia community,
   </p>
@@ -371,7 +371,7 @@
     The FFmpeg project.
   </p>
 
-  <a id="needhost"></a><h3>July 4th, 2015, FFmpeg needs a new host</h3>
+  <h3 id="needhost">July 4th, 2015, FFmpeg needs a new host</h3>
   <p><b>UPDATE:</b> We have received more than 7 offers for hosting and servers, thanks a lot to everyone!</p>
   <p>
     After graciously hosting our projects (<a href="http://www.ffmpeg.org">FFmpeg</a>, <a href="http://www.mplayerhq.hu">MPlayer</a>
@@ -385,7 +385,7 @@
     We use about 4TB of storage and at least 4TB of bandwidth / month for various mailing lists, <a href="http://trac.ffmpeg.org">trac</a>, <a href="http://samples.ffmpeg.org">samples repo</a>, svn, etc.
   </p>
 
-  <a id="pr2.6.1"></a><h3>March 16, 2015, FFmpeg 2.6.1</h3>
+  <h3 id="pr2.6.1">March 16, 2015, FFmpeg 2.6.1</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.6">2.6</a></b>)
     and now one week afterward 2.6.1. It contains all features and bugfixes of the git master branch from the 6th March.
@@ -397,7 +397,7 @@
     current git master.
   </p>
 
-  <a id="gsoc2015"></a><h3>March 4, 2015, Google Summer of Code</h3>
+  <h3 id="gsoc2015">March 4, 2015, Google Summer of Code</h3>
   <p>
     FFmpeg has been accepted as a <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2015">Google Summer of Code</a> Project. If you wish to
     participate as a student see our <a href="https://trac.ffmpeg.org/wiki/SponsoringPrograms/GSoC/2015">project ideas page</a>.
@@ -405,7 +405,7 @@
     at Google for students will open March 16th. Good luck!
   </p>
 
-  <a id="clt2015"></a><h3>March 1, 2015, Chemnitzer Linux-Tage</h3>
+  <h3 id="clt2015">March 1, 2015, Chemnitzer Linux-Tage</h3>
   <p>
     We happily announce that FFmpeg will be represented at Chemnitzer Linux-Tage
     (CLT) in Chemnitz, Germany. The event will take place on 21st and 22nd of March.
@@ -434,7 +434,7 @@
     We are looking forward to meet you (again)!
   </p>
 
-  <a id="pr2.5"></a><h3>December 5, 2014, FFmpeg 2.5</h3>
+  <h3 id="pr2.5">December 5, 2014, FFmpeg 2.5</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.5">2.5</a></b>)
     It contains all features and bugfixes of the git master branch from the 4th December.
@@ -446,7 +446,7 @@
     current git master.
   </p>
 
-  <a id="ffmpeg_back_in_sid"></a><h3>October 10, 2014, FFmpeg is in Debian unstable again</h3>
+  <h3 id="ffmpeg_back_in_sid">October 10, 2014, FFmpeg is in Debian unstable again</h3>
   <p>
     We wanted you to know there are
     <a href="https://packages.debian.org/search?keywords=ffmpeg&amp;searchon=sourcenames&amp;suite=unstable&amp;section=main">
@@ -462,7 +462,7 @@
     <strong>However things will come out in the end, we hope for your continued remarkable support!</strong>
   </p>
 
-  <a id="opw03"></a><h3>October 8, 2014, FFmpeg secured a place in OPW!</h3>
+  <h3 id="opw03">October 8, 2014, FFmpeg secured a place in OPW!</h3>
   <p>
     Thanks to a generous 6K USD donation by Samsung (Open Source Group),
     FFmpeg will be welcoming at least 1 "Outreach Program for Women" intern
@@ -487,7 +487,7 @@
     help, we might be able to secure some extra intern spots for this round!
   </p>
 
-  <a id="pr2.4"></a><h3>September 15, 2014, FFmpeg 2.4</h3>
+  <h3 id="pr2.4">September 15, 2014, FFmpeg 2.4</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.4">2.4</a></b>)
     It contains all features and bugfixes of the git master branch from the 14th September.
@@ -499,7 +499,7 @@
     current git master.
   </p>
 
-  <a id="pr2.3.3"></a><h3>August 20, 2014, FFmpeg 2.3.3, 2.2.7, 1.2.8</h3>
+  <h3 id="pr2.3.3">August 20, 2014, FFmpeg 2.3.3, 2.2.7, 1.2.8</h3>
   <p>
     We have made several new point releases (<b><a href="download.html#release_2.3">2.3.3</a>,
       <a href="download.html#release_2.2">2.2.7</a>,
@@ -512,7 +512,7 @@
     current git master.
   </p>
 
-  <a id="opw02"></a><h3>July 29, 2014, Help us out securing our spot in OPW</h3>
+  <h3 id="opw02">July 29, 2014, Help us out securing our spot in OPW</h3>
   <p>
     Following our previous post regarding our participation on this year's
     OPW (Outreach Program for Women), we are now reaching out to our users
@@ -528,7 +528,7 @@
     with instructions.<br>Thanks!
   </p>
 
-  <a id="newweb"></a><h3>July 20, 2014, New website</h3>
+  <h3 id="newweb">July 20, 2014, New website</h3>
   <p>
     The FFmpeg project is proud to announce a brand new version of the website
     made by <a href="http://db0.fr">db0</a>. While this was initially motivated
@@ -537,7 +537,7 @@
     browsing it.
   </p>
 
-  <a id="pr2.3"></a><h3>July 17, 2014, FFmpeg 2.3</h3>
+  <h3 id="pr2.3">July 17, 2014, FFmpeg 2.3</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.3">2.3</a></b>)
     It contains all features and bugfixes of the git master branch from the 16th July.
@@ -549,7 +549,7 @@
     current git master.
   </p>
 
-  <a id="opw01"></a><h3>July 3, 2014, FFmpeg and the Outreach Program For Women</h3>
+  <h3 id="opw01">July 3, 2014, FFmpeg and the Outreach Program For Women</h3>
   <p>
     FFmpeg has started the process to become an OPW includer organization for the
     next round of the program, with internships starting December 9. The
@@ -565,7 +565,7 @@
     in the program. Hope to hear from you soon!
   </p>
 
-  <a id="pr2.2.4"></a><h3>June 29, 2014, FFmpeg 2.2.4, 2.1.5, 2.0.5, 1.2.7, 1.1.12, 0.10.14</h3>
+  <h3 id="pr2.2.4">June 29, 2014, FFmpeg 2.2.4, 2.1.5, 2.0.5, 1.2.7, 1.1.12, 0.10.14</h3>
   <p>
     We have made several new point releases (<b><a href="download.html#release_2.2">2.2.4</a>,
       <a href="download.html#release_2.1">2.1.5</a>,
@@ -583,7 +583,7 @@
   </p>
 
 
-  <a id="lt2014"></a><h3>May 1, 2014, LinuxTag</h3>
+  <h3 id="lt2014">May 1, 2014, LinuxTag</h3>
   <p>
     Once again FFmpeg will be represented at LinuxTag in Berlin, Germany. The event will
     take place from 8th to 10th of May. Please note that this year's LinuxTag is at a
@@ -606,7 +606,7 @@
     We are looking forward to see you in Berlin!
   </p>
 
-  <a id="heartbleed"></a><h3>April 18, 2014, OpenSSL Heartbeat bug</h3>
+  <h3 id="heartbleed">April 18, 2014, OpenSSL Heartbeat bug</h3>
   <p>
     Our server hosting the Trac issue tracker was vulnerable to the attack
     against OpenSSL known as "heartbleed". The OpenSSL software library
@@ -625,7 +625,7 @@
       in the tracker and everywhere else you used that same password.</b>
   </p>
 
-  <a id="pr2.2.1"></a><h3>April 11, 2014, FFmpeg 2.2.1</h3>
+  <h3 id="pr2.2.1">April 11, 2014, FFmpeg 2.2.1</h3>
   <p>
     We have made a new point releases (<b><a href="download.html#release_2.2">2.2.1</a></b>).
     It contains bug fixes for Tickets #2893, #3432, #3469, #3486, #3495 and #3540 as well as
@@ -633,7 +633,7 @@
     See the git log for details.
   </p>
 
-  <a id="pr2.2"></a><h3>March 24, 2014, FFmpeg 2.2</h3>
+  <h3 id="pr2.2">March 24, 2014, FFmpeg 2.2</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.2">2.2</a></b>)
     It contains all features and bugfixes of the git master branch from 1st March.
@@ -672,7 +672,7 @@
     current git master.
   </p>
 
-  <a id="clt2014"></a><h3>February 3, 2014, Chemnitzer Linux-Tage</h3>
+  <h3 id="clt2014">February 3, 2014, Chemnitzer Linux-Tage</h3>
   <p>
     We happily announce that FFmpeg will be represented at `Chemnitzer Linux-Tage'
     in Chemnitz, Germany. The event will take place on 15th and 16th of March.
@@ -698,7 +698,7 @@
   </p>
 
 
-  <a id="trac_sec"></a><h3>February 9, 2014, trac.ffmpeg.org / trac.mplayerhq.hu Security Breach</h3>
+  <h3 id="trac_sec">February 9, 2014, trac.ffmpeg.org / trac.mplayerhq.hu Security Breach</h3>
   <p>
     The server on which FFmpeg and MPlayer Trac issue trackers were
     installed was compromised. The affected server was taken offline
@@ -716,7 +716,7 @@
   </p>
 
 
-  <a id="ffmpeg_rfp"></a><h3>November 12, 2013, FFmpeg RFP in Debian</h3>
+  <h3 id="ffmpeg_rfp">November 12, 2013, FFmpeg RFP in Debian</h3>
   <p>
     Since the splitting of Libav the Debian/Ubuntu maintainers have followed
     the Libav fork. Many people have requested the packaging of ffmpeg in
@@ -733,7 +733,7 @@
     for more details.
   </p>
 
-  <a id="pr2.1"></a><h3>October 28, 2013, FFmpeg 2.1</h3>
+  <h3 id="pr2.1">October 28, 2013, FFmpeg 2.1</h3>
   <p>
     We have made a new major release (<b><a href="download.html#release_2.1">2.1</a></b>)
     It contains all features and bugfixes of the git master branch from 28th October.
