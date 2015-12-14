@@ -37,7 +37,7 @@
     News
   </h1>
 
-  <h3 id="aac_encoder_stable">The native FFmpeg AAC encoder is now stable!</h3>
+  <h3 id="aac_encoder_stable">December 5th, 2015, The native FFmpeg AAC encoder is now stable!</h3>
   <p>
     After seven years the native FFmpeg AAC encoder has had its experimental flag
     removed and declared as ready for general use. The encoder is transparent
@@ -63,7 +63,7 @@
     feedback or breakage reports through our <a href="https://trac.ffmpeg.org/">bug tracker</a>.
   </p>
 
-  <h3 id="thanks_sponsor_0001">Telepoint & MediaHub are now supporting our project</h3>
+  <h3 id="thanks_sponsor_0001">October 13th, 2015, Telepoint & MediaHub are now supporting our project</h3>
   <p>
     A big thank you note goes to our newest supporters: MediaHub and Telepoint.
     Both companies have donated a dedicated server with free of charge internet
