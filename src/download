@@ -311,11 +311,11 @@ libpostproc    53.  3.100</pre>
   </div> <!-- row -->
 
 
-  <h3 id="release_2.7">FFmpeg 2.7.3 "Nash"</h3>
+  <h3 id="release_2.7">FFmpeg 2.7.4 "Nash"</h3>
 
   <p>
-    2.7.3 was released on 2015-11-19. It is the latest stable FFmpeg release
-    from the 2.7.3 release branch, which was cut from master on 2015-06-09.
+    2.7.4 was released on 2015-12-21. It is the latest stable FFmpeg release
+    from the 2.7.4 release branch, which was cut from master on 2015-06-09.
     Amongst lots of other changes, it includes all changes from
     ffmpeg-mt, libav master of 2015-06-10, libav 11 as of 2015-06-11.
   </p>
@@ -334,19 +334,19 @@ libpostproc    53.  3.100</pre>
 
   <div class="row">
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-2.7.3.tar.xz">Download xz tarball</a>
-      <small><a href="releases/ffmpeg-2.7.3.tar.xz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-2.7.4.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-2.7.4.tar.xz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-2.7.3.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-2.7.3.tar.bz2.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-2.7.4.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-2.7.4.tar.bz2.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-2.7.3.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-2.7.3.tar.gz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-2.7.4.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-2.7.4.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.7.3">Changelog</a></small>
+      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.7.4">Changelog</a></small>
       <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.7">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
