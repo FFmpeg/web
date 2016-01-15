@@ -124,6 +124,16 @@ CVE-2015-3395, f7e1367f58263593e6cee3c282f7277d7ee9d553
 
 <h2>FFmpeg 2.6</h2>
 
+<h3>2.6.7</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-1897,CVE-2016-1898, 232c2ed4a4a546ee28b84dc1673660fbfeb08d2f / 6ba42b6482c725a59eb468391544dc0c75b8c6f0
+CVE-2016-1897,CVE-2016-1898, 8b93f6676b89d23bc5f6e0f4e0afac469de881b9 / 7145e80b4f78cff5ed5fee04d4c4d53daaa0e077
+CVE-2016-1897,CVE-2016-1898, 82db8bcffae0010c638a01069d0754c06960470d / cfda1bea4c18ec1edbc11ecc465f788b02851488
+</pre>
+
 <h3>2.6.6</h3>
 <p>
 Fixes following vulnerabilities:
