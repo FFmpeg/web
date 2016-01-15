@@ -2,6 +2,16 @@
 
 <h2>FFmpeg 2.8</h2>
 
+<h3>2.8.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-1897,CVE-2016-1898, 23b903aaf4eefb1ce1396a32525c8e5501d5cec8 / 6ba42b6482c725a59eb468391544dc0c75b8c6f0
+CVE-2016-1897,CVE-2016-1898, b7d54d6e072690a62d5ea5ade66ffce6944a5ff4 / 7145e80b4f78cff5ed5fee04d4c4d53daaa0e077
+CVE-2016-1897,CVE-2016-1898, 28f89bc439be1de9a61ac404ce79f9bc4cac5ec8 / cfda1bea4c18ec1edbc11ecc465f788b02851488
+</pre>
+
 <h3>2.8.4</h3>
 <p>
 Fixes following vulnerabilities:
@@ -52,6 +62,16 @@ CVE-2015-6826, 3197c0aa87a3b7190e17d49e6fbc7b554e4b3f0a
 
 
 <h2>FFmpeg 2.7</h2>
+
+<h3>2.7.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-1897,CVE-2016-1898, 123d356829d6d72f75c820a184fee3dc7086dde0 / 6ba42b6482c725a59eb468391544dc0c75b8c6f0
+CVE-2016-1897,CVE-2016-1898, cde38373d134e6cf6a92d900fb2f3ce996e4655c / 7145e80b4f78cff5ed5fee04d4c4d53daaa0e077
+CVE-2016-1897,CVE-2016-1898, e681e92d2c8a46feb11ce1f36ff82c16e37cfe11 / cfda1bea4c18ec1edbc11ecc465f788b02851488
+</pre>
 
 <h3>2.7.4</h3>
 <p>
