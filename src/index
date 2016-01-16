@@ -37,6 +37,20 @@
     News
   </h1>
 
+  <h3 id="pr2.8.5">January 16, 2015, FFmpeg 2.8.5, 2.7.5, 2.6.7, 2.5.10</h3>
+  <p>
+    We have made several new point releases (<b><a href="download.html#release_2.8">2.8.5</a>,
+      <a href="download.html#release_2.7">2.7.5</a>,
+      <a href="download.html#release_2.6">2.6.7</a>,
+      <a href="download.html#release_2.5">2.5.10</a></b>).
+    They fix various bugs, as well as CVE-2016-1897 and CVE-2016-1898.
+    Please see the changelog for each release for more details.
+  </p>
+  <p>
+    We recommend users, distributors and system integrators to upgrade unless they use
+    current git master.
+  </p>
+
   <h3 id="aac_encoder_stable">December 5th, 2015, The native FFmpeg AAC encoder is now stable!</h3>
   <p>
     After seven years the native FFmpeg AAC encoder has had its experimental flag
