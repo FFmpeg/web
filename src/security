@@ -192,6 +192,16 @@ CVE-2015-3417, e8714f6f93d1a32f4e4655209960afcf4c185214
 
 <h2>FFmpeg 2.5</h2>
 
+<h3>2.5.10</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-1897,CVE-2016-1898, 8d5060192cf2bdd9e504e640bc5aafee3a04b99b / 6ba42b6482c725a59eb468391544dc0c75b8c6f0
+CVE-2016-1897,CVE-2016-1898, e183075dc11b2033f3f84bf8c94bd4b31266e90d / 7145e80b4f78cff5ed5fee04d4c4d53daaa0e077
+CVE-2016-1897,CVE-2016-1898, 83913c6e7e1e2f0d2e5550800e93ec64f31a0077 / cfda1bea4c18ec1edbc11ecc465f788b02851488
+</pre>
+
 <h3>2.5.9</h3>
 <p>
 Fixes following vulnerabilities:
