@@ -37,6 +37,47 @@
     News
   </h1>
 
+  <h3 id="removing_external_aac_encoders">January 30, 2016, Removing support for two external AAC encoders</h3>
+  <p>
+    We have just removed support for VisualOn AAC encoder (libvo-aacenc) and
+    libaacplus in FFmpeg master.
+  </p>
+  <p>
+    Even before marking our internal AAC encoder as
+    <a href="#aac_encoder_stable">stable</a>, it was known that libvo-aacenc
+    was of an inferior quality compared to our native one for most samples.
+    However, the VisualOn encoder was used extensively by the Android Open
+    Source Project, and we would like to have a tested-and-true stable option
+    in our code base.
+  </p>
+  <p>
+    When first committed in 2011, libaacplus filled in the gap of encoding
+    High Efficiency AAC formats (HE-AAC and HE-AACv2), which was not supported
+    by any of the encoders in FFmpeg at that time.
+  </p>
+  <p>
+    The circumstances for both have changed. After the work spearheaded by
+    Rostislav Pehlivanov and Claudio Freire, the now-stable FFmpeg native AAC
+    encoder is ready to compete with much more mature encoders. The Fraunhofer
+    FDK AAC Codec Library for Android was added in 2012 as the fourth
+    supported external AAC encoder, and the one with the best quality and the
+    most features supported, including HE-AAC and HE-AACv2.
+  </p>
+  <p>
+    Therefore, we have decided that it is time to remove libvo-aacenc and
+    libaacplus. If you are currently using libvo-aacenc, prepare to transition
+    to the native encoder (<code>aac</code>) when updating to the next version
+    of FFmpeg. In most cases it is as simple as merely swapping the encoder
+    name. If you are currently using libaacplus, start using FDK AAC
+    (<code>libfdk_aac</code>) with an appropriate <code>profile</code> option
+    to select the exact AAC profile that fits your needs. In both cases, you
+    will enjoy an audible quality improvement and as well as fewer licensing
+    headaches.
+  </p>
+  <p>
+    Enjoy!
+  </p>
+
   <h3 id="pr2.8.5">January 16, 2016, FFmpeg 2.8.5, 2.7.5, 2.6.7, 2.5.10</h3>
   <p>
     We have made several new point releases (<b><a href="download.html#release_2.8">2.8.5</a>,
