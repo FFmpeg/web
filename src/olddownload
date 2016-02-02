@@ -9,7 +9,7 @@
   <h3 id="release_2.4">FFmpeg 2.4.13 "Fresnel"</h3>
 
   <p>
-    2.4.13 was released on 2016-02-01. It is the latest stable FFmpeg release
+    2.4.13 was released on 2016-02-02. It is the latest stable FFmpeg release
     from the 2.4 release branch, which was cut from master on 2014-09-14.
     Amongst lots of other changes, it includes all changes from
     ffmpeg-mt, libav master of 2014-09-14, libav 11.4 as of 2015-08-25.
