@@ -434,43 +434,6 @@ libpostproc    53.  3.100</pre>
   </div> <!-- row -->
 
 
-  <h3 id="release_2.4">FFmpeg 2.4.13 "Fresnel"</h3>
-
-  <p>
-    2.4.13 was released on 2016-02-01. It is the latest stable FFmpeg release
-    from the 2.4 release branch, which was cut from master on 2014-09-14.
-    Amongst lots of other changes, it includes all changes from
-    ffmpeg-mt, libav master of 2014-09-14, libav 11.4 as of 2015-08-25.
-  </p>
-  <p>It includes the following library versions:
-  </p>
-  <pre>
-libavutil      54.  7.100
-libavcodec     56.  1.100
-libavformat    56.  4.101
-libavdevice    56.  0.100
-libavfilter     5.  1.100
-libavresample   2.  1.  0
-libswscale      3.  0.100
-libswresample   1.  1.100
-libpostproc    53.  0.100</pre>
-
-  <div class="row">
-    <div class="col-md-4">
-      <a class="btn btn-success" href="releases/ffmpeg-2.4.13.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-2.4.13.tar.bz2.asc">PGP signature</a></small>
-    </div> <!-- col -->
-    <div class="col-md-4">
-      <a class="btn btn-success" href="releases/ffmpeg-2.4.13.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-2.4.13.tar.gz.asc">PGP signature</a></small>
-    </div> <!-- col -->
-    <div class="col-md-4 text-right">
-      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.4.13">Changelog</a></small>
-      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.4">Release Notes</a>
-    </div> <!-- col -->
-  </div> <!-- row -->
-
-
   <h3 id="old_releases">Old Releases</h3>
   <p>
     Older versions are available at the <a href="olddownload.html">Old
