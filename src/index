@@ -37,6 +37,27 @@
     News
   </h1>
 
+  <h3 id="pr3.0">February 15th, 2016, FFmpeg 3.0 "Einstein"</h3>
+  <p>
+    <a href="download.html#release_3.0">FFmpeg 3.0 "Einstein"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li><a href="#aac_encoder_stable">The native FFmpeg AAC encoder has seen extensive improvements and is no longer considered experimental</a></li>
+    <li><a href="#removing_external_aac_encoders">Removed support for libvo-aacenc and libaacplus</a></li>
+    <li>Over 30 new filters have been added</li>
+    <li>Many ASM optimizations</li>
+    <li>VP9 Hardware Acceleration (DXVA2 and VA-API)</li>
+    <li>Cineform HD decoder</li>
+    <li>New DCA decoder based on libdcadec with full support for DTS-HD extensions</li>
+    <li>As with all major releases expect major backward incompatible API/ABI changes</li>
+    <li>See the <a href="https://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog;hb=n3.0">Changelog</a> for a list of more updates</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="removing_external_aac_encoders">January 30, 2016, Removing support for two external AAC encoders</h3>
   <p>
     We have just removed support for VisualOn AAC encoder (libvo-aacenc) and
