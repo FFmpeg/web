@@ -205,12 +205,13 @@
     a single client; it was completed partly during the qualification period and
     partly during the first week of the summer. Thanks to this work, it is now
     possible to make a simple HTTP stream using the following commands:
-    <pre>
-      ffmpeg -i /dev/video0 -listen 1 -f matroska \
-      -c:v libx264 -preset fast -tune zerolatency http://:8080
-      ffplay http://localhost:8080/
-    </pre>
   </p>
+
+  <pre>
+    ffmpeg -i /dev/video0 -listen 1 -f matroska \
+    -c:v libx264 -preset fast -tune zerolatency http://:8080
+    ffplay http://localhost:8080/
+  </pre>
 
   <p>
     The next part of the project was to extend the code to be able to accept
@@ -322,10 +323,11 @@
   <p>
     He also added gamma corrected scaling support.
     An example to use gamma corrected scaling would be:
-    <pre>
-      ffmpeg -i input -vf scale=512:384:gamma=1 output
-    </pre>
   </p>
+
+  <pre>
+    ffmpeg -i input -vf scale=512:384:gamma=1 output
+  </pre>
 
   <p>
     Pedro has done impressive work considering the short time available,
