@@ -102,6 +102,8 @@
           IRC network. Both channels are open and unmoderated. Developers with commit
           rights have operator status, contributors with patches in FFmpeg
           have voice in the channels.
+          <a href="https://webchat.freenode.net/">freenode webchat</a> is a web
+          client for these channels.
         </p>
       </div>
       <div class="list-group">
