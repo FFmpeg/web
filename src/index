@@ -37,6 +37,14 @@
     News
   </h1>
 
+  <h3 id="gsoc2016">March 16th, 2016, Google Summer of Code</h3>
+  <p>
+    FFmpeg has been accepted as a <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> open source organization. If you wish to
+    participate as a student see our <a href="https://trac.ffmpeg.org/wiki/SponsoringPrograms/GSoC/2016">project ideas page</a>.
+    You can already get in contact with mentors and start working on qualification tasks as well as register at google and submit your project proposal draft.
+    Good luck!
+  </p>
+
   <h3 id="pr3.0">February 15th, 2016, FFmpeg 3.0 "Einstein"</h3>
   <p>
     <a href="download.html#release_3.0">FFmpeg 3.0 "Einstein"</a>, a new
