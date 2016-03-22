@@ -157,3 +157,17 @@ E.g.:
     </div> <!-- well -->
   </div> <!-- col -->
 </div> <!-- row -->
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Thilo Borgmann</h3>
+      <p>
+        Thilo is located in Berlin, Germany and is available for contract work.
+        He has worked on FFmpeg since 2009 and has been a maintainer since 2010.
+        He has special expertise with decoders, metadata, input devices and
+        filters. You can contact him by email at
+        <a href="mailto:thilo.borgmann@mail.de">thilo.borgmann@mail.de</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
