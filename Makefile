@@ -44,8 +44,8 @@ $(RSS_TARGET): htdocs/index.html
 	echo '    <link>http://ffmpeg.org</link>' >> $@
 	echo '    <description>FFmpeg RSS</description>' >> $@
 	echo '    <atom:link href="http://ffmpeg.org/main.rss" rel="self" type="application/rss+xml" />' >> $@
-	awk '/<a *id=".*" *> *<\/a> *<h3>.*20.., *.*<\/h3>/ { p = 1 } /<h1>Older entries are in the .*news archive/ { p = 0 } p' $< \
-        | sed 'sX<a *id="\(.*\)" *> *</a> *<h3>\(.*20..\), *\(.*\)</h3>X\
+	awk '/<h3 *id=".*" *> *.*20.., *.*<\/h3>/ { p = 1 } /<h1>Older entries are in the .*news archive/ { p = 0 } p' $< \
+        | sed 'sX<h3 *id="\(.*\)" *> *\(.*20..\), *\(.*\)</h3>X\
         ]]></content:encoded>\
     </item>\
     <item>\
