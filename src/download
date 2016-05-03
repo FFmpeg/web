@@ -196,7 +196,7 @@
           <td>
             <div class="pull-left"><a href="https://git.ffmpeg.org/ffmpeg.git">https://git.ffmpeg.org/ffmpeg.git</a></div>
             <div class="pull-right">
-              <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git">Browse</a>
+              <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git">Browse</a>
             </div>
           </td>
           <td>Main FFmpeg Git repository</td>
@@ -303,8 +303,8 @@ libpostproc    54.  0.100</pre>
       <small><a href="releases/ffmpeg-3.0.2.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n3.0.2">Changelog</a></small>
-      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/3.0">Release Notes</a>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n3.0.2">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/3.0:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -344,8 +344,8 @@ libpostproc    53.  3.100</pre>
       <small><a href="releases/ffmpeg-2.8.7.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.8.7">Changelog</a></small>
-      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.8">Release Notes</a>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n2.8.7">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/2.8:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -385,8 +385,8 @@ libpostproc    53.  3.100</pre>
       <small><a href="releases/ffmpeg-2.7.7.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.7.7">Changelog</a></small>
-      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.7">Release Notes</a>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n2.7.7">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/2.7:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -426,8 +426,8 @@ libpostproc    53.  3.100</pre>
       <small><a href="releases/ffmpeg-2.6.9.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.6.9">Changelog</a></small>
-      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.6">Release Notes</a>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n2.6.9">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/2.6:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -467,8 +467,8 @@ libpostproc    53.  3.100</pre>
       <small><a href="releases/ffmpeg-2.5.11.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="http://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.5.11">Changelog</a></small>
-      <a class="btn btn-success" href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.5">Release Notes</a>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n2.5.11">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/2.5:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
