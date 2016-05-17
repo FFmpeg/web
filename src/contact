@@ -8,7 +8,7 @@
       <div style="color: white">
         <p>
           Please follow the netiquette when posting on FFmpeg mailing lists, especially
-          avoid <a href="http://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
+          avoid <a href="https://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
           thread hijacking (that is, replying to a thread and changing the subject line to
           something completely unrelated that was not being discussed within the original
           thread).
@@ -98,7 +98,7 @@
         IRC Channels</h3>
       <div style="color: white">
         <p>
-          FFmpeg has two official channels on the <a href="http://freenode.net/">freenode</a>
+          FFmpeg has two official channels on the <a href="https://freenode.net/">freenode</a>
           IRC network. Both channels are open and unmoderated. Developers with commit
           rights have operator status, contributors with patches in FFmpeg
           have voice in the channels.
@@ -154,7 +154,7 @@
     </p>
   </div>
   <p class="text-center">
-    <a class="btn btn-success btn-lg" href="http://ffmpeg.zeranoe.com/forum/">FFmpeg on Windows</a>
+    <a class="btn btn-success btn-lg" href="https://ffmpeg.zeranoe.com/forum/">FFmpeg on Windows</a>
     &nbsp; &nbsp;
     <a class="btn btn-success btn-lg" href="http://ffmpeg.gusari.org/index.php">FFmpeg Support Forum</a>
   </p>
