@@ -85,19 +85,6 @@ E.g.:
 <div class="row">
   <div class="col-md-4">
     <div class="well">
-      <h3>Clément Bœsch</h3>
-      <p>
-        Clément is located in France and is available for contracting work.
-        He has worked on FFmpeg since 2011 and has been a maintainer since 2011.
-        He has experience with subtitles, filters and all kinds of random
-        things across the codebase.
-        You can contact him by email at
-        <a href="mailto:ubitux%20at%20gmail%20dot%20com">ubitux at gmail dot com</a>.
-      </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
-  <div class="col-md-4">
-    <div class="well">
       <h3>Michael Niedermayer</h3>
       <p>
         Michael is located in Vienna, Austria and is available for contracting work.
@@ -115,6 +102,18 @@ E.g.:
         experience with various codecs, containers, filters and reverse
         engineering. You can contact him by email at
         <a href="mailto:onemda%20at%20gmail%20dot%20com">onemda at gmail dot com</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Thilo Borgmann</h3>
+      <p>
+        Thilo is located in Berlin, Germany and is available for contract work.
+        He has worked on FFmpeg since 2009 and has been a maintainer since 2010.
+        He has special expertise with decoders, metadata, input devices and
+        filters. You can contact him by email at
+        <a href="mailto:thilo.borgmann@mail.de">thilo.borgmann@mail.de</a>.
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
@@ -153,20 +152,6 @@ E.g.:
         He has been a maintainer since 2011, and focuses on helping users,
         documentation, and project communication. You can contact him by email at
         <a href="mailto:lou%20at%20lrcd%20dot%20com">lou at lrcd dot com</a>.
-      </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
-</div> <!-- row -->
-<div class="row">
-  <div class="col-md-4">
-    <div class="well">
-      <h3>Thilo Borgmann</h3>
-      <p>
-        Thilo is located in Berlin, Germany and is available for contract work.
-        He has worked on FFmpeg since 2009 and has been a maintainer since 2010.
-        He has special expertise with decoders, metadata, input devices and
-        filters. You can contact him by email at
-        <a href="mailto:thilo.borgmann@mail.de">thilo.borgmann@mail.de</a>.
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
