@@ -99,8 +99,8 @@
       <div style="color: white">
         <p>
           FFmpeg has two official channels on the <a href="https://freenode.net/">freenode</a>
-          IRC network. Both channels are open and unmoderated. Developers with commit
-          rights have operator status, contributors with patches in FFmpeg
+          IRC network. Both channels are open and unmoderated. Maintainers
+          have operator status, contributors with patches in FFmpeg
           have voice in the channels.
           <a href="https://webchat.freenode.net/">freenode webchat</a> is a web
           client for these channels.
