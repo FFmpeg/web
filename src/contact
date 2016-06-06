@@ -11,7 +11,7 @@
           avoid <a href="https://en.wikipedia.org/wiki/Top-posting">top-posting</a> and
           thread hijacking (that is, replying to a thread and changing the subject line to
           something completely unrelated that was not being discussed within the original
-          thread).
+          thread) and please read the <a href="developer.html#Code-of-conduct">Code of conduct</a>.
         </p>
         <p>
           Configuring your mail client to break lines after 70 or so characters is a plus.
@@ -104,6 +104,7 @@
           have voice in the channels.
           <a href="https://webchat.freenode.net/">freenode webchat</a> is a web
           client for these channels.
+          Please read and follow the <a href="developer.html#Code-of-conduct">Code of conduct</a>.
         </p>
       </div>
       <div class="list-group">
