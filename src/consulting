@@ -70,6 +70,18 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Lou Logan</h3>
+      <p>
+        Lou is located in Alaska and is available for contract work, general
+        consulting, and troubleshooting involving the <code>ffmpeg</code> cli tool.
+        He has been a maintainer since 2011, and focuses on helping users,
+        documentation, and project communication. You can contact him by email at
+        <a href="mailto:lou%20at%20lrcd%20dot%20com">lou at lrcd dot com</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
 </div> <!-- row -->
 <div class="row">
   <div class="col-md-4">
@@ -129,18 +141,6 @@ E.g.:
         protocols and all areas of audio/video streaming. He has special expertise
         with RTP, RTCP, RTSP, RTMP, HLS and also SDP. You can contact him by email at
         <a href="mailto:thomas@homer-conferencing.com">thomas@homer-conferencing.com</a>.
-      </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
-  <div class="col-md-4">
-    <div class="well">
-      <h3>Lou Logan</h3>
-      <p>
-        Lou is located in Alaska and is available for contract work, general
-        consulting, and troubleshooting involving the <code>ffmpeg</code> cli tool.
-        He has been a maintainer since 2011, and focuses on helping users,
-        documentation, and project communication. You can contact him by email at
-        <a href="mailto:lou%20at%20lrcd%20dot%20com">lou at lrcd dot com</a>.
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
