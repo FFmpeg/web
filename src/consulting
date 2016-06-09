@@ -59,17 +59,6 @@ E.g.:
   </div> <!-- col -->
   <div class="col-md-4">
     <div class="well">
-      <h3>Benjamin Larsson</h3>
-      <p>
-        Benjamin Larsson is located in Stockholm, Sweden and is available for contracting
-        work. He has worked on FFmpeg since 2004. Main area of expertise is audio codecs.
-        You can contact him by email at
-        <a href="mailto:benjamin%20at%20southpole%20dot%20se">benjamin at southpole dot se</a>.
-      </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
-  <div class="col-md-4">
-    <div class="well">
       <h3>Carl Eugen Hoyos</h3>
       <p>
         Carl Eugen is located in Austria and is available for contracting work.
