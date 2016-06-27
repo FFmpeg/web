@@ -37,6 +37,62 @@
     News
   </h1>
 
+  <h3 id="pr3.1">June 27th, 2016, FFmpeg 3.1 "Laplace"</h3>
+  <p>
+    <a href="download.html#release_3.1">FFmpeg 3.1 "Laplace"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>DXVA2-accelerated HEVC Main10 decoding</li>
+    <li>fieldhint filter</li>
+    <li>loop video filter and aloop audio filter</li>
+    <li>Bob Weaver deinterlacing filter</li>
+    <li>firequalizer filter</li>
+    <li>datascope filter</li>
+    <li>bench and abench filters</li>
+    <li>ciescope filter</li>
+    <li>protocol blacklisting API</li>
+    <li>MediaCodec H264 decoding</li>
+    <li>VC-2 HQ RTP payload format (draft v1) depacketizer and packetizer</li>
+    <li>VP9 RTP payload format (draft v2) packetizer</li>
+    <li>AudioToolbox audio decoders</li>
+    <li>AudioToolbox audio encoders</li>
+    <li>coreimage filter (GPU based image filtering on OSX)</li>
+    <li>libdcadec removed</li>
+    <li>bitstream filter for extracting DTS core</li>
+    <li>ADPCM IMA DAT4 decoder</li>
+    <li>musx demuxer</li>
+    <li>aix demuxer</li>
+    <li>remap filter</li>
+    <li>hash and framehash muxers</li>
+    <li>colorspace filter</li>
+    <li>hdcd filter</li>
+    <li>readvitc filter</li>
+    <li>VAAPI-accelerated format conversion and scaling</li>
+    <li>libnpp/CUDA-accelerated format conversion and scaling</li>
+    <li>Duck TrueMotion 2.0 Real Time decoder</li>
+    <li>Wideband Single-bit Data (WSD) demuxer</li>
+    <li>VAAPI-accelerated H.264/HEVC/MJPEG encoding</li>
+    <li>DTS Express (LBR) decoder</li>
+    <li>Generic OpenMAX IL encoder with support for Raspberry Pi</li>
+    <li>IFF ANIM demuxer & decoder</li>
+    <li>Direct Stream Transfer (DST) decoder</li>
+    <li>loudnorm filter</li>
+    <li>MTAF demuxer and decoder</li>
+    <li>MagicYUV decoder</li>
+    <li>OpenExr improvements (tile data and B44/B44A support)</li>
+    <li>BitJazz SheerVideo decoder</li>
+    <li>CUDA CUVID H264/HEVC decoder</li>
+    <li>10-bit depth support in native utvideo decoder</li>
+    <li>libutvideo wrapper removed</li>
+    <li>YUY2 Lossless Codec decoder</li>
+    <li>VideoToolbox H.264 encoder</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="gsoc2016">March 16th, 2016, Google Summer of Code</h3>
   <p>
     FFmpeg has been accepted as a <a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a> open source organization. If you wish to
