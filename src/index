@@ -37,6 +37,16 @@
     News
   </h1>
 
+  <h3 id="pr3.1.1">July 1st, 2016, FFmpeg 3.1.1 "Laplace"</h3>
+  <p>
+    <a href="download.html#release_3.1">FFmpeg 3.1.1</a>, a new point release from the 3.1 release branch, is now available!
+    It mainly deals with a few ABI issues introduced in the previous release.
+  </p>
+  <p>
+    We strongly recommend users, distributors, and system integrators, especially those who experienced issues upgrading from 3.0, to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr3.1">June 27th, 2016, FFmpeg 3.1 "Laplace"</h3>
   <p>
     <a href="download.html#release_3.1">FFmpeg 3.1 "Laplace"</a>, a new
