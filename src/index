@@ -37,6 +37,15 @@
     News
   </h1>
 
+  <h3 id="ffserv">July 10th, 2016, ffserver program being dropped</h3>
+  <p>
+    After thorough deliberation, we're announcing that we're about to drop the ffserver program from the project starting with the next release.
+    ffserver has been a problematic program to maintain due to its use of internal APIs, which complicated the recent cleanups to the libavformat
+    library, and block further cleanups and improvements which are desired by API users and will be easier to maintain. Furthermore the program has
+    been hard for users to deploy and run due to reliability issues, lack of knowledgable people to help and confusing configuration file syntax.
+    Current users and members of the community are invited to write a replacement program to fill the same niche that ffserver did using the new APIs
+    and to contact us so we may point users to test and contribute to its development.
+  </p>
   <h3 id="pr3.1.1">July 1st, 2016, FFmpeg 3.1.1 "Laplace"</h3>
   <p>
     <a href="download.html#release_3.1">FFmpeg 3.1.1</a>, a new point release from the 3.1 release branch, is now available!
