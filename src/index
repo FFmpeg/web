@@ -37,6 +37,14 @@
     News
   </h1>
 
+  <h3 id="pr3.1.2">August 9th, 2016, FFmpeg 3.1.2 "Laplace"</h3>
+  <p>
+    <a href="download.html#release_3.1">FFmpeg 3.1.2</a>, a new point release from the 3.1 release branch, is now available!
+    It fixes several bugs.
+  </p>
+  <p>
+    We recommend users, distributors, and system integrators, to upgrade unless they use current git master.
+  </p>
   <h3 id="ffserv">July 10th, 2016, ffserver program being dropped</h3>
   <p>
     After thorough deliberation, we're announcing that we're about to drop the ffserver program from the project starting with the next release.
