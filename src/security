@@ -8,6 +8,7 @@ Fixes following vulnerabilities:
 </p>
 <pre>
 CVE-2016-6920, 79f52a0dbd484aad111e4bf4a4f7047c7ceb6137 / 01aee8148d4fa439cce678a11f5110656c98de1f
+CVE-2016-6881, 4770eac663da306fc8298ff8b73ebeabdc23489c / a453bbb68f3eec202673728988bba3bc76071761
 </pre>
 
 <h3>3.1.2</h3>
@@ -18,8 +19,37 @@ Fixes following vulnerabilities:
 CVE-2016-6671, 19d2921bbfec13c7a843bdbdb5687cf821b02cff / 6aa39080ccea2b60433e920417844c3a3c0da50b
 </pre>
 
+<h3>3.1.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-6164, 3e730278f5a8e5ec3f9593700488a940f38dfac1 / 8a3221cc67a516dfc1700bdae3566ec52c7ee823
+</pre>
+
+
+<h2>FFmpeg 3.0</h2>
+
+<h3>3.0.3</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-6164, a5680d83af26d4e6cfb9fe2eb8f51247bf36a41f / 8a3221cc67a516dfc1700bdae3566ec52c7ee823
+CVE-2016-6881, ca92adafb0effac6c51a12f90a593ba7e8b3ee90 / a453bbb68f3eec202673728988bba3bc76071761
+</pre>
+
 
 <h2>FFmpeg 2.8</h2>
+
+<h3>2.8.8</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-6164, 054db631200c9940bc72e4dec2cb3c75e613abaf / 8a3221cc67a516dfc1700bdae3566ec52c7ee823
+CVE-2016-6881, e965fedf7e94b7e50cd11be00fa729ee8faeb21b / a453bbb68f3eec202673728988bba3bc76071761
+</pre>
 
 <h3>2.8.6</h3>
 <p>
