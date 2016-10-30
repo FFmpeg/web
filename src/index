@@ -37,6 +37,40 @@
     News
   </h1>
 
+  <h3 id="gsoc2016finalreport">October 30th, 2016, Results: Summer Of Code 2016.</h3>
+  <p>
+    This has been a long time coming but we wanted to give a proper closure to our participation in this run of the program and it takes time. Sometimes it's just to get the final report for each project trimmed down, others, is finalizing whatever was still in progress when the program finished: final patches need to be merged, TODO lists stabilized, future plans agreed; you name it.
+  </p>
+  <p>
+    Without further ado, here's the silver-lining for each one of the projects we sought to complete during this Summer of Code season:
+  </p>
+  <h4>FFv1 (Mentor: Michael Nierdermayer)</h4>
+  <p>
+    Stanislav Dolganov designed and implemented experimental support for motion estimation and compensation in the lossless FFV1 codec. The design and implementation is based on the snow video codec, which uses OBMC. Stanislav's work proved that significant compression gains can be achieved with inter frame compression. FFmpeg welcomes Stanislav to continue working beyond this proof of concept and bring its advances into the official FFV1 specification within the IETF.
+  </p>
+  <h4>Self test coverage (Mentor: Michael Niedermayer)</h4>
+  <p>
+    Petru Rares Sincraian added several self-tests to FFmpeg and successfully went through the in-some-cases tedious process of fine tuning tests parameters to avoid known and hard to avoid problems, like checksum mismatches due to rounding errors on the myriad of platforms we support. His work has improved the code coverage of our self tests considerably.
+  </p>
+  <h4>MPEG-4 ALS encoder implementation (Mentor: Thilo Borgmann)</h4>
+  <p>
+    Umair Khan updated and integrated the ALS encoder to fit in the current FFmpeg codebase. He also implemented a missing feature for the ALS decoder that enables floating-point sample decoding. FFmpeg support for MPEG-4 ALS has been improved significantly by Umair's work. We welcome him to keep maintaining his improvements and hope for great contributions to come.
+  </p>
+  <h4>Tee muxer improvements (Mentor: Marton Balint)</h4>
+  <p>
+    Ján Sebechlebský's generic goal was to improve the tee muxer so it tolerated blocking IO and allowed transparent error recovery. During the design phase it turned out that this functionality called for a separate muxer, so Ján spent his summer working on the so-called FIFO muxer, gradually fixing issues all over the codebase. He succeeded in his task, and the FIFO muxer is now part of the main repository, alongside several other improvements he made in the process.
+  </p>
+  <h4>TrueHD encoder (Mentor: Rostislav Pehlivanov)</h4>
+  <p>
+    Jai Luthra's objective was to update the out-of-tree and pretty much abandoned MLP (Meridian Lossless Packing) encoder for libavcodec and improve it to enable encoding to the TrueHD format. For the qualification period the encoder was updated such that it was usable and throughout the summer, successfully improved adding support for multi-channel audio and TrueHD encoding. Jai's code has been merged into the main repository now. While a few problems remain with respect to LFE channel and 32 bit sample handling, these are in the process of being fixed such that effort can be finally put in improving the encoder's speed and efficiency.
+  </p>
+  <h4>Motion interpolation filter (Mentor: Paul B Mahol)</h4>
+  <p>
+    Davinder Singh investigated existing motion estimation and interpolation approaches from the available literature and previous work by our own: Michael Niedermayer, and implemented filters based on this research. These filters allow motion interpolating frame rate conversion to be applied to a video, for example, to create a slow motion effect or change the frame rate while smoothly interpolating the video along the motion vectors. There's still work to be done to call these filters 'finished', which is rather hard all things considered, but we are looking optimistically at their future.
+  </p>
+  <p>
+    And that's it. We are happy with the results of the program and immensely thankful for the opportunity of working with such an amazing set of students. We can be a tough crowd but our mentors did an amazing job at hand holding our interns through their journey. Thanks also to Google for this wonderful program and to everyone that made room in their busy lives to help making GSoC2016 a success. See you in 2017!
+  </p>
   <h3 id="sdl1">September 24th, 2016, SDL1 support dropped.</h3>
   <p>
     Support for the SDL1 library has been dropped, due to it no longer being maintained (as of
