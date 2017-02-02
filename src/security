@@ -2,6 +2,16 @@
 
 <h2>FFmpeg 3.2</h2>
 
+<h3>3.2.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-10190, 0e0a413725e0221e1a9d0b7595e22bf57e23a09c / 2a05c8f813de6f2278827734bf8102291e7484aa
+CVE-2016-10191, 32b95471a86ae383c0f76361d954aec511f7043a / 7d57ca4d9a75562fa32e40766211de150f8b3ee7
+CVE-2016-10192, c12ee64e80af2517005231388fdf4ea78f16bb0e / a5d25faa3f4b18dac737fdb35d0dd68eb0dc2156B
+</pre>
+
 <h3>3.2</h3>
 <p>
 Fixes following vulnerabilities:
@@ -20,6 +30,16 @@ CVE-2016-8595, 987690799dd86433bf98b897aaa4c8d93ade646d
 
 
 <h2>FFmpeg 3.1</h2>
+
+<h3>3.1.6</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-10190, 18e3e322b36a85b6f69662e1d5fa7c245638ab86 / 2a05c8f813de6f2278827734bf8102291e7484aa
+CVE-2016-10191, b0ebef0578fd88fe3efd66086c43a5b43fbc9f6a / 7d57ca4d9a75562fa32e40766211de150f8b3ee7
+CVE-2016-10192, 37904d11779482f375b13da24f33f75daf13638f / a5d25faa3f4b18dac737fdb35d0dd68eb0dc2156
+</pre>
 
 <h3>3.1.5</h3>
 <p>
@@ -72,6 +92,16 @@ CVE-2016-6164, 3e730278f5a8e5ec3f9593700488a940f38dfac1 / 8a3221cc67a516dfc1700b
 
 <h2>FFmpeg 3.0</h2>
 
+<h3>3.0.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-10190, 2e3f0a1c6f39cf2a35bdda85e43970ffc6db797b / 2a05c8f813de6f2278827734bf8102291e7484aa
+CVE-2016-10191, a5513ae7bc7cb131e7b7edba57e4cf93121d6c8e / 7d57ca4d9a75562fa32e40766211de150f8b3ee7
+CVE-2016-10192, 1768e02a046ac05cb212991ae23021ad412cd15a / a5d25faa3f4b18dac737fdb35d0dd68eb0dc2156
+</pre>
+
 <h3>3.0.4</h3>
 <p>
 Fixes following vulnerabilities:
@@ -98,6 +128,16 @@ CVE-2016-7122, 1d90326f95a791db515f69a01a5f6ef867896d15 / e4e4a9cad7f21593d4bcb1
 
 
 <h2>FFmpeg 2.8</h2>
+
+<h3>2.8.10</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2016-10190, 606b21353df7d08ea203193f3026281737c696a2 / 2a05c8f813de6f2278827734bf8102291e7484aa
+CVE-2016-10191, 5bfb0b02b6fbb38c058659dc09c01602d0d1f523 / 7d57ca4d9a75562fa32e40766211de150f8b3ee7
+CVE-2016-10192, e0cb113f9b4b7a26ac0053a483f92c26a4a90f0e / a5d25faa3f4b18dac737fdb35d0dd68eb0dc2156
+</pre>
 
 <h3>2.8.9</h3>
 <p>
