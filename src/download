@@ -307,10 +307,10 @@ libpostproc    54.  1.100</pre>
     </div> <!-- col -->
   </div> <!-- row -->
 
-  <h3 id="release_3.1">FFmpeg 3.1.6 "Laplace"</h3>
+  <h3 id="release_3.1">FFmpeg 3.1.7 "Laplace"</h3>
 
   <p>
-    3.1.6 was released on 2016-12-05. It is the latest stable FFmpeg release
+    3.1.7 was released on 2017-02-09. It is the latest stable FFmpeg release
     from the 3.1 release branch, which was cut from master on 2016-06-26.
   </p>
   <p>It includes the following library versions:
@@ -328,19 +328,19 @@ libpostproc    54.  0.100</pre>
 
   <div class="row">
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-3.1.6.tar.xz">Download xz tarball</a>
-      <small><a href="releases/ffmpeg-3.1.6.tar.xz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-3.1.7.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-3.1.7.tar.xz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-3.1.6.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-3.1.6.tar.bz2.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-3.1.7.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-3.1.7.tar.bz2.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-3.1.6.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-3.1.6.tar.gz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-3.1.7.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-3.1.7.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n3.1.6">Changelog</a></small>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n3.1.7">Changelog</a></small>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/3.1:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
