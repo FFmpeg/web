@@ -110,6 +110,15 @@ CVE-2016-6164, 3e730278f5a8e5ec3f9593700488a940f38dfac1 / 8a3221cc67a516dfc1700b
 
 <h2>FFmpeg 3.0</h2>
 
+<h3>3.0.7</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2017-5024, dc1e099bf281e69d162bde02bd87112bbcb1ab5c / 2d453188c2303da641dafb048dc1806790526dfd
+CVE-2017-5025, 4f7064c9da35cd8156f6aee4a25e9b4e7f4ae607 / fd30e4d57fe5841385f845440688505b88c0f4a9
+</pre>
+
 <h3>3.0.5</h3>
 <p>
 Fixes following vulnerabilities:
