@@ -37,6 +37,49 @@
     News
   </h1>
 
+  <h3 id="pr3.3">April 13th, 2017, FFmpeg 3.3 "Hilbert"</h3>
+  <p>
+    <a href="download.html#release_3.3">FFmpeg 3.3 "Hilbert"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>Apple Pixlet decoder</li>
+    <li>NewTek SpeedHQ decoder</li>
+    <li>QDMC audio decoder</li>
+    <li>PSD (Photoshop Document) decoder</li>
+    <li>FM Screen Capture decoder</li>
+    <li>ScreenPressor decoder</li>
+    <li>XPM decoder</li>
+    <li>DNxHR decoder fixes for HQX and high resolution videos</li>
+    <li>ClearVideo decoder (partial)</li>
+    <li>16.8 and 24.0 floating point PCM decoder</li>
+    <li>Intel QSV-accelerated VP8 video decoding</li>
+    <li>native Opus encoder</li>
+    <li>DNxHR 444 and HQX encoding</li>
+    <li>Quality improvements for the (M)JPEG encoder</li>
+    <li>VAAPI-accelerated MPEG-2 and VP8 encoding</li>
+    <li>premultiply video filter</li>
+    <li>abitscope multimedia filter</li>
+    <li>readeia608 filter</li>
+    <li>threshold filter</li>
+    <li>midequalizer filter</li>
+    <li>MPEG-7 Video Signature filter</li>
+    <li>add internal ebur128 library, remove external libebur128 dependency</li>
+    <li>Intel QSV video scaling and deinterlacing filters</li>
+    <li>Sample Dump eXchange demuxer</li>
+    <li>MIDI Sample Dump Standard demuxer</li>
+    <li>Scenarist Closed Captions demuxer and muxer</li>
+    <li>Support MOV with multiple sample description tables</li>
+    <li>Pro-MPEG CoP #3-R2 FEC protocol</li>
+    <li>Support for spherical videos</li>
+    <li>CrystalHD decoder moved to new decode API</li>
+    <li>configure now fails if autodetect-libraries are requested but not found</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="gsoc2016finalreport">October 30th, 2016, Results: Summer Of Code 2016.</h3>
   <p>
     This has been a long time coming but we wanted to give a proper closure to our participation in this run of the program and it takes time. Sometimes it's just to get the final report for each project trimmed down, others, is finalizing whatever was still in progress when the program finished: final patches need to be merged, TODO lists stabilized, future plans agreed; you name it.
