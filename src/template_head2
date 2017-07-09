@@ -3,6 +3,7 @@
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+    <script src="https://widget.battleforthenet.com/widget.js" async></script>
 
     <link href="main.rss" rel="alternate" type="application/rss+xml" title="ffmpeg.org" />
     <link rel="shortcut icon" href="favicon.ico" />
