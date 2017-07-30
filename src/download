@@ -311,7 +311,7 @@ libpostproc    54.  5.100</pre>
 
   <p>
     3.2.7 was released on 2017-07-30. It is the latest stable FFmpeg release
-    from the 3.2.7 release branch, which was cut from master on 2016-10-26.
+    from the 3.2 release branch, which was cut from master on 2016-10-26.
   </p>
   <p>It includes the following library versions:
   </p>
