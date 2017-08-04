@@ -112,6 +112,17 @@ CVE-2016-8595, 987690799dd86433bf98b897aaa4c8d93ade646d
 
 <h2>FFmpeg 3.1</h2>
 
+<h3>3.1.10</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2017-11399, 750fec58e175b22ac23ff349c4b0a9b765ea4d0c / ba4beaf6149f7241c8bd85fe853318c2f6837ad0
+CVE-2017-11665, 06ce68d8a07d6365d67fdd8ed3c1e422f97a43fa / ffcc82219cef0928bed2d558b19ef6ea35634130
+CVE-2017-11665, 54a6c1368cdbb13eb0015433edca0d0fc9ea5dfb / 08c073434e25cba8c43aae5ed9554fdd594adfb0
+CVE-2017-11719, 956f2db21ffc1ca7f8dae7a3f44b09a145d9b9fa / 296debd213bd6dce7647cedd34eb64e5b94cdc92
+</pre>
+
 <h3>3.1.9</h3>
 <p>
 Fixes following vulnerabilities:
