@@ -1,10 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="http://ffmpeg.org/releases/ffmpeg-3.3.4.tar.bz2" class="btn btn-success">
+    <a href="http://ffmpeg.org/releases/ffmpeg-3.4.tar.bz2" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download
-      <small>ffmpeg-3.3.4.tar.bz2</small>
+      <small>ffmpeg-3.4.tar.bz2</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
@@ -268,6 +268,44 @@
     selected changes from the development branch, which therefore receives much more
     and much faster bug fixes such as additional features and security patches.
   </p>
+
+  <h3 id="release_3.4">FFmpeg 3.4 "Cantor"</h3>
+
+  <p>
+    3.4 was released on 2017-10-15. It is the latest stable FFmpeg release
+    from the 3.4 release branch, which was cut from master on 2017-10-11.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      55. 78.100
+libavcodec     57.107.100
+libavformat    57. 83.100
+libavdevice    57. 10.100
+libavfilter     6.107.100
+libavresample   3.  7.  0
+libswscale      4.  8.100
+libswresample   2.  9.100
+libpostproc    54.  7.100</pre>
+
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.4.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-3.4.tar.xz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.4.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-3.4.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.4.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-3.4.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3 text-right">
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n3.4">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/3.4:/RELEASE_NOTES">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 
   <h3 id="release_3.3">FFmpeg 3.3.4 "Hilbert"</h3>
 
