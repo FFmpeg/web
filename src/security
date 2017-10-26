@@ -1,8 +1,25 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 3.4</h2>
+
+<h3>3.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2017-15186, df62b70de8aaa285168e72fe8f6e740843ca91fa
+</pre>
 
 
 <h2>FFmpeg 3.3</h2>
+
+<h3>3.3.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2017-15186, 0a231e7dd32bdea4b2fc1c48040047986d1d4925 / df62b70de8aaa285168e72fe8f6e740843ca91fa
+</pre>
 
 <h3>3.3.4</h3>
 <p>
@@ -62,6 +79,14 @@ CVE-2017-9996, a483e46b794539d21b1ec0f3e521f681a54a86d2 / 1e42736b95065c69a7481d
 
 
 <h2>FFmpeg 3.2</h2>
+
+<h3>3.2.9</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2017-15186, 0eb0b21c7f4f2b6a3a74d2d252f95b81a4d472c3 / df62b70de8aaa285168e72fe8f6e740843ca91fa
+</pre>
 
 <h3>3.2.8</h3>
 <p>
