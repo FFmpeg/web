@@ -30,6 +30,9 @@
           <a href="developer.html">FFmpeg Developer Documentation</a>.
         </p>
       </div>
+      <p class="info">
+         Please read the <a href="mailing-list-faq.html">Mailing List FAQ</a> before sending a message.
+      </p>
       <br>
       <div class="list-group">
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-devel/">
