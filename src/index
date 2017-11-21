@@ -87,7 +87,7 @@
   <p>
     Without further ado, here's the silver-lining for each one of the projects we sought to complete during this Summer of Code season:
   </p>
-  <h4>FFv1 (Mentor: Michael Nierdermayer)</h4>
+  <h4>FFv1 (Mentor: Michael Niedermayer)</h4>
   <p>
     Stanislav Dolganov designed and implemented experimental support for motion estimation and compensation in the lossless FFV1 codec. The design and implementation is based on the snow video codec, which uses OBMC. Stanislav's work proved that significant compression gains can be achieved with inter frame compression. FFmpeg welcomes Stanislav to continue working beyond this proof of concept and bring its advances into the official FFV1 specification within the IETF.
   </p>
