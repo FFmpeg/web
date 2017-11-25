@@ -37,6 +37,58 @@
     News
   </h1>
 
+  <h3 id="pr3.4">October 15th, 2017, FFmpeg 3.4 "Cantor"</h3>
+  <p>
+    <a href="download.html#release_3.4">FFmpeg 3.4 "Cantor"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>deflicker video filter</li>
+    <li>doubleweave video filter</li>
+    <li>lumakey video filter</li>
+    <li>pixscope video filter</li>
+    <li>oscilloscope video filter</li>
+    <li>update cuvid/nvenc headers to Video Codec SDK 8.0.14</li>
+    <li>afir audio filter</li>
+    <li>scale_cuda CUDA based video scale filter</li>
+    <li>librsvg support for svg rasterization</li>
+    <li>crossfeed audio filter</li>
+    <li>spec compliant VP9 muxing support in MP4</li>
+    <li>surround audio filter</li>
+    <li>sofalizer filter switched to libmysofa</li>
+    <li>Gremlin Digital Video demuxer and decoder</li>
+    <li>headphone audio filter</li>
+    <li>superequalizer audio filter</li>
+    <li>roberts video filter</li>
+    <li>additional frame format support for Interplay MVE movies</li>
+    <li>support for decoding through D3D11VA in ffmpeg</li>
+    <li>limiter video filter</li>
+    <li>libvmaf video filter</li>
+    <li>Dolby E decoder and SMPTE 337M demuxer</li>
+    <li>unpremultiply video filter</li>
+    <li>tlut2 video filter</li>
+    <li>floodfill video filter</li>
+    <li>pseudocolor video filter</li>
+    <li>raw G.726 muxer and demuxer, left- and right-justified</li>
+    <li>NewTek NDI input/output device</li>
+    <li>FITS demuxer and decoder</li>
+    <li>FITS muxer and encoder</li>
+    <li>despill video filter</li>
+    <li>haas audio filter</li>
+    <li>SUP/PGS subtitle muxer</li>
+    <li>convolve video filter</li>
+    <li>VP9 tile threading support</li>
+    <li>KMS screen grabber</li>
+    <li>CUDA thumbnail filter</li>
+    <li>V4L2 mem2mem HW assisted codecs</li>
+    <li>Rockchip MPP hardware decoding</li>
+    <li>vmafmotion video filter</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr3.3">April 13th, 2017, FFmpeg 3.3 "Hilbert"</h3>
   <p>
     <a href="download.html#release_3.3">FFmpeg 3.3 "Hilbert"</a>, a new
