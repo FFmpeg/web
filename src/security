@@ -2,12 +2,22 @@
 
 <h2>FFmpeg 3.4</h2>
 
+<h3>3.4.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2017-16840, a94cb36ab2ad99d3a1331c9f91831ef593d94f74 / 3228ac730c11eca49d5680d5550128e397061c85
+CVE-2017-17081, 6ccf19198b360cfc3fe5cd274948cfde2fe305e0 / 58cf31cee7a456057f337b3102a03206d833d5e8
+</pre>
+
 <h3>3.4</h3>
 <p>
 Fixes following vulnerabilities:
 </p>
 <pre>
 CVE-2017-15186, df62b70de8aaa285168e72fe8f6e740843ca91fa
+CVE-2017-17081, 127a362630e11fe724e2e63fc871791fdcbcfa64
 </pre>
 
 
