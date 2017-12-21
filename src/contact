@@ -54,11 +54,14 @@
         </a>
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-cvslog/">
           <strong>ffmpeg-cvslog</strong><br>
-          A log of all changes and updates made to the FFmpeg source.
+          A log of all changes and updates made to the FFmpeg source. No discussion occurs on this
+          mailing list.
         </a>
         <a class="list-group-item" href="https://lists.ffmpeg.org/mailman/listinfo/ffmpeg-trac/">
           <strong>ffmpeg-trac</strong><br>
-          Receives all bug reports, comments, and status changes made on the bug tracker.
+          A log of all bug reports, comments, and status changes made on the bug tracker.
+          No discussion occurs on this mailing list (other than what occurs directly within the bug
+          tracker).
         </a>
       </div> <!-- list-group -->
     </div> <!-- col -->
