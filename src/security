@@ -23,6 +23,15 @@ CVE-2017-17081, 127a362630e11fe724e2e63fc871791fdcbcfa64
 
 <h2>FFmpeg 3.3</h2>
 
+<h3>3.3.6</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2017-16840, a7aac19933a91e22d77b0b4dd4ecd61edf52d43f / 3228ac730c11eca49d5680d5550128e397061c85
+CVE-2017-17081, 96fe37a3390aaa07a1798d8daa6aa2d622c4870b / 58cf31cee7a456057f337b3102a03206d833d5e8
+</pre>
+
 <h3>3.3.5</h3>
 <p>
 Fixes following vulnerabilities:
