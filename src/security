@@ -29,6 +29,7 @@ Fixes following vulnerabilities:
 </p>
 <pre>
 CVE-2017-15186, 0a231e7dd32bdea4b2fc1c48040047986d1d4925 / df62b70de8aaa285168e72fe8f6e740843ca91fa
+CVE-2017-17081, aa6c44c33399a8dd5799dc57d18e0f8235b17f86 / 127a362630e11fe724e2e63fc871791fdcbcfa64
 </pre>
 
 <h3>3.3.4</h3>
