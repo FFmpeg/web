@@ -339,6 +339,14 @@ Fixes following vulnerabilities:
 CVE-2016-6164, 3e730278f5a8e5ec3f9593700488a940f38dfac1 / 8a3221cc67a516dfc1700bdae3566ec52c7ee823
 </pre>
 
+<h3>3.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2017-1000460, 641dccc2aa5e0bf6b3c06998f9a7f24a5cf725e7
+</pre>
+
 
 <h2>FFmpeg 3.0</h2>
 
