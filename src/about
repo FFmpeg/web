@@ -13,8 +13,8 @@
 
 <p class="info">It contains libavcodec, libavutil, libavformat, libavfilter, libavdevice,
   libswscale and libswresample which can be used by applications.
-  As well as ffmpeg, ffserver, ffplay and ffprobe which can be used by
-  end users for <strong>transcoding</strong>, <strong>streaming</strong> and <strong>playing</strong>.
+  As well as ffmpeg, ffplay and ffprobe which can be used by
+  end users for <strong>transcoding</strong> and <strong>playing</strong>.
 </p>
 
 <p class="with-icon">
@@ -57,14 +57,6 @@
       <h3><strong>ffmpeg</strong></h3>
       <p>A <strong>command line tool</strong> to convert multimedia files
         between formats</p>
-    </a>
-  </div>
-  <div class="col-md-6">
-    <a href="ffserver.html" class="well well-with-icon">
-      <span class="pull-left"><i class="fa fa-5x fa-fw fa-cloud"></i></span>
-      <h3><strong>ffserver</strong></h3>
-      <p>A multimedia <strong>streaming server</strong> for live
-        broadcasts</p>
     </a>
   </div>
 </div>
