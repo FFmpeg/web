@@ -143,7 +143,7 @@
               <i class="fa fa-git"></i>
               Snapshot
             </a> &nbsp;
-            <a href="https://github.com/FFmpeg/FFmpeg" class="btn btn-success">
+            <a href="https://git.ffmpeg.org/gitweb/ffmpeg.git" class="btn btn-success">
               Browse
             </a>
           </div>
