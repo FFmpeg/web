@@ -1,7 +1,7 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="http://ffmpeg.org/releases/ffmpeg-3.4.2.tar.bz2" class="btn btn-success">
+    <a href="https://ffmpeg.org/releases/ffmpeg-3.4.2.tar.bz2" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download
       <small>ffmpeg-3.4.2.tar.bz2</small>
@@ -56,7 +56,7 @@
               <a class="list-group-item" href="https://tracker.debian.org/pkg/ffmpeg">
                 <strong>Debian</strong> – Official packages for Stable-Backports, Testing, Unstable
               </a>
-              <a class="list-group-item" href="http://www.deb-multimedia.org/">
+              <a class="list-group-item" href="https://www.deb-multimedia.org/">
                 <strong>Debian</strong> – deb-multimedia packages for Oldstable, Stable, Testing, Unstable
               </a>
               <a href="https://launchpad.net/ubuntu/+source/ffmpeg" class="list-group-item">
@@ -66,14 +66,14 @@
                 <strong>Ubuntu</strong> – Ubuntu Multimedia for Trusty PPA. Provides static binaries
                 from most recent release branch.
               </a>
-              <a class="list-group-item" href="http://rpmfusion.org/">
+              <a class="list-group-item" href="https://rpmfusion.org/">
                 <strong>Fedora</strong> and <strong>Red Hat Enterprise Linux</strong> packages
               </a>
             </div> <!-- list-group -->
 
             <h3>Linux Static Builds</h3>
             <div class="list-group">
-              <a class="list-group-item" href="http://johnvansickle.com/ffmpeg/">32-bit and
+              <a class="list-group-item" href="https://johnvansickle.com/ffmpeg/">32-bit and
                 64-bit for kernel 2.6.32 and above</a>
             </div> <!-- list-group -->
 
@@ -83,7 +83,7 @@
             <h3>Windows Packages</h3>
 
             <div class="list-group">
-              <a class="list-group-item" href="http://ffmpeg.zeranoe.com/builds/">
+              <a class="list-group-item" href="https://ffmpeg.zeranoe.com/builds/">
                 <strong>Windows</strong> Builds
               </a>
             </div> <!-- list-group -->
@@ -94,7 +94,7 @@
             <h3>OS X Packages</h3>
 
             <div class="list-group">
-              <a class="list-group-item" href="http://evermeet.cx/ffmpeg/">
+              <a class="list-group-item" href="https://evermeet.cx/ffmpeg/">
                 Static builds for <strong>OS X Intel 64-bit</strong>
               </a>
               <a class="list-group-item" href="http://ffmpegmac.net/">
@@ -130,7 +130,7 @@
 
         <p>
           You can retrieve the source code through
-          <a href="http://git-scm.com/" target="_blank">Git</a>
+          <a href="https://git-scm.com/" target="_blank">Git</a>
           by using the command:
         </p>
 
@@ -182,7 +182,7 @@
     Git Repositories</h4>
 
   <p>
-    Since FFmpeg is developed with <a href="http://git-scm.com/">Git</a>,
+    Since FFmpeg is developed with <a href="https://git-scm.com/">Git</a>,
     multiple repositories from developers and groups of developers are available.
   </p>
 

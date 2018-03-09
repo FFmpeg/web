@@ -114,7 +114,7 @@
       <h3><strong>Community Contributed Documentation</strong></h3>
       <ul>
         <li><a href="https://trac.ffmpeg.org/wiki">Official FFmpeg Wiki</a></li>
-        <li><a href="http://wiki.multimedia.cx/">MultimediaWiki</a></li>
+        <li><a href="https://wiki.multimedia.cx/">MultimediaWiki</a></li>
         <li><a href="http://dranger.com/ffmpeg/">An FFmpeg and SDL Tutorial</a>
           by Stephen Dranger, explains how to write a video player based on FFmpeg
           (<a href="https://github.com/chelyaev/ffmpeg-tutorial">updated source code</a>).</li>
