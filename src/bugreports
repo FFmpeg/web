@@ -27,7 +27,7 @@
     <li>The full, uncut console output provided by
       <code>ffmpeg -v 9 -loglevel 99 -i </code> followed by the name of your input file
       (copy/pasted from the console, including the banner that indicates
-      version and configuration options), paste ffplay output
+      version and configuration options), paste ffplay or ffprobe output
       only if your problem is not reproducible with ffmpeg.</li>
     <li>Sufficient information, including any required input files, to reproduce
       the bug and confirm a potential fix.</li>
