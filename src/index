@@ -37,6 +37,56 @@
     News
   </h1>
 
+  <h3 id="pr4.0">April 20th, 2018, FFmpeg 4.0 "Wu"</h3>
+  <p>
+    <a href="download.html#release_4.0">FFmpeg 4.0 "Wu"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>Bitstream filters for editing metadata in H.264, HEVC and MPEG-2 streams</li>
+    <li>Experimental MagicYUV encoder</li>
+    <li>TiVo ty/ty+ demuxer</li>
+    <li>Intel QSV-accelerated MJPEG encoding</li>
+    <li>native aptX and aptX HD encoder and decoder</li>
+    <li>NVIDIA NVDEC-accelerated H.264, HEVC, MJPEG, MPEG-1/2/4, VC1, VP8/9 hwaccel decoding</li>
+    <li>Intel QSV-accelerated overlay filter</li>
+    <li>mcompand audio filter</li>
+    <li>acontrast audio filter</li>
+    <li>OpenCL overlay filter</li>
+    <li>video mix filter</li>
+    <li>video normalize filter</li>
+    <li>audio lv2 wrapper filter</li>
+    <li>VAAPI MJPEG and VP8 decoding</li>
+    <li>AMD AMF H.264 and HEVC encoders</li>
+    <li>video fillborders filter</li>
+    <li>video setrange filter</li>
+    <li>support LibreSSL (via libtls)</li>
+    <li>Dropped support for building for Windows XP. The minimum supported Windows version is Windows Vista.</li>
+    <li>deconvolve video filter</li>
+    <li>entropy video filter</li>
+    <li>hilbert audio filter source</li>
+    <li>aiir audio filter</li>
+    <li>Removed the ffserver program</li>
+    <li>Removed the ffmenc and ffmdec muxer and demuxer</li>
+    <li>VideoToolbox HEVC encoder and hwaccel</li>
+    <li>VAAPI-accelerated ProcAmp (color balance), denoise and sharpness filters</li>
+    <li>Add android_camera indev</li>
+    <li>codec2 en/decoding via libcodec2</li>
+    <li>native SBC encoder and decoder</li>
+    <li>drmeter audio filter</li>
+    <li>hapqa_extract bitstream filter</li>
+    <li>filter_units bitstream filter</li>
+    <li>AV1 Support through libaom</li>
+    <li>E-AC-3 dependent frames support</li>
+    <li>bitstream filter for extracting E-AC-3 core</li>
+    <li>Haivision SRT protocol via libsrt</li>
+    <li>vfrdet filter</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr3.4">October 15th, 2017, FFmpeg 3.4 "Cantor"</h3>
   <p>
     <a href="download.html#release_3.4">FFmpeg 3.4 "Cantor"</a>, a new
