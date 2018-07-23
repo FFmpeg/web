@@ -97,9 +97,6 @@
               <a class="list-group-item" href="https://evermeet.cx/ffmpeg/">
                 Static builds for <strong>OS X Intel 64-bit</strong>
               </a>
-              <a class="list-group-item" href="http://ffmpegmac.net/">
-                Builds 32-bit and 64-bit for <strong>OS X 10.5 and above</strong>
-              </a>
               <a class="list-group-item" href="https://ffmpeg.zeranoe.com/builds/">
                 <strong>Static and shared</strong> builds for macOS 64-bit
               </a>
