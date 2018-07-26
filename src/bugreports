@@ -41,9 +41,7 @@
   You can use the <code>-report</code> option or define the
   <code>FFREPORT</code> environment variable (to any value) to get the exact
   command line and the full verbose console output in a file named
-  <code>ffmpeg-*.log</code> in the current directory.<br>
-  Note that the <code>-report</code> option is recent, it will not help
-  tracking regressions in old revisions.
+  <code>ffmpeg-*.log</code> in the current directory.
 </div>
 
 <br>
