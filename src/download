@@ -95,7 +95,7 @@
 
             <div class="list-group">
               <a class="list-group-item" href="https://evermeet.cx/ffmpeg/">
-                Static builds for <strong>OS X Intel 64-bit</strong>
+                Static builds for <strong>macOS 64-bit</strong>
               </a>
               <a class="list-group-item" href="https://ffmpeg.zeranoe.com/builds/">
                 <strong>Static and shared</strong> builds for macOS 64-bit
