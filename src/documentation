@@ -131,6 +131,8 @@
       <ul>
         <li><a href="http://ffmpeg.tv">FFmpeg Basics</a> by Frantisek Korbel,
           describes various FFmpeg features and common tasks.</li>
+        <li><a href="http://book.chinaffmpeg.com">FFmpeg Beginner's handbook Chinese Version</a> by Steven Liu,
+        describes FFmpeg common use method in Chinese, from command line to API usage.</li>
       </ul>
     </div>
   </div> <!-- col -->
