@@ -2,6 +2,14 @@
 
 <h2>FFmpeg 4.0</h2>
 
+<h3>4.0.3</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2018-15822, 386975d7a4aa4f41451f5895a689aedbf83c4ecd / 6b67d7f05918f7a1ee8fc6ff21355d7e8736aa10
+</pre>
+
 <h3>4.0.2</h3>
 <p>
 Fixes following vulnerabilities:
@@ -37,6 +45,14 @@ CVE-2018-7557, 7414d0bda7763f9bd69c26c068e482ab297c1c96
 </pre>
 
 <h2>FFmpeg 3.4</h2>
+
+<h3>3.4.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2018-15822, 44e878d08674a15906badfb921443a44ebf6257d / 6b67d7f05918f7a1ee8fc6ff21355d7e8736aa10
+</pre>
 
 <h3>3.4.4</h3>
 <p>
