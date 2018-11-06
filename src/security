@@ -1,5 +1,27 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+
+<h2>FFmpeg 4.1</h2>
+
+<h3>4.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2018-12458, e1182fac1afba92a4975917823a5f644bee7e6e8
+CVE-2018-12459, 2fc108f60f98cd00813418a8754a46476b404a3c
+CVE-2018-12460, b3332a182f8ba33a34542e4a0370f38b914ccf7d
+CVE-2018-13300, 95556e27e2c1d56d9e18f5db34d6f756f3011148
+CVE-2018-13301, 2aa9047486dbff12d9e040f917e5f799ed2fd78b
+CVE-2018-13302, ed22dc22216f74c75ee7901f82649e1ff725ba50
+CVE-2018-13303, 00e8181bd97c834fe60751b0c511d4bb97875f78
+CVE-2018-13304, bd27a9364ca274ca97f1df6d984e88a0700fb235
+CVE-2018-13305, d08d4a8c7387e758d439b0592782e4cfa2b4d6a4
+CVE-2018-14394, 3a2d21bc5f97aa0161db3ae731fc2732be6108b8
+CVE-2018-14395, fa19fbcf712a6a6cc5a5cfdc3254a97b9bce6582
+CVE-2018-15822, 6b67d7f05918f7a1ee8fc6ff21355d7e8736aa10
+</pre>
+
 <h2>FFmpeg 4.0</h2>
 
 <h3>4.0.3</h3>
