@@ -37,6 +37,56 @@
     News
   </h1>
 
+  <h3 id="pr4.1">November 6th, 2018, FFmpeg 4.1 "al-Khwarizmi"</h3>
+  <p>
+    <a href="download.html#release_4.1">FFmpeg 4.1 "al-Khwarizmi"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>deblock filter</li>
+    <li>tmix filter</li>
+    <li>amplify filter</li>
+    <li>fftdnoiz filter</li>
+    <li>aderivative and aintegral audio filters</li>
+    <li>pal75bars and pal100bars video filter sources</li>
+    <li>mbedTLS based TLS support</li>
+    <li>adeclick and adeclip filters</li>
+    <li>libtensorflow backend for DNN based filters like srcnn</li>
+    <li>VC1 decoder is now bit-exact</li>
+    <li>ATRAC9 decoder</li>
+    <li>lensfun wrapper filter</li>
+    <li>colorconstancy filter</li>
+    <li>AVS2 video decoder via libdavs2</li>
+    <li>IMM4 video decoder</li>
+    <li>Brooktree ProSumer video decoder</li>
+    <li>MatchWare Screen Capture Codec decoder</li>
+    <li>WinCam Motion Video decoder</li>
+    <li>1D LUT filter (lut1d)</li>
+    <li>RemotelyAnywhere Screen Capture decoder</li>
+    <li>cue and acue filters</li>
+    <li>Support for AV1 in MP4 and Matroska/WebM</li>
+    <li>transpose_npp filter</li>
+    <li>AVS2 video encoder via libxavs2</li>
+    <li>amultiply filter</li>
+    <li>Block-Matching 3d (bm3d) denoising filter</li>
+    <li>acrossover filter</li>
+    <li>ilbc decoder</li>
+    <li>audio denoiser as afftdn filter</li>
+    <li>AV1 parser</li>
+    <li>sinc audio filter source</li>
+    <li>chromahold filter</li>
+    <li>setparams filter</li>
+    <li>vibrance filter</li>
+    <li>S12M timecode decoding in h264</li>
+    <li>xstack filter</li>
+    <li>(a)graphmonitor filter</li>
+    <li>yadif_cuda filter</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr4.0">April 20th, 2018, FFmpeg 4.0 "Wu"</h3>
   <p>
     <a href="download.html#release_4.0">FFmpeg 4.0 "Wu"</a>, a new
