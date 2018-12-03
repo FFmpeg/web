@@ -44,6 +44,43 @@ libpostproc    54.  0.100</pre>
     </div> <!-- col -->
   </div> <!-- row -->
 
+  <h3 id="release_3.0">FFmpeg 3.0.12 "Einstein"</h3>
+
+  <p>
+    3.0.12 was released on 2018-10-28. It is the latest stable FFmpeg release
+    from the 3.0 release branch, which was cut from master on 2016-02-14.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      55. 17.103
+libavcodec     57. 24.102
+libavformat    57. 25.100
+libavdevice    57.  0.101
+libavfilter     6. 31.100
+libavresample   3.  0.  0
+libswscale      4.  0.100
+libswresample   2.  0.101
+libpostproc    54.  0.100</pre>
+
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.0.12.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-3.0.12.tar.xz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.0.12.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-3.0.12.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.0.12.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-3.0.12.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3 text-right">
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n3.0.12">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/3.0:/RELEASE_NOTES">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 
   <h3 id="release_2.7">FFmpeg 2.7.7 "Nash"</h3>
 
