@@ -246,6 +246,14 @@ CVE-2017-7866, e371f031b942d73e02c090170975561fabd5c264
 
 <h2>FFmpeg 3.2</h2>
 
+<h3>3.2.13</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2018-15822, 1b283238226bf2ff1f328ab4811375240224b346 / 6b67d7f05918f7a1ee8fc6ff21355d7e8736aa10
+</pre>
+
 <h3>3.2.12</h3>
 <p>
 Fixes following vulnerabilities:
