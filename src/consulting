@@ -158,3 +158,16 @@ E.g.:
     </div> <!-- well -->
   </div> <!-- col -->
 </div> <!-- row -->
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Gyan Doshi</h3>
+      <p>
+        Gyan is located in Mumbai, India and is available for consulting
+        work. He has been a maintainer since 2018, and has expertise in ff* tools usage
+        and troubleshooting. You can contact him by email at
+        <a href="mailto:ffmpeg%20at%20gyani%20dot%20pro">ffmpeg at gyani dot pro</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
