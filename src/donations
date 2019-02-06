@@ -11,7 +11,17 @@
 <br><br>
 
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-3">
+    <div class="well">
+      <h3>PayPal</h3>
+      <p>Via Software in the Public Interest</p><br><br>
+      <div class="text-center">
+        <a class="btn btn-success btn-lg"
+           href="https://www.spi-inc.org/projects/ffmpeg/">PayPal</a><br><br>
+      </div>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-3">
     <div class="well">
       <h3>Credit card</h3>
       <p>Visa, MasterCard or Discovery</p><br><br>
@@ -22,7 +32,7 @@
       </div>
     </div> <!-- well -->
   </div> <!-- col -->
-  <div class="col-md-4">
+  <div class="col-md-3">
     <div class="well">
       <h3>Check or Money Order</h3>
       <p>US Dollars only</p><br><br>
@@ -37,7 +47,7 @@
     </p>
     </div> <!-- well -->
   </div> <!-- col -->
-  <div class="col-md-4">
+  <div class="col-md-3">
     <div class="well">
       <h3>Bank Transfer IBAN</h3>
       <p>Not for USA and Canada</p><br><br>
