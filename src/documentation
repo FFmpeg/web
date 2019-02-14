@@ -18,9 +18,6 @@
         <li><a href="ffplay-all.html">ffplay-all</a>: <tt>ffplay</tt> tool and FFmpeg components</li>
         <li><a href="ffprobe.html">ffprobe</a>: <tt>ffprobe</tt> tool</li>
         <li><a href="ffprobe-all.html">ffprobe-all</a>: <tt>ffprobe</tt> tool and FFmpeg components</li>
-        <li><a href="ffserver.html">ffserver</a>: <tt>ffserver</tt> tool</li>
-        <li><a href="ffserver-all.html">ffserver-all</a>: <tt>ffserver</tt> tool and FFmpeg components</li>
-        <li><a href="sample.html">sample <tt>ffserver</tt> configuration file</a></li>
       </ul>
     </div>
   </div> <!-- col -->
