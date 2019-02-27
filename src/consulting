@@ -72,20 +72,6 @@ E.g.:
   </div> <!-- col -->
   <div class="col-md-4">
     <div class="well">
-      <h3>Lou Logan</h3>
-      <p>
-        Lou is located in Alaska and is available for contract work, general
-        consulting, and troubleshooting involving the <code>ffmpeg</code> cli tool.
-        He has been a maintainer since 2011, and focuses on helping users,
-        documentation, and project communication. You can contact him by email at
-        <a href="mailto:lou%20at%20lrcd%20dot%20com">lou at lrcd dot com</a>.
-      </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
-</div> <!-- row -->
-<div class="row">
-  <div class="col-md-4">
-    <div class="well">
       <h3>Michael Niedermayer</h3>
       <p>
         Michael is located in Vienna, Austria and is available for contracting work.
@@ -94,6 +80,8 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
   <div class="col-md-4">
     <div class="well">
       <h3>Paul B Mahol</h3>
@@ -118,8 +106,6 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
-</div> <!-- row -->
-<div class="row">
   <div class="col-md-4">
     <div class="well">
       <h3>Stefano Sabatini</h3>
@@ -132,6 +118,8 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
   <div class="col-md-4">
     <div class="well">
       <h3>Thomas Volkert</h3>
@@ -157,8 +145,6 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
-</div> <!-- row -->
-<div class="row">
   <div class="col-md-4">
     <div class="well">
       <h3>Gyan Doshi</h3>
