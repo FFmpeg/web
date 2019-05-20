@@ -258,7 +258,7 @@
     Releases</h4>
 
   <p>
-    Approximately every 3 months the FFmpeg project makes a new major release.
+    Approximately every 6 months the FFmpeg project makes a new major release.
     Between major releases point releases
     will appear that add important bug fixes but no new features.
     Note that these releases are intended for distributors and system integrators.
