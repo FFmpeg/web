@@ -37,6 +37,53 @@
     News
   </h1>
 
+  <h3 id="pr4.2">August 5th, 2019, FFmpeg 4.2 "Ada"</h3>
+  <p>
+    <a href="download.html#release_4.2">FFmpeg 4.2 "Ada"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>tpad filter</li>
+    <li>AV1 decoding support through libdav1d</li>
+    <li>dedot filter</li>
+    <li>chromashift and rgbashift filters</li>
+    <li>freezedetect filter</li>
+    <li>truehd_core bitstream filter</li>
+    <li>dhav demuxer</li>
+    <li>PCM-DVD encoder</li>
+    <li>GIF parser</li>
+    <li>vividas demuxer</li>
+    <li>hymt decoder</li>
+    <li>anlmdn filter</li>
+    <li>maskfun filter</li>
+    <li>hcom demuxer and decoder</li>
+    <li>ARBC decoder</li>
+    <li>libaribb24 based ARIB STD-B24 caption support (profiles A and C)</li>
+    <li>Support decoding of HEVC 4:4:4 content in nvdec and cuviddec</li>
+    <li>removed libndi-newtek</li>
+    <li>agm decoder</li>
+    <li>KUX demuxer</li>
+    <li>AV1 frame split bitstream filter</li>
+    <li>lscr decoder</li>
+    <li>lagfun filter</li>
+    <li>asoftclip filter</li>
+    <li>Support decoding of HEVC 4:4:4 content in vdpau</li>
+    <li>colorhold filter</li>
+    <li>xmedian filter</li>
+    <li>asr filter</li>
+    <li>showspatial multimedia filter</li>
+    <li>VP4 video decoder</li>
+    <li>IFV demuxer</li>
+    <li>derain filter</li>
+    <li>deesser filter</li>
+    <li>mov muxer writes tracks with unspecified language instead of English by default</li>
+    <li>added support for using clang to compile CUDA kernels</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr4.1">November 6th, 2018, FFmpeg 4.1 "al-Khwarizmi"</h3>
   <p>
     <a href="download.html#release_4.1">FFmpeg 4.1 "al-Khwarizmi"</a>, a new
