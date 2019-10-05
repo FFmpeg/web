@@ -37,6 +37,42 @@
     News
   </h1>
 
+  <h3 id="photosensitivity">October 5th, 2019, Bright Lights</h3>
+  <p>
+  FFmpeg has added a realtime bright flash removal filter to libavfilter.
+  </p>
+  <p>
+  Note that this filter is not FDA approved, nor are we medical professionals.
+  Nor has this filter been tested with anyone who has photosensitive epilepsy.
+  FFmpeg and its photosensitivity filter are not making any medical claims.
+  </p>
+  <p>
+  That said, this is a new video filter that may help photosensitive people
+  watch tv, play video games or even be used with a VR headset to block
+  out epiletic triggers such as filtered sunlight when they are outside.
+  Or you could use it against those annoying white flashes on your tv screen.
+  The filter fails on some input, such as the
+  <a href="https://www.youtube.com/watch?v=8L_9hXnUzRk">Incredibles 2 Screen Slaver</a>
+  scene. It is not perfect. If you have other clips that you want this filter to
+  work better on, please report them to us on our <a href="http://trac.ffmpeg.org">trac</a>.
+  </p>
+  <p>
+  See for yourself with your eyes. -vf photosensitivity=20:0.8
+  </p>
+  <p>
+  <video>
+  <source src="http://ffmpeg.org/~compn/output20p8.mp4" type="video/mp4">
+  </video>
+  </p>
+  <p>
+  We are not professionals. Please use this in your medical studies to
+  advance epilepsy research. If you decide to use this in a medical
+  setting, or make a hardware hdmi input output realtime tv filter,
+  or find another use for this, <a href="mailto:compn@ffmpeg.org">please let me know</a>.
+  This filter was a feature request of mine
+  <a href="https://trac.ffmpeg.org/ticket/2104">since 2013</a>.
+  </p>
+
   <h3 id="pr4.2">August 5th, 2019, FFmpeg 4.2 "Ada"</h3>
   <p>
     <a href="download.html#release_4.2">FFmpeg 4.2 "Ada"</a>, a new
