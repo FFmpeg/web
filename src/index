@@ -57,7 +57,7 @@
   work better on, please report them to us on our <a href="http://trac.ffmpeg.org">trac</a>.
   </p>
   <p>
-  <a href="="http://ffmpeg.org/~compn/output20p8.mp4">See for yourself</a>.
+  <a href="http://ffmpeg.org/~compn/output20p8.mp4">See for yourself</a>.
   Example was made with -vf photosensitivity=20:0.8
   </p>
   <p>
