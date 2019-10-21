@@ -3,7 +3,7 @@
   <div class="btn-download-wrapper">
     <a href="https://ffmpeg.org/releases/ffmpeg-4.2.1.tar.bz2" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
-      Download
+      Download Source Code
       <small>ffmpeg-4.2.1.tar.bz2</small>
     </a>
     <br>
@@ -26,8 +26,8 @@
       <div class="well" id="get-packages">
         <h3>
           <i class="fa fa-download"></i>
-          Get the packages</h3>
-
+          Get packages &amp; executable files</h3>
+        <p>FFmpeg only provides source code. Below are some links that provide it already compiled and ready to go.</p>
         <div class="os-selector">
           <div class="row">
             <div class="col-xs-4">
@@ -60,11 +60,7 @@
                 <strong>Debian</strong> – deb-multimedia packages for Oldstable, Stable, Testing, Unstable
               </a>
               <a href="https://launchpad.net/ubuntu/+source/ffmpeg" class="list-group-item">
-                <strong>Ubuntu</strong> – Official packages for Vivid, Wily, Xenial
-              </a>
-              <a href="https://launchpad.net/~mc3man/+archive/ubuntu/trusty-media" class="list-group-item">
-                <strong>Ubuntu</strong> – Ubuntu Multimedia for Trusty PPA. Provides static binaries
-                from most recent release branch.
+                <strong>Ubuntu</strong> – Official packages
               </a>
               <a class="list-group-item" href="https://rpmfusion.org/">
                 <strong>Fedora</strong> and <strong>Red Hat Enterprise Linux</strong> packages
@@ -80,18 +76,18 @@
           </div> <!-- build -->
           <div id="build-windows" class="tab-pane active">
 
-            <h3>Windows Packages</h3>
+            <h3>Windows EXE Files</h3>
 
             <div class="list-group">
               <a class="list-group-item" href="https://ffmpeg.zeranoe.com/builds/">
-                <strong>Windows</strong> Builds
+                Windows builds by Zeranoe
               </a>
             </div> <!-- list-group -->
 
           </div> <!-- build -->
           <div id="build-mac" class="tab-pane active">
 
-            <h3>OS X Packages</h3>
+            <h3>macOS</h3>
 
             <div class="list-group">
               <a class="list-group-item" href="https://evermeet.cx/ffmpeg/">
@@ -541,5 +537,9 @@ libpostproc    53.  3.100</pre>
     Older versions are available at the <a href="olddownload.html">Old
       Releases</a> page.
   </p>
-
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="olddownload.html">Get old releases</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 </div> <!-- #download -->
