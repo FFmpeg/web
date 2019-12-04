@@ -1,5 +1,28 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 4.2</h2>
+
+<h3>4.2.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2019-15942, c1dc4d2d501cd926ce698df86a8cf1d0b77606eb / af70bfbeadc0c9b9215cf045ff2a6a31e8ac3a71
+</pre>
+
+<h3>4.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2019-9718,    1f00c97bc3475c477f3c468cf2d924d5761d0982
+CVE-2019-9721,    894995c41e0795c7a44f81adc4838dedc3932e65
+CVE-2019-11338,   54655623a82632e7624714d7b2a3e039dc5faa7e
+CVE-2019-11339,   1f686d023b95219db933394a7704ad9aa5f01cbb
+CVE-2019-11339,   d227ed5d598340e719eff7156b1aa0a4469e9a6a
+CVE-2019-12730,   ed188f6dcdf0935c939ed813cf8745d50742014b
+CVE-2019-1000016, b97a4b658814b2de8b9f2a3bce491c002d34de31
+</pre>
 
 <h2>FFmpeg 4.1</h2>
 
@@ -65,6 +88,14 @@ CVE-2018-1999015, 5aba5b89d0b1d73164d3b81764828bb8b20ff32a
 
 <h2>FFmpeg 4.0</h2>
 
+<h3>4.0.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2019-12730, 3935e8d967d6066a6f6667acf2a48f1337699039 / ed188f6dcdf0935c939ed813cf8745d50742014b
+</pre>
+
 <h3>4.0.4</h3>
 <p>
 Fixes following vulnerabilities:
@@ -127,6 +158,14 @@ CVE-2018-10001, 47b7c68ae54560e2308bdb6be4fb076c73b93081
 </pre>
 
 <h2>FFmpeg 3.4</h2>
+
+<h3>3.4.7</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2019-12730, 59ac4182583e4791a7f98b79099916fd96beedfd / ed188f6dcdf0935c939ed813cf8745d50742014
+</pre>
 
 <h3>3.4.6</h3>
 <p>
