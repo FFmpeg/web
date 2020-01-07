@@ -28,6 +28,15 @@ CVE-2019-1000016, b97a4b658814b2de8b9f2a3bce491c002d34de31
 
 <h2>FFmpeg 4.1</h2>
 
+<h3>4.1.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2019-17539, f2c01cc90b36e0efa60cc335bc910746d53e46ce / 8df6884832ec413cf032dfaa45c23b1c7876670c
+CVE-2019-17542, 731b4f7414b7ee5e2b90b55d6721c2df0dc4f160 / 02f909dc24b1f05cfbba75077c7707b905e63cd2
+</pre>
+
 <h3>4.1.4</h3>
 <p>
 Fixes following vulnerabilities:
