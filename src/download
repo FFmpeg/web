@@ -463,7 +463,7 @@ libpostproc    54.  5.100</pre>
   <pre>
 libavutil      55. 34.100
 libavcodec     57. 64.101
-libavformat    57. 56.100
+libavformat    57. 56.101
 libavdevice    57.  1.100
 libavfilter     6. 65.100
 libavresample   3.  1.  0
