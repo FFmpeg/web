@@ -70,7 +70,7 @@
             <h3>Linux Static Builds</h3>
             <div class="list-group">
               <a class="list-group-item" href="https://johnvansickle.com/ffmpeg/">32-bit and
-                64-bit for kernel 2.6.32 and above</a>
+                64-bit for kernel 3.2.0 and above</a>
             </div> <!-- list-group -->
 
           </div> <!-- build -->
