@@ -124,11 +124,12 @@ E.g.:
     <div class="well">
       <h3>Thomas Volkert</h3>
       <p>
-        Thomas is located near Stuttgart, Germany. He works with FFmpeg since
-        2008 and is a maintainer since 2014. The focus of his work is on network
-        protocols and all areas of audio/video streaming. He has special expertise
-        with RTP, RTCP, RTSP, RTMP, HLS and also SDP. You can contact him by email at
-        <a href="mailto:thomas@homer-conferencing.com">thomas@homer-conferencing.com</a>.
+        Thomas is located near Stuttgart, Germany. He works with FFmpeg since 
+        2008 and is maintainer since 2014. His main focus is on individual software 
+        solutions in C++/C#/C for video/audio streaming/processing. He is familiar 
+        with MPEG-TS, FLV, RTP/RTCP/RTSP(S)/SDP/SIP, RTMP(S), HLS and SRT. His special 
+        expertise is in designing/developing of network protocols for distributed systems. 
+        You can contact him via <a href="mailto:thomas.volkert@net-zeal.com">thomas.volkert@net-zeal.com</a>.
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
