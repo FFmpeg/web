@@ -157,8 +157,6 @@
     </p>
   </div>
   <p class="text-center">
-    <a class="btn btn-success btn-lg" href="https://ffmpeg.zeranoe.com/forum/">FFmpeg on Windows</a>
-    &nbsp; &nbsp;
     <a class="btn btn-success btn-lg" href="https://superuser.com/questions/tagged/ffmpeg">FFmpeg at SuperUser</a>
   </p>
 </div> <!-- well -->
