@@ -1,10 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="https://ffmpeg.org/releases/ffmpeg-4.2.3.tar.bz2" class="btn btn-success">
+    <a href="https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download Source Code
-      <small>ffmpeg-4.2.3.tar.bz2</small>
+      <small>ffmpeg-snapshot.tar.bz2</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
