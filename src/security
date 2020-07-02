@@ -404,6 +404,17 @@ CVE-2017-7866, e371f031b942d73e02c090170975561fabd5c264
 
 <h2>FFmpeg 3.2</h2>
 
+<h3>3.2.15</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2019-13390, 9b236547f480a012cab32f8cad2dfe02774537c1 / aef24efb0c1e65097ab77a4bf9264189bdf3ace3
+CVE-2019-17542, 039c13f109a46f8f65adfb65cafa8bdb7123a2a7 / 02f909dc24b1f05cfbba75077c7707b905e63cd2
+CVE-2020-13904, 8a2ef6d25dc79d472ea7b184c3b95b4658c99838 / b5e39880fb7269b1b3577cee288e06aa3dc1dfa2
+CVE-2020-13904, f80106e256e051082e507496cdaed564adbd4da9 / 9dfb19baeb86a8bb02c53a441682c6e9a6e104cc
+</pre>
+
 <h3>3.2.14</h3>
 <p>
 Fixes following vulnerabilities:
