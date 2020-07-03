@@ -124,6 +124,15 @@ CVE-2018-1999015, 5aba5b89d0b1d73164d3b81764828bb8b20ff32a
 
 <h2>FFmpeg 4.0</h2>
 
+<h3>4.0.6</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2020-13904, / 2a5219d359933b4d6a4ccf13e241253543fc390e 9dfb19baeb86a8bb02c53a441682c6e9a6e104cc
+CVE-2020-13904, / d7abedc90443d6bbd7e956fd53d91b343cba50a8 b5e39880fb7269b1b3577cee288e06aa3dc1dfa2
+</pre>
+
 <h3>4.0.5</h3>
 <p>
 Fixes following vulnerabilities:
