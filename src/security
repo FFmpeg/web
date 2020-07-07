@@ -866,6 +866,15 @@ CVE-2016-7122, 1d90326f95a791db515f69a01a5f6ef867896d15 / e4e4a9cad7f21593d4bcb1
 
 <h2>FFmpeg 2.8</h2>
 
+<h3>2.8.17</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2020-13904, 0f6fa27b241676624bab91fc6ecdf8ac01121d29 / b5e39880fb7269b1b3577cee288e06aa3dc1dfa2
+CVE-2020-13904, 6959358683c7533f586c07a766acc5fe9544d8b2 / 9dfb19baeb86a8bb02c53a441682c6e9a6e104cc
+</pre>
+
 <h3>2.8.16</h3>
 <p>
 Fixes following vulnerabilities:
