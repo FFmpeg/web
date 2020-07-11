@@ -2,6 +2,15 @@
 
 <h2>FFmpeg 4.3</h2>
 
+<h3>4.3.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2020-13904, a3fdeb0c3a4ecabab2c2351b86fc92004526e9cc / b5e39880fb7269b1b3577cee288e06aa3dc1dfa2
+CVE-2020-14212, dd273d359e45ab69398ac0dc41206d5f1a9371bf / 0b3bd001ac1745d9d008a2d195817df57d7d1d14
+</pre>
+
 <h3>4.3</h3>
 <p>
 Fixes following vulnerabilities:
