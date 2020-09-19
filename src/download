@@ -82,6 +82,9 @@
               <a class="list-group-item" href="https://www.gyan.dev/ffmpeg/builds/">
                 Windows builds from gyan.dev
               </a>
+              <a class="list-group-item" href="https://github.com/BtbN/FFmpeg-Builds/releases">
+                Windows builds by BtbN
+              </a>
             </div> <!-- list-group -->
 
           </div> <!-- build -->
