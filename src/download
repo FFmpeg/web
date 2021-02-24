@@ -5,6 +5,11 @@
       <i class="fa fa-cloud-download"></i>
       Download Source Code
       <small>ffmpeg-snapshot.tar.bz2</small>
+    </a> &nbsp;
+    <a href="ffmpeg-devel.asc" class="btn btn-success">
+      <i class="fa fa-key"></i>
+      Download PGP Signing Key
+      <small>ffmpeg-devel.asc</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
