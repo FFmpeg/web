@@ -249,6 +249,40 @@
   </div> <!-- table-responsive -->
 
   <div></div>
+  <h4 id="release-verification">
+    <i class="fa fa-lock"></i>
+    Release Verification</h4>
+
+  <p>
+    All FFmpeg releases are cryptographically signed with
+    <a href="ffmpeg-devel.asc">our public PGP key</a> and should be verified for
+    authenticity.
+  </p>
+  <pre>pub   rsa2048 2011-04-26 [SC]
+    FCF986EA15E6E293A5644F10B4322F04D67658D8
+uid           [  full  ] FFmpeg release signing key &lt;ffmpeg-devel@ffmpeg.org&gt;
+sub   rsa2048 2011-04-26 [E]</pre>
+
+  <p>
+    To verify a release:
+    <ol>
+      <li>Import our public key into your local keyring:
+        <pre>$ curl https://ffmpeg.org/ffmpeg-devel.asc | gpg --import</pre>
+      </li>
+      <li>
+        Download a release tarball and its corresponding signature.
+      </li>
+      <li>
+        Verify the signature:
+        <pre>$ gpg --verify ffmpeg-4.3.2.tar.xz.asc ffmpeg-4.3.2.tar.xz
+gpg: Signature made Sun 21 Feb 2021 06:35:15 AEST
+gpg:                using RSA key FCF986EA15E6E293A5644F10B4322F04D67658D8
+gpg:                issuer "ffmpeg-devel@ffmpeg.org"
+gpg: Good signature from "FFmpeg release signing key &lt;ffmpeg-devel@ffmpeg.org&gt;" [full]</pre>
+      </li>
+    </ol>
+  </p>
+
   <h4 id="releases">
     <i class="fa fa-history"></i>
     Releases</h4>
