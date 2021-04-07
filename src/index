@@ -35,6 +35,91 @@
     News
   </h1>
 
+  <h3 id="pr4.3">June 15th, 2020, FFmpeg 4.3 "4:3"</h3>
+  <p>
+    <a href="download.html#release_4.3">FFmpeg 4.3 "4:3"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>v360 filter</li>
+    <li>Intel QSV-accelerated MJPEG decoding</li>
+    <li>Intel QSV-accelerated VP9 decoding</li>
+    <li>Support for TrueHD in mp4</li>
+    <li>Support AMD AMF encoder on Linux (via Vulkan)</li>
+    <li>IMM5 video decoder</li>
+    <li>ZeroMQ protocol</li>
+    <li>support Sipro ACELP.KELVIN decoding</li>
+    <li>streamhash muxer</li>
+    <li>sierpinski video source</li>
+    <li>scroll video filter</li>
+    <li>photosensitivity filter</li>
+    <li>anlms filter</li>
+    <li>arnndn filter</li>
+    <li>bilateral filter</li>
+    <li>maskedmin and maskedmax filters</li>
+    <li>VDPAU VP9 hwaccel</li>
+    <li>median filter</li>
+    <li>QSV-accelerated VP9 encoding</li>
+    <li>AV1 encoding support via librav1e</li>
+    <li>AV1 frame merge bitstream filter</li>
+    <li>AV1 Annex B demuxer</li>
+    <li>axcorrelate filter</li>
+    <li>mvdv decoder</li>
+    <li>mvha decoder</li>
+    <li>MPEG-H 3D Audio support in mp4</li>
+    <li>thistogram filter</li>
+    <li>freezeframes filter</li>
+    <li>Argonaut Games ADPCM decoder</li>
+    <li>Argonaut Games ASF demuxer</li>
+    <li>xfade video filter</li>
+    <li>xfade_opencl filter</li>
+    <li>afirsrc audio filter source</li>
+    <li>pad_opencl filter</li>
+    <li>Simon & Schuster Interactive ADPCM decoder</li>
+    <li>Real War KVAG demuxer</li>
+    <li>CDToons video decoder</li>
+    <li>siren audio decoder</li>
+    <li>Rayman 2 ADPCM decoder</li>
+    <li>Rayman 2 APM demuxer</li>
+    <li>cas video filter</li>
+    <li>High Voltage Software ADPCM decoder</li>
+    <li>LEGO Racers ALP (.tun & .pcm) demuxer</li>
+    <li>AMQP 0-9-1 protocol (RabbitMQ)</li>
+    <li>Vulkan support</li>
+    <li>avgblur_vulkan, overlay_vulkan, scale_vulkan and chromaber_vulkan filters</li>
+    <li>ADPCM IMA MTF decoder</li>
+    <li>FWSE demuxer</li>
+    <li>DERF DPCM decoder</li>
+    <li>DERF demuxer</li>
+    <li>CRI HCA decoder</li>
+    <li>CRI HCA demuxer</li>
+    <li>overlay_cuda filter</li>
+    <li>switch from AvxSynth to AviSynth+ on Linux</li>
+    <li>mv30 decoder</li>
+    <li>Expanded styling support for 3GPP Timed Text Subtitles (movtext)</li>
+    <li>WebP parser</li>
+    <li>tmedian filter</li>
+    <li>maskedthreshold filter</li>
+    <li>Support for muxing pcm and pgs in m2ts</li>
+    <li>Cunning Developments ADPCM decoder</li>
+    <li>asubboost filter</li>
+    <li>Pro Pinball Series Soundbank demuxer</li>
+    <li>pcm_rechunk bitstream filter</li>
+    <li>scdet filter</li>
+    <li>NotchLC decoder</li>
+    <li>gradients source video filter</li>
+    <li>MediaFoundation encoder wrapper</li>
+    <li>untile filter</li>
+    <li>Simon & Schuster Interactive ADPCM encoder</li>
+    <li>PFM decoder</li>
+    <li>dblur video filter</li>
+    <li>Real War KVAG muxer</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="photosensitivity">October 5th, 2019, Bright Lights</h3>
   <p>
   FFmpeg has added a realtime bright flash removal filter to libavfilter.
