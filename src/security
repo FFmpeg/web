@@ -1,5 +1,19 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 4.4</h2>
+
+<h3>4.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2020-14212, 0b3bd001ac1745d9d008a2d195817df57d7d1d14
+CVE-2020-13904, 9dfb19baeb86a8bb02c53a441682c6e9a6e104cc
+CVE-2020-13904, b5e39880fb7269b1b3577cee288e06aa3dc1dfa2
+CVE-2020-35965, b0a8b40294ea212c1938348ff112ef1b9bf16bb3
+CVE-2020-35965, 3e5959b3457f7f1856d997261e6ac672bba49e8b
+</pre>
+
 <h2>FFmpeg 4.3</h2>
 
 <h3>4.3.1</h3>
