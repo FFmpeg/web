@@ -336,7 +336,7 @@ libpostproc    55.  9.100</pre>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
       <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n4.4">Changelog</a></small>
-      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/4.3:/RELEASE_NOTES">Release Notes</a>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/4.4:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
