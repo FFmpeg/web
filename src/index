@@ -35,6 +35,99 @@
     News
   </h1>
 
+  <h3 id="pr4.4">April 8th, 2021, FFmpeg 4.4 "Rao"</h3>
+  <p>
+    <a href="download.html#release_4.4">FFmpeg 4.4 "Rao"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>AudioToolbox output device</li>
+    <li>MacCaption demuxer</li>
+    <li>PGX decoder</li>
+    <li>chromanr video filter</li>
+    <li>VDPAU accelerated HEVC 10/12bit decoding</li>
+    <li>ADPCM IMA Ubisoft APM encoder</li>
+    <li>Rayman 2 APM muxer</li>
+    <li>AV1 encoding support SVT-AV1</li>
+    <li>Cineform HD encoder</li>
+    <li>ADPCM Argonaut Games encoder</li>
+    <li>Argonaut Games ASF muxer</li>
+    <li>AV1 Low overhead bitstream format demuxer</li>
+    <li>RPZA video encoder</li>
+    <li>ADPCM IMA MOFLEX decoder</li>
+    <li>MobiClip FastAudio decoder</li>
+    <li>MobiClip video decoder</li>
+    <li>MOFLEX demuxer</li>
+    <li>MODS demuxer</li>
+    <li>PhotoCD decoder</li>
+    <li>MCA demuxer</li>
+    <li>AV1 decoder (Hardware acceleration used only)</li>
+    <li>SVS demuxer</li>
+    <li>Argonaut Games BRP demuxer</li>
+    <li>DAT demuxer</li>
+    <li>aax demuxer</li>
+    <li>IPU decoder, parser and demuxer</li>
+    <li>Intel QSV-accelerated AV1 decoding</li>
+    <li>Argonaut Games Video decoder</li>
+    <li>libwavpack encoder removed</li>
+    <li>ACE demuxer</li>
+    <li>AVS3 demuxer</li>
+    <li>AVS3 video decoder via libuavs3d</li>
+    <li>Cintel RAW decoder</li>
+    <li>VDPAU accelerated VP9 10/12bit decoding</li>
+    <li>afreqshift and aphaseshift filters</li>
+    <li>High Voltage Software ADPCM encoder</li>
+    <li>LEGO Racers ALP (.tun & .pcm) muxer</li>
+    <li>AV1 VAAPI decoder</li>
+    <li>adenorm filter</li>
+    <li>ADPCM IMA AMV encoder</li>
+    <li>AMV muxer</li>
+    <li>NVDEC AV1 hwaccel</li>
+    <li>DXVA2/D3D11VA hardware accelerated AV1 decoding</li>
+    <li>speechnorm filter</li>
+    <li>SpeedHQ encoder</li>
+    <li>asupercut filter</li>
+    <li>asubcut filter</li>
+    <li>Microsoft Paint (MSP) version 2 decoder</li>
+    <li>Microsoft Paint (MSP) demuxer</li>
+    <li>AV1 monochrome encoding support via libaom >= 2.0.1</li>
+    <li>asuperpass and asuperstop filter</li>
+    <li>shufflepixels filter</li>
+    <li>tmidequalizer filter</li>
+    <li>estdif filter</li>
+    <li>epx filter</li>
+    <li>Dolby E parser</li>
+    <li>shear filter</li>
+    <li>kirsch filter</li>
+    <li>colortemperature filter</li>
+    <li>colorcontrast filter</li>
+    <li>PFM encoder</li>
+    <li>colorcorrect filter</li>
+    <li>binka demuxer</li>
+    <li>XBM parser</li>
+    <li>xbm_pipe demuxer</li>
+    <li>colorize filter</li>
+    <li>CRI parser</li>
+    <li>aexciter audio filter</li>
+    <li>exposure video filter</li>
+    <li>monochrome video filter</li>
+    <li>setts bitstream filter</li>
+    <li>vif video filter</li>
+    <li>OpenEXR image encoder</li>
+    <li>Simbiosis IMX decoder</li>
+    <li>Simbiosis IMX demuxer</li>
+    <li>Digital Pictures SGA demuxer and decoders</li>
+    <li>TTML subtitle encoder and muxer</li>
+    <li>identity video filter</li>
+    <li>msad video filter</li>
+    <li>gophers protocol</li>
+    <li>RIST protocol via librist</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr4.3">June 15th, 2020, FFmpeg 4.3 "4:3"</h3>
   <p>
     <a href="download.html#release_4.3">FFmpeg 4.3 "4:3"</a>, a new
