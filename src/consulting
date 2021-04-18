@@ -106,18 +106,6 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
-  <div class="col-md-4">
-    <div class="well">
-      <h3>Stefano Sabatini</h3>
-      <p>
-        Stefano is located in Italy and is available for contracting
-        work. He has worked on FFmpeg since 2007 and has been a maintainer since
-        2008. He has special expertise in libavfilter, ff* tools usage and
-        usability issues. You can contact him by email at
-        <a href="mailto:stefasab@gmail.com">stefasab@gmail.com</a>.
-      </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
 </div> <!-- row -->
 <div class="row">
   <div class="col-md-4">
