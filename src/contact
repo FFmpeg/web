@@ -100,21 +100,21 @@
         IRC Channels</h3>
       <div style="color: white">
         <p>
-          FFmpeg has two official channels on the <a href="https://freenode.net/">freenode</a>
+          FFmpeg has two official channels on the <a href="https://libera.chat/">Libera</a>
           IRC network. Both channels are open and unmoderated. Maintainers
           have operator status, contributors with patches in FFmpeg
           have voice in the channels.
-          <a href="https://webchat.freenode.net/">freenode webchat</a> is a web
+          <a href="https://kiwiirc.com/nextclient/irc.libera.chat/?channels=#ffmpeg,#ffmpeg-devel">kiwiirc webchat</a> is a web
           client for these channels.
           Please read and follow the <a href="developer.html#Code-of-conduct">Code of conduct</a>.
         </p>
       </div>
       <div class="list-group">
-        <a class="list-group-item" href="irc://irc.freenode.net/ffmpeg">
+        <a class="list-group-item" href="irc://irc.libera.chat/ffmpeg">
           <strong>#ffmpeg</strong><br>
           For user support and general questions similar to the ffmpeg-user mailing list
         </a>
-        <a class="list-group-item" href="irc://irc.freenode.net/ffmpeg-devel">
+        <a class="list-group-item" href="irc://irc.libera.chat/ffmpeg-devel">
           <strong>#ffmpeg-devel</strong><br>
           Strictly dedicated to FFmpeg development. This means development of FFmpeg
           itself. Development of other software that uses the FFmpeg libraries is offtopic
