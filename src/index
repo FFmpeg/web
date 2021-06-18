@@ -35,6 +35,13 @@
     News
   </h1>
 
+  <h3 id="irc2021">June 19th, 2021, IRC</h3>
+  <p>
+    We have a new IRC home at Libera Chat
+    now! Feel free to join us at #ffmpeg and #ffmpeg-devel. More info at <a href="https://ffmpeg.org/contact.html#IRCChannels">contact#IRCChannels</a>
+  </p>
+
+
   <h3 id="pr4.4">April 8th, 2021, FFmpeg 4.4 "Rao"</h3>
   <p>
     <a href="download.html#release_4.4">FFmpeg 4.4 "Rao"</a>, a new
