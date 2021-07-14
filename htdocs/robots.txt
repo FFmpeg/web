@@ -1,2 +1,15 @@
 User-agent: *
-Disallow:
+Crawl-delay: 10
+Disallow: /gitweb/
+
+#Based on https://serverfault.com/questions/506613/ideal-robots-txt-for-a-gitweb-installation
+Disallow: /*a=search*
+Disallow: /*/search/*
+Disallow: /*a=blobdiff*
+Disallow: /*/blobdiff/*
+Disallow: /*a=commitdiff*
+Disallow: /*/commitdiff/*
+Disallow: /*a=snapshot*
+Disallow: /*/snapshot/*
+Disallow: /*a=blame*
+Disallow: /*/blame/*
