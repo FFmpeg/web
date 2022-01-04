@@ -35,12 +35,72 @@
     News
   </h1>
 
+  <h3 id="pr5.0">January Nth, 2022, FFmpeg 5.0 "Lorentz"</h3>
+  <p>
+    <a href="download.html#release_5.0">FFmpeg 5.0 "Lorentz"</a>, a new
+    major release, is now available! For this long-overdue release, a major effort
+    underwent to remove the old encode/decode APIs and replace them with an
+    N:M-based API, the entire libavresample library was removed, libswscale
+    has a new, easier to use AVframe-based API, the Vulkan code was much improved,
+    many new filters were added, including libplacebo integration, and finally,
+    DoVi support was added, including tonemapping and remuxing. The default
+    AAC encoder settings were also changed to improve quality.
+    Some of the changelog highlights:
+  </p>
+  <ul>
+    <li>ADPCM IMA Westwood encoder</li>
+    <li>Westwood AUD muxer</li>
+    <li>ADPCM IMA Acorn Replay decoder</li>
+    <li>Argonaut Games CVG demuxer</li>
+    <li>Argonaut Games CVG muxer</li>
+    <li>Concatf protocol</li>
+    <li>afwtdn audio filter</li>
+    <li>audio and video segment filters</li>
+    <li>Apple Graphics (SMC) encoder</li>
+    <li>hsvkey and hsvhold video filters</li>
+    <li>adecorrelate audio filter</li>
+    <li>atilt audio filter</li>
+    <li>grayworld video filter</li>
+    <li>AV1 Low overhead bitstream format muxer</li>
+    <li>swscale slice threading</li>
+    <li>MSN Siren decoder</li>
+    <li>scharr video filter</li>
+    <li>apsyclip audio filter</li>
+    <li>morpho video filter</li>
+    <li>amr parser</li>
+    <li>(a)latency filters</li>
+    <li>GEM Raster image decoder</li>
+    <li>asdr audio filter</li>
+    <li>speex decoder</li>
+    <li>limitdiff video filter</li>
+    <li>xcorrelate video filter</li>
+    <li>varblur video filter</li>
+    <li>huesaturation video filter</li>
+    <li>colorspectrum source video filter</li>
+    <li>RTP packetizer for uncompressed video (RFC 4175)</li>
+    <li>bitpacked encoder</li>
+    <li>VideoToolbox VP9 hwaccel</li>
+    <li>VideoToolbox ProRes hwaccel</li>
+    <li>support loongarch.</li>
+    <li>aspectralstats audio filter</li>
+    <li>adynamicsmooth audio filter</li>
+    <li>libplacebo filter</li>
+    <li>vflip_vulkan, hflip_vulkan and flip_vulkan filters</li>
+    <li>adynamicequalizer audio filter</li>
+    <li>yadif_videotoolbox filter</li>
+    <li>VideoToolbox ProRes encoder</li>
+    <li>anlmf audio filter</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="irc2021">June 19th, 2021, IRC</h3>
   <p>
     We have a new IRC home at Libera Chat
     now! Feel free to join us at #ffmpeg and #ffmpeg-devel. More info at <a href="https://ffmpeg.org/contact.html#IRCChannels">contact#IRCChannels</a>
   </p>
-
 
   <h3 id="pr4.4">April 8th, 2021, FFmpeg 4.4 "Rao"</h3>
   <p>
