@@ -307,7 +307,7 @@ gpg: Good signature from "FFmpeg release signing key &lt;ffmpeg-devel@ffmpeg.org
   <h3 id="release_5.0">FFmpeg 5.0 "Lorentz"</h3>
 
   <p>
-    5.0 was released on 2022-01-NN. It is the latest stable FFmpeg release
+    5.0 was released on 2022-01-17. It is the latest stable FFmpeg release
     from the 5.0 release branch, which was cut from master on 2022-01-04.
   </p>
   <p>It includes the following library versions:
