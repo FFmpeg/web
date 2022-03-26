@@ -108,6 +108,18 @@ E.g.:
   </div> <!-- col -->
   <div class="col-md-4">
     <div class="well">
+      <h3>Tomas Härdin</h3>
+      <p>
+        Tomas is located in Umeå, Sweden.
+        He has worked on FFmpeg since 2009 and has been a maintainer since 2010.
+        He has expertise in broadcast formats, mainly MXF and AAF, and is also available for general FFmpeg work.
+        For more information on Tomas' areas of expertise see <a href="https://www.haerdin.se/pages/consulting.html">the consulting page on his website</a>.
+        You can contact him by email at <a href="mailto:consulting@haerdin.se">consulting@haerdin.se</a> or by XMPP at <a href="xmpp:tms@haerdin.se">tms@haerdin.se</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
       <h3>Steven Liu</h3>
       <p>
         Steven is located in BeiJing, China. He works with FFmpeg since
