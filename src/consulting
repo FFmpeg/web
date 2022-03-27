@@ -118,6 +118,8 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
+</div> <!-- row -->
+<div class="row">
   <div class="col-md-4">
     <div class="well">
       <h3>Steven Liu</h3>
@@ -131,8 +133,6 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
-</div> <!-- row -->
-<div class="row">
   <div class="col-md-4">
     <div class="well">
       <h3>Gyan Doshi</h3>
