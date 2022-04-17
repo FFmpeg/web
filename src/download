@@ -449,10 +449,10 @@ libpostproc    55.  5.100</pre>
     </div> <!-- col -->
   </div> <!-- row -->
 
-  <h3 id="release_4.1">FFmpeg 4.1.8 "al-Khwarizmi"</h3>
+  <h3 id="release_4.1">FFmpeg 4.1.9 "al-Khwarizmi"</h3>
 
   <p>
-    4.1.8 was released on 2021-10-17. It is the latest stable FFmpeg release
+    4.1.9 was released on 2022-04-17. It is the latest stable FFmpeg release
     from the 4.1 release branch, which was cut from master on 2018-11-02.
   </p>
   <p>It includes the following library versions:
@@ -469,19 +469,19 @@ libpostproc    55.  3.100</pre>
 
   <div class="row">
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-4.1.8.tar.xz">Download xz tarball</a>
-      <small><a href="releases/ffmpeg-4.1.8.tar.xz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-4.1.9.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-4.1.9.tar.xz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-4.1.8.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-4.1.8.tar.bz2.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-4.1.9.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-4.1.9.tar.bz2.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-4.1.8.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-4.1.8.tar.gz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-4.1.9.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-4.1.9.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n4.1.8">Changelog</a></small>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n4.1.9">Changelog</a></small>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/4.1:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
