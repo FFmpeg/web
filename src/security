@@ -1,5 +1,24 @@
 <p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<h2>FFmpeg 5.0</h2>
+
+<h3>5.0</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2020-20446, 223b5e8ac9f6461bb13ed365419ec485c5b2b002 ticket/7995,
+CVE-2020-20453, a7a7f32c8ad0179a1a85d0a8cff35924e6d90be8 ticket/8003,
+CVE-2020-22015, 4c1afa292520329eecd1cc7631bc59a8cca95c46 ticket/8190,
+CVE-2020-22019, 82ad1b76751bcfad5005440db48c46a4de5d6f02 CVE-2020-22033, ticket/8241,ticket/8246,
+CVE-2020-22021, 7971f62120a55c141ec437aa3f0bacc1c1a3526b ticket/8240,
+CVE-2020-22037, 7bba0dd6382e30d646cb406034a66199e071d713 ticket/8281,
+CVE-2021-33815, 26d3c81bc5ef2f8c3f09d45eaeacfb4b1139a777
+CVE-2021-38114, 7150f9575671f898382c370acae35f9087a30ba1
+CVE-2021-38171, 9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6
+CVE-2021-38291, e01d306c647b5827102260b885faa223b646d2d1 ticket/9312,
+</pre>
+
 <h2>FFmpeg 4.4</h2>
 
 <h3>4.4.1</h3>
@@ -113,6 +132,14 @@ CVE-2020-22044, 1d479300cbe0522c233b7d51148aea2b29bd29ad, ticket/8295
 </pre>
 
 <h2>FFmpeg 4.2</h2>
+
+<h3>4.2.6</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2020-22027, 98981312e15ad6bf1c90e660abf666b15924e350 / e787f8fd7ee99ba0c3e0f086ce2ce59eea7ed86c, ticket/8242
+</pre>
 
 <h3>4.2.5</h3>
 <p>
@@ -1064,6 +1091,19 @@ CVE-2016-7122, 1d90326f95a791db515f69a01a5f6ef867896d15 / e4e4a9cad7f21593d4bcb1
 
 
 <h2>FFmpeg 2.8</h2>
+
+<h3>2.8.18</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2020-20446, 287323027e0de523b12dca823c6cd5feef6569f7 / 223b5e8ac9f6461bb13ed365419ec485c5b2b002, ticket/7995
+CVE-2020-22021, bc5dde5ec0ba79860e566a44439ac72ae4a827f1 / 7971f62120a55c141ec437aa3f0bacc1c1a3526b, ticket/8240
+CVE-2020-22037, 9e84c17a43d84f4ba8e282f448dea04882b229cf / 7bba0dd6382e30d646cb406034a66199e071d713, ticket/8281
+CVE-2020-35965, 4371d51f1bdc92c4d2b159237b2d9c0a679151bb / 3e5959b3457f7f1856d997261e6ac672bba49e8b
+CVE-2021-38114, c7b205dedd05a4983ab3ce557fdb06aa886127c9 / 7150f9575671f898382c370acae35f9087a30ba1
+CVE-2021-38171, a5f40432b4deeae9b371e5a2d4395343ffcfa359 / 9ffa49496d1aae4cbbb387aac28a9e061a6ab0a6
+</pre>
 
 <h3>2.8.17</h3>
 <p>
