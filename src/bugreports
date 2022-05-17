@@ -144,16 +144,14 @@ info all-registers</pre>
     <code>block_artifacts_after_seeking.mkv</code>. We already have plenty of <code>bug.rm</code>
     and <code>sample.avi</code>.<br><br></li>
 
-  <li>Upload the sample to the FTP server. Note that our FTP server
-    is write-only. Even though you cannot see the files that you upload,
-    it will be there and the FFmpeg developers will have access.<br><br>
+  <li>Upload the sample with the VideoLAN file uploader.<br><br>
     <ul>
-      <li>Log into upload.ffmpeg.org with an anonymous FTP login.</li>
-      <li>cd -> incoming</li>
-      <li>Upload a brief text file describing the sample and what is wrong.
-        <b>This is important!</b> If you leave out the text file, your
-        sample will most likely be deleted without further examination.</li>
-      <li>Upload the sample.</li>
+      <li>Go to <a href="https://streams.videolan.org/upload/">streams.videolan.org/upload/</a></li>
+      <li>Select the FFmpeg Project.</li>
+      <li>Fill in the FFmpeg version in the VLC version field.</li>
+      <li>Put the corresponding Trac ticket number in the GitLab ticket field, if a ticket exists.</li>
+      <li>Write a brief describing of the sample and what is wrong.</li>
+      <li>Upload the sample. Note that the file size limit is 1024M, file exceeding that are discarded.</li>
     </ul>
     <br><br></li>
   <li>Email the ffmpeg mailing list and indicate the filename of the sample.<br><br></li>
