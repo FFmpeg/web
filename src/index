@@ -35,6 +35,41 @@
     News
   </h1>
 
+  <h3 id="pr5.1">July 22nd, 2022, FFmpeg 5.1 "Riemann"</h3>
+  <p>
+    <a href="download.html#release_5.1">FFmpeg 5.1 "Riemann"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>add ipfs/ipns protocol support</li>
+    <li>dialogue enhance audio filter</li>
+    <li>dropped obsolete XvMC hwaccel</li>
+    <li>pcm-bluray encoder</li>
+    <li>DFPWM audio encoder/decoder and raw muxer/demuxer</li>
+    <li>SITI filter</li>
+    <li>Vizrt Binary Image encoder/decoder</li>
+    <li>avsynctest source filter</li>
+    <li>feedback video filter</li>
+    <li>pixelize video filter</li>
+    <li>colormap video filter</li>
+    <li>colorchart video source filter</li>
+    <li>multiply video filter</li>
+    <li>PGS subtitle frame merge bitstream filter</li>
+    <li>blurdetect filter</li>
+    <li>tiltshelf audio filter</li>
+    <li>QOI image format support</li>
+    <li>ffprobe -o option</li>
+    <li>virtualbass audio filter</li>
+    <li>VDPAU AV1 hwaccel</li>
+    <li>PHM image format support</li>
+    <li>remap_opencl filter</li>
+    <li>added chromakey_cuda filter</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr5.0">January 17th, 2022, FFmpeg 5.0 "Lorentz"</h3>
   <p>
     <a href="download.html#release_5.0">FFmpeg 5.0 "Lorentz"</a>, a new
