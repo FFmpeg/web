@@ -78,6 +78,11 @@
       <ul>
         <li><a href="doxygen/trunk/index.html">Doxygen documentation</a> for current
           trunk (regenerated nightly); documentation for the
+          <a href="doxygen/5.1/index.html">5.1</a>,
+          <a href="doxygen/5.0/index.html">5.0</a>,
+          <a href="doxygen/4.4/index.html">4.4</a>,
+          <a href="doxygen/4.3/index.html">4.3</a>,
+          <a href="doxygen/4.2/index.html">4.2</a>,
           <a href="doxygen/4.1/index.html">4.1</a>,
           <a href="doxygen/4.0/index.html">4.0</a>,
           <a href="doxygen/3.4/index.html">3.4</a>,
