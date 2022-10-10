@@ -70,6 +70,15 @@ CVE-2020-35965, b0a8b40294ea212c1938348ff112ef1b9bf16bb3
 
 <h2>FFmpeg 4.3</h2>
 
+<h3>4.3.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2020-21041, 50cadf8dc52e94372a181dd60a527c55d1d155f5 / 5d9f44da460f781a1604d537d0555b78e29438ba, ticket/7989
+</pre>
+
+
 <h3>4.3.3</h3>
 <p>
 Fixes following vulnerabilities:
