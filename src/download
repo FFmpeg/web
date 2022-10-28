@@ -560,44 +560,6 @@ libpostproc    54.  7.100</pre>
     </div> <!-- col -->
   </div> <!-- row -->
 
-  <h3 id="release_3.2">FFmpeg 3.2.19 "Hypatia"</h3>
-
-  <p>
-    3.2.19 was released on 2022-10-28. It is the latest stable FFmpeg release
-    from the 3.2 release branch, which was cut from master on 2016-10-26.
-  </p>
-  <p>It includes the following library versions:
-  </p>
-  <pre>
-libavutil      55. 34.100
-libavcodec     57. 64.101
-libavformat    57. 56.101
-libavdevice    57.  1.100
-libavfilter     6. 65.100
-libavresample   3.  1.  0
-libswscale      4.  2.100
-libswresample   2.  3.100
-libpostproc    54.  1.100</pre>
-
-  <div class="row">
-    <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-3.2.19.tar.xz">Download xz tarball</a>
-      <small><a href="releases/ffmpeg-3.2.19.tar.xz.asc">PGP signature</a></small>
-    </div> <!-- col -->
-    <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-3.2.19.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-3.2.19.tar.bz2.asc">PGP signature</a></small>
-    </div> <!-- col -->
-    <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-3.2.19.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-3.2.19.tar.gz.asc">PGP signature</a></small>
-    </div> <!-- col -->
-    <div class="col-md-3 text-right">
-      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n3.2.19">Changelog</a></small>
-      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/3.2:/RELEASE_NOTES">Release Notes</a>
-    </div> <!-- col -->
-  </div> <!-- row -->
-
   <h3 id="release_2.8">FFmpeg 2.8.20 "Feynman"</h3>
 
   <p>
