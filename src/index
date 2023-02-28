@@ -35,6 +35,80 @@
     News
   </h1>
 
+  <h3 id="pr6.0">February 28th, 2023, FFmpeg 6.0 "Von Neumann"</h3>
+  <p>
+    A new major release, <a href="download.html#release_6.0">FFmpeg 6.0 "Von Neumann"</a>,
+    is now available for download. This release has many new encoders and decoders, filters,
+    ffmpeg CLI tool improvements, and also, changes the way releases are done. All major
+    releases will now bump the version of the ABI. We plan to have a new major release each
+    year. Another release-specific change is that deprecated APIs will be removed after 3
+    releases, upon the next major bump.
+    This means that releases will be done more often and will be more organized.
+  </p>
+  <p>
+    New decoders featured are Bonk, RKA, Radiance, SC-4, APAC, VQC, WavArc and a few ADPCM formats.
+    QSV and NVenc now support AV1 encoding. The FFmpeg CLI (we usually reffer to it as ffmpeg.c
+    to avoid confusion) has speed-up improvements due to threading, as well as statistics options,
+    and the ability to pass option values for filters from a file. There are quite a few new audio
+    and video filters, such as adrc, showcwt, backgroundkey and ssim360, with a few hardware ones too.
+    Finally, the release features many behind-the-scenes changes, including a new FFT and MDCT
+    implementation used in codecs (expect a blog post about this soon), numerous bugfixes, better
+    ICC profile handling and colorspace signalling improvement, introduction of a number of RISC-V
+    vector and scalar assembly optimized routines, and a few new improved APIs, which can be viewed
+    in the doc/APIchanges file in our tree.
+    A few submitted features, such as the Vulkan improvements and more FFT optimizations will be in the
+    next minor release, 6.1, which we plan to release soon, in line with our new release schedule.
+    Some highlights are:
+  </p>
+  <ul>
+    <ul>Radiance HDR image support</ul>
+    <ul>ddagrab (Desktop Duplication) video capture filter</ul>
+    <ul>ffmpeg -shortest_buf_duration option</ul>
+    <ul>ffmpeg now requires threading to be built</ul>
+    <ul>ffmpeg now runs every muxer in a separate thread</ul>
+    <ul>Add new mode to cropdetect filter to detect crop-area based on motion vectors and edges</ul>
+    <ul>VAAPI decoding and encoding for 10/12bit 422, 10/12bit 444 HEVC and VP9</ul>
+    <ul>WBMP (Wireless Application Protocol Bitmap) image format</ul>
+    <ul>a3dscope filter</ul>
+    <ul>bonk decoder and demuxer</ul>
+    <ul>Micronas SC-4 audio decoder</ul>
+    <ul>LAF demuxer</ul>
+    <ul>APAC decoder and demuxer</ul>
+    <ul>Media 100i decoders</ul>
+    <ul>DTS to PTS reorder bsf</ul>
+    <ul>ViewQuest VQC decoder</ul>
+    <ul>backgroundkey filter</ul>
+    <ul>nvenc AV1 encoding support</ul>
+    <ul>MediaCodec decoder via NDKMediaCodec</ul>
+    <ul>MediaCodec encoder</ul>
+    <ul>oneVPL support for QSV</ul>
+    <ul>QSV AV1 encoder</ul>
+    <ul>QSV decoding and encoding for 10/12bit 422, 10/12bit 444 HEVC and VP9</ul>
+    <ul>showcwt multimedia filter</ul>
+    <ul>corr video filter</ul>
+    <ul>adrc audio filter</ul>
+    <ul>afdelaysrc audio filter</ul>
+    <ul>WADY DPCM decoder and demuxer</ul>
+    <ul>CBD2 DPCM decoder</ul>
+    <ul>ssim360 video filter</ul>
+    <ul>ffmpeg CLI new options: -stats_enc_pre[_fmt], -stats_enc_post[_fmt], -stats_mux_pre[_fmt]</ul>
+    <ul>hstack_vaapi, vstack_vaapi and xstack_vaapi filters</ul>
+    <ul>XMD ADPCM decoder and demuxer</ul>
+    <ul>media100 to mjpegb bsf</ul>
+    <ul>ffmpeg CLI new option: -fix_sub_duration_heartbeat</ul>
+    <ul>WavArc decoder and demuxer</ul>
+    <ul>CrystalHD decoders deprecated</ul>
+    <ul>SDNS demuxer</ul>
+    <ul>RKA decoder and demuxer</ul>
+    <ul>filtergraph syntax in ffmpeg CLI now supports passing file contents</ul>
+    <ul> as option values, by prefixing option name with '/'</ul>
+    <ul>hstack_qsv, vstack_qsv and xstack_qsv filters</ul>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr5.1">July 22nd, 2022, FFmpeg 5.1 "Riemann"</h3>
   <p>
     <a href="download.html#release_5.1">FFmpeg 5.1 "Riemann"</a>, a new
