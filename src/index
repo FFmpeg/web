@@ -61,48 +61,47 @@
     Some highlights are:
   </p>
   <ul>
-    <ul>Radiance HDR image support</ul>
-    <ul>ddagrab (Desktop Duplication) video capture filter</ul>
-    <ul>ffmpeg -shortest_buf_duration option</ul>
-    <ul>ffmpeg now requires threading to be built</ul>
-    <ul>ffmpeg now runs every muxer in a separate thread</ul>
-    <ul>Add new mode to cropdetect filter to detect crop-area based on motion vectors and edges</ul>
-    <ul>VAAPI decoding and encoding for 10/12bit 422, 10/12bit 444 HEVC and VP9</ul>
-    <ul>WBMP (Wireless Application Protocol Bitmap) image format</ul>
-    <ul>a3dscope filter</ul>
-    <ul>bonk decoder and demuxer</ul>
-    <ul>Micronas SC-4 audio decoder</ul>
-    <ul>LAF demuxer</ul>
-    <ul>APAC decoder and demuxer</ul>
-    <ul>Media 100i decoders</ul>
-    <ul>DTS to PTS reorder bsf</ul>
-    <ul>ViewQuest VQC decoder</ul>
-    <ul>backgroundkey filter</ul>
-    <ul>nvenc AV1 encoding support</ul>
-    <ul>MediaCodec decoder via NDKMediaCodec</ul>
-    <ul>MediaCodec encoder</ul>
-    <ul>oneVPL support for QSV</ul>
-    <ul>QSV AV1 encoder</ul>
-    <ul>QSV decoding and encoding for 10/12bit 422, 10/12bit 444 HEVC and VP9</ul>
-    <ul>showcwt multimedia filter</ul>
-    <ul>corr video filter</ul>
-    <ul>adrc audio filter</ul>
-    <ul>afdelaysrc audio filter</ul>
-    <ul>WADY DPCM decoder and demuxer</ul>
-    <ul>CBD2 DPCM decoder</ul>
-    <ul>ssim360 video filter</ul>
-    <ul>ffmpeg CLI new options: -stats_enc_pre[_fmt], -stats_enc_post[_fmt], -stats_mux_pre[_fmt]</ul>
-    <ul>hstack_vaapi, vstack_vaapi and xstack_vaapi filters</ul>
-    <ul>XMD ADPCM decoder and demuxer</ul>
-    <ul>media100 to mjpegb bsf</ul>
-    <ul>ffmpeg CLI new option: -fix_sub_duration_heartbeat</ul>
-    <ul>WavArc decoder and demuxer</ul>
-    <ul>CrystalHD decoders deprecated</ul>
-    <ul>SDNS demuxer</ul>
-    <ul>RKA decoder and demuxer</ul>
-    <ul>filtergraph syntax in ffmpeg CLI now supports passing file contents</ul>
-    <ul> as option values, by prefixing option name with '/'</ul>
-    <ul>hstack_qsv, vstack_qsv and xstack_qsv filters</ul>
+    <li>Radiance HDR image support</li>
+    <li>ddagrab (Desktop Duplication) video capture filter</li>
+    <li>ffmpeg -shortest_buf_duration option</li>
+    <li>ffmpeg now requires threading to be built</li>
+    <li>ffmpeg now runs every muxer in a separate thread</li>
+    <li>Add new mode to cropdetect filter to detect crop-area based on motion vectors and edges</li>
+    <li>VAAPI decoding and encoding for 10/12bit 422, 10/12bit 444 HEVC and VP9</li>
+    <li>WBMP (Wireless Application Protocol Bitmap) image format</li>
+    <li>a3dscope filter</li>
+    <li>bonk decoder and demuxer</li>
+    <li>Micronas SC-4 audio decoder</li>
+    <li>LAF demuxer</li>
+    <li>APAC decoder and demuxer</li>
+    <li>Media 100i decoders</li>
+    <li>DTS to PTS reorder bsf</li>
+    <li>ViewQuest VQC decoder</li>
+    <li>backgroundkey filter</li>
+    <li>nvenc AV1 encoding support</li>
+    <li>MediaCodec decoder via NDKMediaCodec</li>
+    <li>MediaCodec encoder</li>
+    <li>oneVPL support for QSV</li>
+    <li>QSV AV1 encoder</li>
+    <li>QSV decoding and encoding for 10/12bit 422, 10/12bit 444 HEVC and VP9</li>
+    <li>showcwt multimedia filter</li>
+    <li>corr video filter</li>
+    <li>adrc audio filter</li>
+    <li>afdelaysrc audio filter</li>
+    <li>WADY DPCM decoder and demuxer</li>
+    <li>CBD2 DPCM decoder</li>
+    <li>ssim360 video filter</li>
+    <li>ffmpeg CLI new options: -stats_enc_pre[_fmt], -stats_enc_post[_fmt], -stats_mux_pre[_fmt]</li>
+    <li>hstack_vaapi, vstack_vaapi and xstack_vaapi filters</li>
+    <li>XMD ADPCM decoder and demuxer</li>
+    <li>media100 to mjpegb bsf</li>
+    <li>ffmpeg CLI new option: -fix_sub_duration_heartbeat</li>
+    <li>WavArc decoder and demuxer</li>
+    <li>CrystalHD decoders deprecated</li>
+    <li>SDNS demuxer</li>
+    <li>RKA decoder and demuxer</li>
+    <li>filtergraph syntax in ffmpeg CLI now supports passing file contents as option values</li>
+    <li>hstack_qsv, vstack_qsv and xstack_qsv filters</li>
   </ul>
   <p>
     We strongly recommend users, distributors, and system integrators to
