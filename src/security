@@ -9,6 +9,8 @@ Fixes following vulnerabilities:
 </p>
 <pre>
 CVE-2022-2566, c953baa084607dd1d84c3bfcce3cf6a87c3e6e05
+CVE-2022-3964, 92f9b28ed84a77138105475beba16c146bdaf984
+CVE-2022-3965, 13c13109759090b7f7182480d075e13b36ed8edd
 </pre>
 
 
