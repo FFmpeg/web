@@ -30,6 +30,8 @@ Fixes following vulnerabilities:
 </p>
 <pre>
 CVE-2022-1475, 757da974b21833529cc41bdcc9684c29660cdfa8, ticket/9651
+CVE-2022-3109, 656cb0450aeb73b25d7d26980af342b37ac4c568
+CVE-2022-3341, 9cf652cef49d74afe3d454f27d49eb1a1394951e
 </pre>
 
 
