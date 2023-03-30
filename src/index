@@ -35,6 +35,359 @@
     News
   </h1>
 
+  <h3 id="pr6.0">February 28th, 2023, FFmpeg 6.0 "Von Neumann"</h3>
+  <p>
+    A new major release, <a href="download.html#release_6.0">FFmpeg 6.0 "Von Neumann"</a>,
+    is now available for download. This release has many new encoders and decoders, filters,
+    ffmpeg CLI tool improvements, and also, changes the way releases are done. All major
+    releases will now bump the version of the ABI. We plan to have a new major release each
+    year. Another release-specific change is that deprecated APIs will be removed after 3
+    releases, upon the next major bump.
+    This means that releases will be done more often and will be more organized.
+  </p>
+  <p>
+    New decoders featured are Bonk, RKA, Radiance, SC-4, APAC, VQC, WavArc and a few ADPCM formats.
+    QSV and NVenc now support AV1 encoding. The FFmpeg CLI (we usually reffer to it as ffmpeg.c
+    to avoid confusion) has speed-up improvements due to threading, as well as statistics options,
+    and the ability to pass option values for filters from a file. There are quite a few new audio
+    and video filters, such as adrc, showcwt, backgroundkey and ssim360, with a few hardware ones too.
+    Finally, the release features many behind-the-scenes changes, including a new FFT and MDCT
+    implementation used in codecs (expect a blog post about this soon), numerous bugfixes, better
+    ICC profile handling and colorspace signalling improvement, introduction of a number of RISC-V
+    vector and scalar assembly optimized routines, and a few new improved APIs, which can be viewed
+    in the doc/APIchanges file in our tree.
+    A few submitted features, such as the Vulkan improvements and more FFT optimizations will be in the
+    next minor release, 6.1, which we plan to release soon, in line with our new release schedule.
+    Some highlights are:
+  </p>
+  <ul>
+    <li>Radiance HDR image support</li>
+    <li>ddagrab (Desktop Duplication) video capture filter</li>
+    <li>ffmpeg -shortest_buf_duration option</li>
+    <li>ffmpeg now requires threading to be built</li>
+    <li>ffmpeg now runs every muxer in a separate thread</li>
+    <li>Add new mode to cropdetect filter to detect crop-area based on motion vectors and edges</li>
+    <li>VAAPI decoding and encoding for 10/12bit 422, 10/12bit 444 HEVC and VP9</li>
+    <li>WBMP (Wireless Application Protocol Bitmap) image format</li>
+    <li>a3dscope filter</li>
+    <li>bonk decoder and demuxer</li>
+    <li>Micronas SC-4 audio decoder</li>
+    <li>LAF demuxer</li>
+    <li>APAC decoder and demuxer</li>
+    <li>Media 100i decoders</li>
+    <li>DTS to PTS reorder bsf</li>
+    <li>ViewQuest VQC decoder</li>
+    <li>backgroundkey filter</li>
+    <li>nvenc AV1 encoding support</li>
+    <li>MediaCodec decoder via NDKMediaCodec</li>
+    <li>MediaCodec encoder</li>
+    <li>oneVPL support for QSV</li>
+    <li>QSV AV1 encoder</li>
+    <li>QSV decoding and encoding for 10/12bit 422, 10/12bit 444 HEVC and VP9</li>
+    <li>showcwt multimedia filter</li>
+    <li>corr video filter</li>
+    <li>adrc audio filter</li>
+    <li>afdelaysrc audio filter</li>
+    <li>WADY DPCM decoder and demuxer</li>
+    <li>CBD2 DPCM decoder</li>
+    <li>ssim360 video filter</li>
+    <li>ffmpeg CLI new options: -stats_enc_pre[_fmt], -stats_enc_post[_fmt], -stats_mux_pre[_fmt]</li>
+    <li>hstack_vaapi, vstack_vaapi and xstack_vaapi filters</li>
+    <li>XMD ADPCM decoder and demuxer</li>
+    <li>media100 to mjpegb bsf</li>
+    <li>ffmpeg CLI new option: -fix_sub_duration_heartbeat</li>
+    <li>WavArc decoder and demuxer</li>
+    <li>CrystalHD decoders deprecated</li>
+    <li>SDNS demuxer</li>
+    <li>RKA decoder and demuxer</li>
+    <li>filtergraph syntax in ffmpeg CLI now supports passing file contents as option values</li>
+    <li>hstack_qsv, vstack_qsv and xstack_qsv filters</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
+  <h3 id="pr5.1">July 22nd, 2022, FFmpeg 5.1 "Riemann"</h3>
+  <p>
+    <a href="download.html#release_5.1">FFmpeg 5.1 "Riemann"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>add ipfs/ipns protocol support</li>
+    <li>dialogue enhance audio filter</li>
+    <li>dropped obsolete XvMC hwaccel</li>
+    <li>pcm-bluray encoder</li>
+    <li>DFPWM audio encoder/decoder and raw muxer/demuxer</li>
+    <li>SITI filter</li>
+    <li>Vizrt Binary Image encoder/decoder</li>
+    <li>avsynctest source filter</li>
+    <li>feedback video filter</li>
+    <li>pixelize video filter</li>
+    <li>colormap video filter</li>
+    <li>colorchart video source filter</li>
+    <li>multiply video filter</li>
+    <li>PGS subtitle frame merge bitstream filter</li>
+    <li>blurdetect filter</li>
+    <li>tiltshelf audio filter</li>
+    <li>QOI image format support</li>
+    <li>ffprobe -o option</li>
+    <li>virtualbass audio filter</li>
+    <li>VDPAU AV1 hwaccel</li>
+    <li>PHM image format support</li>
+    <li>remap_opencl filter</li>
+    <li>added chromakey_cuda filter</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
+  <h3 id="pr5.0">January 17th, 2022, FFmpeg 5.0 "Lorentz"</h3>
+  <p>
+    <a href="download.html#release_5.0">FFmpeg 5.0 "Lorentz"</a>, a new
+    major release, is now available! For this long-overdue release, a major effort
+    underwent to remove the old encode/decode APIs and replace them with an
+    N:M-based API, the entire libavresample library was removed, libswscale
+    has a new, easier to use AVframe-based API, the Vulkan code was much improved,
+    many new filters were added, including libplacebo integration, and finally,
+    DoVi support was added, including tonemapping and remuxing. The default
+    AAC encoder settings were also changed to improve quality.
+    Some of the changelog highlights:
+  </p>
+  <ul>
+    <li>ADPCM IMA Westwood encoder</li>
+    <li>Westwood AUD muxer</li>
+    <li>ADPCM IMA Acorn Replay decoder</li>
+    <li>Argonaut Games CVG demuxer</li>
+    <li>Argonaut Games CVG muxer</li>
+    <li>Concatf protocol</li>
+    <li>afwtdn audio filter</li>
+    <li>audio and video segment filters</li>
+    <li>Apple Graphics (SMC) encoder</li>
+    <li>hsvkey and hsvhold video filters</li>
+    <li>adecorrelate audio filter</li>
+    <li>atilt audio filter</li>
+    <li>grayworld video filter</li>
+    <li>AV1 Low overhead bitstream format muxer</li>
+    <li>swscale slice threading</li>
+    <li>MSN Siren decoder</li>
+    <li>scharr video filter</li>
+    <li>apsyclip audio filter</li>
+    <li>morpho video filter</li>
+    <li>amr parser</li>
+    <li>(a)latency filters</li>
+    <li>GEM Raster image decoder</li>
+    <li>asdr audio filter</li>
+    <li>speex decoder</li>
+    <li>limitdiff video filter</li>
+    <li>xcorrelate video filter</li>
+    <li>varblur video filter</li>
+    <li>huesaturation video filter</li>
+    <li>colorspectrum source video filter</li>
+    <li>RTP packetizer for uncompressed video (RFC 4175)</li>
+    <li>bitpacked encoder</li>
+    <li>VideoToolbox VP9 hwaccel</li>
+    <li>VideoToolbox ProRes hwaccel</li>
+    <li>support loongarch.</li>
+    <li>aspectralstats audio filter</li>
+    <li>adynamicsmooth audio filter</li>
+    <li>libplacebo filter</li>
+    <li>vflip_vulkan, hflip_vulkan and flip_vulkan filters</li>
+    <li>adynamicequalizer audio filter</li>
+    <li>yadif_videotoolbox filter</li>
+    <li>VideoToolbox ProRes encoder</li>
+    <li>anlmf audio filter</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
+  <h3 id="irc2021">June 19th, 2021, IRC</h3>
+  <p>
+    We have a new IRC home at Libera Chat
+    now! Feel free to join us at #ffmpeg and #ffmpeg-devel. More info at <a href="https://ffmpeg.org/contact.html#IRCChannels">contact#IRCChannels</a>
+  </p>
+
+  <h3 id="pr4.4">April 8th, 2021, FFmpeg 4.4 "Rao"</h3>
+  <p>
+    <a href="download.html#release_4.4">FFmpeg 4.4 "Rao"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>AudioToolbox output device</li>
+    <li>MacCaption demuxer</li>
+    <li>PGX decoder</li>
+    <li>chromanr video filter</li>
+    <li>VDPAU accelerated HEVC 10/12bit decoding</li>
+    <li>ADPCM IMA Ubisoft APM encoder</li>
+    <li>Rayman 2 APM muxer</li>
+    <li>AV1 encoding support SVT-AV1</li>
+    <li>Cineform HD encoder</li>
+    <li>ADPCM Argonaut Games encoder</li>
+    <li>Argonaut Games ASF muxer</li>
+    <li>AV1 Low overhead bitstream format demuxer</li>
+    <li>RPZA video encoder</li>
+    <li>ADPCM IMA MOFLEX decoder</li>
+    <li>MobiClip FastAudio decoder</li>
+    <li>MobiClip video decoder</li>
+    <li>MOFLEX demuxer</li>
+    <li>MODS demuxer</li>
+    <li>PhotoCD decoder</li>
+    <li>MCA demuxer</li>
+    <li>AV1 decoder (Hardware acceleration used only)</li>
+    <li>SVS demuxer</li>
+    <li>Argonaut Games BRP demuxer</li>
+    <li>DAT demuxer</li>
+    <li>aax demuxer</li>
+    <li>IPU decoder, parser and demuxer</li>
+    <li>Intel QSV-accelerated AV1 decoding</li>
+    <li>Argonaut Games Video decoder</li>
+    <li>libwavpack encoder removed</li>
+    <li>ACE demuxer</li>
+    <li>AVS3 demuxer</li>
+    <li>AVS3 video decoder via libuavs3d</li>
+    <li>Cintel RAW decoder</li>
+    <li>VDPAU accelerated VP9 10/12bit decoding</li>
+    <li>afreqshift and aphaseshift filters</li>
+    <li>High Voltage Software ADPCM encoder</li>
+    <li>LEGO Racers ALP (.tun & .pcm) muxer</li>
+    <li>AV1 VAAPI decoder</li>
+    <li>adenorm filter</li>
+    <li>ADPCM IMA AMV encoder</li>
+    <li>AMV muxer</li>
+    <li>NVDEC AV1 hwaccel</li>
+    <li>DXVA2/D3D11VA hardware accelerated AV1 decoding</li>
+    <li>speechnorm filter</li>
+    <li>SpeedHQ encoder</li>
+    <li>asupercut filter</li>
+    <li>asubcut filter</li>
+    <li>Microsoft Paint (MSP) version 2 decoder</li>
+    <li>Microsoft Paint (MSP) demuxer</li>
+    <li>AV1 monochrome encoding support via libaom >= 2.0.1</li>
+    <li>asuperpass and asuperstop filter</li>
+    <li>shufflepixels filter</li>
+    <li>tmidequalizer filter</li>
+    <li>estdif filter</li>
+    <li>epx filter</li>
+    <li>Dolby E parser</li>
+    <li>shear filter</li>
+    <li>kirsch filter</li>
+    <li>colortemperature filter</li>
+    <li>colorcontrast filter</li>
+    <li>PFM encoder</li>
+    <li>colorcorrect filter</li>
+    <li>binka demuxer</li>
+    <li>XBM parser</li>
+    <li>xbm_pipe demuxer</li>
+    <li>colorize filter</li>
+    <li>CRI parser</li>
+    <li>aexciter audio filter</li>
+    <li>exposure video filter</li>
+    <li>monochrome video filter</li>
+    <li>setts bitstream filter</li>
+    <li>vif video filter</li>
+    <li>OpenEXR image encoder</li>
+    <li>Simbiosis IMX decoder</li>
+    <li>Simbiosis IMX demuxer</li>
+    <li>Digital Pictures SGA demuxer and decoders</li>
+    <li>TTML subtitle encoder and muxer</li>
+    <li>identity video filter</li>
+    <li>msad video filter</li>
+    <li>gophers protocol</li>
+    <li>RIST protocol via librist</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
+  <h3 id="pr4.3">June 15th, 2020, FFmpeg 4.3 "4:3"</h3>
+  <p>
+    <a href="download.html#release_4.3">FFmpeg 4.3 "4:3"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>v360 filter</li>
+    <li>Intel QSV-accelerated MJPEG decoding</li>
+    <li>Intel QSV-accelerated VP9 decoding</li>
+    <li>Support for TrueHD in mp4</li>
+    <li>Support AMD AMF encoder on Linux (via Vulkan)</li>
+    <li>IMM5 video decoder</li>
+    <li>ZeroMQ protocol</li>
+    <li>support Sipro ACELP.KELVIN decoding</li>
+    <li>streamhash muxer</li>
+    <li>sierpinski video source</li>
+    <li>scroll video filter</li>
+    <li>photosensitivity filter</li>
+    <li>anlms filter</li>
+    <li>arnndn filter</li>
+    <li>bilateral filter</li>
+    <li>maskedmin and maskedmax filters</li>
+    <li>VDPAU VP9 hwaccel</li>
+    <li>median filter</li>
+    <li>QSV-accelerated VP9 encoding</li>
+    <li>AV1 encoding support via librav1e</li>
+    <li>AV1 frame merge bitstream filter</li>
+    <li>AV1 Annex B demuxer</li>
+    <li>axcorrelate filter</li>
+    <li>mvdv decoder</li>
+    <li>mvha decoder</li>
+    <li>MPEG-H 3D Audio support in mp4</li>
+    <li>thistogram filter</li>
+    <li>freezeframes filter</li>
+    <li>Argonaut Games ADPCM decoder</li>
+    <li>Argonaut Games ASF demuxer</li>
+    <li>xfade video filter</li>
+    <li>xfade_opencl filter</li>
+    <li>afirsrc audio filter source</li>
+    <li>pad_opencl filter</li>
+    <li>Simon & Schuster Interactive ADPCM decoder</li>
+    <li>Real War KVAG demuxer</li>
+    <li>CDToons video decoder</li>
+    <li>siren audio decoder</li>
+    <li>Rayman 2 ADPCM decoder</li>
+    <li>Rayman 2 APM demuxer</li>
+    <li>cas video filter</li>
+    <li>High Voltage Software ADPCM decoder</li>
+    <li>LEGO Racers ALP (.tun & .pcm) demuxer</li>
+    <li>AMQP 0-9-1 protocol (RabbitMQ)</li>
+    <li>Vulkan support</li>
+    <li>avgblur_vulkan, overlay_vulkan, scale_vulkan and chromaber_vulkan filters</li>
+    <li>ADPCM IMA MTF decoder</li>
+    <li>FWSE demuxer</li>
+    <li>DERF DPCM decoder</li>
+    <li>DERF demuxer</li>
+    <li>CRI HCA decoder</li>
+    <li>CRI HCA demuxer</li>
+    <li>overlay_cuda filter</li>
+    <li>switch from AvxSynth to AviSynth+ on Linux</li>
+    <li>mv30 decoder</li>
+    <li>Expanded styling support for 3GPP Timed Text Subtitles (movtext)</li>
+    <li>WebP parser</li>
+    <li>tmedian filter</li>
+    <li>maskedthreshold filter</li>
+    <li>Support for muxing pcm and pgs in m2ts</li>
+    <li>Cunning Developments ADPCM decoder</li>
+    <li>asubboost filter</li>
+    <li>Pro Pinball Series Soundbank demuxer</li>
+    <li>pcm_rechunk bitstream filter</li>
+    <li>scdet filter</li>
+    <li>NotchLC decoder</li>
+    <li>gradients source video filter</li>
+    <li>MediaFoundation encoder wrapper</li>
+    <li>untile filter</li>
+    <li>Simon & Schuster Interactive ADPCM encoder</li>
+    <li>PFM decoder</li>
+    <li>dblur video filter</li>
+    <li>Real War KVAG muxer</li>
+  </ul>
+  <p>
+    We strongly recommend users, distributors, and system integrators to
+    upgrade unless they use current git master.
+  </p>
+
   <h3 id="photosensitivity">October 5th, 2019, Bright Lights</h3>
   <p>
   FFmpeg has added a realtime bright flash removal filter to libavfilter.

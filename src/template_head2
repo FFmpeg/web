@@ -21,8 +21,9 @@
           <li><a href="index.html#news">News</a></li>
           <li><a href="download.html">Download</a></li>
           <li><a href="documentation.html">Documentation</a></li>
-          <li><a href="contact.html#MailingLists">Community</a>
+          <li><a href="community.html">Community</a>
             <ul>
+              <li><a href="community.html#CodeOfConduct">Code of Conduct</a></li>
               <li><a href="contact.html#MailingLists">Mailing Lists</a></li>
               <li><a href="contact.html#IRCChannels">IRC</a></li>
               <li><a href="contact.html#Forums">Forums</a></li>

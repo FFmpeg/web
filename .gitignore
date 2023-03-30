@@ -4,3 +4,4 @@
 /htdocs/components
 /htdocs/style.less
 /htdocs/fonts/*.woff2
+/node_modules/

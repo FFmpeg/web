@@ -75,8 +75,8 @@ E.g.:
       <h3>Michael Niedermayer</h3>
       <p>
         Michael is located in Vienna, Austria and is available for contracting work.
-        He is an expert in all areas of video coding as well as x86 assembly.
-        You can contact him by email at <a href="mailto:michael@niedermayer.cc">michael@niedermayer.cc</a>.
+        He is an expert in all areas of video coding, security, bugfixing as well as x86 assembly.
+        You can contact him by email at <a href="mailto:michael.ffwork@niedermayer.cc">michael.ffwork@niedermayer.cc</a>.
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
@@ -108,30 +108,18 @@ E.g.:
   </div> <!-- col -->
   <div class="col-md-4">
     <div class="well">
-      <h3>Stefano Sabatini</h3>
+      <h3>Tomas Härdin</h3>
       <p>
-        Stefano is located in Italy and is available for contracting
-        work. He has worked on FFmpeg since 2007 and has been a maintainer since
-        2008. He has special expertise in libavfilter, ff* tools usage and
-        usability issues. You can contact him by email at
-        <a href="mailto:stefasab@gmail.com">stefasab@gmail.com</a>.
+        Tomas is located in Umeå, Sweden.
+        He has worked on FFmpeg since 2009 and has been a maintainer since 2010.
+        He has expertise in broadcast formats, mainly MXF and AAF, and is also available for general FFmpeg work.
+        For more information on Tomas' areas of expertise see <a href="https://www.haerdin.se/pages/consulting.html">the consulting page on his website</a>.
+        You can contact him by email at <a href="mailto:consulting%20at%20haerdin%20dot%20se">consulting at haerdin dot se</a> or by XMPP at <a href="xmpp:tms@haerdin.se">tms@haerdin.se</a>.
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
 </div> <!-- row -->
 <div class="row">
-  <div class="col-md-4">
-    <div class="well">
-      <h3>Thomas Volkert</h3>
-      <p>
-        Thomas is located near Stuttgart, Germany. He works with FFmpeg since
-        2008 and is a maintainer since 2014. The focus of his work is on network
-        protocols and all areas of audio/video streaming. He has special expertise
-        with RTP, RTCP, RTSP, RTMP, HLS and also SDP. You can contact him by email at
-        <a href="mailto:thomas@homer-conferencing.com">thomas@homer-conferencing.com</a>.
-      </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
   <div class="col-md-4">
     <div class="well">
       <h3>Steven Liu</h3>

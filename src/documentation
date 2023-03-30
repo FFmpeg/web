@@ -78,6 +78,11 @@
       <ul>
         <li><a href="doxygen/trunk/index.html">Doxygen documentation</a> for current
           trunk (regenerated nightly); documentation for the
+          <a href="doxygen/5.1/index.html">5.1</a>,
+          <a href="doxygen/5.0/index.html">5.0</a>,
+          <a href="doxygen/4.4/index.html">4.4</a>,
+          <a href="doxygen/4.3/index.html">4.3</a>,
+          <a href="doxygen/4.2/index.html">4.2</a>,
           <a href="doxygen/4.1/index.html">4.1</a>,
           <a href="doxygen/4.0/index.html">4.0</a>,
           <a href="doxygen/3.4/index.html">3.4</a>,
@@ -113,23 +118,7 @@
       <h3><strong>Community Contributed Documentation</strong></h3>
       <ul>
         <li><a href="https://trac.ffmpeg.org/wiki">Official FFmpeg Wiki</a></li>
-        <li><a href="https://wiki.multimedia.cx/">MultimediaWiki</a></li>
-        <li><a href="http://dranger.com/ffmpeg/">An FFmpeg and SDL Tutorial</a>
-          by Stephen Dranger, explains how to write a video player based on FFmpeg.</li>
-      </ul>
-    </div>
-  </div> <!-- col -->
-</div> <!-- row -->
-<div class="row">
-  <div class="col-md-6">
-    <div class="well well-with-icon">
-      <span class="pull-right"><i class="fa fa-5x fa-fw fa-book"></i></span>
-      <h3><strong>Books about FFmpeg</strong></h3>
-      <ul>
-        <li><a href="http://ffmpeg.tv">FFmpeg Basics</a> by Frantisek Korbel,
-          describes various FFmpeg features and common tasks.</li>
-        <li><a href="http://book.chinaffmpeg.com">FFmpeg Beginner's handbook Chinese Version</a> by Steven Liu,
-        describes FFmpeg common use method in Chinese, from command line to API usage.</li>
+        <li><a href="https://trac.ffmpeg.org/wiki/BooksAndOtherExternalResources">Books and other external resources</a></li>
       </ul>
     </div>
   </div> <!-- col -->
