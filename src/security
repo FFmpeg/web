@@ -95,6 +95,16 @@ CVE-2021-38291, e01d306c647b5827102260b885faa223b646d2d1 ticket/9312,
 <h2>FFmpeg 4.4</h2>
 
 
+<h3>4.4.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, 4d82b7bac42c9d35d4f9f145a85e6cbc1fe914f2 / 656cb0450aeb73b25d7d26980af342b37ac4c568
+CVE-2022-3341, c513bd48039a718dabf6d7a829efb6732693c04b / 9cf652cef49d74afe3d454f27d49eb1a1394951e
+CVE-2022-3964, ad28b01a141703b831256b712e0613281b15fcf0 / 92f9b28ed84a77138105475beba16c146bdaf984
+</pre>
+
 <h3>4.4.3</h3>
 <p>
 Fixes following vulnerabilities:
