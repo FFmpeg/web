@@ -265,6 +265,14 @@ CVE-2021-38094, 99f8d32129dd233d4eb2efa44678a0bc44869f23, ticket/8263, duplicate
 <h2>FFmpeg 4.2</h2>
 
 
+<h3>4.2.9</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, b2e1ee39f52e285cd630786019cff5d8d12aa1a1 / 656cb0450aeb73b25d7d26980af342b37ac4c568
+</pre>
+
 <h3>4.2.7</h3>
 <p>
 Fixes following vulnerabilities:
