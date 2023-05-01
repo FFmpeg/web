@@ -47,21 +47,6 @@
     </p>
     </div> <!-- well -->
   </div> <!-- col -->
-  <div class="col-md-3">
-    <div class="well">
-      <h3>Bank Transfer IBAN</h3>
-      <p>Not for USA and Canada</p><br><br>
-      <div class="text-center">
-        <a class="btn btn-success btn-lg"
-           href="http://www.ffis.de/Verein/spi-en.html">
-          Donate</a><br><br>
-      </div>
-    <p class="with-icon">
-      <span class="pull-left"><i class="fa fa-warning fa-3x"></i></span>
-      Don't forget to specify that your donation is for FFmpeg!
-    </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
 </div> <!-- row -->
 
 <div class="row">
