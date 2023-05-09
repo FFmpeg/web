@@ -1,15 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="https://ffmpeg.org/releases/ffmpeg-snapshot.tar.bz2" class="btn btn-success">
+    <a href="https://ffmpeg.org/releases/ffmpeg-6.0.tar.xz" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download Source Code
-      <small>ffmpeg-snapshot.tar.bz2</small>
-    </a> &nbsp;
-    <a href="ffmpeg-devel.asc" class="btn btn-success">
-      <i class="fa fa-key"></i>
-      Download PGP Signing Key
-      <small>ffmpeg-devel.asc</small>
+      <small>ffmpeg-6.0.tar.xz</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
@@ -121,6 +116,10 @@
           <a href="releases/ffmpeg-snapshot.tar.bz2" class="btn btn-success btn-lg">
             <i class="fa fa-download"></i>
             Download Snapshot
+          </a> &nbsp;
+          <a href="ffmpeg-devel.asc" class="btn btn-success btn-lg">
+            <i class="fa fa-key"></i>
+            Download PGP Signing Key
           </a>
         </div> <!-- text -->
 
