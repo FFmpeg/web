@@ -637,6 +637,14 @@ CVE-2018-10001, 47b7c68ae54560e2308bdb6be4fb076c73b93081
 
 <h2>FFmpeg 3.4</h2>
 
+<h3>3.4.13</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, 5cd450dd7ae5f0b25c961fe761f8dbb4c8a7ddae / 656cb0450aeb73b25d7d26980af342b37ac4c568
+</pre>
+
 <h3>3.4.11</h3>
 <p>
 Fixes following vulnerabilities:
