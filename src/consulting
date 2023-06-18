@@ -144,4 +144,16 @@ E.g.:
       </p>
     </div> <!-- well -->
   </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Anton Khirnov</h3>
+      <p>
+        Anton is located in Prague, Czechia, and has been a contributor since 2008.
+        He has worked on most parts of FFmpeg, with special focus on overall
+        architecture, APIs, and the <code>ffmpeg</code> CLI tool. He is available
+        for consulting via <a href="https://fflabs.eu/">FFlabs</a> at
+        <a href="mailto:anton@fflabs.eu">anton@fflabs.eu</a>
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
 </div> <!-- row -->
