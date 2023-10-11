@@ -128,6 +128,7 @@
         <i class="fa fa-archive"></i>
         Archives</h3>
       <p>
+        Our IRC channels are publically logged and archives since 2023-10-11 are here:
         <a href="https://libera.irclog.whitequark.org/ffmpeg">#ffmpeg</a> and
         <a href="https://libera.irclog.whitequark.org/ffmpeg-devel">#ffmpeg-devel</a>
       </p>
