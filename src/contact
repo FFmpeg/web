@@ -128,7 +128,11 @@
         <i class="fa fa-archive"></i>
         Archives</h3>
       <p>
-        Our IRC channels are publically logged and archives of both channels can be
+        <a href="https://libera.irclog.whitequark.org/ffmpeg">#ffmpeg</a> and
+        <a href="https://libera.irclog.whitequark.org/ffmpeg-devel">#ffmpeg-devel</a>
+      </p>
+      <p>
+        Our IRC channels are publically logged and old archives of both channels can be
         viewed at <a href="https://lists.ffmpeg.org/pipermail/ffmpeg-devel-irc/">
           ffmpeg-devel-irc</a>.
       </p>
