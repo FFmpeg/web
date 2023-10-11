@@ -11,10 +11,28 @@ Fixes following vulnerabilities:
 CVE-2022-2566, c953baa084607dd1d84c3bfcce3cf6a87c3e6e05
 CVE-2022-3964, 92f9b28ed84a77138105475beba16c146bdaf984
 CVE-2022-3965, 13c13109759090b7f7182480d075e13b36ed8edd
+CVE-2022-48434, cc867f2c09d2b69cee8a0eccd62aff002cbbfe11
 </pre>
 
 
 <h2>FFmpeg 5.1</h2>
+
+<h3>5.1.3</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3964, 7c234248f859baa35e55c3dbbb7a359eae1c5257 / 92f9b28ed84a77138105475beba16c146bdaf984
+CVE-2022-3965, 9886e4c3b0880b167dbfdad722fb654c58cdc977 / 13c13109759090b7f7182480d075e13b36ed8edd
+</pre>
+
+<h3>5.1.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-48434, 35aa7e70e7ec350319e7634a30d8d8aa1e6ecdda / cc867f2c09d2b69cee8a0eccd62aff002cbbfe11
+</pre>
 
 <h3>5.1.1</h3>
 <p>
@@ -37,12 +55,24 @@ CVE-2022-3341, 9cf652cef49d74afe3d454f27d49eb1a1394951e
 
 <h2>FFmpeg 5.0</h2>
 
+<h3>5.0.3</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, 2cdddcd6ec90c7a248ffe792d85faa4d89eab9f7 / 656cb0450aeb73b25d7d26980af342b37ac4c568
+CVE-2022-3341, 481e81be1271ac9a0124ee615700390c2371bd89 / 9cf652cef49d74afe3d454f27d49eb1a1394951e
+CVE-2022-3964, 1eb002596e3761d88de4aeea3158692b82fb6307 / 92f9b28ed84a77138105475beba16c146bdaf984
+CVE-2022-3965, 293dc39bcaa99f213c6b7a703e11f146abf5d3be / 13c13109759090b7f7182480d075e13b36ed8edd
+</pre>
+
 <h3>5.0.1</h3>
 <p>
 Fixes following vulnerabilities:
 </p>
 <pre>
 CVE-2022-1475, 95322e07673885ebcbb8fd54f30a9b8f17d5be6a / 757da974b21833529cc41bdcc9684c29660cdfa8, ticket/9651
+CVE-2022-48434, 3bc28e9d1ab33627cea3c632dd6b0c33e22e93ba / cc867f2c09d2b69cee8a0eccd62aff002cbbfe11
 </pre>
 
 <h3>5.0</h3>
@@ -63,6 +93,25 @@ CVE-2021-38291, e01d306c647b5827102260b885faa223b646d2d1 ticket/9312,
 </pre>
 
 <h2>FFmpeg 4.4</h2>
+
+
+<h3>4.4.4</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, 4d82b7bac42c9d35d4f9f145a85e6cbc1fe914f2 / 656cb0450aeb73b25d7d26980af342b37ac4c568
+CVE-2022-3341, c513bd48039a718dabf6d7a829efb6732693c04b / 9cf652cef49d74afe3d454f27d49eb1a1394951e
+CVE-2022-3964, ad28b01a141703b831256b712e0613281b15fcf0 / 92f9b28ed84a77138105475beba16c146bdaf984
+</pre>
+
+<h3>4.4.3</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-48434, d4b7b3c03ee2baf0166ce49dff17ec9beff684db / cc867f2c09d2b69cee8a0eccd62aff002cbbfe11
+</pre>
 
 <h3>4.4.2</h3>
 <p>
@@ -110,6 +159,14 @@ CVE-2020-35965, b0a8b40294ea212c1938348ff112ef1b9bf16bb3
 </pre>
 
 <h2>FFmpeg 4.3</h2>
+
+<h3>4.3.6</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, 7694a44baaaa4786995590a8ba2b16acd8ef8177 / 656cb0450aeb73b25d7d26980af342b37ac4c568
+</pre>
 
 <h3>4.3.5</h3>
 <p>
@@ -215,6 +272,14 @@ CVE-2021-38094, 99f8d32129dd233d4eb2efa44678a0bc44869f23, ticket/8263, duplicate
 
 <h2>FFmpeg 4.2</h2>
 
+
+<h3>4.2.9</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, b2e1ee39f52e285cd630786019cff5d8d12aa1a1 / 656cb0450aeb73b25d7d26980af342b37ac4c568
+</pre>
 
 <h3>4.2.7</h3>
 <p>
@@ -325,6 +390,14 @@ CVE-2019-1000016, b97a4b658814b2de8b9f2a3bce491c002d34de31
 </pre>
 
 <h2>FFmpeg 4.1</h2>
+
+<h3>4.1.11</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, 51efa68ec0b4f42b5b124b8987fb68f60a929c4f / 656cb0450aeb73b25d7d26980af342b37ac4c568
+</pre>
 
 <h3>4.1.10</h3>
 <p>
@@ -563,6 +636,14 @@ CVE-2018-10001, 47b7c68ae54560e2308bdb6be4fb076c73b93081
 </pre>
 
 <h2>FFmpeg 3.4</h2>
+
+<h3>3.4.13</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2022-3109, 5cd450dd7ae5f0b25c961fe761f8dbb4c8a7ddae / 656cb0450aeb73b25d7d26980af342b37ac4c568
+</pre>
 
 <h3>3.4.11</h3>
 <p>

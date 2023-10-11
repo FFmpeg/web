@@ -35,6 +35,31 @@
     News
   </h1>
 
+  <h3 id="vk2023">May 31st, 2023, Vulkan decoding</h3>
+  <p>
+    A few days ago, Vulkan-powered decoding hardware acceleration code was merged into the codebase.
+    This is the first vendor-generic and platform-generic decode acceleration API, enabling the
+    same code to be used on multiple platforms, with very minimal overhead.
+    This is also the first multi-threaded hardware decoding API, and our code makes full use of this,
+    saturating all available decode engines the hardware exposes.
+  </p>
+  <p>
+    Those wishing to test the code can read our
+    <a href="https://trac.ffmpeg.org/wiki/HWAccelIntro#Vulkan">documentation page</a>.
+    For those who would like to integrate FFmpeg's Vulkan code to demux, parse, decode, and receive
+    a VkImage to present or manipulate, documentation and examples are available in our source tree.
+    Currently, using the latest available git checkout of our
+    <a href="https://git.videolan.org/?p=ffmpeg.git;a=summary">repository</a> is required.
+    The functionality will be included in stable branches with the release of version 6.1, due
+    to be released soon.
+  <p>
+  </p>
+    As this is also the first practical implementation of the specifications, bugs may be present,
+    particularly in drivers, and, although passing verification, the implementation itself.
+    New codecs, and encoding support are also being worked on, by both the Khronos organization
+    for standardizing, and us as implementing it, and giving feedback on improving.
+  </p>
+
   <h3 id="pr6.0">February 28th, 2023, FFmpeg 6.0 "Von Neumann"</h3>
   <p>
     A new major release, <a href="download.html#release_6.0">FFmpeg 6.0 "Von Neumann"</a>,
