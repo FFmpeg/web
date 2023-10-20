@@ -6,6 +6,42 @@
   maintaining an old release.
 </div>
 
+  <h3 id="release_5.0">FFmpeg 5.0.3 "Lorentz"</h3>
+
+  <p>
+    5.0.3 was released on 2023-04-02. It is the latest stable FFmpeg release
+    from the 5.0 release branch, which was cut from master on 2022-01-04.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      57. 17.100
+libavcodec     59. 18.100
+libavformat    59. 16.100
+libavdevice    59.  4.100
+libavfilter     8. 24.100
+libswscale      6.  4.100
+libswresample   4.  3.100
+libpostproc    56.  3.100</pre>
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-5.0.3.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-5.0.3.tar.xz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-5.0.3.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-5.0.3.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-5.0.3.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-5.0.3.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3 text-right">
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n5.0.3">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/5.0:/RELEASE_NOTES">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
+
   <h3 id="release_4.0">FFmpeg 4.0.6 "Wu"</h3>
 
   <p>
