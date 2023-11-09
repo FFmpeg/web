@@ -35,6 +35,71 @@
     News
   </h1>
 
+  <h3 id="pr6.1">November 10th, 2023, FFmpeg 6.1 "Heaviside"</h3>
+  <p>
+    <a href="download.html#release_6.1">FFmpeg 6.1 "Heaviside"</a>, a new
+    major release, is now available! Some of the highlights:
+  </p>
+  <ul>
+    <li>libaribcaption decoder</li>
+    <li>Playdate video decoder and demuxer</li>
+    <li>Extend VAAPI support for libva-win32 on Windows</li>
+    <li>afireqsrc audio source filter</li>
+    <li>arls filter</li>
+    <li>ffmpeg CLI new option: -readrate_initial_burst</li>
+    <li>zoneplate video source filter</li>
+    <li>command support in the setpts and asetpts filters</li>
+    <li>Vulkan decode hwaccel, supporting H264, HEVC and AV1</li>
+    <li>color_vulkan filter</li>
+    <li>bwdif_vulkan filter</li>
+    <li>nlmeans_vulkan filter</li>
+    <li>RivaTuner video decoder</li>
+    <li>xfade_vulkan filter</li>
+    <li>vMix video decoder</li>
+    <li>Essential Video Coding parser, muxer and demuxer</li>
+    <li>Essential Video Coding frame merge bsf</li>
+    <li>bwdif_cuda filter</li>
+    <li>Microsoft RLE video encoder</li>
+    <li>Raw AC-4 muxer and demuxer</li>
+    <li>Raw VVC bitstream parser, muxer and demuxer</li>
+    <li>Bitstream filter for editing metadata in VVC streams</li>
+    <li>Bitstream filter for converting VVC from MP4 to Annex B</li>
+    <li>scale_vt filter for videotoolbox</li>
+    <li>transpose_vt filter for videotoolbox</li>
+    <li>support for the P_SKIP hinting to speed up libx264 encoding</li>
+    <li>Support HEVC,VP9,AV1 codec in enhanced flv format</li>
+    <li>apsnr and asisdr audio filters</li>
+    <li>OSQ demuxer and decoder</li>
+    <li>Support HEVC,VP9,AV1 codec fourcclist in enhanced rtmp protocol</li>
+    <li>CRI USM demuxer</li>
+    <li>ffmpeg CLI '-top' option deprecated in favor of the setfield filter</li>
+    <li>VAAPI AV1 encoder</li>
+    <li>ffprobe XML output schema changed to account for multiple variable-fields elements within the same parent element</li>
+    <li>ffprobe -output_format option added as an alias of -of</li>
+  </ul>
+  <p>
+    This release had been overdue for at least half a year, but due to constant activity in the repository,
+    had to be delayed, and we were finally able to branch off the release recently, before some of the large
+    changes scheduled for 7.0 were merged.
+  </p>
+  <p>
+    Internally, we have had a number of changes too. The FFT, MDCT, DCT and DST implementation used for codecs
+    and filters has been fully replaced with the faster libavutil/tx (full article about it coming soon).</br>
+    This also led to a reduction in the the size of the compiled binary, which can be noticeable in small builds.</br>
+    There was a very large reduction in the total amount of allocations being done on each frame throughout video decoders,
+    reducing overhead.</br>
+    RISC-V optimizations for many parts of our DSP code have been merged, with mainly the large decoders being left.</br>
+    There was an effort to improve the correctness of timestamps and frame durations of each packet, increasing the
+    accurracy of variable frame rate video.
+  </p>
+  <p>
+    Next major release will be version 7.0, scheduled to be released in February. We will attempt to better stick
+    to the new release schedule we announced at the start of this year.
+  </p>
+  <p>
+    We strongly recommend users, distributors, and system integrators to upgrade unless they use current git master.
+  </p>
+
   <h3 id="vk2023">May 31st, 2023, Vulkan decoding</h3>
   <p>
     A few days ago, Vulkan-powered decoding hardware acceleration code was merged into the codebase.
