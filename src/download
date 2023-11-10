@@ -1,10 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="https://ffmpeg.org/releases/ffmpeg-6.0.tar.xz" class="btn btn-success">
+    <a href="https://ffmpeg.org/releases/ffmpeg-6.0.1.tar.xz" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download Source Code
-      <small>ffmpeg-6.0.tar.xz</small>
+      <small>ffmpeg-6.0.1.tar.xz</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
@@ -303,10 +303,10 @@ gpg: Good signature from "FFmpeg release signing key &lt;ffmpeg-devel@ffmpeg.org
     and much faster bug fixes such as additional features and security patches.
   </p>
 
-  <h3 id="release_6.0">FFmpeg 6.0 "Von Neumann"</h3>
+  <h3 id="release_6.0">FFmpeg 6.0.1 "Von Neumann"</h3>
 
   <p>
-    6.0 was released on 2023-02-27. It is the latest stable FFmpeg release
+    6.0.1 was released on 2023-11-10. It is the latest stable FFmpeg release
     from the 6.0 release branch, which was cut from master on 2023-02-19.
   </p>
   <p>It includes the following library versions:
@@ -322,27 +322,27 @@ libswresample   4. 10.100
 libpostproc    57.  1.100</pre>
   <div class="row">
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-6.0.tar.xz">Download xz tarball</a>
-      <small><a href="releases/ffmpeg-6.0.tar.xz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-6.0.1.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-6.0.1.tar.xz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-6.0.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-6.0.tar.bz2.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-6.0.1.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-6.0.1.tar.bz2.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-6.0.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-6.0.tar.gz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-6.0.1.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-6.0.1.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n6.0">Changelog</a></small>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n6.0.1">Changelog</a></small>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/6.0:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
-  <h3 id="release_5.1">FFmpeg 5.1.3 "Riemann"</h3>
+  <h3 id="release_5.1">FFmpeg 5.1.4 "Riemann"</h3>
 
   <p>
-    5.1.3 was released on 2023-03-26. It is the latest stable FFmpeg release
+    5.1.4 was released on 2023-11-10. It is the latest stable FFmpeg release
     from the 5.1 release branch, which was cut from master on 2022-07-13.
   </p>
   <p>It includes the following library versions:
@@ -358,19 +358,19 @@ libswresample   4.  7.100
 libpostproc    56.  6.100</pre>
   <div class="row">
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-5.1.3.tar.xz">Download xz tarball</a>
-      <small><a href="releases/ffmpeg-5.1.3.tar.xz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-5.1.4.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-5.1.4.tar.xz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-5.1.3.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-5.1.3.tar.bz2.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-5.1.4.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-5.1.4.tar.bz2.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-5.1.3.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-5.1.3.tar.gz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-5.1.4.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-5.1.4.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n5.1.3">Changelog</a></small>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n5.1.4">Changelog</a></small>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/5.1:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
