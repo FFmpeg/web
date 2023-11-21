@@ -1,10 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="https://ffmpeg.org/releases/ffmpeg-6.0.1.tar.xz" class="btn btn-success">
+    <a href="https://ffmpeg.org/releases/ffmpeg-6.1.tar.xz" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download Source Code
-      <small>ffmpeg-6.0.1.tar.xz</small>
+      <small>ffmpeg-6.1.tar.xz</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
