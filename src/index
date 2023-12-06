@@ -35,6 +35,20 @@
     News
   </h1>
 
+  <h3 id="cli_threading">December 12th, 2023, multi-threaded <code>ffmpeg</code> CLI tool</h3>
+  <p>
+  Thanks to a major refactoring of the <code>ffmpeg</code> command-line tool, all the major
+  components of the transcoding pipeline (demuxers, decoders, filters, encodes, muxers) now
+  run in parallel. This should improve throughput and CPU utilization, decrease latency,
+  and open the way to other exciting new features.
+  </p>
+
+  <p>
+  Note that you should <em>not</em> expect significant performance improvements in cases
+  where almost all computational time is spent in a single component (typically video
+  encoding).
+  </p>
+
   <h3 id="pr6.1">November 10th, 2023, FFmpeg 6.1 "Heaviside"</h3>
   <p>
     <a href="download.html#release_6.1">FFmpeg 6.1 "Heaviside"</a>, a new
