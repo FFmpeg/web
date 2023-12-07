@@ -84,18 +84,6 @@ E.g.:
 <div class="row">
   <div class="col-md-4">
     <div class="well">
-      <h3>Paul B Mahol</h3>
-      <p>
-        Paul is located in Croatia and is available for contracting work. He has
-        worked on FFmpeg since 2011 and has been a maintainer since 2012. He has
-        experience with various codecs, containers, filters and reverse
-        engineering. You can contact him by email at
-        <a href="mailto:onemda%20at%20gmail%20dot%20com">onemda at gmail dot com</a>.
-      </p>
-    </div> <!-- well -->
-  </div> <!-- col -->
-  <div class="col-md-4">
-    <div class="well">
       <h3>Thilo Borgmann</h3>
       <p>
         Thilo is located in Berlin, Germany and is available for contract work.
