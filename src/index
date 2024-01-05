@@ -35,6 +35,14 @@
     News
   </h1>
 
+  <h3 id="vvcdec">January 3rd, 2024, native VVC decoder</h3>
+  <p>
+  The <code>libavcodec</code> library now contains a native VVC (Versatile Video Coding)
+  decoder, supporting a large subset of the codec's features. Further optimizations and
+  support for more features are coming soon. The code was written by Nuo Mi, Xu Mu,
+  Frank Plowman, Shaun Loo, and Wu Jianhua.
+  </p>
+
   <h3 id="iamf">December 18th, 2023, IAMF support</h3>
   <p>
   The <code>libavformat</code> library can now read and write <a href="https://aomediacodec.github.io/iamf/">IAMF</a>
