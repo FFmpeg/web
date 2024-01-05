@@ -35,6 +35,13 @@
     News
   </h1>
 
+  <h3 id="iamf">December 18th, 2023, IAMF support</h3>
+  <p>
+  The <code>libavformat</code> library can now read and write <a href="https://aomediacodec.github.io/iamf/">IAMF</a>
+  (Immersive Audio) files. The <code>ffmpeg</code> CLI tool can configure IAMF structure with the new
+  <code>-stream_group</code> option. IAMF support was written by James Almer.
+  </p>
+
   <h3 id="cli_threading">December 12th, 2023, multi-threaded <code>ffmpeg</code> CLI tool</h3>
   <p>
   Thanks to a major refactoring of the <code>ffmpeg</code> command-line tool, all the major
