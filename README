@@ -4,7 +4,7 @@ ffmpeg.org official website
 GENERATE THE WEBSITE
 --------------------
 
-`lessc` is required to generate CSS of the website.[1]
+`lessc` and `clean-css` are required to generate CSS of the website.[1]
 
 Type `make` to generate the website.
 Type `make clean` to remove the generated files.
@@ -49,11 +49,11 @@ you might want to check out the C++ version: http://www.vanderkroef.net/clessc.h
 - Install everything globally (root required)
   - Install npm from the packages or the sources: http://nodejs.org/
   - Install lessc and bower using npm:
-    $ sudo npm install -g bower less
+    $ sudo npm install -g bower less clean-css
 
 - Install only npm globally
   - Install npm from the packages or the sources: http://nodejs.org/
   - Install lessc and bower in the current directory using npm:
-    $ npm install bower less
+    $ npm install bower less clean-css
   - Add the path to your environment:
     $ export PATH=`pwd`/node_modules/bower/bin:`pwd`/node_modules/less/bin:$PATH
