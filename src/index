@@ -146,8 +146,8 @@
     <a href="https://git.videolan.org/?p=ffmpeg.git;a=summary">repository</a> is required.
     The functionality will be included in stable branches with the release of version 6.1, due
     to be released soon.
-  <p>
   </p>
+  <p>
     As this is also the first practical implementation of the specifications, bugs may be present,
     particularly in drivers, and, although passing verification, the implementation itself.
     New codecs, and encoding support are also being worked on, by both the Khronos organization
