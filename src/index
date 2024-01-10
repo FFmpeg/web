@@ -113,11 +113,11 @@
   </p>
   <p>
     Internally, we have had a number of changes too. The FFT, MDCT, DCT and DST implementation used for codecs
-    and filters has been fully replaced with the faster libavutil/tx (full article about it coming soon).</br>
-    This also led to a reduction in the the size of the compiled binary, which can be noticeable in small builds.</br>
+    and filters has been fully replaced with the faster libavutil/tx (full article about it coming soon).<br>
+    This also led to a reduction in the the size of the compiled binary, which can be noticeable in small builds.<br>
     There was a very large reduction in the total amount of allocations being done on each frame throughout video decoders,
-    reducing overhead.</br>
-    RISC-V optimizations for many parts of our DSP code have been merged, with mainly the large decoders being left.</br>
+    reducing overhead.<br>
+    RISC-V optimizations for many parts of our DSP code have been merged, with mainly the large decoders being left.<br>
     There was an effort to improve the correctness of timestamps and frame durations of each packet, increasing the
     accurracy of variable frame rate video.
   </p>
