@@ -1,0 +1,98 @@
+<p>
+SPI (Software in the Public Interest) is a non-profit corporation
+registered in the state of New York founded to act as a fiscal sponsor
+for organizations that develop open source software and hardware. For
+details check here:
+<a href="https://www.spi-inc.org/">www.spi-inc.org</a>
+</p>
+
+<p>
+FFmpeg is an SPI associated project and donations can be collected and
+handled by SPI on behalf of FFmpeg. For details about the association
+check here:
+<a href="https://www.spi-inc.org/projects/ffmpeg/">www.spi-inc.org/projects/ffmpeg/</a>
+</p>
+
+<br>
+
+<h4>How to request refunds from SPI:</h4>
+<p>
+Send a mail to ffmpeg-devel with the [REFUND-REQUEST] tag and a short
+description of the refund topic in the subject.
+</p>
+
+<p>
+In the mail, you also need to provide the amount to be refunded, with
+a short description of how the money was spent.
+</p>
+
+<p>
+There is no need and is not recommeded to send receipts when sending
+the refund request on the ffmpeg-devel mailing-list, but they are
+usually needed later when the request is approved and the refund
+request is sent to SPI:
+<a href="https://www.spi-inc.org/treasurer/reimbursement-form/">www.spi-inc.org/treasurer/reimbursement-form</a>
+</p>
+
+<br>
+<h4>What can be payed by SPI:</h4>
+<p>
+FFmpeg money collected at SPI can be used for any purpose which is in line with
+501(c)3 nonprofit rules, and within our mission (Free & Open Source software).
+</p>
+
+<p>
+In practice we frequently payed for travel and hardware.
+For other refund expenses or sponsorships, it is recommended to
+discuss them beforehand on ffmpeg-devel. If there is a community
+agreement on their approval, the current FFmpeg liaison will followup
+to get an approval on the SPI side.
+</p>
+
+
+<br>
+<h4>Funding active development by SPI:</h4>
+<p>
+The texts below have been taken from multiple replies FFmpeg has
+received from SPI, they have been edited
+so that "I" was replaced by "SPI" in some cases.)
+</p>
+<p>
+Paying for development *does* require substantial
+additional paperwork, but it is not prohibited.
+</p>
+<p>
+Several SPI projects pay contractors for development
+efforts.  SPI needs a contract in place which describes the work to be
+done.  There are also various things SPI needs to check about the potential
+contractors (e.g. are they a US person or not, as with GSoC mentor payments;
+are they really a contractor and not a employee).
+</p>
+<p>
+SPI can't deal with employment at the moment because that involves a
+lot of work, like health insurance, tax withholding, etc.  Contractors
+are easier because they have to take care of that themselves; Whether
+someone is a contractor vs employee depends on various factors (that
+of course are different in every country) and can be disputed (see
+e.g. the debate about whether Uber drivers are employees); SPI has a
+questionnaire about their circumstances.
+</p>
+<p>
+Unfortunately, there's no one-size-fits-all when dealing with
+contractors, especially without knowing the contributor's country.
+</p>
+<p>
+SPI does have some contract templates which depends on the contractors
+country. In case of US, Australia, France and a couple others
+countries, SPI can easily provide them, otherwise SPI would need to
+ask their attorney to draft one, which would take some time.
+</p>
+<p>
+Also, SPI has two models, Master Service Agreements (which transfers ownership)
+and Continued Service Agreements (which grants a license instead). SPI usually
+sends the MSA (it's better for most purposes), but for development purposes,
+some projects prefer that the contractor retains ownership rights.
+</p>
+
+<br><br>
+
