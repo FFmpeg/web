@@ -285,6 +285,8 @@ gpg:                issuer "ffmpeg-devel@ffmpeg.org"
 gpg: Good signature from "FFmpeg release signing key &lt;ffmpeg-devel@ffmpeg.org&gt;" [full]</pre>
       </li>
     </ol>
+    Optionally, you can verify that git and tarball match, the only differences should be the absence of .git* files in the tarball and a VERSION file in the tarball containing the version.
+    The git tags should be signed with <a href="git-tag-key.asc">EDDSA key DD1EC9E8DE085C629B3E1846B18E8928B3948D64</a>
   </p>
 
   <h4 id="releases">
