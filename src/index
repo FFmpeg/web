@@ -35,6 +35,34 @@
     News
   </h1>
 
+  <h3 id="pr7.0">April 5th, 2024, FFmpeg 7.0 "Dijkstra"</h3>
+  <p>
+  A new major release, <a href="download.html#release_7.0">FFmpeg 7.0 "Dijkstra"</a>,
+  is now available for download. The most noteworthy changes for most users are
+  a <a href="#vvcdec">native VVC decoder</a> (currently experimental, until more
+  fuzzing is done), <a href="#iamf">IAMF support</a>, or a
+  <a href="#cli_threading">multi-threaded <code>ffmpeg</code> CLI tool</a>.
+  </p>
+
+  <p>
+  This release is <em>not</em> backwards compatible, removing APIs deprecated before 6.0.
+  The biggest change for most library callers will be the removal of the old bitmask-based
+  channel layout API, replaced by the <code>AVChannelLayout</code> API allowing such
+  features as custom channel ordering, or Ambisonics. Certain deprecated <code>ffmpeg</code>
+  CLI options were also removed, and a C11-compliant compiler is now required to build
+  the code.
+  </p>
+
+  <p>
+  As usual, there is also a number of new supported formats and codecs, new filters, APIs,
+  and countless smaller features and bugfixes. Compared to 6.1, the <code>git</code> repository
+  contains almost &sim;2000 new commits by &sim;100 authors, touching &gt;100000 lines in
+  &sim;2000 files &mdash; thanks to everyone who contributed. See the
+  <a href="https://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog;hb=n7.0">Changelog</a>,
+  <a href="https://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=doc/APIchanges;hb=n7.0">APIchanges</a>,
+  and the git log for more comprehensive lists of changes.
+  </p>
+
   <h3 id="vvcdec">January 3rd, 2024, native VVC decoder</h3>
   <p>
   The <code>libavcodec</code> library now contains a native VVC (Versatile Video Coding)
