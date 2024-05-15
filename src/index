@@ -35,6 +35,16 @@
     News
   </h1>
 
+  <h3 id="stf24">May 13th, 2024, Sovereign Tech Fund</h3>
+  <p>
+  The FFmpeg community is excited to announce that Germany's
+  <a href="https://www.sovereigntechfund.de/tech/ffmpeg">Sovereign Tech Fund</a>
+  has become its first governmental sponsor. Their support will help
+  sustain the maintainance of the FFmpeg project, a critical open-source
+  software multimedia component essential to bringing audio and video to
+  billions around the world everyday.
+  </p>
+
   <h3 id="pr7.0">April 5th, 2024, FFmpeg 7.0 "Dijkstra"</h3>
   <p>
   A new major release, <a href="download.html#release_7.0">FFmpeg 7.0 "Dijkstra"</a>,
