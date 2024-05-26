@@ -1,10 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="https://ffmpeg.org/releases/ffmpeg-7.0.tar.xz" class="btn btn-success">
+    <a href="https://ffmpeg.org/releases/ffmpeg-7.0.1.tar.xz" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download Source Code
-      <small>ffmpeg-7.0.tar.xz</small>
+      <small>ffmpeg-7.0.1.tar.xz</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
@@ -305,10 +305,10 @@ gpg: Good signature from "FFmpeg release signing key &lt;ffmpeg-devel@ffmpeg.org
     and much faster bug fixes such as additional features and security patches.
   </p>
 
-  <h3 id="release_7.0">FFmpeg 7.0 "Dijkstra"</h3>
+  <h3 id="release_7.0">FFmpeg 7.0.1 "Dijkstra"</h3>
 
   <p>
-    7.0 was released on 2024-04-05. It is the latest stable FFmpeg release
+    7.0.1 was released on 2024-05-26. It is the latest stable FFmpeg release
     from the 7.0 release branch, which was cut from master on 2024-03-27.
   </p>
   <p>It includes the following library versions:
@@ -324,19 +324,19 @@ libswresample   5.  1.100
 libpostproc    58.  1.100</pre>
   <div class="row">
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-7.0.tar.xz">Download xz tarball</a>
-      <small><a href="releases/ffmpeg-7.0.tar.xz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-7.0.1.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-7.0.1.tar.xz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-7.0.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-7.0.tar.bz2.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-7.0.1.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-7.0.1.tar.bz2.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-7.0.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-7.0.tar.gz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-7.0.1.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-7.0.1.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n7.0">Changelog</a></small>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n7.0.1">Changelog</a></small>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/7.0:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
