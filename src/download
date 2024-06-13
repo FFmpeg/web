@@ -678,7 +678,9 @@ libpostproc    53.  3.100</pre>
   <h3 id="old_releases">Old Releases</h3>
   <p>
     Older versions are available at the <a href="olddownload.html">Old
-      Releases</a> page.
+      Releases</a> page. Releases are usually moved there after the last
+      <a href="https://trac.ffmpeg.org/wiki/Downstreams">downstream</a>
+      drops support.
   </p>
   <div class="row">
     <div class="col-md-3">
