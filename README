@@ -1,4 +1,4 @@
-ffmpeg.org official website
+ffmpeg.org OFFICIAL AMAZING WEBSITE
 
 
 GENERATE THE WEBSITE
@@ -13,7 +13,7 @@ Type `make clean` to remove the generated files.
 GENERATE THE DOCUMENTATION
 --------------------------
 
-/!\ None of the generated versions of the website contain the documentation.
+/!\ None of the generated versions of the website contains the documentation.
 
 To generate the documentation pages, just `./generate-doc.sh <ffmpeg-src>`.
 
