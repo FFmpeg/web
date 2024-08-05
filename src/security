@@ -3,6 +3,14 @@
 
 <h2>FFmpeg 7.0</h2>
 
+<h3>7.0.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2024-7055, 587acd0d4020859e67d1f07aeff2c885797ebcce / 3faadbe2a27e74ff5bb5f7904ec27bb1f5287dc8
+</pre>
+
 <h3>7.0</h3>
 <p>
 Fixes following vulnerabilities:
@@ -13,6 +21,14 @@ CVE-2024-28661, 66b50445cb36cf6adb49c2397362509aedb42c71
 
 
 <h2>FFmpeg 6.1</h2>
+
+<h3>6.1.2</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2024-7055, d0ce252930357406a0435d0d783db4b1467345aa / 3faadbe2a27e74ff5bb5f7904ec27bb1f5287dc8
+</pre>
 
 <h3>6.1</h3>
 <p>
@@ -47,6 +63,15 @@ CVE-2022-48434, cc867f2c09d2b69cee8a0eccd62aff002cbbfe11
 
 
 <h2>FFmpeg 5.1</h2>
+
+<h3>5.1.6</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2024-7055, 5372bfe01e4a04357ab4465c1426cf8c6412dfd5 / 3faadbe2a27e74ff5bb5f7904ec27bb1f5287dc8
+CVE-2024-7272, a937b3c58babae893fb46b286a4792cd24a01d3d / 9903ba28c28ab18dc7b7b6fb8571cc8b5caae1a6
+</pre>
 
 <h3>5.1.4</h3>
 <p>
@@ -134,6 +159,14 @@ CVE-2023-47343, 0f6a3405e8987ad761a2d9139fdc95bbb6a61118
 
 <h2>FFmpeg 4.4</h2>
 
+<h3>4.4.5</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2024-7055,  ceeb1928da9a3aedd6fff935790c70405d4b12bf / 3faadbe2a27e74ff5bb5f7904ec27bb1f5287dc8
+CVE-2023-47342, d8a3d7b4f91249b1ff02d4474c78111b8688d605 / e4d5ac8d7d2a08658b3db7dd821246fe6b35381f
+</pre>
 
 <h3>4.4.4</h3>
 <p>
@@ -199,6 +232,16 @@ CVE-2020-35965, b0a8b40294ea212c1938348ff112ef1b9bf16bb3
 </pre>
 
 <h2>FFmpeg 4.3</h2>
+
+<h3>4.3.7</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2023-47342, 0077a817a1dd83790f674c3b5078b2dba106d228 / e4d5ac8d7d2a08658b3db7dd821246fe6b35381f
+CVE-2022-48434, 031c9601d06759a748adc077f73e3005b5571be1 / d4b7b3c03ee2baf0166ce49dff17ec9beff684db
+CVE-2022-3341,  d811434b5d731c0fad2eb5fbf3fc3e53df98ae67 / 9cf652cef49d74afe3d454f27d49eb1a1394951e
+</pre>
 
 <h3>4.3.6</h3>
 <p>
@@ -312,6 +355,13 @@ CVE-2021-38094, 99f8d32129dd233d4eb2efa44678a0bc44869f23, ticket/8263, duplicate
 
 <h2>FFmpeg 4.2</h2>
 
+<h3>4.2.10</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2023-47342, d254fe2d1da3b1cba3526c5d6417c9912e330988 / e4d5ac8d7d2a08658b3db7dd821246fe6b35381f
+</pre>
 
 <h3>4.2.9</h3>
 <p>
