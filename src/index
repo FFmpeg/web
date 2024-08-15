@@ -35,6 +35,14 @@
     News
   </h1>
 
+  <h3 id="coverity">September 11th, 2024, Coverity</h3>
+  <p>
+  The number of issues FFmpeg has in <a href="https://scan.coverity.com/projects/ffmpeg">Coverity (a static analyzer)</a> is now lower than it has been since 2016.
+  Our defect density is less than one 30th of the average in OSS with over a million code
+  lines. All this was possible thanks to a grant from the <a href="https://www.sovereigntechfund.de/">Sovereign Tech Fund</a>.
+  </p>
+  <img src="img/coverity-lifetime-2024-08.PNG" alt="Coverity Lifetime Graph till 2024-08" style="width: 80%; display: block; margin-left: auto; margin-right: auto;" />
+
   <h3 id="xheaac">June 2rd, 2024, native xHE-AAC decoder</h3>
   <p>
   FFmpeg now implements a native xHE-AAC decoder. Currently, streams without (e)SBR, USAC or MPEG-H Surround
