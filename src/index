@@ -43,7 +43,7 @@
   </p>
   <img src="img/coverity-lifetime-2024-08.PNG" alt="Coverity Lifetime Graph till 2024-08" style="width: 80%; display: block; margin-left: auto; margin-right: auto;" />
 
-  <h3 id="xheaac">June 2rd, 2024, native xHE-AAC decoder</h3>
+  <h3 id="xheaac">June 2nd, 2024, native xHE-AAC decoder</h3>
   <p>
   FFmpeg now implements a native xHE-AAC decoder. Currently, streams without (e)SBR, USAC or MPEG-H Surround
   are supported, which means the majority of xHE-AAC streams in use should work. Support for USAC and (e)SBR is
