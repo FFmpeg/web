@@ -38,7 +38,7 @@
   <h3 id="pr7.1">September 30th, 2024, FFmpeg 7.1 <span title="Rózsa Péter">"Péter"</span></h3>
   <p>
     <a href="download.html#release_7.1">FFmpeg 7.1 "Péter"</a>, a new
-    minor release, is now available! A full list of changes can be found in the release
+    major release, is now available! A full list of changes can be found in the release
     <a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/7.1:/Changelog">changelog</a>.
   </p>
   <p>
