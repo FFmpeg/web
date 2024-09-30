@@ -35,6 +35,43 @@
     News
   </h1>
 
+  <h3 id="pr7.1">October 1st, 2024, FFmpeg 7.1 <span title="Rózsa Péter">"Péter"</span></h3>
+  <p>
+    <a href="download.html#release_7.1">FFmpeg 7.1 "Péter"</a>, a new
+    minor release, is now available! A full list of changes can be found in the release
+    <a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/7.1:/Changelog">changelog</a>.
+  </p>
+  <p>
+    The more important highlights of the release are that the VVC decoder, merged as experimental in version 7.0,
+    has had enough time to mature and be optimized enough to be declared as stable. The coded is starting to gain
+    traction with broadcast standardization bodies.<br>
+    Support has been added for a native AAC USAC (part of the xHE-AAC coding system) decoder, with the format starting
+    to be adopted by streaming websites, due to its extensive volume normalization metadata.<br>
+    MV-HEVC decoding is now supported. This is a stereoscopic coding tool that begun to be shipped and generated
+    by recent phones and VR headsets.<br>
+    LC-EVC decoding, an enhancement metadata layer to attempt to improve the quality of codecs, is now supported via an
+    external library.<br>
+  </p>
+  <p>
+    Support for Vulkan encoding, with H264 and HEVC was merged. This finally allows fully Vulkan-based decode-filter-encode
+    pipelines, by having a sink for Vulkan frames, other than downloading or displaying them. The encoders have feature-parity
+    with their VAAPI implementation counterparts. Khronos has announced that support for AV1 encoding is also coming soon to Vulkan,
+    and FFmpeg is aiming to have day-one support.
+  </p>
+  <p>
+    In addition to the above, this release has had a lot of important internal work done. By far, the standout internally
+    are the improvements made for full-range images. Previously, color range data had two paths, no negotiation,
+    and was unreliably forwarded to filters, encoders, muxers. Work on cleaning the system up started more than 10
+    years ago, however this stalled due to how fragile the system was, and that breaking behaviour would be unacceptable.
+    The new system fixes this, so now color range is forwarded correctly and consistently everywhere needed, and also
+    laid the path for more advanced forms of negotiation.<br>
+    Cropping metadata is now supported with Matroska and MP4 formats. This metadata is important not only for archival,
+    but also with AV1, as hardware encoders require its signalling due to the codec not natively supporting one.
+  </p>
+  <p>
+    As usual, we recommend that users, distributors, and system integrators to upgrade unless they use current git master.
+  </p>
+
   <h3 id="coverity">September 11th, 2024, Coverity</h3>
   <p>
   The number of issues FFmpeg has in <a href="https://scan.coverity.com/projects/ffmpeg">Coverity (a static analyzer)</a> is now lower than it has been since 2016.
