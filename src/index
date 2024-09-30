@@ -43,7 +43,7 @@
   </p>
   <p>
     The more important highlights of the release are that the VVC decoder, merged as experimental in version 7.0,
-    has had enough time to mature and be optimized enough to be declared as stable. The coded is starting to gain
+    has had enough time to mature and be optimized enough to be declared as stable. The codec is starting to gain
     traction with broadcast standardization bodies.<br>
     Support has been added for a native AAC USAC (part of the xHE-AAC coding system) decoder, with the format starting
     to be adopted by streaming websites, due to its extensive volume normalization metadata.<br>
