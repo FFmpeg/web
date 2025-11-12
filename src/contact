@@ -64,6 +64,11 @@
           tracker).
         </a>
       </div> <!-- list-group -->
+      <div style="color: white">
+        <p>
+	  <a href="https://lists.ffmpeg.org/lore/">Alternate mailing-archive</a>
+        </p>
+      </div>
     </div> <!-- col -->
     <div class="col-md-3">
       <h3 id="MailingListArchives">
