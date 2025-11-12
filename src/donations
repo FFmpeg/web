@@ -62,6 +62,23 @@
 
 <br><br>
 
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Michael Niedermayer</h3>
+      <p>
+        Releases, Security fixes
+      </p>
+        <div class="text-center">
+        <a class="btn btn-success btn-lg"
+           href="https://paypal.me/niedermayermichael">PayPal</a><br><br>
+        <div class="pp-amounts">
+        </div>
+      </div>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+
 
 <div class="row">
   <div class="col-md-offset-4 col-md-8">
