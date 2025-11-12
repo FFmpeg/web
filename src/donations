@@ -1,3 +1,5 @@
+<h1>Donate to FFmpeg</h1>
+
 <p class="with-icon">
   <span class="pull-left" style="color: #e55"><i class="fa fa-heart fa-5x"></i></span>
   Donations will be used to fund expenses related to development
@@ -48,6 +50,18 @@
     </div> <!-- well -->
   </div> <!-- col -->
 </div> <!-- row -->
+
+<br><br>
+
+<h1>Donate to individual developers</h1>
+
+<p class="with-icon">
+  <span class="pull-left" style="color: #e55"><i class="fa fa-heart fa-5x"></i></span>
+  Donations in this section go directly to the selected individual developer as a personal gift. They are independent of the project's general funds and may be used entirely at the developer's own discretion. By donating here, you are expressing appreciation and support for the developer's work and past contributions, without attaching the donation to any specific purpose, deliverable, or service.
+</p>
+
+<br><br>
+
 
 <div class="row">
   <div class="col-md-offset-4 col-md-8">
