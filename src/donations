@@ -72,13 +72,34 @@
         <div class="text-center">
         <a class="btn btn-success btn-lg"
            href="https://paypal.me/niedermayermichael">PayPal</a><br><br>
-        <div class="pp-amounts">
-        </div>
+        <div class="text-center">
+        <span onclick="revealAndCopy('emn')">
+          <img src="https://ethereum.org/images/assets/svgs/eth-diamond-black.svg" alt="Ethereum" width="32" height="32">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Circle_USDC_Logo.svg" alt="USDC" width="32" height="32">
+        </span>
+        <span onclick="revealAndCopy('bmn')">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" alt="Bitcoin" width="32" height="32">
+        </span><br>
+        <span id='emn'>0x688233B52Df5fcf563c8181b576728619567DFbb</span><br>
+        <span id='bmn'>bc1q55est04pzyvf0yezf2h7a98m72aunrxdt24jt8</span><br>
       </div>
     </div> <!-- well -->
   </div> <!-- col -->
 </div> <!-- row -->
 
+
+<script>
+function revealAndCopy(id) {
+  var c = document.getElementById(id);
+
+  c.style.display = c.style.display === "none" ? "block" : "none";
+
+  navigator.clipboard.writeText(c.innerHTML);
+}
+
+document.getElementById("emn").style.display = "none";
+document.getElementById("bmn").style.display = "none";
+</script>
 
 <div class="row">
   <div class="col-md-offset-4 col-md-8">
