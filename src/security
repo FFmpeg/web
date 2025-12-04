@@ -13,6 +13,14 @@ CVE-2025-59734, c41a70b6bb79707e1e3a4b0e31950cd986b9f50e, BIGSLEEP-440183164
 
 <h2>FFmpeg 8.0</h2>
 
+<h3>8.0.1</h3>
+<p>
+Fixes following vulnerabilities:
+</p>
+<pre>
+CVE-2025-63757, 716cf25eb8616e8e068a7c2a5d23ae107bd117b4 / 0c6b7f9483a38657c9be824572b4c0c45d4d9fef
+</pre>
+
 <h3>8.0</h3>
 <p>
 Fixes following vulnerabilities:
