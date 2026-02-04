@@ -1,4 +1,4 @@
-<p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a>. Note, we have recently seen a spike in false positives. Make sure that what you report are real issues by careful human verification.</p>
+<p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a>. Note, we have recently seen a spike in false positives. Make sure that what you report are real issues by careful human verification. And they are issues reproducible with prior existing applications.</p>
 
 <h2>FFmpeg git master</h2>
 <p>
