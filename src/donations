@@ -49,6 +49,15 @@
     </p>
     </div> <!-- well -->
   </div> <!-- col -->
+  <div class="col-md-3">
+    <div class="well">
+      <h3>Github sponsors</h3>
+      <div class="text-center">
+        <iframe src="https://github.com/sponsors/FFmpeg/button" title="Sponsor FFmpeg" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+        <br><br>
+      </div>
+    </div> <!-- well -->
+  </div> <!-- col -->
 </div> <!-- row -->
 
 <br><br>
