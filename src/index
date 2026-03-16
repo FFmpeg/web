@@ -35,6 +35,38 @@
     News
   </h1>
 
+  <h3 id="pr8.1">March 16th, 2026, FFmpeg 8.1 <span title="Sir Charles Antony Richard Hoare">"Hoare"</span></h3>
+  <p>
+  A new minor release, <a href="download.html#release_8.1">FFmpeg 8.1 <span title="Sir Charles Antony Richard Hoare">"Hoare"</span></a>,
+  is now available for download. Here are some of the highlights:
+  <ul>
+    <li>Decoders: xHE-AAC Mps212 (experimental) MPEG-H decoding via libmpeghdec</li>
+    <li>EXIF Metadata Parsing</li>
+    <li>LCEVC: support for parsing and forwarding metadata</li>
+    <li>Vulkan compute-based codecs: ProRes encoding and decoding, DPX decoding</li>
+    <li>D3D12: D3D12 H.264/AV1 encoding, scale_d3d12, mestimate_d3d12, deinterlace_d3d12 filters</li>
+    <li>Rockchip H.264/HEVC hardware encoding</li>
+    <li>IAMF: Projection mode Ambisonic Audio Elements muxing and demuxing</li>
+    <li>Formats: hxvs demuxer</li>
+    <li>Filters: drawvg, vpp_amf</li>
+  </ul>
+  </p>
+
+  <p>
+  This release features a lot of internal changes and bugfixes. The groundwork for the upcoming swscale rewrite is progressing.
+  The Vulkan compute-based codecs, and a few filters, no longer depend on runtime GLSL compilation, which speeds up their initialization.
+  </p>
+
+  <p>
+  A companion post about the Vulkan Compute-based codec implementations has been published on the
+  <a href="https://www.khronos.org/blog/video-encoding-and-decoding-with-vulkan-compute-shaders-in-ffmpeg">Khronos blog</a>,
+  featuring technical details on the implementations and future plans.
+  </p>
+
+  <p>
+    We recommend users, distributors, and system integrators to upgrade unless they use current git master.
+  </p>
+
   <h3 id="pr8.0">August 22nd, 2025, FFmpeg 8.0 <span title="David A. Huffman">"Huffman"</span></h3>
   <p>
   A new major release, <a href="download.html#release_8.0">FFmpeg 8.0 <span title="David A. Huffman">"Huffman"</span></a>,
