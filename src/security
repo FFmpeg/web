@@ -1,4 +1,22 @@
-<p>Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a>. Note, we have recently seen a spike in false positives. Make sure that what you report are real issues by careful human verification. And they are issues reproducible with prior existing applications.</p>
+
+<h3>Reporting vulnerabilities</h3>
+
+<p>Note, we have recently seen a spike in AI generated, false positives. Make sure that what you report are real issues by careful human verification. And they are issues reproducible with prior existing applications.
+And that you provide a easy to use testcase. Automated submissions are not accepted. Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
+
+<p>Please include the following:</p>
+<ol>
+  <li>Name(s) or alias(es) of the human reviewer(s) who verified the report.</li>
+  <li>Name(s) or alias(es) of the human(s) to credit for finding the vulnerability, if different from the reviewer(s).</li>
+  <li>A reproducible testcase, ideally something we can copy and paste directly, such as an <code>ffmpeg</code> command line together with an attached multimedia input file. Please give attached files unique names.</li>
+  <li>An unambiguous source identifier (git commit hash). If you think it replicates with any, dont hesitate to add that information</li>
+  <li>Stack trace(s) with line numbers.</li>
+  <li>A analysis / description of the issue.</li>
+  <li>The commit that introduced the vulnerability, if known.</li>
+  <li>A script generating the input, if available.</li>
+  <li>A git-formatted patch with a proposed fix, if available.</li>
+  <li>Any CVE identifier or other related identifier, if available.</li>
+</ol>
 
 <h2>FFmpeg git master</h2>
 <p>
