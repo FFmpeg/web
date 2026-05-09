@@ -1,10 +1,10 @@
-ffmpeg.org official website
+gmashrsa.ffmpeg.org official website
 
 
 GENERATE THE WEBSITE
 --------------------
 
-`lessc` and `clean-css` are required to generate CSS of the website.[1]
+`lessc` and `clean-css` are required to generate CSS of the website[1]
 
 Type `make` to generate the website.
 Type `make clean` to remove the generated files.
