@@ -4,6 +4,8 @@
 <p>Note, we have recently seen a spike in AI generated, false positives. Make sure that what you report are real issues by careful human verification. And they are issues reproducible with prior existing applications.
 And that you provide a easy to use testcase. Automated submissions are not accepted. Please report vulnerabilities to <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a></p>
 
+<p>We are currently receiving a very large number of reports. Please report only security issues to ffmpeg-security. For normal bugs, non-exploitable source-level undefined behavior and memory leaks, please submit a pull request with your fix to code.ffmpeg.org instead.</p>
+
 <p>Please include the following:</p>
 <ol>
   <li>Name(s) or alias(es) of the human reviewer(s) who verified the report.</li>
