@@ -1,9 +1,13 @@
 <div class="with-icon">
-  <span class="pull-left"><i class="fa fa-3x fa-warning"></i></span>
-  These releases are not actively maintained and thus we
-  discourage their use.<br>
-  <a href="contact.html">Contact us</a> if you are interested in
-  maintaining an old release.
+  <span class="pull-left">
+    <i class="fa fa-3x fa-warning" aria-hidden="true"></i>
+  </span>
+  These releases are not actively maintained, and their use is discouraged.<br>
+  If you are interested in volunteering to maintain an old release branch, please
+  <a href="contact.html">contact us</a>.<br>
+  If you need fixes or paid maintenance for an old release branch for commercial
+  or product use, please consider hiring a developer listed on the
+  <a href="https://ffmpeg.org/consulting.html">consulting page</a>.
 </div>
 
   <h3 id="release_6.0">FFmpeg 6.0.1 "Von Neumann"</h3>
