@@ -77,6 +77,78 @@ libpostproc    56.  3.100</pre>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/5.0:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
+  <h3 id="release_4.3">FFmpeg 4.3.9 "4:3"</h3>
+
+  <p>
+    4.3.9 was released on 2025-03-12. It is the latest stable FFmpeg release
+    from the 4.3 release branch, which was cut from master on 2020-06-08.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      56. 51.100
+libavcodec     58. 91.100
+libavformat    58. 45.100
+libavdevice    58. 10.100
+libavfilter     7. 85.100
+libswscale      5.  7.100
+libswresample   3.  7.100
+libpostproc    55.  7.100</pre>
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-4.3.9.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-4.3.9.tar.xz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-4.3.9.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-4.3.9.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-4.3.9.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-4.3.9.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3 text-right">
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n4.3.9">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/4.3:/RELEASE_NOTES">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
+
+  <h3 id="release_4.2">FFmpeg 4.2.11 "Ada"</h3>
+
+  <p>
+    4.2.11 was released on 2025-05-17. It is the latest stable FFmpeg release
+    from the 4.2 release branch, which was cut from master on 2019-07-21.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      56. 31.100
+libavcodec     58. 54.100
+libavformat    58. 29.100
+libavdevice    58.  8.100
+libavfilter     7. 57.100
+libswscale      5.  5.100
+libswresample   3.  5.100
+libpostproc    55.  5.100</pre>
+
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-4.2.11.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-4.2.11.tar.xz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-4.2.11.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-4.2.11.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-4.2.11.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-4.2.11.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3 text-right">
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n4.2.11">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/4.2:/RELEASE_NOTES">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
 
   <h3 id="release_4.1">FFmpeg 4.1.11 "al-Khwarizmi"</h3>
 
@@ -149,6 +221,44 @@ libpostproc    55.  1.100</pre>
     <div class="col-md-3 text-right">
       <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n4.0.6">Changelog</a></small>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/4.0:/RELEASE_NOTES">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
+
+  <h3 id="release_3.4">FFmpeg 3.4.14 "Cantor"</h3>
+
+  <p>
+    3.4.14 was released on 2025-03-12. It is the latest stable FFmpeg release
+    from the 3.4 release branch, which was cut from master on 2017-10-11.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      55. 78.100
+libavcodec     57.107.100
+libavformat    57. 83.100
+libavdevice    57. 10.100
+libavfilter     6.107.100
+libavresample   3.  7.  0
+libswscale      4.  8.100
+libswresample   2.  9.100
+libpostproc    54.  7.100</pre>
+
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.4.14.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-3.4.14.tar.xz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.4.14.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-3.4.14.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-3.4.14.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-3.4.14.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3 text-right">
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n3.4.14">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/3.4:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -301,6 +411,46 @@ libpostproc    54.  0.100</pre>
     <div class="col-md-3 text-right">
       <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n3.0.12">Changelog</a></small>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/3.0:/RELEASE_NOTES">Release Notes</a>
+    </div> <!-- col -->
+  </div> <!-- row -->
+
+  <h3 id="release_2.8">FFmpeg 2.8.22 "Feynman"</h3>
+
+  <p>
+    2.8.22 was released on 2023-10-29. It is the latest stable FFmpeg release
+    from the 2.8 release branch, which was cut from master on 2015-09-05.
+    Amongst lots of other changes, it includes all changes from
+    ffmpeg-mt, libav master of 2015-08-28, libav 11 as of 2015-08-28.
+  </p>
+  <p>It includes the following library versions:
+  </p>
+  <pre>
+libavutil      54. 31.100
+libavcodec     56. 60.100
+libavformat    56. 40.101
+libavdevice    56.  4.100
+libavfilter     5. 40.101
+libavresample   2.  1.  0
+libswscale      3.  1.101
+libswresample   1.  2.101
+libpostproc    53.  3.100</pre>
+
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-2.8.22.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-2.8.22.tar.xz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-2.8.22.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-2.8.22.tar.bz2.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3">
+      <a class="btn btn-success" href="releases/ffmpeg-2.8.22.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-2.8.22.tar.gz.asc">PGP signature</a></small>
+    </div> <!-- col -->
+    <div class="col-md-3 text-right">
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n2.8.22">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/2.8:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
