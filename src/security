@@ -20,6 +20,16 @@ And that you provide a easy to use testcase. Automated submissions are not accep
   <li>Any CVE identifier or other related identifier, if available.</li>
 </ol>
 
+<h3>Contributing missing CVE identifiers</h3>
+<p>The list of CVEs on this page is maintained by the FFmpeg community. If you register a CVE or find one missing from the lists below, please help keep it up to date:</p>
+
+<h4>Before the fix has been backported to release branches</h4>
+<p>Please email <a href="mailto:ffmpeg-security@ffmpeg.org">ffmpeg-security@ffmpeg.org</a> with the CVE identifier and the git commit that fixes it.</p>
+
+<h4>After the fix has been backported</h4>
+<p>Please <a href="https://code.ffmpeg.org/FFmpeg/web/pulls">open a pull request</a> against the web repository to add the entry to the relevant section(s) of this page.</p>
+
+
 <h2>FFmpeg git master</h2>
 <p>
 Fixes following vulnerabilities:
