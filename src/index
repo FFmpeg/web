@@ -35,6 +35,29 @@
     News
   </h1>
 
+  <h3 id="ampere2026">June 24th, 2026, Ampere Server Donation</h3>
+  <p>
+  Ampere has generously donated a server to FFmpeg: an AmpereOne&reg; (Mt. Mitchell)
+  2U system with 192 Arm cores, 512&nbsp;GB of RAM, 24 NVMe bays and 2&times;25G
+  networking, weighing in at 28&nbsp;kg. Thank you, Ampere!
+  </p>
+  <div class="row" style="margin-top: 1em; margin-bottom: 1em;">
+    <div class="col-sm-6">
+      <img class="img-responsive" src="img/AmpereServer1.avif" alt="The boxed Ampere server on arrival" />
+    </div>
+    <div class="col-sm-6">
+      <img class="img-responsive" src="img/AmpereServer2.avif" alt="The Ampere server unboxed in its packaging foam" />
+    </div>
+  </div>
+  <p>
+  To celebrate, Dascha (daschasara) answered FFmpeg's call for non-AI artwork and
+  drew this piece for us:
+  </p>
+  <img src="img/dascha-ffmpeg-ampere.png" alt="Artwork by Dascha: the FFmpeg logo opening a gift box containing an Ampere server" style="display: block; margin: 1em auto; width: 100%; max-width: 500px;" />
+  <p style="text-align: center;">
+  <small>Artwork by Dascha (daschasara)</small>
+  </p>
+
   <h3 id="pr8.1">March 16th, 2026, FFmpeg 8.1 <span title="Sir Charles Antony Richard Hoare">"Hoare"</span></h3>
   <p>
   A new minor release, <a href="download.html#release_8.1">FFmpeg 8.1 <span title="Sir Charles Antony Richard Hoare">"Hoare"</span></a>,
