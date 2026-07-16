@@ -111,11 +111,12 @@ info all-registers</pre>
 
 <p>
   Once you have gathered this information, you can submit a report to the
-  <a href="https://trac.ffmpeg.org">FFmpeg bug tracker</a>.
+  <a href="https://code.ffmpeg.org/FFmpeg/FFmpeg/issues">FFmpeg bug tracker</a>.
 </p>
 <p>
-  <i>Note, you must <a href="https://trac.ffmpeg.org/register">register</a>
-    there first before you can submit a report.</i>
+  <i>Note, you must <a href="https://code.ffmpeg.org/user/sign_up">register</a>
+    or <a href="https://code.ffmpeg.org/user/login">sign in</a> before you can
+    submit a report.</i>
 </p>
 <p>
   You should provide all information so that anyone can reproduce the bug.<br>
