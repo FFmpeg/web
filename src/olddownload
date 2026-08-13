@@ -648,8 +648,8 @@ libpostproc    53.  0.100</pre>
       <small><a href="releases/ffmpeg-2.4.14.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-4 text-right">
-      <small><a href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.4.14">Changelog</a></small>
-      <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.4">Release Notes</a>
+      <small><a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n2.4.14">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.4">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -685,8 +685,8 @@ libpostproc    52.  3.100</pre>
       <small><a href="releases/ffmpeg-2.3.6.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-4 text-right">
-      <small><a href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.3.6">Changelog</a></small>
-      <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=489d066">Release Notes</a>
+      <small><a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n2.3.6">Changelog</a></small>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=489d066">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -721,7 +721,7 @@ libpostproc    52.  3.100</pre>
       <small><a href="releases/ffmpeg-2.2.16.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-4 text-right">
-      <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.2.16">Changelog</a>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n2.2.16">Changelog</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -757,7 +757,7 @@ libpostproc    52.  3.100</pre>
       <small><a href="releases/ffmpeg-2.1.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-4 text-right">
-      <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.1.8">Changelog</a>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n2.1.8">Changelog</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -792,7 +792,7 @@ libpostproc    52.  3.100</pre>
     <small><a href="releases/ffmpeg-2.0.7.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n2.0.7">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n2.0.7">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -827,7 +827,7 @@ libpostproc    52.  2.100</pre>
       <small><a href="releases/ffmpeg-1.2.12.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-4 text-right">
-      <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.2.12">Changelog</a>
+      <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n1.2.12">Changelog</a>
     </div> <!-- col -->
   </div> <!-- row -->
 
@@ -862,7 +862,7 @@ libpostproc    52.  2.100</pre>
     <small><a href="releases/ffmpeg-1.1.16.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.1.16">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n1.1.16">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -897,7 +897,7 @@ libpostproc    52.  0.100</pre>
     <small><a href="releases/ffmpeg-1.0.10.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n1.0.10">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n1.0.10">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -932,7 +932,7 @@ libpostproc    52.  0.100</pre>
     <small><a href="releases/ffmpeg-0.11.5.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.11.5">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n0.11.5">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -966,7 +966,7 @@ libpostproc    52.  0.100</pre>
     <small><a href="releases/ffmpeg-0.10.16.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.10.16">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n0.10.16">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -989,7 +989,7 @@ libpostproc    52.  0.100</pre>
     <small><a href="releases/ffmpeg-0.9.4.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.9.4">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n0.9.4">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -1012,7 +1012,7 @@ libpostproc    52.  0.100</pre>
     <small><a href="releases/ffmpeg-0.8.15.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.8.15">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n0.8.15">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -1034,7 +1034,7 @@ libpostproc    52.  0.100</pre>
     <small><a href="releases/ffmpeg-0.7.17.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.7.17">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n0.7.17">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -1056,7 +1056,7 @@ libpostproc    52.  0.100</pre>
     <small><a href="releases/ffmpeg-0.6.7.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.6.7">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n0.6.7">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->
 
@@ -1081,6 +1081,6 @@ libpostproc    52.  0.100</pre>
     <small><a href="releases/ffmpeg-0.5.15.tar.gz.asc">PGP signature</a></small>
   </div> <!-- col -->
   <div class="col-md-4 text-right">
-    <a class="btn btn-success" href="https://git.videolan.org/?p=ffmpeg.git;a=shortlog;h=n0.5.15">Changelog</a>
+    <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=shortlog;h=n0.5.15">Changelog</a>
   </div> <!-- col -->
 </div> <!-- row -->

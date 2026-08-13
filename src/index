@@ -225,8 +225,8 @@
   and countless smaller features and bugfixes. Compared to 6.1, the <code>git</code> repository
   contains almost &sim;2000 new commits by &sim;100 authors, touching &gt;100000 lines in
   &sim;2000 files &mdash; thanks to everyone who contributed. See the
-  <a href="https://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog;hb=n7.0">Changelog</a>,
-  <a href="https://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=doc/APIchanges;hb=n7.0">APIchanges</a>,
+  <a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob_plain;f=Changelog;hb=n7.0">Changelog</a>,
+  <a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob_plain;f=doc/APIchanges;hb=n7.0">APIchanges</a>,
   and the git log for more comprehensive lists of changes.
   </p>
 
@@ -338,7 +338,7 @@
     For those who would like to integrate FFmpeg's Vulkan code to demux, parse, decode, and receive
     a VkImage to present or manipulate, documentation and examples are available in our source tree.
     Currently, using the latest available git checkout of our
-    <a href="https://git.videolan.org/?p=ffmpeg.git;a=summary">repository</a> is required.
+    <a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=summary">repository</a> is required.
     The functionality will be included in stable branches with the release of version 6.1, due
     to be released soon.
   </p>
@@ -1122,7 +1122,7 @@
     <li>Cineform HD decoder</li>
     <li>New DCA decoder based on libdcadec with full support for DTS-HD extensions</li>
     <li>As with all major releases expect major backward incompatible API/ABI changes</li>
-    <li>See the <a href="https://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog;hb=n3.0">Changelog</a> for a list of more updates</li>
+    <li>See the <a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob_plain;f=Changelog;hb=n3.0">Changelog</a> for a list of more updates</li>
   </ul>
   <p>
     We strongly recommend users, distributors, and system integrators to
@@ -1538,7 +1538,7 @@
   <p>
     We have made a new major release (<b><a href="download.html#release_2.6">2.6</a></b>)
     and now one week afterward 2.6.1. It contains all features and bugfixes of the git master branch from the 6th March.
-    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.6">Release Notes</a></b> for a
+    Please see the <b><a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.6">Release Notes</a></b> for a
     list of note-worthy changes.
   </p>
   <p>
@@ -1587,7 +1587,7 @@
   <p>
     We have made a new major release (<b><a href="download.html#release_2.5">2.5</a></b>)
     It contains all features and bugfixes of the git master branch from the 4th December.
-    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.5">Release Notes</a></b> for a
+    Please see the <b><a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.5">Release Notes</a></b> for a
     list of note-worthy changes.
   </p>
   <p>
@@ -1640,7 +1640,7 @@
   <p>
     We have made a new major release (<b><a href="download.html#release_2.4">2.4</a></b>)
     It contains all features and bugfixes of the git master branch from the 14th September.
-    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.4">Release Notes</a></b> for a
+    Please see the <b><a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=release/2.4">Release Notes</a></b> for a
     list of note-worthy changes.
   </p>
   <p>
@@ -1690,7 +1690,7 @@
   <p>
     We have made a new major release (<b><a href="download.html#release_2.3">2.3</a></b>)
     It contains all features and bugfixes of the git master branch from the 16th July.
-    Please see the <b><a href="http://git.videolan.org/?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=489d066">Release Notes</a></b> for a
+    Please see the <b><a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob;f=RELEASE_NOTES;hb=489d066">Release Notes</a></b> for a
     list of note-worthy changes.
   </p>
   <p>

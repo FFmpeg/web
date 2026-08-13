@@ -385,7 +385,7 @@
   <p>
     Of course we can't possibly cover all changes since our last release in a single news
     article, but we encourage you to read the
-    <a href="http://git.videolan.org/?p=ffmpeg.git;a=blob_plain;f=Changelog">Changelog</a>
+    <a href="https://git.ffmpeg.org/gitweb?p=ffmpeg.git;a=blob_plain;f=Changelog">Changelog</a>
     yourself.
   </p>
 
