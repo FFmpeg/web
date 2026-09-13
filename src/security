@@ -7,13 +7,14 @@ And that you provide a easy to use testcase. Automated submissions are not accep
 <p>We are currently receiving a very large number of reports. Please report only security issues to ffmpeg-security. For normal bugs, non-exploitable source-level undefined behavior and memory leaks, please submit a pull request with your fix to <a href="https://code.ffmpeg.org/FFmpeg/FFmpeg/pulls">FFmpeg Forgejo</a> instead.</p>
 
 <p>Please include the following:</p>
+<p>Do not provide unvalidated claims, always reproduce and validate each finding. Be concise and focus on providing facts, rather than storytelling.</p>
 <ol>
   <li>Name(s) or alias(es) of the human reviewer(s) who verified the report.</li>
   <li>Name(s) or alias(es) of the human(s) to credit for finding the vulnerability, if different from the reviewer(s).</li>
   <li>A reproducible testcase, ideally something we can copy and paste directly, such as an <code>ffmpeg</code> command line together with an attached multimedia input file. Please give attached files unique names.</li>
   <li>An unambiguous source identifier (git commit hash). If you think it replicates with any, dont hesitate to add that information</li>
   <li>Stack trace(s) with line numbers.</li>
-  <li>A analysis / description of the issue.</li>
+  <li>An analysis / description of the issue, only if you understand and have validated it. Please distinguish the root cause from symptoms or workarounds.</li>
   <li>The commit that introduced the vulnerability, if known.</li>
   <li>A script generating the input, if available.</li>
   <li>A git-formatted patch with a proposed fix, only if you fully understand the issue and have personally developed and validated the fix. Do not submit LLM-generated or substantially LLM-written fixes; these create additional review and attribution work for us.</li>
