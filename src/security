@@ -16,7 +16,7 @@ And that you provide a easy to use testcase. Automated submissions are not accep
   <li>A analysis / description of the issue.</li>
   <li>The commit that introduced the vulnerability, if known.</li>
   <li>A script generating the input, if available.</li>
-  <li>A git-formatted patch with a proposed fix, if available.</li>
+  <li>A git-formatted patch with a proposed fix, only if you fully understand the issue and have personally developed and validated the fix. Do not submit LLM-generated or substantially LLM-written fixes; these create additional review and attribution work for us.</li>
   <li>Any CVE identifier or other related identifier, if available.</li>
 </ol>
 
