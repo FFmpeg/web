@@ -1,10 +1,10 @@
 
 <div id="download">
   <div class="btn-download-wrapper">
-    <a href="https://ffmpeg.org/releases/ffmpeg-9.0.1.tar.xz" class="btn btn-success">
+    <a href="https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz" class="btn btn-success">
       <i class="fa fa-cloud-download"></i>
       Download Source Code
-      <small>ffmpeg-9.0.1.tar.xz</small>
+      <small>ffmpeg-9.0.2.tar.xz</small>
     </a>
     <br>
     <a href="#releases">More releases</a>
@@ -306,37 +306,37 @@ gpg: Good signature from "FFmpeg release signing key &lt;ffmpeg-devel@ffmpeg.org
     and much faster bug fixes such as additional features and security patches.
   </p>
 
-  <h3 id="release_9.0">FFmpeg 9.0.1 "Lei"</h3>
+  <h3 id="release_9.0">FFmpeg 9.0.2 "Lei"</h3>
 
   <p>
-    9.0.1 was released on 2026-08-12. It is the latest stable FFmpeg release
+    9.0.2 was released on 2026-09-18. It is the latest stable FFmpeg release
     from the 9.0 release branch, which was cut from master on 2026-06-26.
   </p>
   <p>It includes the following library versions:
   </p>
   <pre>
-libavutil      61.  1.100
-libavcodec     63.  1.100
-libavformat    63.  1.100
-libavdevice    63.  1.100
-libavfilter    12.  1.100
-libswscale     10.  1.100
-libswresample   7.  1.100</pre>
+libavutil      61.  1.102
+libavcodec     63.  1.102
+libavformat    63.  1.102
+libavdevice    63.  1.102
+libavfilter    12.  1.102
+libswscale     10.  1.102
+libswresample   7.  1.102</pre>
   <div class="row">
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-9.0.1.tar.xz">Download xz tarball</a>
-      <small><a href="releases/ffmpeg-9.0.1.tar.xz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-9.0.2.tar.xz">Download xz tarball</a>
+      <small><a href="releases/ffmpeg-9.0.2.tar.xz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-9.0.1.tar.bz2">Download bzip2 tarball</a>
-      <small><a href="releases/ffmpeg-9.0.1.tar.bz2.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-9.0.2.tar.bz2">Download bzip2 tarball</a>
+      <small><a href="releases/ffmpeg-9.0.2.tar.bz2.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
-      <a class="btn btn-success" href="releases/ffmpeg-9.0.1.tar.gz">Download gzip tarball</a>
-      <small><a href="releases/ffmpeg-9.0.1.tar.gz.asc">PGP signature</a></small>
+      <a class="btn btn-success" href="releases/ffmpeg-9.0.2.tar.gz">Download gzip tarball</a>
+      <small><a href="releases/ffmpeg-9.0.2.tar.gz.asc">PGP signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
-      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n9.0.1">Changelog</a></small>
+      <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n9.0.2">Changelog</a></small>
       <a class="btn btn-success" href="https://git.ffmpeg.org/gitweb/ffmpeg.git/blob/refs/heads/release/9.0:/RELEASE_NOTES">Release Notes</a>
     </div> <!-- col -->
   </div> <!-- row -->
