@@ -290,6 +290,22 @@ gpg: Good signature from "FFmpeg release signing key &lt;ffmpeg-devel@ffmpeg.org
     The git tags should be signed with <a href="git-tag-key.asc">EDDSA key DD1EC9E8DE085C629B3E1846B18E8928B3948D64</a>
   </p>
 
+  <p>
+    A release that also has a <code>.pq.asc</code> file carries post-quantum
+    signatures (<a href="https://www.rfc-editor.org/rfc/rfc9980">RFC 9980</a>)
+    made with both of these keys:
+  </p>
+  <pre>ML-DSA-87+Ed448  <a href="ffmpeg-mldsa87-ed448.cert.pgp">99669C49693683D51F174FE0D9E84915F5C2A536F5C0DA70FB8DCBD8AA8C4B3D</a>
+SLH-DSA-256s     <a href="ffmpeg-slhdsa256s.cert.pgp">547721479F80449E77748C0235116A1F8A73D9ECA98673B90E4E39347D229989</a></pre>
+  <p>
+    GnuPG cannot verify these yet; use <a href="https://sequoia-pgp.org/">sq</a> 1.4 or
+    later built with a
+    <a href="https://gitlab.com/sequoia-pgp/sequoia/-/blob/main/openpgp/README.md#crypto-backends">cryptographic backend</a>
+    that supports these algorithms (OpenSSL 3.5 or RustCrypto), both of these must succeed:
+    <pre>$ sq verify --signature-file ffmpeg-9.0.2.tar.xz.pq.asc --signer-file ffmpeg-mldsa87-ed448.cert.pgp ffmpeg-9.0.2.tar.xz
+$ sq verify --signature-file ffmpeg-9.0.2.tar.xz.pq.asc --signer-file ffmpeg-slhdsa256s.cert.pgp ffmpeg-9.0.2.tar.xz</pre>
+  </p>
+
   <h4 id="releases">
     <i class="fa fa-history"></i>
     Releases</h4>
@@ -326,14 +342,17 @@ libswresample   7.  1.102</pre>
     <div class="col-md-3">
       <a class="btn btn-success" href="releases/ffmpeg-9.0.2.tar.xz">Download xz tarball</a>
       <small><a href="releases/ffmpeg-9.0.2.tar.xz.asc">PGP signature</a></small>
+      <small><a href="releases/ffmpeg-9.0.2.tar.xz.pq.asc">PQ signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
       <a class="btn btn-success" href="releases/ffmpeg-9.0.2.tar.bz2">Download bzip2 tarball</a>
       <small><a href="releases/ffmpeg-9.0.2.tar.bz2.asc">PGP signature</a></small>
+      <small><a href="releases/ffmpeg-9.0.2.tar.bz2.pq.asc">PQ signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3">
       <a class="btn btn-success" href="releases/ffmpeg-9.0.2.tar.gz">Download gzip tarball</a>
       <small><a href="releases/ffmpeg-9.0.2.tar.gz.asc">PGP signature</a></small>
+      <small><a href="releases/ffmpeg-9.0.2.tar.gz.pq.asc">PQ signature</a></small>
     </div> <!-- col -->
     <div class="col-md-3 text-right">
       <small><a href="https://git.ffmpeg.org/gitweb/ffmpeg.git/shortlog/n9.0.2">Changelog</a></small>
