@@ -67,7 +67,6 @@ Fixes following vulnerabilities:
 </p>
 <pre>
 CVE-2025-12343, b8d5f65b9e89d893f27cf00799dbc15fc0ca2f8e
-CVE-2025-22921, bdea5aec2da8ee9dbbc84127d81e056dbbbeda6a, ticket/11393
 CVE-2025-67306, faa382e5b196f2acb5bc5b159aaf06682291328b, pr/21108
 CVE-2025-67306, 554ae5ada98cd44686ade995102d3aa2295d7b09, pr/21108
 CVE-2025-69693, 8abeb879df66ea8d27ce1735925ced5a30813de4
