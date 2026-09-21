@@ -17,7 +17,13 @@ And that you provide a easy to use testcase. Automated submissions are not accep
   <li>An analysis / description of the issue, only if you understand and have validated it. Please distinguish the root cause from symptoms or workarounds.</li>
   <li>The commit that introduced the vulnerability, if known.</li>
   <li>A script generating the input, if available.</li>
-  <li>A git-formatted patch with a proposed fix, only if you fully understand the issue and have personally developed and validated the fix. Do not submit LLM-generated or substantially LLM-written fixes; these create additional review and attribution work for us.</li>
+  <li>
+  Do not include fix suggestions in prose, pseudocode, code snippets, or
+  partial patches. The only exception is a complete git-formatted patch,
+  manually developed, fully understood, reviewed and tested by its human
+  author, and ready to apply without changes. LLM-generated patches are
+  not accepted. a fix is not required to report a vulnerability.
+  </li>
   <li>Any CVE identifier or other related identifier, if available.</li>
 </ol>
 
