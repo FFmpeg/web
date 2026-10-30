@@ -45,6 +45,7 @@
             <ul>
               <li><a href="donations.html">
                   Donate<span style="color: #e55; font-size: 0.8em; margin-left: -10px"><i class="fa fa-heart"></i></span></a></li>
+              <li><a href="sponsors.html">Sponsors</a></li>
               <li><a href="consulting.html">Hire Developers</a></li>
               <li><a href="contact.html">Contact</a></li>
               <li><a href="security.html">Security</a></li>

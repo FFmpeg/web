@@ -1,0 +1,230 @@
+<p class="with-icon">
+  <span class="pull-left" style="color: #e55"><i class="fa fa-heart fa-5x"></i></span>
+  FFmpeg is developed by volunteers and runs on donated money, hardware
+  and services. This page thanks the organizations and individuals whose
+  support keeps the project going, lists what the project needs next, and
+  explains how to become a sponsor.
+</p>
+
+<br><br>
+
+<h2 id="funding">Funding and Grants</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="well">
+      <h3><a href="https://www.sovereign.tech/tech/ffmpeg">Sovereign Tech Fund</a></h3>
+      <p>
+        Germany's Sovereign Tech Fund became FFmpeg's first governmental
+        sponsor in 2024. Its grant funds maintenance of the project, a
+        critical multimedia component for billions of people every day.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<h2 id="hardware">Hardware and Infrastructure</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="well">
+      <h3><a href="https://amperecomputing.com/">Ampere Computing</a></h3>
+      <p>
+        Ampere donated an AmpereOne&reg; server in 2026, a many-core ARM
+        machine for development and testing.
+        See the <a href="index.html#ampere2026">announcement</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-6">
+    <div class="well">
+      <h3><a href="https://www.telepoint.bg/">Telepoint</a> &amp; <a href="https://www.mediahub.eu/">MediaHub</a></h3>
+      <p>
+        Telepoint, a carrier-neutral data center in Sofia, and MediaHub, a
+        Bulgarian IPTV provider, have hosted FFmpeg servers with free
+        internet connectivity since 2015 and recently added two more.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<h2 id="tools">Developer Tools and Services</h2>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3><a href="https://github.com/FFmpeg">GitHub</a></h3>
+      <p>
+        GitHub provides the FFmpeg organization with a free Team plan
+        and runs FFmpeg's CI on GitHub Actions.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3><a href="https://www.anthropic.com/">Anthropic</a></h3>
+      <p>
+        Anthropic gives some FFmpeg developers access to Claude through its
+        open source program.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3><a href="https://openai.com/">OpenAI</a></h3>
+      <p>
+        OpenAI provides API credits to FFmpeg.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3><a href="https://cursor.com/">Cursor</a></h3>
+      <p>
+        Cursor provides free credits to FFmpeg developers.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3><a href="https://depthfirst.com/">depthfirst</a></h3>
+      <p>
+        depthfirst provides its security scanner to FFmpeg.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3><a href="https://www.blacksmith.sh/">Blacksmith</a></h3>
+      <p>
+        Blacksmith provides fast runners for FFmpeg's CI jobs on GitHub
+        Actions.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<h2 id="individuals">Individual Supporters</h2>
+
+<p>
+  Many individuals donate to FFmpeg through SPI and GitHub Sponsors.
+  These donations pay for servers, hardware and other project expenses.
+  Thank you!
+</p>
+
+<h2 id="programs">Community Programs</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <div class="well">
+      <h3><a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a></h3>
+      <p>
+        FFmpeg takes part in Google Summer of Code as a mentoring
+        organization. Google pays contributors to work on FFmpeg over the
+        summer, mentored by FFmpeg developers. Past and current
+        projects are listed on the
+        <a href="https://trac.ffmpeg.org/wiki/SponsoringPrograms">wiki</a>.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-6">
+    <div class="well">
+      <h3><a href="https://google.github.io/oss-fuzz/">OSS-Fuzz</a></h3>
+      <p>
+        Google's OSS-Fuzz continuously fuzzes FFmpeg and reports the
+        crashes it finds to the developers.
+      </p>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<br>
+
+<h2 id="needs">What FFmpeg Needs</h2>
+
+<p class="with-icon">
+  <span class="pull-left"><i class="fa fa-wrench fa-5x"></i></span>
+  FFmpeg is used by nearly every product that touches audio or video,
+  but the work that keeps it secure and reliable is largely done by
+  volunteers.
+  Support in the following areas has the largest effect:
+</p>
+
+<ul>
+  <li>
+    <b>Maintainers:</b> people who review changes, fix bugs and keep
+    their part of FFmpeg working. Companies that depend on FFmpeg can
+    help most by letting their developers maintain the code they use.
+  </li>
+  <li>
+    <b>Hardware:</b> access to any hardware you want FFmpeg to keep
+    working reliably on, preferably as a VM or an account on a machine
+    you maintain. It lets the project test every change there (CI and
+    <a href="http://fate.ffmpeg.org">FATE</a>) and run
+    <a href="https://code.ffmpeg.org/michaelni/Fairies">Fairy</a>, the
+    project's assistant that reviews pull requests and investigates
+    bug reports.
+  </li>
+  <li>
+    <b>Money:</b> donations in USD or EUR through
+    <a href="donations.html">SPI or GitHub Sponsors</a> pay for servers,
+    hardware and other project expenses.
+  </li>
+</ul>
+
+<br>
+
+<h2 id="sponsor">Become a Sponsor</h2>
+
+<div class="row">
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Fund the project</h3>
+      <p>
+        Donations are received by
+        <a href="spi.html">Software in the Public Interest</a>, a US
+        501(c)(3) non-profit, and may be tax deductible for US taxpayers.
+        For larger grants or earmarked funding, get in touch first.
+      </p>
+      <div class="text-center">
+        <a class="btn btn-success btn-lg" href="donations.html">Donate</a><br><br>
+      </div>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Donate hardware or services</h3>
+      <p>
+        Servers, test machines, hosting, bandwidth and developer tools are
+        all welcome. Write to the ffmpeg-devel mailing list to find out
+        what is currently needed.
+      </p>
+      <div class="text-center">
+        <a class="btn btn-success btn-lg" href="contact.html#MailingLists">Contact</a><br><br>
+      </div>
+    </div> <!-- well -->
+  </div> <!-- col -->
+  <div class="col-md-4">
+    <div class="well">
+      <h3>Fund specific work</h3>
+      <p>
+        To get a feature or fix you need, hire an FFmpeg developer. This
+        also supports the project indirectly.
+      </p>
+      <div class="text-center">
+        <a class="btn btn-success btn-lg" href="consulting.html">Hire Developers</a><br><br>
+      </div>
+    </div> <!-- well -->
+  </div> <!-- col -->
+</div> <!-- row -->
+
+<p>
+  Sponsors are listed on this page. Ongoing sponsorships and donated
+  hardware are listed while in use, one-time contributions for about
+  14 months.
+  Sponsorship does not buy influence over development decisions; FFmpeg
+  remains an independent community project.
+</p>
