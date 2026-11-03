@@ -100,7 +100,7 @@
     <div class="well">
       <h3><a href="https://www.blacksmith.sh/">Blacksmith</a></h3>
       <p>
-        Blacksmith provides fast runners for FFmpeg's CI jobs on GitHub
+        Blacksmith provides runners for FFmpeg's CI jobs on GitHub
         Actions.
       </p>
     </div> <!-- well -->
