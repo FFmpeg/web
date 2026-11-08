@@ -35,6 +35,25 @@
     News
   </h1>
 
+  <h3 id="ci2026">November 10th, 2026, GitHub and Blacksmith Sponsor FFmpeg's CI</h3>
+  <p>
+  FFmpeg's CI ran about 860 hours of jobs in April and over 4,000 hours in
+  October, almost five times as much. A third of that job time goes to the
+  RISC-V, MIPS64 and PPC64 jobs, which run under QEMU emulation on six
+  runners hosted on the server
+  <a href="index.html#ampere2026">donated by Ampere</a>. With demand growing
+  this fast, queues of up to ten hours have become common.
+  </p>
+  <p>
+  <a href="https://github.com/FFmpeg">GitHub</a> has upgraded the FFmpeg
+  organization to a Team plan free of charge and sponsors monthly GitHub
+  Actions credits, so these jobs can move to larger runners.
+  <a href="https://www.blacksmith.sh/">Blacksmith</a> covers all of FFmpeg's
+  runner minutes on its platform through its open source program, including
+  artifact and Docker image caching.
+  Thank you, GitHub and Blacksmith!
+  </p>
+
   <h3 id="ampere2026">June 24th, 2026, Ampere Server Donation</h3>
   <p>
   Ampere has generously donated a server to FFmpeg: an AmpereOne&reg; (Mt. Mitchell)
