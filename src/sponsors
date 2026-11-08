@@ -35,8 +35,9 @@
     <div class="well">
       <h3><a href="https://amperecomputing.com/">Ampere Computing</a></h3>
       <p>
-        Ampere donated an AmpereOne&reg; server in 2026, a many-core ARM
-        machine for development and testing.
+        Ampere donated an AmpereOne&reg; server with 192 Arm cores in 2026.
+        It handles the base load of FFmpeg's ARM CI, and Fairy builds and
+        tests on it when reviewing pull requests and investigating issues.
         See the <a href="index.html#ampere2026">announcement</a>.
       </p>
     </div> <!-- well -->
