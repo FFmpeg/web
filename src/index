@@ -42,7 +42,7 @@
   RISC-V, MIPS64 and PPC64 jobs, which run under QEMU emulation on six
   runners hosted on the server
   <a href="index.html#ampere2026">donated by Ampere</a>. With demand growing
-  this fast, queues of up to ten hours have become common.
+  this fast, queues of up to 18 hours had built up.
   </p>
   <p>
   <a href="https://github.com/FFmpeg">GitHub</a> has upgraded the FFmpeg
@@ -51,6 +51,7 @@
   <a href="https://www.blacksmith.sh/">Blacksmith</a> covers all of FFmpeg's
   runner minutes on its platform through its open source program, including
   artifact and Docker image caching.
+  Since the additional runners went into service, no queues have been seen.
   Thank you, GitHub and Blacksmith!
   </p>
 
