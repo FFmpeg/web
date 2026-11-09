@@ -48,9 +48,10 @@
   <a href="https://github.com/FFmpeg">GitHub</a> has upgraded the FFmpeg
   organization to a Team plan free of charge and sponsors monthly GitHub
   Actions credits, so these jobs can move to larger runners.
-  <a href="https://www.blacksmith.sh/">Blacksmith</a> covers all of FFmpeg's
-  GitHub Actions runner minutes on its platform through its open source
-  program, including artifact and Docker image caching.
+  <a href="https://www.blacksmith.sh/">Blacksmith</a> provides high-performance
+  runners and covers all of FFmpeg's GitHub Actions runner minutes on its
+  platform through its open source program, including artifact and Docker
+  image caching.
   Since the additional runners went into service, no queues have been seen.
   Thank you, GitHub and Blacksmith!
   </p>
